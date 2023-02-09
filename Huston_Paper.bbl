@@ -1,0 +1,400 @@
+\begin{thebibliography}{10}
+
+\bibitem{road_stats_2}
+``Office of {Highway} {Policy} {Information} - {Policy} {\textbar} {Federal}
+  {Highway} {Administration},'' Oct 2008.
+
+\bibitem{malik_lal_2019}
+Y.~S. Malik and B.~Lal, ``Basic road statistics of india [2016-2017],'' Mar
+  2019.
+
+\bibitem{noauthor_gpsgov_nodate}
+``{GPS}.gov: {GPS} {Accuracy}.''
+
+\bibitem{skorseth_gravel_nodate}
+K.~Skorseth and A.~A. Selim, ``Gravel {Roads}: {Maintenance} and {Design}
+  {Manual},'' Nov 2020.
+
+\bibitem{crisman_scarf_1993}
+J.~Crisman and C.~Thorpe, ``{SCARF}: a color vision system that tracks roads
+  and intersections,'' {\em IEEE Transactions on Robotics and Automation},
+  vol.~9, pp.~49--58, Feb. 1993.
+\newblock Conference Name: IEEE Transactions on Robotics and Automation.
+
+\bibitem{yadav_extraction_2017}
+M.~Yadav, A.~K. Singh, and B.~Lohani, ``Extraction of road surface from mobile
+  {LiDAR} data of complex road environment,'' {\em International Journal of
+  Remote Sensing}, vol.~38, pp.~4655--4682, Aug. 2017.
+\newblock Publisher: Taylor \& Francis \_eprint:
+  https://doi.org/10.1080/01431161.2017.1320451.
+
+\bibitem{liu_new_2013}
+Z.~Liu, J.~Wang, and D.~Liu, ``A {New} {Curb} {Detection} {Method} for
+  {Unmanned} {Ground} {Vehicles} {Using} {2D} {Sequential} {Laser} {Data},''
+  {\em Sensors}, vol.~13, pp.~1102--1120, Jan. 2013.
+\newblock Number: 1 Publisher: Multidisciplinary Digital Publishing Institute.
+
+\bibitem{qiu_fast_2016}
+K.~Qiu, K.~Sun, K.~Ding, and Z.~Shu, ``A {FAST} {AND} {ROBUST} {ALGORITHM}
+  {FOR} {ROAD} {EDGES} {EXTRACTION} {FROM} {LIDAR} {DATA},'' {\em ISPRS -
+  International Archives of the Photogrammetry, Remote Sensing and Spatial
+  Information Sciences}, vol.~XLI-B5, pp.~693--698, June 2016.
+
+\bibitem{fernandes_road_2014}
+R.~Fernandes, C.~Premebida, P.~Peixoto, D.~Wolf, and U.~Nunes, ``Road
+  {Detection} {Using} {High} {Resolution} {LIDAR},'' in {\em 2014 {IEEE}
+  {Vehicle} {Power} and {Propulsion} {Conference} ({VPPC})}, (Coimbra,
+  Portugal), pp.~1--6, IEEE, Oct. 2014.
+
+\bibitem{seker_experiments_nodate}
+S.~S. Seker, F.~C. Kunter, O.~Çerezci, and K.~Karabag, ``Experiments of the
+  propagation through forest at gsm frequencies (2g-3g-4g),'' vol.~2, no.~8,
+  p.~6.
+
+\bibitem{yang_semi-automated_2013}
+B.~Yang, L.~Fang, and J.~Li, ``Semi-automated extraction and delineation of
+  {3D} roads of street scene from mobile laser scanning point clouds,'' {\em
+  ISPRS Journal of Photogrammetry and Remote Sensing}, vol.~79, pp.~80--93, May
+  2013.
+
+\bibitem{miyazaki_line-based_2014}
+R.~Miyazaki, M.~Yamamoto, E.~Hanamoto, H.~Izumi, and K.~Harada, ``A line-based
+  approach for precise extraction of road and curb region from mobile mapping
+  data,'' {\em ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial
+  Information Sciences}, vol.~II-5, pp.~243--250, May 2014.
+
+\bibitem{hervieu_road_2013}
+A.~Hervieu and B.~Soheilian, ``Road side detection and reconstruction using
+  {LIDAR} sensor,'' in {\em 2013 {IEEE} {Intelligent} {Vehicles} {Symposium}
+  ({IV})}, pp.~1247--1252, June 2013.
+\newblock ISSN: 1931-0587.
+
+\bibitem{smadja_road_nodate}
+L.~Smadja, J.~Ninot, and T.~Gavrilovic, ``{ROAD} {EXTRACTION} {AND}
+  {ENVIRONMENT} {INTERPRETATION} {FROM} {LIDAR} {SENSORS},'' p.~7.
+
+\bibitem{biber_normal_2003}
+P.~Biber and W.~Straßer, ``The {Normal} {Distributions} {Transform}: {A} {New}
+  {Approach} to {Laser} {Scan} {Matching},'' vol.~3, pp.~2743--2748 vol.3, Nov.
+  2003.
+
+\bibitem{borkar_robust_2009-1}
+A.~Borkar, M.~Hayes, and M.~T. Smith, ``Robust lane detection and tracking with
+  ransac and {Kalman} filter,'' in {\em 2009 16th {IEEE} {International}
+  {Conference} on {Image} {Processing} ({ICIP})}, pp.~3261--3264, Nov. 2009.
+\newblock ISSN: 2381-8549.
+
+\bibitem{guo_lane_2015}
+J.~Guo, Z.~Wei, and D.~Miao, ``Lane {Detection} {Method} {Based} on {Improved}
+  {RANSAC} {Algorithm},'' in {\em 2015 {IEEE} {Twelfth} {International}
+  {Symposium} on {Autonomous} {Decentralized} {Systems}}, pp.~285--288, Mar.
+  2015.
+\newblock ISSN: 1541-0056.
+
+\bibitem{wan_road_2007}
+Y.~Wan, S.~Shen, Y.~Song, and S.~Liu, ``A {Road} {Extraction} {Approach}
+  {Based} on {Fuzzy} {Logic} for {High}-{Resolution} {Multispectral} {Data},''
+  pp.~203--207, Sept. 2007.
+
+\bibitem{levi_3d_2012_light}
+S.~Laible, Y.~N. Khan, K.~Bohlmann, and A.~Zell, ``{3D} {LIDAR}- and
+  {Camera}-{Based} {Terrain} {Classification} {Under} {Different} {Lighting}
+  {Conditions},'' in {\em Autonomous {Mobile} {Systems} 2012} (P.~Levi,
+  O.~Zweigle, K.~Häußermann, and B.~Eckstein, eds.), pp.~21--29, Berlin,
+  Heidelberg: Springer Berlin Heidelberg, 2012.
+\newblock Series Title: Informatik aktuell.
+
+\bibitem{levi_3d_2012_terrain}
+S.~Laible, Y.~N. Khan, K.~Bohlmann, and A.~Zell, ``{3D} {LIDAR}- and
+  {Camera}-{Based} {Terrain} {Classification} {Under} {Different} {Lighting}
+  {Conditions},'' in {\em Autonomous {Mobile} {Systems} 2012} (P.~Levi,
+  O.~Zweigle, K.~Häußermann, and B.~Eckstein, eds.), pp.~21--29, Berlin,
+  Heidelberg: Springer Berlin Heidelberg, 2012.
+\newblock Series Title: Informatik aktuell.
+
+\bibitem{pollyea_experimental_2012}
+R.~M. Pollyea and J.~P. Fairley, ``Experimental evaluation of terrestrial
+  {LiDAR}-based surface roughness estimates,'' {\em Geosphere}, vol.~8,
+  pp.~222--228, Feb. 2012.
+
+\bibitem{rychkov_computational_2012}
+I.~Rychkov, J.~Brasington, and D.~Vericat, ``Computational and methodological
+  aspects of terrestrial surface analysis based on point clouds,'' {\em
+  Computers \& Geosciences}, vol.~42, pp.~64--70, May 2012.
+
+\bibitem{lague_accurate_2013}
+D.~Lague, N.~Brodu, and J.~Leroux, ``Accurate {3D} comparison of complex
+  topography with terrestrial laser scanner: {Application} to the {Rangitikei}
+  canyon ({N}-{Z}),'' {\em ISPRS Journal of Photogrammetry and Remote Sensing},
+  vol.~82, pp.~10--26, Aug. 2013.
+
+\bibitem{brubaker_use_2013}
+K.~M. Brubaker, W.~L. Myers, P.~J. Drohan, D.~A. Miller, and E.~W. Boyer, ``The
+  {Use} of {LiDAR} {Terrain} {Data} in {Characterizing} {Surface} {Roughness}
+  and {Microtopography},'' {\em Applied and Environmental Soil Science},
+  vol.~2013, p.~e891534, Apr. 2013.
+\newblock Publisher: Hindawi.
+
+\bibitem{turner_estimation_2014}
+R.~Turner, R.~Panciera, M.~A. Tanase, K.~Lowell, J.~M. Hacker, and J.~P.
+  Walker, ``Estimation of soil surface roughness of agricultural soils using
+  airborne {LiDAR},'' {\em Remote Sensing of Environment}, vol.~140,
+  pp.~107--117, Jan. 2014.
+
+\bibitem{campbell_lidar-based_2017}
+M.~J. Campbell, P.~E. Dennison, and B.~W. Butler, ``A {LiDAR}-based analysis of
+  the effects of slope, vegetation density, and ground surface roughness on
+  travel rates for wildland firefighter escape route mapping,'' {\em
+  International Journal of Wildland Fire}, vol.~26, no.~10, p.~884, 2017.
+
+\bibitem{shepard_roughness_2001}
+M.~K. Shepard, B.~A. Campbell, M.~H. Bulmer, T.~G. Farr, L.~R. Gaddis, and
+  J.~J. Plaut, ``The roughness of natural terrain: {A} planetary and remote
+  sensing perspective,'' {\em Journal of Geophysical Research: Planets},
+  vol.~106, no.~E12, pp.~32777--32795, 2001.
+\newblock \_eprint:
+  https://onlinelibrary.wiley.com/doi/pdf/10.1029/2000JE001429.
+
+\bibitem{tegowski_statistical_2016}
+J.~Tegowski, K.~Trzcinska, M.~Kasprzak, and J.~Nowak, ``Statistical and
+  {Spectral} {Features} of {Corrugated} {Seafloor} {Shaped} by the {Hans}
+  {Glacier} in {Svalbard},'' {\em Remote Sensing}, vol.~8, p.~744, Sept. 2016.
+\newblock Number: 9 Publisher: Multidisciplinary Digital Publishing Institute.
+
+\bibitem{sock_probabilistic_2016}
+J.~Sock, J.~Kim, J.~Min, and K.~Kwak, ``Probabilistic traversability map
+  generation using {3D}-{LIDAR} and camera,'' in {\em 2016 {IEEE}
+  {International} {Conference} on {Robotics} and {Automation} ({ICRA})},
+  pp.~5631--5637, May 2016.
+
+\bibitem{milenkovic_roughness_2018}
+M.~Milenković, C.~Ressl, W.~Karel, G.~Mandlburger, and N.~Pfeifer, ``Roughness
+  {Spectra} {Derived} from {Multi}-{Scale} {LiDAR} {Point} {Clouds} of a
+  {Gravel} {Surface}: {A} {Comparison} and {Sensitivity} {Analysis},'' {\em
+  ISPRS International Journal of Geo-Information}, vol.~7, p.~69, Feb. 2018.
+\newblock Number: 2 Publisher: Multidisciplinary Digital Publishing Institute.
+
+\bibitem{yadav_rural_2018}
+M.~Yadav and A.~K. Singh, ``Rural {Road} {Surface} {Extraction} {Using}
+  {Mobile} {LiDAR} {Point} {Cloud} {Data},'' {\em Journal of the Indian Society
+  of Remote Sensing}, vol.~46, pp.~531--538, Apr. 2018.
+
+\bibitem{ibrahim_curb-based_2012}
+S.~Ibrahim and D.~Lichti, ``Curb-based street floor extraction from mobile
+  terrestrial lidar point cloud,'' {\em International Archives of the
+  Photogrammetry, Remote Sensing and Spatial Information Sciences - ISPRS
+  Archives}, vol.~39, pp.~193--198, July 2012.
+
+\bibitem{manz_detection_2011}
+M.~Manz, M.~Himmelsbach, T.~Luettel, and H.-J. Wuensche, ``Detection and
+  tracking of road networks in rural terrain by fusing vision and {LIDAR},'' in
+  {\em 2011 {IEEE}/{RSJ} {International} {Conference} on {Intelligent} {Robots}
+  and {Systems}}, pp.~4562--4568, Sept. 2011.
+\newblock ISSN: 2153-0866.
+
+\bibitem{yadav_road_2018}
+M.~Yadav, B.~Lohani, and A.~Singh, ``{ROAD} {SURFACE} {DETECTION} {FROM}
+  {MOBILE} {LIDAR} {DATA},'' {\em ISPRS Annals of Photogrammetry, Remote
+  Sensing and Spatial Information Sciences}, vol.~IV-5, pp.~95--101, Nov. 2018.
+
+\bibitem{yadav_pole-shaped_2015}
+M.~Yadav, A.~Husain, A.~Singh, and B.~Lohani, ``{POLE}-{SHAPED} {OBJECT}
+  {DETECTION} {USING} {MOBILE} {LIDAR} {DATA} {IN} {RURAL} {ROAD}
+  {ENVIRONMENTS},'' {\em ISPRS Annals of Photogrammetry, Remote Sensing and
+  Spatial Information Sciences}, vol.~II-3/W5, pp.~11--16, Aug. 2015.
+
+\bibitem{laible_3d_2012}
+S.~Laible, Y.~N. Khan, K.~Bohlmann, and A.~Zell, ``{3D} {LIDAR}- and
+  {Camera}-{Based} {Terrain} {Classification} {Under} {Different} {Lighting}
+  {Conditions},'' Sept. 2012.
+
+\bibitem{laible_terrain_2013}
+S.~Laible, Y.~N. Khan, and A.~Zell, ``Terrain classification with conditional
+  random fields on fused {3D} {LIDAR} and camera data,'' in {\em 2013
+  {European} {Conference} on {Mobile} {Robots}}, pp.~172--177, Sept. 2013.
+
+\bibitem{laible_map_building}
+S.~Laible and A.~Zell, ``Building local terrain maps using spatio-temporal
+  classification for semantic robot localization {\textbar} {IEEE} {Conference}
+  {Publication} {\textbar} {IEEE} {Xplore}.''
+
+\bibitem{rasmussen_combining_2002}
+C.~E. Rasmussen, ``Combining {Laser} {Range}, {Color}, and {Texture} {Cues} for
+  {Autonomous} {Road} {Following},'' May 2002.
+\newblock Last Modified: 2017-02-17T12:56-05:00.
+
+\bibitem{reymann_improving_2015}
+C.~Reymann and S.~Lacroix, ``Improving {LiDAR} point cloud classification using
+  intensities and multiple echoes,'' in {\em 2015 {IEEE}/{RSJ} {International}
+  {Conference} on {Intelligent} {Robots} and {Systems} ({IROS})},
+  pp.~5122--5128, Sept. 2015.
+
+\bibitem{walas_terrain_2014}
+K.~Walas and M.~Nowicki, ``Terrain classification using {Laser} {Range}
+  {Finder},'' in {\em 2014 {IEEE}/{RSJ} {International} {Conference} on
+  {Intelligent} {Robots} and {Systems}}, pp.~5003--5009, Sept. 2014.
+\newblock ISSN: 2153-0866.
+
+\bibitem{wietrzykowski_boosting_2014}
+J.~Wietrzykowski and D.~Belter, ``Boosting support vector machines for
+  {RGB}-{D} based terrain classification,'' {\em Journal of Automation Mobile
+  Robotics and Intelligent Systems}, vol.~8, no.~3, pp.~28--34, 2014.
+
+\bibitem{wang_road_nodate}
+S.~Wang, ``Road {Terrain} {Type} {Classification} based on {Laser}
+  {Measurement} {System} {Data},'' p.~13.
+
+\bibitem{schilling_geometric_2017}
+F.~Schilling, X.~Chen, J.~Folkesson, and P.~Jensfelt, ``Geometric and visual
+  terrain classification for autonomous mobile navigation,'' in {\em 2017
+  {IEEE}/{RSJ} {International} {Conference} on {Intelligent} {Robots} and
+  {Systems} ({IROS})}, pp.~2678--2684, Sept. 2017.
+\newblock ISSN: 2153-0866.
+
+\bibitem{ojeda_terrain_2006}
+L.~Ojeda, J.~Borenstein, G.~Witus, and R.~Karlsen, ``Terrain characterization
+  and classification with a mobile robot,'' {\em Journal of Field Robotics},
+  vol.~23, no.~2, pp.~103--122, 2006.
+\newblock \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.20113.
+
+\bibitem{coombs_driving_2000}
+D.~Coombs, K.~Murphy, A.~Lacaze, and S.~Legowik, ``Driving {Autonomously}
+  {Offroad} up to 35 km/h,'' Oct. 2000.
+\newblock Last Modified: 2017-02-19T20:02-05:00.
+
+\bibitem{stavens_self-supervised_nodate}
+D.~Stavens and S.~Thrun, ``A {Self}-{Supervised} {Terrain} {Roughness}
+  {Estimator} for {Off}-{Road} {Autonomous} {Driving},'' p.~8.
+
+\bibitem{belter_rough_2010}
+D.~Belter and P.~Skrzypczyński, ``Rough terrain mapping and classification for
+  foothold selection in a walking robot,'' in {\em 2010 {IEEE} {Safety}
+  {Security} and {Rescue} {Robotics}}, pp.~1--6, July 2010.
+\newblock ISSN: 2374-3247.
+
+\bibitem{bartoszyk_terrain-aware_2017}
+S.~Bartoszyk, P.~Kasprzak, and D.~Belter, ``Terrain-aware motion planning for a
+  walking robot,'' in {\em 2017 11th {International} {Workshop} on {Robot}
+  {Motion} and {Control} ({RoMoCo})}, pp.~29--34, July 2017.
+
+\bibitem{noauthor_fusion_nodate}
+``Fusion between a color camera and a {TOF} camera to improve traversability of
+  agricultural vehicles - {Archive} ouverte {HAL}.''
+
+\bibitem{li_rugged_2019}
+S.~Li, R.~Song, Y.~Zheng, H.~Zhao, and Y.~Li, ``Rugged - {Terrain}
+  {Traversability} {Analyzing} {For} {Quadruped} {Robots},'' in {\em 2019 2nd
+  {International} {Conference} of {Intelligent} {Robotic} and {Control}
+  {Engineering} ({IRCE})}, pp.~1--6, Aug. 2019.
+
+\bibitem{wilson_terrain_2014}
+G.~N. Wilson and A.~Ramirez-Serrano, ``Terrain {Roughness} {Identification} for
+  {High}-{Speed} {UGVs},'' {\em Journal of Automation and Control Research},
+  vol.~1, pp.~11--21, Oct. 2014.
+
+\bibitem{siva_robot_2019}
+S.~Siva, M.~Wigness, J.~Rogers, and H.~Zhang, ``Robot adaptation to
+  unstructured terrains by joint representation and apprenticeship learning,''
+  {\em Robotics: science and systems}, Jan. 2019.
+
+\bibitem{mijakovska_generating_2014}
+S.~Mijakovska, I.~Nedelkovski, and F.~Popovski, ``Generating {3D} {Model} from
+  {Video},'' {\em Advanced Computing: An International Journal}, vol.~5,
+  pp.~13--19, Dec. 2014.
+
+\bibitem{chellappa_classification_1985}
+R.~Chellappa and S.~Chatterjee, ``Classification of textures using {Gaussian}
+  {Markov} random fields,'' {\em IEEE Transactions on Acoustics, Speech, and
+  Signal Processing}, vol.~33, pp.~959--963, Aug. 1985.
+\newblock Conference Name: IEEE Transactions on Acoustics, Speech, and Signal
+  Processing.
+
+\bibitem{wallach_conditional_nodate}
+H.~M. Wallach, ``Conditional {Random} {Fields}: {An} {Introduction},'' p.~9.
+
+\bibitem{haselich_terrain_2011}
+M.~Häselich, M.~Arends, D.~Lang, and D.~Paulus, ``Terrain {Classification}
+  with {Markov} {Random} {Fields} on fused {Camera} and {3D} {Laser} {Range}
+  {Data},'' Jan. 2011.
+
+\bibitem{zhao_fusion_2014}
+G.~Zhao, X.~Xiao, J.~Yuan, and G.-W. Ng, ``Fusion of {3D}-{LIDAR} and camera
+  data for scene parsing,'' {\em Journal of Visual Communication and Image
+  Representation}, vol.~25, pp.~165--183, Jan. 2014.
+
+\bibitem{breiman_random_2001}
+L.~Breiman, ``Random {Forests},'' {\em Machine Learning}, vol.~45, pp.~5--32,
+  Oct. 2001.
+
+\bibitem{vlp_32c}
+``Ultra {Puck} {Surround} {View} {Lidar} {Sensor}.''
+
+\bibitem{wang_two-stage_2018}
+S.~Wang, S.~Kodagoda, L.~Shi, and X.~Dai, ``Two-{Stage} {Road} {Terrain}
+  {Identification} {Approach} for {Land} {Vehicles} {Using} {Feature}-{Based}
+  and {Markov} {Random} {Field} {Algorithm},'' {\em IEEE Intelligent Systems},
+  vol.~33, pp.~29--39, Jan. 2018.
+\newblock Conference Name: IEEE Intelligent Systems.
+
+\bibitem{miller_method_nodate}
+S.~J. Miller, ``The {Method} of {Least} {Squares},'' p.~7.
+
+\bibitem{gojcic_perfect_2019}
+Z.~Gojcic, C.~Zhou, J.~D. Wegner, and A.~Wieser, ``The {Perfect} {Match}: {3D}
+  {Point} {Cloud} {Matching} {With} {Smoothed} {Densities},'' in {\em 2019
+  {IEEE}/{CVF} {Conference} on {Computer} {Vision} and {Pattern} {Recognition}
+  ({CVPR})}, (Long Beach, CA, USA), pp.~5540--5549, IEEE, June 2019.
+
+\bibitem{derpanis_overview_nodate}
+K.~G. Derpanis, ``Overview of the {RANSAC} {Algorithm},'' p.~2.
+
+\bibitem{yaniv_random_2010}
+Z.~Yaniv, ``Random {Sample} {Consensus} ({RANSAC}) {Algorithm}, {A} {Generic}
+  {Implementation},'' {\em The Insight Journal}, 2010.
+
+\bibitem{fischler_random_1987}
+M.~A. Fischler and R.~C. Bolles, ``Random {Sample} {Consensus}: {A} {Paradigm}
+  for {Model} {Fitting} with {Applications} to {Image} {Analysis} and
+  {Automated} {Cartography},'' in {\em Readings in {Computer} {Vision}} (M.~A.
+  Fischler and O.~Firschein, eds.), pp.~726--740, San Francisco (CA): Morgan
+  Kaufmann, Jan. 1987.
+
+\bibitem{cantzler_random_nodate}
+H.~Cantzler, ``Random {Sample} {Consensus} ({RANSAC}),'' p.~4.
+
+\bibitem{shapiro_analysis_1965}
+S.~S. SHAPIRO and M.~B. WILK, ``An analysis of variance test for normality
+  (complete samples)†,'' {\em Biometrika}, vol.~52, pp.~591--611, Dec. 1965.
+
+\bibitem{royston_extension_1982}
+J.~P. Royston, ``An {Extension} of {Shapiro} and {Wilk}'s {W} {Test} for
+  {Normality} to {Large} {Samples},'' {\em Journal of the Royal Statistical
+  Society: Series C (Applied Statistics)}, vol.~31, no.~2, pp.~115--124, 1982.
+\newblock \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.2307/2347973.
+
+\bibitem{davis_covariance_1977}
+C.~S. Davis and M.~A. Stephens, ``The covariance matrix of normal order
+  statistics,'' {\em Communications in Statistics - Simulation and
+  Computation}, vol.~6, pp.~75--81, Jan. 1977.
+\newblock Publisher: Taylor \& Francis \_eprint:
+  https://doi.org/10.1080/03610917708812028.
+
+\bibitem{ho_random_1995}
+T.~K. Ho, ``Random decision forests,'' in {\em Proceedings of 3rd
+  {International} {Conference} on {Document} {Analysis} and {Recognition}},
+  vol.~1, pp.~278--282 vol.1, Aug. 1995.
+
+\bibitem{khan_high_2011}
+Y.~N. Khan, P.~Komma, and A.~Zell, ``High resolution visual terrain
+  classification for outdoor robots,'' in {\em 2011 {IEEE} {International}
+  {Conference} on {Computer} {Vision} {Workshops} ({ICCV} {Workshops})},
+  (Barcelona, Spain), pp.~1014--1021, IEEE, Nov. 2011.
+
+\bibitem{wietrzykowski_context-aware_2019}
+J.~Wietrzykowski and P.~Skrzypczyński, ``Context-{Aware} {Recognition} of
+  {Drivable} {Terrain} with {Automated} {Parameters} {Estimation},'' in {\em
+  Intelligent {Autonomous} {Systems} 15} (M.~Strand, R.~Dillmann, E.~Menegatti,
+  and S.~Ghidoni, eds.), (Cham), pp.~626--638, Springer International
+  Publishing, 2019.
+
+\end{thebibliography}

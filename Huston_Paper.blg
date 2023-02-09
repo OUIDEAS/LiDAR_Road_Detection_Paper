@@ -1,0 +1,100 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Huston_Paper.aux
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: ieeetr.bst
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+Database file #1: resources.bib
+Repeated entry---line 1574 of file resources.bib
+ : @article{seker_experiments_nodate
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1730 of file resources.bib
+ : @article{shapiro_analysis_1965
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1787 of file resources.bib
+ : @inproceedings{gojcic_perfect_2019
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1909 of file resources.bib
+ : @article{smadja_road_nodate
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2539 of file resources.bib
+ : @article{breiman_random_2001
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2609 of file resources.bib
+ : @article{breiman_random_2001
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2644 of file resources.bib
+ : @inproceedings{reymann_improving_2015
+ :                                      ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in skorseth_gravel_nodate
+Warning--empty journal in seker_experiments_nodate
+Warning--empty year in seker_experiments_nodate
+Warning--empty journal in smadja_road_nodate
+Warning--empty year in smadja_road_nodate
+Warning--empty booktitle in biber_normal_2003
+Warning--empty booktitle in wan_road_2007
+Warning--empty booktitle in laible_3d_2012
+Warning--empty journal in rasmussen_combining_2002
+Warning--empty journal in wang_road_nodate
+Warning--empty year in wang_road_nodate
+Warning--empty journal in coombs_driving_2000
+Warning--empty journal in stavens_self-supervised_nodate
+Warning--empty year in stavens_self-supervised_nodate
+Warning--empty journal in wallach_conditional_nodate
+Warning--empty year in wallach_conditional_nodate
+Warning--empty journal in haselich_terrain_2011
+Warning--empty journal in miller_method_nodate
+Warning--empty year in miller_method_nodate
+Warning--empty journal in derpanis_overview_nodate
+Warning--empty year in derpanis_overview_nodate
+Warning--empty journal in cantzler_random_nodate
+Warning--empty year in cantzler_random_nodate
+You've used 73 entries,
+            1876 wiz_defined-function locations,
+            879 strings with 18652 characters,
+and the built_in function-call counts, 21440 in all, are:
+= -- 2154
+> -- 785
+< -- 0
++ -- 288
+- -- 215
+* -- 1574
+:= -- 2897
+add.period$ -- 92
+call.type$ -- 73
+change.case$ -- 73
+chr.to.int$ -- 0
+cite$ -- 96
+duplicate$ -- 1097
+empty$ -- 2003
+format.name$ -- 215
+if$ -- 5227
+int.to.chr$ -- 0
+int.to.str$ -- 73
+missing$ -- 67
+newline$ -- 245
+num.names$ -- 77
+pop$ -- 279
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 847
+stack$ -- 0
+substring$ -- 1562
+swap$ -- 468
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 23
+while$ -- 229
+width$ -- 75
+write$ -- 705
+(There were 7 error messages)
