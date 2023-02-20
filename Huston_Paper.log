@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  20 FEB 2023 15:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  20 FEB 2023 16:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -641,34 +641,34 @@ Rectangle_ROI.png> <./figures/ROI_Points.png>]
 <figures/MLS_RAN_ALL.png, id=31, 570.55263pt x 380.36842pt>
 File: figures/MLS_RAN_ALL.png Graphic file (type png)
 <use figures/MLS_RAN_ALL.png>
-Package pdftex.def Info: figures/MLS_RAN_ALL.png  used on input line 249.
+Package pdftex.def Info: figures/MLS_RAN_ALL.png  used on input line 245.
 (pdftex.def)             Requested size: 211.38832pt x 140.92563pt.
 <figures/MLS_RAN_TT.png, id=32, 570.55263pt x 380.36842pt>
 File: figures/MLS_RAN_TT.png Graphic file (type png)
 <use figures/MLS_RAN_TT.png>
-Package pdftex.def Info: figures/MLS_RAN_TT.png  used on input line 255.
+Package pdftex.def Info: figures/MLS_RAN_TT.png  used on input line 251.
 (pdftex.def)             Requested size: 211.38832pt x 140.92563pt.
 <figures/Range_Vali_Error.png, id=33, 570.55263pt x 380.36842pt>
 File: figures/Range_Vali_Error.png Graphic file (type png)
 <use figures/Range_Vali_Error.png>
-Package pdftex.def Info: figures/Range_Vali_Error.png  used on input line 262.
+Package pdftex.def Info: figures/Range_Vali_Error.png  used on input line 258.
 (pdftex.def)             Requested size: 211.38832pt x 140.92563pt.
 <figures/ZXY.png, id=34, 578.16pt x 375.804pt>
 File: figures/ZXY.png Graphic file (type png)
 <use figures/ZXY.png>
-Package pdftex.def Info: figures/ZXY.png  used on input line 268.
+Package pdftex.def Info: figures/ZXY.png  used on input line 264.
 (pdftex.def)             Requested size: 211.38832pt x 137.39955pt.
  [5 <./figures/xy_vs_range.png>]
 <figures/mls_zxy_early_stopping.png, id=42, 2590.1568pt x 1001.6622pt>
 File: figures/mls_zxy_early_stopping.png Graphic file (type png)
 <use figures/mls_zxy_early_stopping.png>
 Package pdftex.def Info: figures/mls_zxy_early_stopping.png  used on input line
- 278.
+ 274.
 (pdftex.def)             Requested size: 352.31625pt x 136.2426pt.
 <figures/Compiled_PCD.png, id=43, 845.93936pt x 535.55873pt>
 File: figures/Compiled_PCD.png Graphic file (type png)
 <use figures/Compiled_PCD.png>
-Package pdftex.def Info: figures/Compiled_PCD.png  used on input line 287.
+Package pdftex.def Info: figures/Compiled_PCD.png  used on input line 285.
 (pdftex.def)             Requested size: 328.82707pt x 208.18062pt.
  [6 <./figures/MLS_RAN_ALL.png (PNG copy)> <./figures/MLS_RAN_TT.png (PNG copy)
 > <./figures/Range_Vali_Error.png (PNG copy)> <./figures/ZXY.png (PNG copy)> <.
@@ -679,7 +679,7 @@ File: figures/both_classification_things_sturbois_curve_1.png Graphic file (typ
 e png)
 <use figures/both_classification_things_sturbois_curve_1.png>
 Package pdftex.def Info: figures/both_classification_things_sturbois_curve_1.pn
-g  used on input line 302.
+g  used on input line 301.
 (pdftex.def)             Requested size: 211.38832pt x 340.51476pt.
  [7 <./figures/Compiled_PCD.png>] [8 <./figures/both_classification_things_stur
 bois_curve_1.png>] (Huston_Paper.bbl
@@ -714,7 +714,7 @@ ts/type1/public/amsfonts/cm/cmsy7.pfb></home/autobuntu/.miktex/texmfs/install/f
 onts/type1/urw/times/utmb8a.pfb></home/autobuntu/.miktex/texmfs/install/fonts/t
 ype1/urw/times/utmr8a.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on Huston_Paper.pdf (11 pages, 16135715 bytes).
+Output written on Huston_Paper.pdf (11 pages, 16135558 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
