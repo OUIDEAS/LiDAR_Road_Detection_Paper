@@ -9,10 +9,6 @@ Repeated entry---line 1574 of file resources.bib
  : @article{seker_experiments_nodate
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1730 of file resources.bib
- : @article{shapiro_analysis_1965
- :                               ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 1787 of file resources.bib
  : @inproceedings{gojcic_perfect_2019
  :                                   ,
@@ -33,20 +29,17 @@ Repeated entry---line 2644 of file resources.bib
  : @inproceedings{reymann_improving_2015
  :                                      ,
 I'm skipping whatever remains of this entry
-Warning--empty journal in skorseth_gravel_nodate
 Warning--empty journal in seker_experiments_nodate
 Warning--empty year in seker_experiments_nodate
 Warning--empty journal in smadja_road_nodate
 Warning--empty year in smadja_road_nodate
+Warning--empty journal in skorseth_gravel_nodate
 Warning--empty booktitle in biber_normal_2003
 Warning--empty booktitle in wan_road_2007
 Warning--empty booktitle in laible_3d_2012
 Warning--empty journal in rasmussen_combining_2002
 Warning--empty journal in wang_road_nodate
 Warning--empty year in wang_road_nodate
-Warning--empty journal in coombs_driving_2000
-Warning--empty journal in stavens_self-supervised_nodate
-Warning--empty year in stavens_self-supervised_nodate
 Warning--empty journal in wallach_conditional_nodate
 Warning--empty year in wallach_conditional_nodate
 Warning--empty journal in haselich_terrain_2011
@@ -56,45 +49,45 @@ Warning--empty journal in derpanis_overview_nodate
 Warning--empty year in derpanis_overview_nodate
 Warning--empty journal in cantzler_random_nodate
 Warning--empty year in cantzler_random_nodate
-You've used 73 entries,
+You've used 62 entries,
             1876 wiz_defined-function locations,
-            879 strings with 18652 characters,
-and the built_in function-call counts, 21440 in all, are:
-= -- 2154
-> -- 785
+            817 strings with 16261 characters,
+and the built_in function-call counts, 18385 in all, are:
+= -- 1843
+> -- 671
 < -- 0
-+ -- 288
-- -- 215
-* -- 1574
-:= -- 2897
-add.period$ -- 92
-call.type$ -- 73
-change.case$ -- 73
++ -- 246
+- -- 184
+* -- 1349
+:= -- 2470
+add.period$ -- 76
+call.type$ -- 62
+change.case$ -- 62
 chr.to.int$ -- 0
-cite$ -- 96
-duplicate$ -- 1097
-empty$ -- 2003
-format.name$ -- 215
-if$ -- 5227
+cite$ -- 82
+duplicate$ -- 939
+empty$ -- 1720
+format.name$ -- 184
+if$ -- 4487
 int.to.chr$ -- 0
-int.to.str$ -- 73
-missing$ -- 67
-newline$ -- 245
-num.names$ -- 77
-pop$ -- 279
+int.to.str$ -- 62
+missing$ -- 56
+newline$ -- 207
+num.names$ -- 66
+pop$ -- 243
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 847
+skip$ -- 737
 stack$ -- 0
-substring$ -- 1562
-swap$ -- 468
+substring$ -- 1360
+swap$ -- 407
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 23
-while$ -- 229
-width$ -- 75
-write$ -- 705
-(There were 7 error messages)
+warning$ -- 20
+while$ -- 193
+width$ -- 64
+write$ -- 594
+(There were 6 error messages)

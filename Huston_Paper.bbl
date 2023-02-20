@@ -11,10 +11,6 @@ Y.~S. Malik and B.~Lal, ``Basic road statistics of india [2016-2017],'' Mar
 \bibitem{noauthor_gpsgov_nodate}
 ``{GPS}.gov: {GPS} {Accuracy}.''
 
-\bibitem{skorseth_gravel_nodate}
-K.~Skorseth and A.~A. Selim, ``Gravel {Roads}: {Maintenance} and {Design}
-  {Manual},'' Nov 2020.
-
 \bibitem{crisman_scarf_1993}
 J.~Crisman and C.~Thorpe, ``{SCARF}: a color vision system that tracks roads
   and intersections,'' {\em IEEE Transactions on Robotics and Automation},
@@ -72,6 +68,10 @@ A.~Hervieu and B.~Soheilian, ``Road side detection and reconstruction using
 \bibitem{smadja_road_nodate}
 L.~Smadja, J.~Ninot, and T.~Gavrilovic, ``{ROAD} {EXTRACTION} {AND}
   {ENVIRONMENT} {INTERPRETATION} {FROM} {LIDAR} {SENSORS},'' p.~7.
+
+\bibitem{skorseth_gravel_nodate}
+K.~Skorseth and A.~A. Selim, ``Gravel {Roads}: {Maintenance} and {Design}
+  {Manual},'' Nov 2020.
 
 \bibitem{biber_normal_2003}
 P.~Biber and W.~Straßer, ``The {Normal} {Distributions} {Transform}: {A} {New}
@@ -244,59 +244,6 @@ J.~Wietrzykowski and D.~Belter, ``Boosting support vector machines for
 S.~Wang, ``Road {Terrain} {Type} {Classification} based on {Laser}
   {Measurement} {System} {Data},'' p.~13.
 
-\bibitem{schilling_geometric_2017}
-F.~Schilling, X.~Chen, J.~Folkesson, and P.~Jensfelt, ``Geometric and visual
-  terrain classification for autonomous mobile navigation,'' in {\em 2017
-  {IEEE}/{RSJ} {International} {Conference} on {Intelligent} {Robots} and
-  {Systems} ({IROS})}, pp.~2678--2684, Sept. 2017.
-\newblock ISSN: 2153-0866.
-
-\bibitem{ojeda_terrain_2006}
-L.~Ojeda, J.~Borenstein, G.~Witus, and R.~Karlsen, ``Terrain characterization
-  and classification with a mobile robot,'' {\em Journal of Field Robotics},
-  vol.~23, no.~2, pp.~103--122, 2006.
-\newblock \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.20113.
-
-\bibitem{coombs_driving_2000}
-D.~Coombs, K.~Murphy, A.~Lacaze, and S.~Legowik, ``Driving {Autonomously}
-  {Offroad} up to 35 km/h,'' Oct. 2000.
-\newblock Last Modified: 2017-02-19T20:02-05:00.
-
-\bibitem{stavens_self-supervised_nodate}
-D.~Stavens and S.~Thrun, ``A {Self}-{Supervised} {Terrain} {Roughness}
-  {Estimator} for {Off}-{Road} {Autonomous} {Driving},'' p.~8.
-
-\bibitem{belter_rough_2010}
-D.~Belter and P.~Skrzypczyński, ``Rough terrain mapping and classification for
-  foothold selection in a walking robot,'' in {\em 2010 {IEEE} {Safety}
-  {Security} and {Rescue} {Robotics}}, pp.~1--6, July 2010.
-\newblock ISSN: 2374-3247.
-
-\bibitem{bartoszyk_terrain-aware_2017}
-S.~Bartoszyk, P.~Kasprzak, and D.~Belter, ``Terrain-aware motion planning for a
-  walking robot,'' in {\em 2017 11th {International} {Workshop} on {Robot}
-  {Motion} and {Control} ({RoMoCo})}, pp.~29--34, July 2017.
-
-\bibitem{noauthor_fusion_nodate}
-``Fusion between a color camera and a {TOF} camera to improve traversability of
-  agricultural vehicles - {Archive} ouverte {HAL}.''
-
-\bibitem{li_rugged_2019}
-S.~Li, R.~Song, Y.~Zheng, H.~Zhao, and Y.~Li, ``Rugged - {Terrain}
-  {Traversability} {Analyzing} {For} {Quadruped} {Robots},'' in {\em 2019 2nd
-  {International} {Conference} of {Intelligent} {Robotic} and {Control}
-  {Engineering} ({IRCE})}, pp.~1--6, Aug. 2019.
-
-\bibitem{wilson_terrain_2014}
-G.~N. Wilson and A.~Ramirez-Serrano, ``Terrain {Roughness} {Identification} for
-  {High}-{Speed} {UGVs},'' {\em Journal of Automation and Control Research},
-  vol.~1, pp.~11--21, Oct. 2014.
-
-\bibitem{siva_robot_2019}
-S.~Siva, M.~Wigness, J.~Rogers, and H.~Zhang, ``Robot adaptation to
-  unstructured terrains by joint representation and apprenticeship learning,''
-  {\em Robotics: science and systems}, Jan. 2019.
-
 \bibitem{mijakovska_generating_2014}
 S.~Mijakovska, I.~Nedelkovski, and F.~Popovski, ``Generating {3D} {Model} from
   {Video},'' {\em Advanced Computing: An International Journal}, vol.~5,
@@ -362,23 +309,6 @@ M.~A. Fischler and R.~C. Bolles, ``Random {Sample} {Consensus}: {A} {Paradigm}
 \bibitem{cantzler_random_nodate}
 H.~Cantzler, ``Random {Sample} {Consensus} ({RANSAC}),'' p.~4.
 
-\bibitem{shapiro_analysis_1965}
-S.~S. SHAPIRO and M.~B. WILK, ``An analysis of variance test for normality
-  (complete samples)†,'' {\em Biometrika}, vol.~52, pp.~591--611, Dec. 1965.
-
-\bibitem{royston_extension_1982}
-J.~P. Royston, ``An {Extension} of {Shapiro} and {Wilk}'s {W} {Test} for
-  {Normality} to {Large} {Samples},'' {\em Journal of the Royal Statistical
-  Society: Series C (Applied Statistics)}, vol.~31, no.~2, pp.~115--124, 1982.
-\newblock \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.2307/2347973.
-
-\bibitem{davis_covariance_1977}
-C.~S. Davis and M.~A. Stephens, ``The covariance matrix of normal order
-  statistics,'' {\em Communications in Statistics - Simulation and
-  Computation}, vol.~6, pp.~75--81, Jan. 1977.
-\newblock Publisher: Taylor \& Francis \_eprint:
-  https://doi.org/10.1080/03610917708812028.
-
 \bibitem{ho_random_1995}
 T.~K. Ho, ``Random decision forests,'' in {\em Proceedings of 3rd
   {International} {Conference} on {Document} {Analysis} and {Recognition}},
@@ -390,11 +320,21 @@ Y.~N. Khan, P.~Komma, and A.~Zell, ``High resolution visual terrain
   {Conference} on {Computer} {Vision} {Workshops} ({ICCV} {Workshops})},
   (Barcelona, Spain), pp.~1014--1021, IEEE, Nov. 2011.
 
+\bibitem{schilling_geometric_2017}
+F.~Schilling, X.~Chen, J.~Folkesson, and P.~Jensfelt, ``Geometric and visual
+  terrain classification for autonomous mobile navigation,'' in {\em 2017
+  {IEEE}/{RSJ} {International} {Conference} on {Intelligent} {Robots} and
+  {Systems} ({IROS})}, pp.~2678--2684, Sept. 2017.
+\newblock ISSN: 2153-0866.
+
 \bibitem{wietrzykowski_context-aware_2019}
 J.~Wietrzykowski and P.~Skrzypczyński, ``Context-{Aware} {Recognition} of
   {Drivable} {Terrain} with {Automated} {Parameters} {Estimation},'' in {\em
   Intelligent {Autonomous} {Systems} 15} (M.~Strand, R.~Dillmann, E.~Menegatti,
   and S.~Ghidoni, eds.), (Cham), pp.~626--638, Springer International
   Publishing, 2019.
+
+\bibitem{noauthor_object-oriented_nodate}
+``Object-oriented tools for fitting conics and quadrics.''
 
 \end{thebibliography}

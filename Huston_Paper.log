@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  9 FEB 2023 10:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  20 FEB 2023 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -424,28 +424,106 @@ Package: times 2020/03/25 PSNFSS-v9.3 (SPQR)
 (/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count297
+\mult@box=\box59
+\multicol@leftmargin=\dimen258
+\c@unbalance=\count298
+\c@collectmore=\count299
+\doublecol@number=\count300
+\multicoltolerance=\count301
+\multicolpretolerance=\count302
+\full@width=\dimen259
+\page@free=\dimen260
+\premulticols=\dimen261
+\postmulticols=\dimen262
+\multicolsep=\skip75
+\multicolbaselineskip=\skip76
+\partial@page=\box60
+\last@line=\box61
+\maxbalancingoverflow=\dimen263
+\mult@rightbox=\box62
+\mult@grightbox=\box63
+\mult@firstbox=\box64
+\mult@gfirstbox=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\c@minrows=\count303
+\c@columnbadness=\count304
+\c@finalcolumnbadness=\count305
+\last@try=\dimen264
+\multicolovershoot=\dimen265
+\multicolundershoot=\dimen266
+\mult@nat@firstbox=\box102
+\colbreak@box=\box103
+\mc@col@check@num=\count306
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip77
+\enit@outerparindent=\dimen267
+\enit@toks=\toks30
+\enit@inbox=\box104
+\enit@count@id=\count307
+\enitdp@description=\count308
+)
 (/home/autobuntu/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.de
 f
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count297
-\l__pdf_internal_box=\box59
+\l__color_backend_stack_int=\count309
+\l__pdf_internal_box=\box105
 ) (Huston_Paper.aux)
 \openout1 = `Huston_Paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 -- Lines per column: 54 (approximate, difference = 2.43001pt).
 *geometry* driver: auto-detecting
@@ -484,17 +562,17 @@ LaTeX Font Info:    ... okay on input line 32.
 
 (/home/autobuntu/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count298
-\scratchdimen=\dimen258
-\scratchbox=\box60
-\nofMPsegments=\count299
-\nofMParguments=\count300
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count301
-\MPscratchDim=\dimen259
-\MPnumerator=\count302
-\makeMPintoPDFobject=\count303
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count310
+\scratchdimen=\dimen268
+\scratchbox=\box106
+\nofMPsegments=\count311
+\nofMParguments=\count312
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count313
+\MPscratchDim=\dimen269
+\MPnumerator=\count314
+\makeMPintoPDFobject=\count315
+\everyMPtoPDFconversion=\toks32
 )
 (/home/autobuntu/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.st
 y
@@ -507,15 +585,15 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count304
+\c@lstlisting=\count316
 [1{/home/autobuntu/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}] [2]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 161
+LaTeX Font Info:    Trying to load font information for U+msa on input line 168
 .
 
 (/home/autobuntu/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 161
+LaTeX Font Info:    Trying to load font information for U+msb on input line 168
 .
 
 (/home/autobuntu/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
@@ -524,45 +602,86 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <figures/Van.jpg, id=11, 4673.46pt x 3505.095pt>
 File: figures/Van.jpg Graphic file (type jpg)
 <use figures/Van.jpg>
-Package pdftex.def Info: figures/Van.jpg  used on input line 167.
+Package pdftex.def Info: figures/Van.jpg  used on input line 174.
 (pdftex.def)             Requested size: 174.49841pt x 130.87381pt.
 <figures/vlp_32_mount_2.jpg, id=12, 3167.835pt x 2196.205pt>
 File: figures/vlp_32_mount_2.jpg Graphic file (type jpg)
 <use figures/vlp_32_mount_2.jpg>
-Package pdftex.def Info: figures/vlp_32_mount_2.jpg  used on input line 173.
+Package pdftex.def Info: figures/vlp_32_mount_2.jpg  used on input line 180.
 (pdftex.def)             Requested size: 188.75679pt x 130.8618pt.
 <figures/Bean_Hollow_Road_Camera.png, id=13, 2071.74pt x 1549.79pt>
 File: figures/Bean_Hollow_Road_Camera.png Graphic file (type png)
 <use figures/Bean_Hollow_Road_Camera.png>
 Package pdftex.def Info: figures/Bean_Hollow_Road_Camera.png  used on input lin
-e 185.
+e 192.
 (pdftex.def)             Requested size: 190.14717pt x 142.24188pt.
 <figures/armig_2.png, id=15, 2071.74pt x 1549.79pt>
 File: figures/armig_2.png Graphic file (type png)
 <use figures/armig_2.png>
-Package pdftex.def Info: figures/armig_2.png  used on input line 191.
+Package pdftex.def Info: figures/armig_2.png  used on input line 198.
 (pdftex.def)             Requested size: 190.14717pt x 142.24188pt.
  [3 <./figures/Van.jpg> <./figures/vlp_32_mount_2.jpg>]
-<figures/Compiled_PCD.png, id=21, 845.93936pt x 535.55873pt>
+<figures/Rectangle_ROI.png, id=21, 335.48495pt x 357.54631pt>
+File: figures/Rectangle_ROI.png Graphic file (type png)
+<use figures/Rectangle_ROI.png>
+Package pdftex.def Info: figures/Rectangle_ROI.png  used on input line 216.
+(pdftex.def)             Requested size: 105.69415pt x 112.64404pt.
+<figures/ROI_Points.png, id=22, 906.79831pt x 385.69357pt>
+File: figures/ROI_Points.png Graphic file (type png)
+<use figures/ROI_Points.png>
+Package pdftex.def Info: figures/ROI_Points.png  used on input line 222.
+(pdftex.def)             Requested size: 105.69415pt x 44.95117pt.
+<figures/xy_vs_range.png, id=23, 1260.54095pt x 861.1541pt>
+File: figures/xy_vs_range.png Graphic file (type png)
+<use figures/xy_vs_range.png>
+Package pdftex.def Info: figures/xy_vs_range.png  used on input line 232.
+(pdftex.def)             Requested size: 234.8775pt x 160.45421pt.
+ [4 <./figures/Bean_Hollow_Road_Camera.png> <./figures/armig_2.png> <./figures/
+Rectangle_ROI.png> <./figures/ROI_Points.png>]
+<figures/MLS_RAN_ALL.png, id=31, 570.55263pt x 380.36842pt>
+File: figures/MLS_RAN_ALL.png Graphic file (type png)
+<use figures/MLS_RAN_ALL.png>
+Package pdftex.def Info: figures/MLS_RAN_ALL.png  used on input line 249.
+(pdftex.def)             Requested size: 211.38832pt x 140.92563pt.
+<figures/MLS_RAN_TT.png, id=32, 570.55263pt x 380.36842pt>
+File: figures/MLS_RAN_TT.png Graphic file (type png)
+<use figures/MLS_RAN_TT.png>
+Package pdftex.def Info: figures/MLS_RAN_TT.png  used on input line 255.
+(pdftex.def)             Requested size: 211.38832pt x 140.92563pt.
+<figures/Range_Vali_Error.png, id=33, 570.55263pt x 380.36842pt>
+File: figures/Range_Vali_Error.png Graphic file (type png)
+<use figures/Range_Vali_Error.png>
+Package pdftex.def Info: figures/Range_Vali_Error.png  used on input line 262.
+(pdftex.def)             Requested size: 211.38832pt x 140.92563pt.
+<figures/ZXY.png, id=34, 578.16pt x 375.804pt>
+File: figures/ZXY.png Graphic file (type png)
+<use figures/ZXY.png>
+Package pdftex.def Info: figures/ZXY.png  used on input line 268.
+(pdftex.def)             Requested size: 211.38832pt x 137.39955pt.
+ [5 <./figures/xy_vs_range.png>]
+<figures/mls_zxy_early_stopping.png, id=42, 2590.1568pt x 1001.6622pt>
+File: figures/mls_zxy_early_stopping.png Graphic file (type png)
+<use figures/mls_zxy_early_stopping.png>
+Package pdftex.def Info: figures/mls_zxy_early_stopping.png  used on input line
+ 278.
+(pdftex.def)             Requested size: 352.31625pt x 136.2426pt.
+<figures/Compiled_PCD.png, id=43, 845.93936pt x 535.55873pt>
 File: figures/Compiled_PCD.png Graphic file (type png)
 <use figures/Compiled_PCD.png>
-Package pdftex.def Info: figures/Compiled_PCD.png  used on input line 227.
+Package pdftex.def Info: figures/Compiled_PCD.png  used on input line 287.
 (pdftex.def)             Requested size: 328.82707pt x 208.18062pt.
-
-
-LaTeX Warning: Reference `fig:Road_Examples' on page 4 undefined on input line 
-236.
-
-[4 <./figures/Bean_Hollow_Road_Camera.png> <./figures/armig_2.png>]
-<figures/both_classification_things_sturbois_curve_1.png, id=28, 504.36853pt x 
+ [6 <./figures/MLS_RAN_ALL.png (PNG copy)> <./figures/MLS_RAN_TT.png (PNG copy)
+> <./figures/Range_Vali_Error.png (PNG copy)> <./figures/ZXY.png (PNG copy)> <.
+/figures/mls_zxy_early_stopping.png (PNG copy)>]
+<figures/both_classification_things_sturbois_curve_1.png, id=47, 504.36853pt x 
 812.46695pt>
 File: figures/both_classification_things_sturbois_curve_1.png Graphic file (typ
 e png)
 <use figures/both_classification_things_sturbois_curve_1.png>
 Package pdftex.def Info: figures/both_classification_things_sturbois_curve_1.pn
-g  used on input line 242.
+g  used on input line 302.
 (pdftex.def)             Requested size: 211.38832pt x 340.51476pt.
- [5 <./figures/Compiled_PCD.png>] [6 <./figures/both_classification_things_stur
+ [7 <./figures/Compiled_PCD.png>] [8 <./figures/both_classification_things_stur
 bois_curve_1.png>] (Huston_Paper.bbl
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 4
 .
@@ -572,57 +691,32 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
- [7]
-[8]
-Underfull \hbox (badness 4132) in paragraph at lines 255--259
-[]\OT1/ptm/m/n/10 L. Ojeda, J. Boren-stein, G. Wi-tus, and R. Karlsen, ``Ter-ra
-in char-ac-ter-i-za-tion and clas-si-fi-ca-tion
- []
-
-
-Underfull \hbox (badness 1924) in paragraph at lines 255--259
-\OT1/ptm/m/n/10 with a mo-bile robot,'' \OT1/ptm/m/it/10 Jour-nal of Field Robo
-tics\OT1/ptm/m/n/10 , vol. 23, no. 2, pp. 103--122, 2006.  []eprint:
- []
-
-[9]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
-67.
- (/home/autobuntu/.miktex/texmfs/install/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-))
-[10] (Huston_Paper.aux)
-
-LaTeX Warning: There were undefined references.
-
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 136 ({)
-### bottom level 
+ [9]
+[10]) [11] (Huston_Paper.aux) ) 
 Here is how much of TeX's memory you used:
- 9771 strings out of 478583
- 165863 string characters out of 2847216
- 477120 words of memory out of 3000000
- 27803 multiletter control sequences out of 15000+600000
- 510512 words of font info for 114 fonts, out of 8000000 for 9000
+ 10295 strings out of 478583
+ 175560 string characters out of 2847216
+ 490787 words of memory out of 3000000
+ 28310 multiletter control sequences out of 15000+600000
+ 511557 words of font info for 121 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 67i,12n,77p,2783b,530s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/base/8r
-.enc}</home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cme
-x10.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/
-cm/cmmi7.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/a
-msfonts/cm/cmsy7.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/urw/ti
-mes/utmb8a.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/ut
-mr8a.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.
-pfb>
-Output written on Huston_Paper.pdf (10 pages, 15760904 bytes).
+ 67i,8n,77p,2377b,519s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{/home/autobuntu/.miktex/texmfs/install/fonts/en
+c/dvips/base/8r.enc}</home/autobuntu/.miktex/texmfs/install/fonts/type1/public/
+amsfonts/cm/cmex10.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/p
+ublic/amsfonts/cm/cmmi7.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1
+/public/amsfonts/cm/cmmi9.pfb></home/autobuntu/.miktex/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></home/autobuntu/.miktex/texmfs/install/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb></home/autobuntu/.miktex/texmfs/install/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></home/autobuntu/.miktex/texmfs/install/fon
+ts/type1/public/amsfonts/cm/cmsy7.pfb></home/autobuntu/.miktex/texmfs/install/f
+onts/type1/urw/times/utmb8a.pfb></home/autobuntu/.miktex/texmfs/install/fonts/t
+ype1/urw/times/utmr8a.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/u
+rw/times/utmri8a.pfb>
+Output written on Huston_Paper.pdf (11 pages, 16135715 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
+ 111 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
