@@ -30,6 +30,13 @@
 \usepackage{indentfirst}
 \usepackage{multicol}
 \usepackage{enumitem}
+\usepackage{attachfile}
+\usepackage{multirow}
+\usepackage{tabularray}
+
+% Table Stuff
+\newcommand{\spheading}[2][9.5em]{% \spheading[<width>]{<stuff>}
+	\rotatebox{90}{\parbox{#1}{\raggedright #2}}}
 
 \begin{document}
 	%
@@ -207,7 +214,7 @@
 	
 	{Scanning LiDAR training and verification data was extracted by selecting appropriate consecutive points from a single LiDAR channel lying on gravel, chipseal, foliage, and grass surfaces. Number of points included in each training data set was not controlled. Foliage was defined as trees and bushes, while grass was defined as a trimmed lawn. Projection of a plane was necessary to provide a reference point for describing point variance. RANSAC and Method of Least Squares were tested for use as plane projection methods. Additionally, a point's perpendicular distance as well as range from the LiDAR origin (Figure \ref{fig:xy_vs_range}) was also considered, both of which has a computational advantage over the plane projection method in that they may be read directly from the Velodyne VLP-32 data stream.}
 	
-	{RANSAC was implementing by a built-in MATLAB function, $pcfitplane$. Method of Least Squares was implemented by importing a MATLAB library \cite{noauthor_object-oriented_nodate}. Point clouds are individually imported into the MATLAB environment. RANSAC or Method of Least Squares may be used to project a reference plane unto the point cloud. Displaying the point cloud is completed using MATLAB's $pcshow$ function. Training data is selected by manually drawing an area around appropriate points of a desired terrain type using MATLAB's $drawrectangle$ function (Figure \ref{fig:Rectangle_ROI}). Indices for the rectangle are extracted, and MATLAB's function $findPointsInROI$ is used to extract any points within the drawn rectangle (Figure \ref{fig:ROI_Points}). Captured points are then saved to disk along with the projected plane's normal vector and distance from the origin $[a,b,c,d]$.}
+	{RANSAC was implementing by a built-in MATLAB function, $pcfitplane$. Method of Least Squares was implemented by importing a MATLAB library \cite{noauthor_object-oriented_nodate}. Point clouds are individually imported into the MATLAB environment. RANSAC or Method of Least Squares may be used to project a reference plane unto the point cloud. Displaying the point cloud is completed using MATLAB's $pcshow$ function. Training data is selected by manually drawing an area around appropriate points of a desired terrain type using MATLAB's $drawrectangle$ function (Figure \ref{fig:Rectangle_ROI}). Indices for the rectangle are extracted, and MATLAB's function $findPointsInROI$ is used to extract sympatric points within the drawn rectangle (Figure \ref{fig:ROI_Points}). Captured points are then saved to disk along with the projected plane's normal vector and distance from the origin $[a,b,c,d]$.}
 	
 	\begin{figure}[H]
 		\centering
@@ -234,9 +241,9 @@
 		\label{fig:xy_vs_range}
 	\end{figure}
 	
-	{Feature extraction was completed by performing mathematical functions on the gathered spatial and remission training data. Reference plane normal vector and distance from origin $[a,b,c,d]$ data derived from either RANSAC or Method of Least Squares methods was selected. Base-line features extracted include the following: Standard Deviation ($\sigma$), Roughness ($max - min$), Min-Max Ratio ($min / max$), Min$^{2}$-Max Ratio ($min^2 / max$), and Gradient ($sqrt(\sum_{1}^{n} G))$), where $G$ is an array comprising of the differences between consecutive points in the spatial or remission data array. Distance from the LiDAR point of origin was also considered by dividing the base-line features by either the average range or X-Y distances for a set of points, as LiDAR accuracy may decrease as distance increases. Sixty features were considered in total for this work, and multiple feature sub-sets were used to create a variety of Random Decision Forests. Plane-projection based algorithms were used considering all and top twenty features. Non-plane projection based algorithms were created considering only range and Z height features. For all RDFs, both spatial and remission features were used.} 
+	{Feature extraction was completed by performing mathematical functions on the gathered spatial and remission training data. Reference plane normal vector and distance from origin $[a,b,c,d]$ data derived from either RANSAC or Method of Least Squares methods was selected. Base-line features extracted include the following: Standard Deviation ($\sigma$), Roughness ($max - min$), Min-Max Ratio ($min / max$), Min$^{2}$-Max Ratio ($min^2 / max$), and Gradient ($sqrt(\sum_{1}^{n} G))$), where $G$ is an $1*n$ array comprising of the differences between consecutive points in the spatial or remission data array. Distance from the LiDAR point of origin was also considered by dividing the base-line features by either the average range or X-Y distances for a set of points, as LiDAR accuracy may decrease as distance increases. Sixty features were considered in total for this work, and multiple feature sub-sets were used to create a variety of Random Decision Forests. Plane-projection based algorithms were created considering all features. Determination of feature usage allowed for creation of RDFs that used only the top twenty features. Non-plane projection based algorithms were created considering only range and Z height features. For all RDFs, both spatial and remission features were used. } 
 	
-	{Random Decision Forests were created using MATLAB's $TreeBagger$ function, which creates an ensemble of bagged decision trees. Included features, tree depth, and number of trees were principal guiding factors in RDF creation. Validation error was used as the primary means to compare RDF performance. MATLAB was used to load verification data and test increasing sizes of RDF algorithms for accuracy by comparing the known data types against the RDF result. RANSAC versus MLS was tested using identical feature sets (Figures \ref{fig:all_mls_ransac_comp} \ref{fig:xyz_mls_ransac_comp}). Number of trees in the RDF verses error allowed for determination of an early stopping point for algorithm growth (Figure \ref{fig:mls_zxy_early_stopping}) by choosing the point where the change in moving average did not exceed 10\% and was within 15\% of the minimum error.}
+	{Random Decision Forests were created using MATLAB's $TreeBagger$ function, which creates an ensemble of bagged decision trees using the input arguments of included features, tree depth, number of trees, and a cost array. RDFs were split into sub categories within each feature set to test varying tree depths (Figure \ref{fig:all_tree_comp}), and allowed to grow in number of trees until three hundred trees were created. Discouragement of false-positive identification for road surfaces (gravel and chipseal) was accomplished by introducing a cost array which would induce a bias against gravel and chipseal . Validation error was used as the primary means to compare RDF performance prior to testing with data outside the training and validation data sets. MATLAB was used to load verification data and test increasing sizes of RDF algorithms for accuracy by comparing the known data types against the RDF result. Plotting number of trees verses error allowed for determination of an early stopping point for algorithm growth (Figure \ref{fig:mls_zxy_early_stopping}) by choosing the point where the change in error moving average did not exceed 10\% and was within 20\% of the minimum error.}
 	
 	\begin{figure}[H]
 		\centering
@@ -266,7 +273,7 @@
 			\label{fig:t20_mls_ransac_comp}
 		\end{subfigure}
 		\caption[RDF Validation Accuracy]{RDF validation accuracy directly compared. All features are considered (a); Top 20 features used in (a) only (b); Range was used without X, Y, and Z components broken out (c); Plane projection not considered in (d), reference plane set as the LiDAR origin point.}
-		\label{fig:xyz_mls_comp_2}
+		\label{fig:all_tree_comp}
 	\end{figure}
 
 	\begin{figure}[H]
@@ -278,48 +285,111 @@
 	
 	% Quadrant size inversely affects rate of classification, as smaller quadrants allow for greater resolution at the expense of more computational time. 
 	
-	{Testing consecutive scans required a method of compiling LiDAR data into a single point cloud and manually classifying areas for . Six stretches of unmarked roads was gathered for this work. }
-	
-	%		{Point cloud translation and rotation was accomplished using transformation matrices derived from GPS and IMU data. Rotation matrices were created using extracted roll, pitch, and yaw data from the IMU. LiDAR origin was found using GPS longitude, latitude, and altitude data. Physical distances between the GPS, IMU, and LiDAR was rectitude by obtaining reference frames provided by AutonomouStuff. GPS coordinates were offset by the current orientation and converts the ground truth to the LiDAR frame. GPS, IMU, and LiDAR reference frames and rotational updates were combined into trajectory vectors. Consecutive point cloud scans may then translated and rotated with derived transformation matrices (Figure \ref{fig:Compiled_PCD}).}
-	
-	{Testing consecutive scans was completed by post processing rosbags that contained scanning LiDAR, GPS, and IMU data of an unmarked road. Physical distance between the GPS, IMU, and LiDAR were rectified by measuring the distance between the modules. Rotational reference frames between the GPS, IMU, and LiDAR were rectified by applying appropriate rotational matrices. Transformation matrices were created by considering the GPS position and the IMU's roll, pitch, and yaw data. Point cloud data was then classified using one of the generated RDF algorithms. Translation and rotation was applied to the terrain classification results with the closest matching transformation matrices (Figure \ref{fig:Classified_PointCloud_1_ALL}). Comparing averaged X, Y, and Z coordinates of classified quadrant (Figure \ref{fig:Classified_PointCloud_1_AVG}) allowed for easier comparison and scoring of the RDF classification to the manually classified areas. Consecutive scanning LiDAR data was compiled allowing for manually assigning areas representing road or side of road surfaces (Figure \ref{fig:Manually_Classified_Areas}). Side of road area were manually defined as an area roughly one meter outwards from the road edge for consideration of road edge detection. Per-Quadrant classification rate data was gathered and plotted, the average rate being 2.97 quadrants per second (Figure \ref{fig:Time_Hz_Rate}). This was tested with a machine with 64 GB of DDR4 RAM and a Ryzen 9 5900X 12 core x 24 thread CPU.}
-	
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.7\linewidth]{figures/Compiled_PCD}
-		\caption[Compiled Point Cloud Data]{Compiled Point Cloud Data}
-		\label{fig:Compiled_PCD}
-	\end{figure}
-	
-	{Road and side-of-road areas were manually defined and projected unto consecutive LiDAR scans to score classification results. Classification results that were sympatric to manually defined areas were examined for accuracy by scoring the exact terrain classification and true/false-positive road surface detection. Drop off in positive road surface classification rates in side-of-road areas of 50\% or greater in side-of-road areas would be indicative of adequate road edge detection.}
-	
-
-\section{Results}
-	
-	{Scanning LiDAR, GPS, and IMU data was collected on closed lots and public roads near Athens Ohio using the Experimental Apparatus. Point cloud data was manually defined by area as one of four basic terrain types: gravel, chipseal, foliage, or grass. Gravel and chipseal data was gathered from closed lots and unmarked public roads (Figures \ref{fig:Combined_Roads}), while grass (well-trimmed lawn grass) and foliage (leafy trees and bushes) was gathered from areas surrounding public roads.}
-
-	{Testing consecutive scans was completed by post processing rosbags that contained scanning LiDAR, GPS, and IMU data of an unmarked road. Physical distances between the GPS, IMU, and LiDAR were rectified by measuring the distance between the modules. Rotational reference frames between the GPS, IMU, and LiDAR were rectified by applying appropriate rotational matrices. Transformation matrices were created by considering the GPS position and the IMU's roll, pitch, and yaw data. Point cloud data was then classified using the RDF derived in Objective I. Translation and rotation was applied to the terrain classification results. Consecutive scanning LiDAR data was compiled allowing for manually assigning areas representing road or side of road surfaces (Figure \ref{fig:Classified_PointCloud_1_ALL}). Side of road area were manually defined as an area roughly one meter outwards from the road edge for consideration of road edge detection.}
+	{Testing consecutive scans required a method of compiling LiDAR data into a single point cloud and manually classifying areas for road detection accuracy, completed by post processing rosbags that contained scanning LiDAR, GPS, and IMU data of an unmarked road. Point cloud translation and rotation was accomplished using transformation matrices derived from GPS and IMU data. Rotation matrices were created using extracted roll, pitch, and yaw data from the IMU. LiDAR origin was found using GPS longitude, latitude, and altitude data. Physical distances between the GPS, IMU, and LiDAR was rectitude by obtaining reference frames provided by AutonomouStuff. GPS coordinates were offset by the current orientation and converts the ground truth to the LiDAR frame. GPS, IMU, and LiDAR reference frames and rotational updates were combined into trajectory vectors. Consecutive point cloud scans may then translated and rotated with derived transformation matrices (Figure \ref{fig:Compiled_PCD}). While not as robust as more sophisticated methods of point cloud aggregation such as NDT or ICP scan matching, over shorter distances using this method proved to be adequate for scoring purposes. Six stretches of unmarked roads were examined for accuracy: three of chipseal and three of gravel. Road and side-of-road areas were manually defined and projected unto consecutive LiDAR scans to score classification results. Due to the fuzzy nature of the classification results, the side-of-road areas were roughly a standard lane width to the sides of the road to accommodate the inability to define a ridge road edge.}
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.45\linewidth]{figures/both_classification_things_sturbois_curve_1}
-		\caption{Typical example of a classified point cloud with projected manually defined areas}
-		\label{fig:Classified_PointCloud_1_ALL}
+		\begin{subfigure}{0.45\textwidth}
+			\centering
+			\includegraphics[width=0.95\linewidth]{figures/Compiled_PCD}
+			\caption[C]{}
+			\label{fig:Compiled_PCD}
+		\end{subfigure}
+		\begin{subfigure}{0.45\textwidth}
+			\centering
+			\includegraphics[width=0.95\linewidth]{figures/short_chip_redux}
+			\caption[]{}
+			\label{fig:Classified_Areas_PCD}
+		\end{subfigure}
+		\caption[Compiled and Classified Point Cloud Data]{Point cloud of scanning LiDAR data using GPS and IMU data to determine point of origin and orientation for the LiDAR (a). Point cloud data was classified, and then scored using manually defined road and side-of-road areas (b).}
+		\label{fig:Combined_Classified_PCD}
 	\end{figure}
 	
-	\begin{table}
+	{Classifying gathered consecutive LiDAR scans was accomplished by analyzing each individual 360$^{\circ}$ sweep of the discretized channels. Each channel was broken into quadrants. Quadrant size inversely affects rate of classification, as smaller quadrants allow for greater resolution at the expense of more computational time. Translation and rotation was applied to the terrain classification results with the closest matching transformation matrices.Classification results that were sympatric to manually defined areas were examined for accuracy by scoring the exact terrain classification and true/false-positive road surface detection. Drop off in positive road surface classification rates in side-of-road areas in side-of-road areas would be indicative of adequate road edge detection. Consecutive scanning LiDAR data was compiled allowing for manually assigning areas representing road or side of road surfaces (Figure \ref{fig:Classified_Areas_PCD}).}
+	
+%	{ Comparing averaged X, Y, and Z coordinates of the classified quadrant allowed for easier comparison and scoring of the RDF classification to the manually classified areas. 
+% Insert sentence or two on rate of of classification, feat extract, etc.; reference figure with rates> This was tested with a machine with 64 GB of DDR4 RAM and a Ryzen 9 5900X 12 core x 24 thread CPU.}
+	
+\section{Results}
+	
+	{Scanning LiDAR, GPS, and IMU data was collected on closed lots and public roads near Athens Ohio using the Experimental Apparatus. Gravel and chipseal data was gathered from closed lots and unmarked public roads (Figures \ref{fig:Combined_Roads}), while grass (well-trimmed lawn grass) and foliage (leafy trees and bushes) was gathered from areas surrounding public roads. Training data was generated using MATLAB to extract LiDAR data from rosbags. Classification algorithms using Random Decision Forests were generated using a variety of feature sets and reference points. Testing consecutive scans was completed by post processing rosbags that contained scanning LiDAR, GPS, and IMU data. Physical distances between the GPS, IMU, and LiDAR were rectified by measuring the distance between the modules. Rotational reference frames between the GPS, IMU, and LiDAR were rectified by applying appropriate rotational matrices. Transformation matrices were created by considering the GPS position and the IMU's roll, pitch, and yaw data. Point cloud data was then classified using the RDF derived in Objective I. Translation and rotation was applied to the terrain classification results. Consecutive scanning LiDAR data was compiled allowing for manually assigning areas representing road or side of road surfaces (Figure \ref{fig:classified_point_clouds_all}). Side of road area were manually defined as an area roughly one meter outwards from the road edge for consideration of road edge detection.}
+		
+	\begin{figure}[H]
 		\centering
-		\begin{tabular}{lll}
-			& Road 		& Side-of-Road 	\\
-			Gravel   	& 79.3\% 	& 0\%			\\
-			Chipseal 	& 2.0\% 	& 0\%  			\\
-			Foliage  	& 11.2\% 	& 0\% 			\\
-			Grass    	& 7.5\% 	& 0\%
-		\end{tabular}
-		\caption[Sturbois Road Curve Example 1]{Accuracy for Sturbois Road and Side-of-Road analysis}
-		\label{tab:Sturbois_Curve_1_Road_Results}
+		
+		\begin{subfigure}{0.495\textwidth}
+			\centering
+			\includegraphics[width=0.95\linewidth]{figures/curve_gravel}
+			\caption[]{}
+			\label{fig:curve_gravel_2}	
+		\end{subfigure}
+		\begin{subfigure}{0.495\textwidth}
+			\centering
+			\includegraphics[width=0.95\linewidth]{figures/curve_gravel_2}
+			\caption[]{}
+			\label{fig:curve_gravel}
+		\end{subfigure}
+		\begin{subfigure}{0.495\textwidth}
+			\centering
+			\includegraphics[width=0.95\linewidth]{figures/long_gravel_1}
+			\caption[]{}
+			\label{fig:long_gravel_1}	
+		\end{subfigure}
+		\begin{subfigure}{0.495\textwidth}
+			\centering
+			\includegraphics[width=0.95\linewidth]{figures/long_chip_redux}
+			\caption[]{}
+			\label{fig:long_chip_classified}
+		\end{subfigure}
+		\begin{subfigure}{0.495\textwidth}
+			\centering
+			\includegraphics[width=0.95\linewidth]{figures/long_chip_redux_2}
+			\caption[]{}
+			\label{fig:long_chip_2_classified}
+		\end{subfigure}
+		\begin{subfigure}{0.495\textwidth}
+			\centering
+			\includegraphics[width=0.95\linewidth]{figures/short_chip_redux}
+			\caption[]{}
+			\label{fig:short_chip_classified}
+		\end{subfigure}
+		\caption[Classified Point Clouds]{Classified point clouds with manually defined surface areas that allow for scoring of classification results. Gravel roads include an un-named gravel side-road near Armig Road (a) and Sturbois Road (b), (c). Chipseal roads include Willow Creek Road (d), (e), and Bean Hollow Road (f). The algorithm that produced these results used all features and reference plane projected with RANSAC. Chipseal roads are shown as black areas, gravel roads and driveways are shown as red areas, and side-of-roads are designated as orange. }
+		\label{fig:classified_point_clouds_all}
+	\end{figure}
+
+	{Results were scored by comparing the location of the averaged classified quadrant's (x,y) coordinate to the area that the manually defined areas (Table \ref{tab:averaged_results} shows results for algorithm designation RAN ALL which produced the results in Figure \ref{fig:classified_point_clouds_all}. All results are shown in Table \ref{tab:all_results} in Appendix \ref{apdx:Appendix_2}). Ratio of road to non-road in manually defined road and side-of-road areas are shown in columns 3 and 4, with higher values indicating a greater presence of positive road identification. The quotient of the two ratios (col. 5) allows for estimation of road edge detection ability. Scores for correct and incorrect road surface type is shown, indicating the algorithm's ability to correctly determine the road surface type (cols. 6,7). Percentages of grass and foliage classification for both side-of-road and on road are given in cols. 8 \& 9, indicating true/false-negative road surface identification capability. True/false-positive road surface identification percentages are indicated in cols 10-11.}
+	
+	{Of the algorithms tested (Appendix \ref{apdx:Appendix_2}), the RDF that used RANSAC as the plane projection method and the full feature set seemed to perform the most consistently for true non-road surface identification. While it did struggle with gravel identification (32.72\% average accuracy) with a high confusion rate with grass (27.47\% false identification), there was a consistent decrease ($>20\%$) in false-positive road identification in side-of-road areas. }
+	
+	{It was found that while none of the algorithms excelled in all areas, }
+	
+	\begin{table}[H]
+		\centering
+		\begin{tblr}{width=0.9\linewidth,colspec={|Q[1,m,c]|Q[1.5,m,c]|Q[1.5,m,c]|Q[1.5,m,c]|Q[1.5,m,c]|Q[1.5,m,c]|}}
+			\hline
+			Algorithm & Average \% of True Gravel Type & Average \% of True Chipseal Type & Average \% of True Surface Type Identification & Average \% True Road Surface Detection & Average \% of True  Non-Road Surface Detection\\
+			\hline
+			MLS ALL & 27.35 & 61.50 & 46.59 & 82.90 & 55.01 \\
+			\hline
+			MLS TT  & 27.62 & 50.37 & 40.86 & 89.44 & 37.31 \\
+			\hline
+			ZXY     & 31.70 & 65.65 & 50.60 & 93.15 & 55.16 \\
+			\hline
+			RAN ALL & 32.72 & 48.42 & 42.38 & 56.25 & 66.50 \\
+			\hline
+			RANGE   & 56.92 & 39.97 & 51.61 & 78.53 & 47.92 \\
+			\hline
+			RAN TT  & 82.84 & 27.60 & 57.29 & 65.32 & 58.51 \\
+			\hline
+		\end{tblr}
+		\caption[Averaged Results]{Average results for all algorithms and all tested roads}
+		\label{tab:averaged_results}
 	\end{table}
 
+
+	
+	
+	
 	{Quadrant size affects terrain classification accuracy at the expense of granularity of results and computational time. Smaller quadrants allow for greater resolution of terrain classification, however more computational time is required. Larger quadrants allow for swifter classification, however as consecutive scanning LiDAR points may include road and non-road surfaces, classification accuracy may suffer. Best per-Quadrant average classification rate was X.XX quadrants per second as tested on a machine with 64 GB of DDR4 RAM and a Ryzen 5900x @ 3.70GHz*24.}
 
 
@@ -387,7 +457,76 @@
 %\section{}
 %Appendix two text goes here.
 
+\section{All Results}\label{apdx:Appendix_2}
 
+\begin{table}[]
+	\centering
+	\begin{tabular}{|>{\centering\arraybackslash}p{.25cm}|>{\centering\arraybackslash}p{.25cm}|>{\raggedleft\arraybackslash}p{.8cm}|>{\raggedleft\arraybackslash}p{.4cm}|>{\raggedleft\arraybackslash}p{.8cm}|>{\raggedleft\arraybackslash}p{.8cm}|>{\raggedleft\arraybackslash}p{.8cm}|>{\raggedleft\arraybackslash}p{.8cm}|>{\raggedleft\arraybackslash}p{.8cm}|>{\raggedleft\arraybackslash}p{.8cm}|>{\raggedleft\arraybackslash}p{.8cm}|}
+		\hline
+		\spheading{Algorithm} & 
+		\spheading{Road Samp} & 
+		\spheading{Ratio of Road / Non-Road: On Road} & 
+		\spheading{Ratio of Road / Non-Road: Off Road} & 
+		\spheading{Ratio Score} & 
+		\spheading{True Road Surface Type Identification Score} & 
+		\spheading{False Road Surface Type Identification Score} & 
+		\spheading{False Non-Road CR Score} & 
+		\spheading{True Non-Road CR Score} &
+		\spheading{True Road Surface Identification} &
+		\spheading{False Road Surface Identification} \\
+		\hline
+		\multirow{6}{*}{\rotatebox[origin=c]{90}{MLS ALL}}
+		&		A		& 4.00   & 0.21 & 19.01  & 36.10 & 43.91 & 19.99 & 82.61 & 80.01  & 19.99 \\
+		&		B		& 3.89   & 2.36 & 1.65   & 23.93 & 55.61 & 20.45 & 29.75 & 79.55  & 20.45 \\
+		&		C		& 4.06   & 1.63 & 2.49   & 22.03 & 58.20 & 19.77 & 38.07 & 80.23  & 19.77 \\
+		&		D		& 2.22   & 0.44 & 5.09   & 58.80 & 22.25 & 18.96 & 69.67 & 81.04  & 18.96 \\
+		&		E		& 6.51   & 0.83 & 7.84   & 58.93 & 24.15 & 16.92 & 54.62 & 83.08  & 16.92 \\
+		&		F		& 26.20  & 0.81 & 32.44  & 79.74 & 13.73 & 6.54  & 55.32 & 93.46  & 6.54  \\
+		\hline
+		\multirow{6}{*}{\rotatebox[origin=c]{90}{MLS TT}}       
+		&		A		& 19.94  & 0.38 & 52.93  & 31.69 & 63.53 & 4.78  & 72.64 & 95.22  & 4.78  \\
+		&		B		& 19.52  & 4.69 & 4.16   & 25.24 & 69.89 & 4.87  & 17.56 & 95.13  & 4.87  \\
+		&		C		& 19.00  & 3.04 & 6.26   & 25.94 & 69.06 & 5.00  & 24.77 & 95.00  & 5.00  \\
+		&		D		& 2.09   & 1.27 & 1.65   & 8.94  & 45.08 & 45.98 & 44.10 & 54.02  & 45.98 \\
+		&		E		& 21.59  & 2.86 & 7.55   & 68.87 & 28.41 & 2.71  & 25.91 & 97.29  & 2.71  \\
+		&		F		& 100.00 & 1.57 & 63.56  & 84.50 & 15.50 & 0.00  & 38.86 & 100.00 & 0.00  \\
+		\hline
+		\multirow{6}{*}{\rotatebox[origin=c]{90}{RAN ALL}}     
+		&		A		& 11.42  & 0.23 & 50.35  & 41.39 & 50.56 & 8.05  & 81.51 & 91.95  & 8.05  \\
+		&		B		& 13.01  & 2.38 & 5.47   & 26.46 & 66.41 & 7.14  & 29.60 & 92.86  & 7.14  \\
+		&		C		& 14.61  & 1.72 & 8.49   & 27.27 & 66.33 & 6.41  & 36.76 & 93.59  & 6.41  \\
+		&		D		& 2.67   & 0.42 & 6.29   & 62.55 & 25.32 & 12.13 & 70.19 & 87.87  & 12.13 \\
+		&		E		& 10.74  & 0.76 & 14.05  & 63.03 & 29.61 & 7.36  & 56.68 & 92.64  & 7.36  \\
+		&		F		& 100.00 & 0.78 & 128.22 & 82.91 & 17.09 & 0.00  & 56.18 & 100.00 & 0.00  \\		
+		\hline
+		\multirow{6}{*}{\rotatebox[origin=c]{90}{RAN TT}}       
+		&		A		& 0.27   & 0.22 & 1.23   & 21.35 & 0.19  & 78.46 & 81.80 & 21.54  & 78.46 \\
+		&		B		& 0.70   & 0.54 & 1.29   & 38.21 & 2.87  & 58.92 & 64.92 & 41.08  & 58.92 \\
+		&		C		& 0.68   & 0.51 & 1.32   & 38.59 & 1.72  & 59.69 & 66.11 & 40.31  & 59.69 \\
+		&		D		& 1.17   & 0.52 & 2.27   & 43.30 & 29.72 & 26.99 & 65.98 & 73.01  & 26.99 \\
+		&		E		& 2.97   & 0.77 & 3.87   & 38.49 & 37.55 & 23.96 & 56.60 & 76.04  & 23.96 \\
+		&		F		& 2.05   & 0.57 & 3.58   & 74.32 & 11.20 & 14.47 & 63.60 & 85.53  & 14.47 \\
+		\hline
+		\multirow{6}{*}{\rotatebox[origin=c]{90}{RANGE}}  
+		&		A		& 4.00   & 0.21 & 19.01  & 36.10 & 43.91 & 19.99 & 82.61 & 80.01  & 19.99 \\
+		&		B		& 2.59   & 2.47 & 1.05   & 71.63 & 0.52  & 27.85 & 28.84 & 72.15  & 27.85 \\
+		&		C		& 1.75   & 2.26 & 0.77   & 63.05 & 0.55  & 36.41 & 30.66 & 63.59  & 36.41 \\
+		&		D		& 1.95   & 1.05 & 1.86   & 34.50 & 46.97 & 18.53 & 48.87 & 81.47  & 18.53 \\
+		&		E		& 6.54   & 1.59 & 4.12   & 29.32 & 53.86 & 16.82 & 38.62 & 83.18  & 16.82 \\
+		&		F		& 5.30   & 0.73 & 7.30   & 75.07 & 15.69 & 9.24  & 57.90 & 90.76  & 9.24  \\
+		\hline
+		\multirow{6}{*}{\rotatebox[origin=c]{90}{ZXY}}          
+		&		A		& 2.47   & 0.37 & 6.67   & 71.11 & 0.09  & 28.79 & 72.95 & 71.21  & 28.79 \\
+		&		B		& 13.36  & 1.78 & 7.53   & 89.99 & 3.05  & 6.96  & 36.03 & 93.04  & 6.96  \\
+		&		C		& 10.13  & 1.66 & 6.11   & 87.42 & 3.59  & 8.98  & 37.61 & 91.02  & 8.98  \\
+		&		D		& 0.38   & 0.29 & 1.28   & 3.24  & 14.44 & 82.33 & 77.28 & 17.67  & 82.33 \\
+		&		E		& 0.37   & 0.36 & 1.04   & 2.26  & 18.98 & 78.76 & 73.76 & 21.24  & 78.76 \\
+		&		F		& 43.63  & 0.87 & 49.99  & 89.73 & 8.03  & 2.24  & 53.40 & 97.76  & 2.24 \\
+		\hline                              
+	\end{tabular}
+	\caption[All Results]{All Results XD}
+	\label{tab:all_results}
+\end{table}
 
 % use section* for acknowledgment
 \justifying

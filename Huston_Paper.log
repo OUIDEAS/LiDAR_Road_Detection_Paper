@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  20 FEB 2023 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  23 FEB 2023 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -502,28 +502,280 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count307
 \enitdp@description=\count308
 )
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/attachfile/attachfile.sty
+Package: attachfile 2016/09/18 v1.9 PDF 1.3+ file attachment
+
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count309
+\calc@Bcount=\count310
+\calc@Adimen=\dimen268
+\calc@Bdimen=\dimen269
+\calc@Askip=\skip78
+\calc@Bskip=\skip79
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count311
+\calc@Cskip=\skip80
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.s
+ty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/home/autobuntu/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/home/autobuntu/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen270
+\Hy@linkcounter=\count312
+\Hy@pagecounter=\count313
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count314
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count315
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen271
+
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count316
+\Field@Width=\dimen272
+\Fld@charsize=\dimen273
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count317
+\c@Item=\count318
+\c@Hfootnote=\count319
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count320
+\c@bookmark@seq@number=\count321
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck
+.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter
+.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip81
+)
+\c@atfi@tmp=\count322
+\atfi@appearancewidth=\skip82
+\atfi@appearanceheight=\skip83
+\atfi@appearancedepth=\skip84
+\atfi@appearancebox=\box105
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/tabularray/tabularray.sty
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+
 (/home/autobuntu/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.de
 f
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count309
-\l__pdf_internal_box=\box105
+\l__color_backend_stack_int=\count323
+\l__pdf_internal_box=\box106
+))
+Package: tabularray 2022-11-01 v2022D Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count324
+\l__tblr_c_int=\count325
+\l__tblr_r_int=\count326
+\l__tblr_d_dim=\dimen274
+\l__tblr_h_dim=\dimen275
+\l__tblr_o_dim=\dimen276
+\l__tblr_p_dim=\dimen277
+\l__tblr_q_dim=\dimen278
+\l__tblr_r_dim=\dimen279
+\l__tblr_s_dim=\dimen280
+\l__tblr_t_dim=\dimen281
+\l__tblr_v_dim=\dimen282
+\l__tblr_w_dim=\dimen283
+\l__tblr_a_box=\box107
+\l__tblr_b_box=\box108
+\l__tblr_c_box=\box109
+\l__tblr_d_box=\box110
+\g__tblr_table_count_int=\count327
+\c@rownum=\count328
+\c@colnum=\count329
+\c@rowcount=\count330
+\c@colcount=\count331
+\abovesep=\dimen284
+\belowsep=\dimen285
+\leftsep=\dimen286
+\rightsep=\dimen287
+\g_tblr_level_int=\count332
+\g__tblr_data_row_key_count_int=\count333
+\g__tblr_data_column_key_count_int=\count334
+\g__tblr_data_cell_key_count_int=\count335
+\g__tblr_array_int=\count336
+\l__tblr_key_count_int=\count337
+\l__tblr_key_quotient_int=\count338
+\l__tblr_key_quotient_two_int=\count339
+\l__tblr_key_remainder_int=\count340
+\g__tblr_data_str_value_count_int=\count341
+\rulewidth=\dimen288
+\l__tblr_strut_dp_dim=\dimen289
+\l__tblr_strut_ht_dim=\dimen290
+\g__tblr_cell_wd_dim=\dimen291
+\g__tblr_cell_ht_dim=\dimen292
+\g__tblr_cell_head_dim=\dimen293
+\g__tblr_cell_foot_dim=\dimen294
+\l__column_target_dim=\dimen295
+\l__tblr_caption_box=\box111
+\l__tblr_caption_left_box=\box112
+\l__tblr_row_head_box=\box113
+\l__tblr_row_foot_box=\box114
+\l__tblr_row_head_foot_dim=\dimen296
+\tablewidth=\dimen297
+\l__tblr_table_firsthead_box=\box115
+\l__tblr_table_middlehead_box=\box116
+\l__tblr_table_lasthead_box=\box117
+\l__tblr_table_firstfoot_box=\box118
+\l__tblr_table_middlefoot_box=\box119
+\l__tblr_table_lastfoot_box=\box120
+\l__tblr_remain_height_dim=\dimen298
+\l__tblr_long_from_int=\count342
+\l__tblr_long_to_int=\count343
+\l__tblr_curr_i_int=\count344
+\l__tblr_prev_i_int=\count345
+\l__tblr_table_page_int=\count346
+\l__tblr_table_head_box=\box121
+\l__tblr_table_foot_box=\box122
+\l__tblr_table_head_foot_dim=\dimen299
+\l__tblr_table_head_body_foot_dim=\dimen300
+\l__tblr_table_box=\box123
+\l__tblr_table_hlines_box=\box124
+\l__tblr_hline_box=\box125
+\l__tblr_row_box=\box126
+\l__tblr_col_o_wd_dim=\dimen301
+\l__tblr_col_b_wd_dim=\dimen302
+\l__tblr_hline_leftskip_dim=\dimen303
+\l__tblr_hline_rightskip_dim=\dimen304
+\l__tblr_row_ht_dim=\dimen305
+\l__tblr_row_dp_dim=\dimen306
+\l__tblr_row_abovesep_dim=\dimen307
+\l__tblr_row_belowsep_dim=\dimen308
+\l__tblr_row_vlines_box=\box127
+\l__tblr_vline_box=\box128
+\l__tblr_cell_box=\box129
+\l__row_upper_dim=\dimen309
+\l__row_lower_dim=\dimen310
+\l__row_vpace_dim=\dimen311
+\l__tblr_vline_aboveskip_dim=\dimen312
+\l__tblr_vline_belowskip_dim=\dimen313
+\l__tblr_cell_wd_dim=\dimen314
+\l__tblr_cell_ht_dim=\dimen315
+\l__tblr_diag_box=\box130
 ) (Huston_Paper.aux)
 \openout1 = `Huston_Paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 -- Lines per column: 54 (approximate, difference = 2.43001pt).
 *geometry* driver: auto-detecting
@@ -562,16 +814,16 @@ LaTeX Font Info:    ... okay on input line 34.
 
 (/home/autobuntu/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count310
-\scratchdimen=\dimen268
-\scratchbox=\box106
-\nofMPsegments=\count311
-\nofMParguments=\count312
+\scratchcounter=\count347
+\scratchdimen=\dimen316
+\scratchbox=\box131
+\nofMPsegments=\count348
+\nofMParguments=\count349
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count313
-\MPscratchDim=\dimen269
-\MPnumerator=\count314
-\makeMPintoPDFobject=\count315
+\MPscratchCnt=\count350
+\MPscratchDim=\dimen317
+\MPnumerator=\count351
+\makeMPintoPDFobject=\count352
 \everyMPtoPDFconversion=\toks32
 )
 (/home/autobuntu/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.st
@@ -583,106 +835,371 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count316
-[1{/home/autobuntu/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}] [2]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 168
+\c@lstlisting=\count353
+Package hyperref Info: Link coloring OFF on input line 41.
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/home/autobuntu/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestri
+ng.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count354
+)
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
+ (Huston_Paper.out) (Huston_Paper.out)
+\@outlinefile=\write3
+\openout3 = `Huston_Paper.out'.
+
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/ninecolors/ninecolors.sty
+Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
+
+
+(/home/autobuntu/.miktex/texmfs/install/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)) [1{/home/autobuntu/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}] [2]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 175
 .
 
 (/home/autobuntu/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 168
+LaTeX Font Info:    Trying to load font information for U+msb on input line 175
 .
 
 (/home/autobuntu/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figures/Van.jpg, id=11, 4673.46pt x 3505.095pt>
+<figures/Van.jpg, id=145, 4673.46pt x 3505.095pt>
 File: figures/Van.jpg Graphic file (type jpg)
 <use figures/Van.jpg>
-Package pdftex.def Info: figures/Van.jpg  used on input line 174.
+Package pdftex.def Info: figures/Van.jpg  used on input line 181.
 (pdftex.def)             Requested size: 174.49841pt x 130.87381pt.
-<figures/vlp_32_mount_2.jpg, id=12, 3167.835pt x 2196.205pt>
+<figures/vlp_32_mount_2.jpg, id=146, 3167.835pt x 2196.205pt>
 File: figures/vlp_32_mount_2.jpg Graphic file (type jpg)
 <use figures/vlp_32_mount_2.jpg>
-Package pdftex.def Info: figures/vlp_32_mount_2.jpg  used on input line 180.
+Package pdftex.def Info: figures/vlp_32_mount_2.jpg  used on input line 187.
 (pdftex.def)             Requested size: 188.75679pt x 130.8618pt.
-<figures/Bean_Hollow_Road_Camera.png, id=13, 2071.74pt x 1549.79pt>
+<figures/Bean_Hollow_Road_Camera.png, id=147, 2071.74pt x 1549.79pt>
 File: figures/Bean_Hollow_Road_Camera.png Graphic file (type png)
 <use figures/Bean_Hollow_Road_Camera.png>
 Package pdftex.def Info: figures/Bean_Hollow_Road_Camera.png  used on input lin
-e 192.
+e 199.
 (pdftex.def)             Requested size: 190.14717pt x 142.24188pt.
-<figures/armig_2.png, id=15, 2071.74pt x 1549.79pt>
+<figures/armig_2.png, id=149, 2071.74pt x 1549.79pt>
 File: figures/armig_2.png Graphic file (type png)
 <use figures/armig_2.png>
-Package pdftex.def Info: figures/armig_2.png  used on input line 198.
+Package pdftex.def Info: figures/armig_2.png  used on input line 205.
 (pdftex.def)             Requested size: 190.14717pt x 142.24188pt.
  [3 <./figures/Van.jpg> <./figures/vlp_32_mount_2.jpg>]
-<figures/Rectangle_ROI.png, id=21, 335.48495pt x 357.54631pt>
+<figures/Rectangle_ROI.png, id=173, 335.48495pt x 357.54631pt>
 File: figures/Rectangle_ROI.png Graphic file (type png)
 <use figures/Rectangle_ROI.png>
-Package pdftex.def Info: figures/Rectangle_ROI.png  used on input line 216.
+Package pdftex.def Info: figures/Rectangle_ROI.png  used on input line 223.
 (pdftex.def)             Requested size: 105.69415pt x 112.64404pt.
-<figures/ROI_Points.png, id=22, 906.79831pt x 385.69357pt>
+<figures/ROI_Points.png, id=174, 906.79831pt x 385.69357pt>
 File: figures/ROI_Points.png Graphic file (type png)
 <use figures/ROI_Points.png>
-Package pdftex.def Info: figures/ROI_Points.png  used on input line 222.
+Package pdftex.def Info: figures/ROI_Points.png  used on input line 229.
 (pdftex.def)             Requested size: 105.69415pt x 44.95117pt.
-<figures/xy_vs_range.png, id=23, 1260.54095pt x 861.1541pt>
+<figures/xy_vs_range.png, id=177, 1260.54095pt x 861.1541pt>
 File: figures/xy_vs_range.png Graphic file (type png)
 <use figures/xy_vs_range.png>
-Package pdftex.def Info: figures/xy_vs_range.png  used on input line 232.
+Package pdftex.def Info: figures/xy_vs_range.png  used on input line 239.
 (pdftex.def)             Requested size: 234.8775pt x 160.45421pt.
  [4 <./figures/Bean_Hollow_Road_Camera.png> <./figures/armig_2.png> <./figures/
 Rectangle_ROI.png> <./figures/ROI_Points.png>]
-<figures/MLS_RAN_ALL.png, id=31, 570.55263pt x 380.36842pt>
+<figures/MLS_RAN_ALL.png, id=191, 570.55263pt x 380.36842pt>
 File: figures/MLS_RAN_ALL.png Graphic file (type png)
 <use figures/MLS_RAN_ALL.png>
-Package pdftex.def Info: figures/MLS_RAN_ALL.png  used on input line 245.
+Package pdftex.def Info: figures/MLS_RAN_ALL.png  used on input line 252.
 (pdftex.def)             Requested size: 211.38832pt x 140.92563pt.
-<figures/MLS_RAN_TT.png, id=32, 570.55263pt x 380.36842pt>
+<figures/MLS_RAN_TT.png, id=192, 570.55263pt x 380.36842pt>
 File: figures/MLS_RAN_TT.png Graphic file (type png)
 <use figures/MLS_RAN_TT.png>
-Package pdftex.def Info: figures/MLS_RAN_TT.png  used on input line 251.
+Package pdftex.def Info: figures/MLS_RAN_TT.png  used on input line 258.
 (pdftex.def)             Requested size: 211.38832pt x 140.92563pt.
-<figures/Range_Vali_Error.png, id=33, 570.55263pt x 380.36842pt>
+<figures/Range_Vali_Error.png, id=193, 570.55263pt x 380.36842pt>
 File: figures/Range_Vali_Error.png Graphic file (type png)
 <use figures/Range_Vali_Error.png>
-Package pdftex.def Info: figures/Range_Vali_Error.png  used on input line 258.
+Package pdftex.def Info: figures/Range_Vali_Error.png  used on input line 265.
 (pdftex.def)             Requested size: 211.38832pt x 140.92563pt.
-<figures/ZXY.png, id=34, 578.16pt x 375.804pt>
+<figures/ZXY.png, id=194, 578.16pt x 375.804pt>
 File: figures/ZXY.png Graphic file (type png)
 <use figures/ZXY.png>
-Package pdftex.def Info: figures/ZXY.png  used on input line 264.
+Package pdftex.def Info: figures/ZXY.png  used on input line 271.
 (pdftex.def)             Requested size: 211.38832pt x 137.39955pt.
  [5 <./figures/xy_vs_range.png>]
-<figures/mls_zxy_early_stopping.png, id=42, 2590.1568pt x 1001.6622pt>
+<figures/mls_zxy_early_stopping.png, id=205, 2590.1568pt x 1001.6622pt>
 File: figures/mls_zxy_early_stopping.png Graphic file (type png)
 <use figures/mls_zxy_early_stopping.png>
 Package pdftex.def Info: figures/mls_zxy_early_stopping.png  used on input line
- 274.
+ 281.
 (pdftex.def)             Requested size: 352.31625pt x 136.2426pt.
-<figures/Compiled_PCD.png, id=43, 845.93936pt x 535.55873pt>
-File: figures/Compiled_PCD.png Graphic file (type png)
-<use figures/Compiled_PCD.png>
-Package pdftex.def Info: figures/Compiled_PCD.png  used on input line 285.
-(pdftex.def)             Requested size: 328.82707pt x 208.18062pt.
  [6 <./figures/MLS_RAN_ALL.png (PNG copy)> <./figures/MLS_RAN_TT.png (PNG copy)
 > <./figures/Range_Vali_Error.png (PNG copy)> <./figures/ZXY.png (PNG copy)> <.
 /figures/mls_zxy_early_stopping.png (PNG copy)>]
-<figures/both_classification_things_sturbois_curve_1.png, id=47, 504.36853pt x 
-812.46695pt>
-File: figures/both_classification_things_sturbois_curve_1.png Graphic file (typ
-e png)
-<use figures/both_classification_things_sturbois_curve_1.png>
-Package pdftex.def Info: figures/both_classification_things_sturbois_curve_1.pn
-g  used on input line 301.
-(pdftex.def)             Requested size: 211.38832pt x 340.51476pt.
- [7 <./figures/Compiled_PCD.png>] [8 <./figures/both_classification_things_stur
-bois_curve_1.png>] (Huston_Paper.bbl
+<figures/Compiled_PCD.png, id=211, 845.93936pt x 535.55873pt>
+File: figures/Compiled_PCD.png Graphic file (type png)
+<use figures/Compiled_PCD.png>
+Package pdftex.def Info: figures/Compiled_PCD.png  used on input line 294.
+(pdftex.def)             Requested size: 200.81825pt x 127.13113pt.
+<figures/short_chip_redux.png, id=212, 2590.30894pt x 1001.89043pt>
+File: figures/short_chip_redux.png Graphic file (type png)
+<use figures/short_chip_redux.png>
+Package pdftex.def Info: figures/short_chip_redux.png  used on input line 300.
+(pdftex.def)             Requested size: 200.81825pt x 77.66098pt.
+<figures/curve_gravel.png, id=216, 2590.30894pt x 1001.89043pt>
+File: figures/curve_gravel.png Graphic file (type png)
+<use figures/curve_gravel.png>
+Package pdftex.def Info: figures/curve_gravel.png  used on input line 322.
+(pdftex.def)             Requested size: 220.89938pt x 85.4271pt.
+<figures/curve_gravel_2.png, id=217, 2590.30894pt x 1001.89043pt>
+File: figures/curve_gravel_2.png Graphic file (type png)
+<use figures/curve_gravel_2.png>
+Package pdftex.def Info: figures/curve_gravel_2.png  used on input line 328.
+(pdftex.def)             Requested size: 220.89938pt x 85.4271pt.
+<figures/long_gravel_1.png, id=218, 2590.30894pt x 1001.89043pt>
+File: figures/long_gravel_1.png Graphic file (type png)
+<use figures/long_gravel_1.png>
+Package pdftex.def Info: figures/long_gravel_1.png  used on input line 334.
+(pdftex.def)             Requested size: 220.89938pt x 85.4271pt.
+<figures/long_chip_redux.png, id=219, 2590.30894pt x 1001.89043pt>
+File: figures/long_chip_redux.png Graphic file (type png)
+<use figures/long_chip_redux.png>
+Package pdftex.def Info: figures/long_chip_redux.png  used on input line 340.
+(pdftex.def)             Requested size: 220.89938pt x 85.4271pt.
+<figures/long_chip_redux_2.png, id=220, 2590.30894pt x 1001.89043pt>
+File: figures/long_chip_redux_2.png Graphic file (type png)
+<use figures/long_chip_redux_2.png>
+Package pdftex.def Info: figures/long_chip_redux_2.png  used on input line 346.
+
+(pdftex.def)             Requested size: 220.89938pt x 85.4271pt.
+File: figures/short_chip_redux.png Graphic file (type png)
+<use figures/short_chip_redux.png>
+Package pdftex.def Info: figures/short_chip_redux.png  used on input line 352.
+(pdftex.def)             Requested size: 220.89938pt x 85.4271pt.
+ [7 <./figures/Compiled_PCD.png> <./figures/short_chip_redux.png (PNG copy)>]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [8 <./figures/curve_gravel.png (PNG copy)> <./figures/curve_gravel_2.png (PNG 
+copy)> <./figures/long_gravel_1.png (PNG copy)> <./figures/long_chip_redux.png 
+(PNG copy)> <./figures/long_chip_redux_2.png (PNG copy)>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 460.
+
+
+Overfull \hbox (3.1869pt too wide) in paragraph at lines 467--467
+ []|[]|
+ []
+
+
+Overfull \hbox (0.80554pt too wide) in paragraph at lines 469--469
+ []|[]|
+ []
+
+
+Overfull \hbox (0.80554pt too wide) in paragraph at lines 470--470
+ []|[]|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 477--477
+ []|\OT1/ptm/m/n/8 0.21|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 478--478
+ []|\OT1/ptm/m/n/8 2.36|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 479--479
+ []|\OT1/ptm/m/n/8 1.63|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 480--480
+ []|\OT1/ptm/m/n/8 0.44|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 481--481
+ []|\OT1/ptm/m/n/8 0.83|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 482--482
+ []|\OT1/ptm/m/n/8 0.81|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 485--485
+ []|\OT1/ptm/m/n/8 0.38|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 486--486
+ []|\OT1/ptm/m/n/8 4.69|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 487--487
+ []|\OT1/ptm/m/n/8 3.04|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 488--488
+ []|\OT1/ptm/m/n/8 1.27|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 489--489
+ []|\OT1/ptm/m/n/8 2.86|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 490--490
+ []|\OT1/ptm/m/n/8 1.57|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 493--493
+ []|\OT1/ptm/m/n/8 0.23|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 494--494
+ []|\OT1/ptm/m/n/8 2.38|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 495--495
+ []|\OT1/ptm/m/n/8 1.72|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 496--496
+ []|\OT1/ptm/m/n/8 0.42|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 497--497
+ []|\OT1/ptm/m/n/8 0.76|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 498--498
+ []|\OT1/ptm/m/n/8 0.78|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 501--501
+ []|\OT1/ptm/m/n/8 0.22|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 502--502
+ []|\OT1/ptm/m/n/8 0.54|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 503--503
+ []|\OT1/ptm/m/n/8 0.51|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 504--504
+ []|\OT1/ptm/m/n/8 0.52|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 505--505
+ []|\OT1/ptm/m/n/8 0.77|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 506--506
+ []|\OT1/ptm/m/n/8 0.57|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 509--509
+ []|\OT1/ptm/m/n/8 0.21|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 510--510
+ []|\OT1/ptm/m/n/8 2.47|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 511--511
+ []|\OT1/ptm/m/n/8 2.26|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 512--512
+ []|\OT1/ptm/m/n/8 1.05|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 513--513
+ []|\OT1/ptm/m/n/8 1.59|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 514--514
+ []|\OT1/ptm/m/n/8 0.73|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 517--517
+ []|\OT1/ptm/m/n/8 0.37|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 518--518
+ []|\OT1/ptm/m/n/8 1.78|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 519--519
+ []|\OT1/ptm/m/n/8 1.66|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 520--520
+ []|\OT1/ptm/m/n/8 0.29|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 521--521
+ []|\OT1/ptm/m/n/8 0.36|
+ []
+
+
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 522--522
+ []|\OT1/ptm/m/n/8 0.87|
+ []
+
+(Huston_Paper.bbl
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 4
 .
 
@@ -692,31 +1209,33 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
  [9]
-[10]) [11] (Huston_Paper.aux) ) 
+[10] [11] [12]) [13] (Huston_Paper.aux)
+Package rerunfilecheck Info: File `Huston_Paper.out' has not changed.
+(rerunfilecheck)             Checksum: DB3A92C7022422774987F911DA2F3F85;817.
+ ) 
 Here is how much of TeX's memory you used:
- 10295 strings out of 478583
- 175560 string characters out of 2847216
- 490787 words of memory out of 3000000
- 28310 multiletter control sequences out of 15000+600000
- 511557 words of font info for 121 fonts, out of 8000000 for 9000
+ 19779 strings out of 478583
+ 352722 string characters out of 2847216
+ 744062 words of memory out of 3000000
+ 37566 multiletter control sequences out of 15000+600000
+ 513117 words of font info for 124 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 67i,8n,77p,2377b,519s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{/home/autobuntu/.miktex/texmfs/install/fonts/en
-c/dvips/base/8r.enc}</home/autobuntu/.miktex/texmfs/install/fonts/type1/public/
-amsfonts/cm/cmex10.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/publ
-ic/amsfonts/cm/cmmi10.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/p
-ublic/amsfonts/cm/cmmi7.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1
-/public/amsfonts/cm/cmmi9.pfb></home/autobuntu/.miktex/texmfs/install/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></home/autobuntu/.miktex/texmfs/install/fonts/t
-ype1/public/amsfonts/cm/cmr7.pfb></home/autobuntu/.miktex/texmfs/install/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></home/autobuntu/.miktex/texmfs/install/fon
-ts/type1/public/amsfonts/cm/cmsy7.pfb></home/autobuntu/.miktex/texmfs/install/f
-onts/type1/urw/times/utmb8a.pfb></home/autobuntu/.miktex/texmfs/install/fonts/t
-ype1/urw/times/utmr8a.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/u
-rw/times/utmri8a.pfb>
-Output written on Huston_Paper.pdf (11 pages, 16135558 bytes).
+ 75i,13n,100p,2377b,767s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/au
+tobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home
+/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></h
+ome/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
+/home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi9.pfb
+></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
+msy7.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.p
+fb></home/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></h
+ome/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Huston_Paper.pdf (13 pages, 17496359 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 354 PDF objects out of 1000 (max. 8388607)
+ 99 named destinations out of 1000 (max. 500000)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
