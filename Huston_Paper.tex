@@ -358,39 +358,44 @@
 	\end{figure}
 
 	{Results were scored by comparing the location of the averaged classified quadrant's (x,y) coordinate to the area that the manually defined areas (Table \ref{tab:averaged_results} shows results for algorithm designation RAN ALL which produced the results in Figure \ref{fig:classified_point_clouds_all}. All results are shown in Table \ref{tab:all_results} in Appendix \ref{apdx:Appendix_2}). Ratio of road to non-road in manually defined road and side-of-road areas are shown in columns 3 and 4, with higher values indicating a greater presence of positive road identification. The quotient of the two ratios (col. 5) allows for estimation of road edge detection ability. Scores for correct and incorrect road surface type is shown, indicating the algorithm's ability to correctly determine the road surface type (cols. 6,7). Percentages of grass and foliage classification for both side-of-road and on road are given in cols. 8 \& 9, indicating true/false-negative road surface identification capability. True/false-positive road surface identification percentages are indicated in cols 10-11.}
-	
-	{Of the algorithms tested (Appendix \ref{apdx:Appendix_2}), the RDF that used RANSAC as the plane projection method and the full feature set seemed to perform the most consistently for true non-road surface identification. While it did struggle with gravel identification (32.72\% average accuracy) with a high confusion rate with grass (27.47\% false identification), there was a consistent decrease ($>20\%$) in false-positive road identification in side-of-road areas. }
-	
-	{It was found that while none of the algorithms excelled in all areas, }
+
+	{It was found that while none of the algorithms excelled in all areas, the results seem to indicate that implementing a multiple-model algorithm to create an ensemble would greatly increase road detection accuracy. Of the algorithms tested (Appendix \ref{apdx:Appendix_2}), the RDF that used RANSAC as the plane projection method and the full feature (designated RAN ALL) performed the most consistently for true non-road surface identification, with an average of 66.5\% (median of 65.5\%). While it did struggle with gravel identification (32.72\% average accuracy) with a high confusion rate with grass (27.47\% false identification), it may be supplemented with the RDF designated RANGE, which has the highest true-positive gravel identification rate of 82.8\%. A classification method was tested to verify this method based on RAN ALL and RANGE algorithms. RAN ALL would would designate non-road surfaces and the determination of road surface type was a combined effort of the two (Figure \ref{}), thus achieving a higher accuracy. }
 	
 	\begin{table}[H]
 		\centering
 		\begin{tblr}{width=0.9\linewidth,colspec={|Q[1,m,c]|Q[1.5,m,c]|Q[1.5,m,c]|Q[1.5,m,c]|Q[1.5,m,c]|Q[1.5,m,c]|}}
 			\hline
-			Algorithm & Average \% of True Gravel Type & Average \% of True Chipseal Type & Average \% of True Surface Type Identification & Average \% True Road Surface Detection & Average \% of True  Non-Road Surface Detection\\
+			Algorithm Designation & Average \% of True Gravel Type Identification & Average \% of True Chipseal Type Identification & Average \% of True Surface Type Identification & Average \% True Road Surface Detection & Average \% of True  Non-Road Surface Detection\\
 			\hline
-			MLS ALL & 27.35 & 61.50 & 46.59 & 82.90 & 55.01 \\
+			MLS ALL & 35.354 & 68.581 & 46.587 & 82.896 & 55.006 \\
 			\hline
-			MLS TT  & 27.62 & 50.37 & 40.86 & 89.44 & 37.31 \\
+			MLS TT  & 37.833 & 55.162 & 40.865 & 89.444 & 37.308 \\
 			\hline
-			ZXY     & 31.70 & 65.65 & 50.60 & 93.15 & 55.16 \\
+			ZXY     & 35.697 & 73.211 & 50.601 & 93.153 & 55.156 \\
 			\hline
-			RAN ALL & 32.72 & 48.42 & 42.38 & 56.25 & 66.50 \\
+			RAN ALL & 36.119 & 54.169 & 42.376 & 56.252 & 66.500 \\
 			\hline
-			RANGE   & 56.92 & 39.97 & 51.61 & 78.53 & 47.92 \\
+			RANGE   & 61.822 & 44.758 & 51.610 & 78.526 & 47.918 \\
 			\hline
-			RAN TT  & 82.84 & 27.60 & 57.29 & 65.32 & 58.51 \\
+			RAN TT  & 54.508 & 27.617 & 57.293 & 65.323 & 58.506 \\
 			\hline
+%			Ens\_1  & 61.822 & 44.758 & 51.610 & 78.526 & 66.685 \\
+%			\hline
 		\end{tblr}
-		\caption[Averaged Results]{Average results for all algorithms and all tested roads}
+		\caption[Averaged Results]{Average results of all algorithms on tested roads. }
 		\label{tab:averaged_results}
 	\end{table}
-
-
 	
-	
+%	\begin{figure}[H]
+%		\centering
+%		\includegraphics[width=0.75\linewidth]{figures/RAN_ALL_ofroad_RANGE_onroad}
+%		\caption[Early Stopping]{Diminishing returns on increasing algorithm size versus accuracy can be used to determine the early stopping point of algorithm growth.}
+%		\label{fig:combo_result}
+%	\end{figure}	
 	
 	{Quadrant size affects terrain classification accuracy at the expense of granularity of results and computational time. Smaller quadrants allow for greater resolution of terrain classification, however more computational time is required. Larger quadrants allow for swifter classification, however as consecutive scanning LiDAR points may include road and non-road surfaces, classification accuracy may suffer. Best per-Quadrant average classification rate was X.XX quadrants per second as tested on a machine with 64 GB of DDR4 RAM and a Ryzen 5900x @ 3.70GHz*24.}
+	
+	
 
 
 \section{Conclusion}
