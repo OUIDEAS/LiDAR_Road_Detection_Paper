@@ -283,32 +283,6 @@ S.~Wang, S.~Kodagoda, L.~Shi, and X.~Dai, ``Two-{Stage} {Road} {Terrain}
   vol.~33, pp.~29--39, Jan. 2018.
 \newblock Conference Name: IEEE Intelligent Systems.
 
-\bibitem{miller_method_nodate}
-S.~J. Miller, ``The {Method} of {Least} {Squares},'' p.~7.
-
-\bibitem{gojcic_perfect_2019}
-Z.~Gojcic, C.~Zhou, J.~D. Wegner, and A.~Wieser, ``The {Perfect} {Match}: {3D}
-  {Point} {Cloud} {Matching} {With} {Smoothed} {Densities},'' in {\em 2019
-  {IEEE}/{CVF} {Conference} on {Computer} {Vision} and {Pattern} {Recognition}
-  ({CVPR})}, (Long Beach, CA, USA), pp.~5540--5549, IEEE, June 2019.
-
-\bibitem{derpanis_overview_nodate}
-K.~G. Derpanis, ``Overview of the {RANSAC} {Algorithm},'' p.~2.
-
-\bibitem{yaniv_random_2010}
-Z.~Yaniv, ``Random {Sample} {Consensus} ({RANSAC}) {Algorithm}, {A} {Generic}
-  {Implementation},'' {\em The Insight Journal}, 2010.
-
-\bibitem{fischler_random_1987}
-M.~A. Fischler and R.~C. Bolles, ``Random {Sample} {Consensus}: {A} {Paradigm}
-  for {Model} {Fitting} with {Applications} to {Image} {Analysis} and
-  {Automated} {Cartography},'' in {\em Readings in {Computer} {Vision}} (M.~A.
-  Fischler and O.~Firschein, eds.), pp.~726--740, San Francisco (CA): Morgan
-  Kaufmann, Jan. 1987.
-
-\bibitem{cantzler_random_nodate}
-H.~Cantzler, ``Random {Sample} {Consensus} ({RANSAC}),'' p.~4.
-
 \bibitem{ho_random_1995}
 T.~K. Ho, ``Random decision forests,'' in {\em Proceedings of 3rd
   {International} {Conference} on {Document} {Analysis} and {Recognition}},
@@ -334,7 +308,12 @@ J.~Wietrzykowski and P.~Skrzypczyński, ``Context-{Aware} {Recognition} of
   and S.~Ghidoni, eds.), (Cham), pp.~626--638, Springer International
   Publishing, 2019.
 
-\bibitem{noauthor_object-oriented_nodate}
-``Object-oriented tools for fitting conics and quadrics.''
+\bibitem{noauthor_bayesian_nodate}
+``Bayesian {Optimization} {Algorithm} - {MATLAB} \& {Simulink}.''
+
+\bibitem{snoek_practical_2012}
+J.~Snoek, H.~Larochelle, and R.~P. Adams, ``Practical {Bayesian} {Optimization}
+  of {Machine} {Learning} {Algorithms},'' Aug. 2012.
+\newblock arXiv:1206.2944 [cs, stat].
 
 \end{thebibliography}
