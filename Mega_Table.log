@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  8 MAR 2023 15:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  28 APR 2023 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -706,12 +706,12 @@ Package: xparse 2022-01-12 L3 Experimental document command parser
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 93.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 92.
 
  (/home/autobuntu/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 93.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 92.
 
 
 (/home/autobuntu/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
@@ -722,281 +722,257 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 > Step: split table.
 > Step: init table inner spec.
 > Step: parse table inner spec.
-
-
-! Package tabularray Error: Unknown column type o!
-
-Type <return> to continue.
- ...                                              
-                                                  
-l.101 ^^I\end
-             {tblr}
-
-LaTeX does not know anything more about this error, sorry.
-
-Try typing <return> to proceed.
-If that doesn't work, type X <return> to quit.
-
-
-> \g_tblr_used_column_types_str=Q|<>lcrjtpmbhfX!@*.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-> Step: build the whole table.
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
+
 
 Package tabularray Warning: Table width is too small, need 80.02747pt more!
 
 > Step: build the whole table.
 
 LaTeX Warning: Reference `fig:classified_point_clouds_all' on page 1 undefined 
-on input line 175.
+on input line 166.
 
 
-Overfull \hbox (3.1869pt too wide) in paragraph at lines 177--177
+Overfull \hbox (3.1869pt too wide) in paragraph at lines 168--168
  []|[]|
  []
 
 
-Overfull \hbox (0.80554pt too wide) in paragraph at lines 179--179
+Overfull \hbox (0.80554pt too wide) in paragraph at lines 170--170
  []|[]|
  []
 
 
-Overfull \hbox (0.80554pt too wide) in paragraph at lines 180--180
+Overfull \hbox (0.80554pt too wide) in paragraph at lines 171--171
  []|[]|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 187--187
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 178--178
  []|\OT1/ptm/m/n/8 0.23|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 188--188
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 179--179
  []|\OT1/ptm/m/n/8 2.38|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 189--189
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 180--180
  []|\OT1/ptm/m/n/8 1.72|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 190--190
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 181--181
  []|\OT1/ptm/m/n/8 0.42|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 191--191
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 182--182
  []|\OT1/ptm/m/n/8 0.76|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 192--192
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 183--183
  []|\OT1/ptm/m/n/8 0.78|
  []
 
 
 LaTeX Warning: Reference `fig:classified_point_clouds_all' on page 1 undefined 
-on input line 195.
+on input line 186.
 
 
 LaTeX Warning: Reference `fig:classified_point_clouds_all' on page 1 undefined 
-on input line 195.
+on input line 186.
 
 
-Overfull \hbox (0.80554pt too wide) in paragraph at lines 238--238
+Overfull \hbox (0.80554pt too wide) in paragraph at lines 229--229
  []|[]|
  []
 
 
-Overfull \hbox (0.80554pt too wide) in paragraph at lines 239--239
+Overfull \hbox (0.80554pt too wide) in paragraph at lines 230--230
  []|[]|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 247--247
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 238--238
  []|\OT1/ptm/m/n/8 0.21|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 248--248
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 239--239
  []|\OT1/ptm/m/n/8 2.36|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 249--249
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 240--240
  []|\OT1/ptm/m/n/8 1.63|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 250--250
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 241--241
  []|\OT1/ptm/m/n/8 0.44|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 251--251
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 242--242
  []|\OT1/ptm/m/n/8 0.83|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 252--252
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 243--243
  []|\OT1/ptm/m/n/8 0.81|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 255--255
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 246--246
  []|\OT1/ptm/m/n/8 0.38|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 256--256
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 247--247
  []|\OT1/ptm/m/n/8 4.69|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 257--257
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 248--248
  []|\OT1/ptm/m/n/8 3.04|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 258--258
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 249--249
  []|\OT1/ptm/m/n/8 1.27|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 259--259
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 250--250
  []|\OT1/ptm/m/n/8 2.86|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 260--260
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 251--251
  []|\OT1/ptm/m/n/8 1.57|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 263--263
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 254--254
  []|\OT1/ptm/m/n/8 0.23|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 264--264
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 255--255
  []|\OT1/ptm/m/n/8 2.38|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 265--265
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 256--256
  []|\OT1/ptm/m/n/8 1.72|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 266--266
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 257--257
  []|\OT1/ptm/m/n/8 0.42|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 267--267
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 258--258
  []|\OT1/ptm/m/n/8 0.76|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 268--268
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 259--259
  []|\OT1/ptm/m/n/8 0.78|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 271--271
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 262--262
  []|\OT1/ptm/m/n/8 0.22|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 272--272
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 263--263
  []|\OT1/ptm/m/n/8 0.54|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 273--273
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 264--264
  []|\OT1/ptm/m/n/8 0.51|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 274--274
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 265--265
  []|\OT1/ptm/m/n/8 0.52|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 275--275
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 266--266
  []|\OT1/ptm/m/n/8 0.77|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 276--276
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 267--267
  []|\OT1/ptm/m/n/8 0.57|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 279--279
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 270--270
  []|\OT1/ptm/m/n/8 0.21|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 280--280
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 271--271
  []|\OT1/ptm/m/n/8 2.47|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 281--281
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 272--272
  []|\OT1/ptm/m/n/8 2.26|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 282--282
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 273--273
  []|\OT1/ptm/m/n/8 1.05|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 283--283
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 274--274
  []|\OT1/ptm/m/n/8 1.59|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 284--284
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 275--275
  []|\OT1/ptm/m/n/8 0.73|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 287--287
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 278--278
  []|\OT1/ptm/m/n/8 0.37|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 288--288
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 279--279
  []|\OT1/ptm/m/n/8 1.78|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 289--289
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 280--280
  []|\OT1/ptm/m/n/8 1.66|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 290--290
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 281--281
  []|\OT1/ptm/m/n/8 0.29|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 291--291
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 282--282
  []|\OT1/ptm/m/n/8 0.36|
  []
 
 
-Overfull \hbox (2.61908pt too wide) in paragraph at lines 292--292
+Overfull \hbox (2.61908pt too wide) in paragraph at lines 283--283
  []|\OT1/ptm/m/n/8 0.87|
  []
 
@@ -1011,17 +987,17 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 12489 strings out of 478583
- 232992 string characters out of 2847216
- 692133 words of memory out of 3000000
- 30523 multiletter control sequences out of 15000+600000
- 507240 words of font info for 107 fonts, out of 8000000 for 9000
+ 12469 strings out of 478583
+ 232295 string characters out of 2847216
+ 691446 words of memory out of 3000000
+ 30503 multiletter control sequences out of 15000+600000
+ 506227 words of font info for 104 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 67i,14n,100p,471b,759s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 67i,14n,100p,471b,769s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/au
 tobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/autobunt
 u/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Mega_Table.pdf (2 pages, 39610 bytes).
+Output written on Mega_Table.pdf (2 pages, 39822 bytes).
 PDF statistics:
  20 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

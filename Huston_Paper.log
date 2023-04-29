@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  27 APR 2023 16:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  28 APR 2023 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -879,35 +879,35 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 175
 (/home/autobuntu/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figures/van_on_van.jpg, id=139, 4673.46pt x 3505.095pt>
+<figures/van_on_van.jpg, id=135, 4673.46pt x 3505.095pt>
 File: figures/van_on_van.jpg Graphic file (type jpg)
 <use figures/van_on_van.jpg>
 Package pdftex.def Info: figures/van_on_van.jpg  used on input line 181.
 (pdftex.def)             Requested size: 174.49841pt x 130.87381pt.
-<figures/LiDAR_on_van.jpg, id=140, 4673.46pt x 3505.095pt>
+<figures/LiDAR_on_van.jpg, id=136, 4673.46pt x 3505.095pt>
 File: figures/LiDAR_on_van.jpg Graphic file (type jpg)
 <use figures/LiDAR_on_van.jpg>
 Package pdftex.def Info: figures/LiDAR_on_van.jpg  used on input line 187.
 (pdftex.def)             Requested size: 174.49841pt x 130.87381pt.
-<figures/vlcsnap-2023-04-20-08h48m17s447.png, id=141, 2071.74pt x 1549.79pt>
+<figures/vlcsnap-2023-04-20-08h48m17s447.png, id=137, 2071.74pt x 1549.79pt>
 File: figures/vlcsnap-2023-04-20-08h48m17s447.png Graphic file (type png)
 <use figures/vlcsnap-2023-04-20-08h48m17s447.png>
 Package pdftex.def Info: figures/vlcsnap-2023-04-20-08h48m17s447.png  used on i
 nput line 199.
 (pdftex.def)             Requested size: 190.14717pt x 142.24188pt.
-<figures/armig_2.png, id=142, 2071.74pt x 1549.79pt>
-File: figures/armig_2.png Graphic file (type png)
-<use figures/armig_2.png>
-Package pdftex.def Info: figures/armig_2.png  used on input line 205.
+<figures/gravel_lot_pic.png, id=138, 2071.74pt x 1549.79pt>
+File: figures/gravel_lot_pic.png Graphic file (type png)
+<use figures/gravel_lot_pic.png>
+Package pdftex.def Info: figures/gravel_lot_pic.png  used on input line 205.
 (pdftex.def)             Requested size: 190.14717pt x 142.24188pt.
  [3 <./figures/van_on_van.jpg> <./figures/LiDAR_on_van.jpg> <./figures/vlcsnap-
-2023-04-20-08h48m17s447.png (PNG copy)> <./figures/armig_2.png>]
-<figures/Compiled_PCD.png, id=160, 845.93936pt x 535.55873pt>
+2023-04-20-08h48m17s447.png (PNG copy)> <./figures/gravel_lot_pic.png>]
+<figures/Compiled_PCD.png, id=156, 845.93936pt x 535.55873pt>
 File: figures/Compiled_PCD.png Graphic file (type png)
 <use figures/Compiled_PCD.png>
 Package pdftex.def Info: figures/Compiled_PCD.png  used on input line 221.
 (pdftex.def)             Requested size: 200.81825pt x 127.13113pt.
-<figures/Manually_Defined_Area_Train_Dat_Grab_2.png, id=161, 2076.75874pt x 101
+<figures/Manually_Defined_Area_Train_Dat_Grab_2.png, id=157, 2076.75874pt x 101
 6.79875pt>
 File: figures/Manually_Defined_Area_Train_Dat_Grab_2.png Graphic file (type png
 )
@@ -915,401 +915,39 @@ File: figures/Manually_Defined_Area_Train_Dat_Grab_2.png Graphic file (type png
 Package pdftex.def Info: figures/Manually_Defined_Area_Train_Dat_Grab_2.png  us
 ed on input line 227.
 (pdftex.def)             Requested size: 200.81825pt x 98.31906pt.
-<figures/flowz.png, id=165, 1516.66624pt x 413.545pt>
+<figures/flowz.png, id=159, 1516.66624pt x 413.545pt>
 File: figures/flowz.png Graphic file (type png)
 <use figures/flowz.png>
-Package pdftex.def Info: figures/flowz.png  used on input line 261.
+Package pdftex.def Info: figures/flowz.png  used on input line 259.
 (pdftex.def)             Requested size: 422.77664pt x 115.27437pt.
-<figures/RAN_MLS_ALL.png, id=166, 570.55263pt x 380.36842pt>
-File: figures/RAN_MLS_ALL.png Graphic file (type png)
-<use figures/RAN_MLS_ALL.png>
-Package pdftex.def Info: figures/RAN_MLS_ALL.png  used on input line 270.
-(pdftex.def)             Requested size: 211.38832pt x 140.92563pt.
-<figures/RAN_MLS_TT.png, id=167, 570.55263pt x 380.36842pt>
-File: figures/RAN_MLS_TT.png Graphic file (type png)
-<use figures/RAN_MLS_TT.png>
-Package pdftex.def Info: figures/RAN_MLS_TT.png  used on input line 276.
-(pdftex.def)             Requested size: 211.38832pt x 140.92563pt.
-<figures/Range.png, id=168, 570.55263pt x 380.36842pt>
-File: figures/Range.png Graphic file (type png)
-<use figures/Range.png>
-Package pdftex.def Info: figures/Range.png  used on input line 283.
-(pdftex.def)             Requested size: 211.38832pt x 140.92563pt.
-<figures/zxy.png, id=169, 570.55263pt x 380.36842pt>
-File: figures/zxy.png Graphic file (type png)
-<use figures/zxy.png>
-Package pdftex.def Info: figures/zxy.png  used on input line 289.
-(pdftex.def)             Requested size: 211.38832pt x 140.92563pt.
  [4 <./figures/Compiled_PCD.png> <./figures/Manually_Defined_Area_Train_Dat_Gra
 b_2.png>]
-<figures/early_stopping_example.png, id=184, 1942.16116pt x 734.11105pt>
-File: figures/early_stopping_example.png Graphic file (type png)
-<use figures/early_stopping_example.png>
-Package pdftex.def Info: figures/early_stopping_example.png  used on input line
- 299.
-(pdftex.def)             Requested size: 352.31625pt x 133.16483pt.
- [5 <./figures/flowz.png> <./figures/RAN_MLS_ALL.png (PNG copy)> <./figures/RAN
-_MLS_TT.png (PNG copy)> <./figures/Range.png (PNG copy)> <./figures/zxy.png (PN
-G copy)>]
-<figures/curve_gravel.png, id=195, 2590.30894pt x 1001.89043pt>
-File: figures/curve_gravel.png Graphic file (type png)
-<use figures/curve_gravel.png>
-Package pdftex.def Info: figures/curve_gravel.png  used on input line 324.
-(pdftex.def)             Requested size: 220.89938pt x 85.4271pt.
-<figures/curve_gravel_2.png, id=196, 2590.30894pt x 1001.89043pt>
-File: figures/curve_gravel_2.png Graphic file (type png)
-<use figures/curve_gravel_2.png>
-Package pdftex.def Info: figures/curve_gravel_2.png  used on input line 330.
-(pdftex.def)             Requested size: 220.89938pt x 85.4271pt.
-<figures/long_gravel_1.png, id=197, 2590.30894pt x 1001.89043pt>
-File: figures/long_gravel_1.png Graphic file (type png)
-<use figures/long_gravel_1.png>
-Package pdftex.def Info: figures/long_gravel_1.png  used on input line 336.
-(pdftex.def)             Requested size: 220.89938pt x 85.4271pt.
-<figures/long_chip_redux.png, id=198, 2590.30894pt x 1001.89043pt>
-File: figures/long_chip_redux.png Graphic file (type png)
-<use figures/long_chip_redux.png>
-Package pdftex.def Info: figures/long_chip_redux.png  used on input line 342.
-(pdftex.def)             Requested size: 220.89938pt x 85.4271pt.
-<figures/long_chip_redux_2.png, id=199, 2590.30894pt x 1001.89043pt>
-File: figures/long_chip_redux_2.png Graphic file (type png)
-<use figures/long_chip_redux_2.png>
-Package pdftex.def Info: figures/long_chip_redux_2.png  used on input line 348.
-
-(pdftex.def)             Requested size: 220.89938pt x 85.4271pt.
-<figures/short_chip_redux.png, id=200, 2590.30894pt x 1001.89043pt>
-File: figures/short_chip_redux.png Graphic file (type png)
-<use figures/short_chip_redux.png>
-Package pdftex.def Info: figures/short_chip_redux.png  used on input line 354.
-(pdftex.def)             Requested size: 220.89938pt x 85.4271pt.
- [6 <./figures/early_stopping_example.png (PNG copy)>] [7 <./figures/curve_grav
-el.png (PNG copy)> <./figures/curve_gravel_2.png (PNG copy)> <./figures/long_gr
-avel_1.png (PNG copy)> <./figures/long_chip_redux.png (PNG copy)> <./figures/lo
-ng_chip_redux_2.png (PNG copy)> <./figures/short_chip_redux.png (PNG copy)>]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
-<figures/class_rate_2.png, id=217, 433.62pt x 314.94505pt>
-File: figures/class_rate_2.png Graphic file (type png)
-<use figures/class_rate_2.png>
-Package pdftex.def Info: figures/class_rate_2.png  used on input line 406.
-(pdftex.def)             Requested size: 200.81825pt x 145.85683pt.
-<figures/accs_v_size_2.png, id=218, 432.85927pt x 314.94505pt>
-File: figures/accs_v_size_2.png Graphic file (type png)
-<use figures/accs_v_size_2.png>
-Package pdftex.def Info: figures/accs_v_size_2.png  used on input line 412.
-(pdftex.def)             Requested size: 200.81825pt x 146.11633pt.
-<figures/100_quad_score_test.png, id=221, 2590.30894pt x 1001.89043pt>
-File: figures/100_quad_score_test.png Graphic file (type png)
-<use figures/100_quad_score_test.png>
-Package pdftex.def Info: figures/100_quad_score_test.png  used on input line 42
-6.
-(pdftex.def)             Requested size: 200.81825pt x 77.66098pt.
-<figures/210_quad_score_test.png, id=222, 2590.30894pt x 1001.89043pt>
-File: figures/210_quad_score_test.png Graphic file (type png)
-<use figures/210_quad_score_test.png>
-Package pdftex.def Info: figures/210_quad_score_test.png  used on input line 43
-2.
-(pdftex.def)             Requested size: 200.81825pt x 77.66098pt.
- [8 <./figures/class_rate_2.png (PNG copy)> <./figures/accs_v_size_2.png (PNG c
-opy)>]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-
-Package tabularray Warning: Table width is too small, need 80.02747pt more!
-
-> Step: build the whole table.
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-
-Overfull \hbox (1.67732pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 Gravel 
- []
-
-
-Overfull \hbox (1.67732pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 Gravel 
- []
-
-
-Overfull \hbox (1.67732pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 Gravel 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 61.670 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 30.551 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 62.050 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 32.641 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 36.183 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 24.932 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 11.123 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 17.235 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 21.898 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 31.993 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 60.379 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 26.336 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 48.171 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 61.498 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 52.236 
- []
-
-
-Overfull \hbox (1.67732pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 Gravel 
- []
-
-
-Overfull \hbox (1.67732pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 Gravel 
- []
-
-
-Overfull \hbox (1.67732pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 Gravel 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 61.670 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 30.551 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 62.050 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 32.641 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 36.183 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 24.932 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 11.123 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 17.235 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 21.898 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 31.993 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 60.379 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 26.336 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 48.171 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 61.498 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 52.236 
- []
-
-> Step: build the whole table.
-
-Overfull \hbox (1.67732pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 Gravel 
- []
-
-
-Overfull \hbox (1.67732pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 Gravel 
- []
-
-
-Overfull \hbox (1.67732pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 Gravel 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 61.670 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 30.551 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 62.050 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 32.641 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 36.183 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 24.932 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 11.123 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 17.235 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 21.898 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 31.993 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 60.379 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 26.336 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 48.171 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 61.498 
- []
-
-
-Overfull \hbox (2.18942pt too wide) in paragraph at lines 502--502
- []\OT1/ptm/m/n/8 52.236 
- []
-
-[9 <./figures/100_quad_score_test.png (PNG copy)> <./figures/210_quad_score_tes
-t.png (PNG copy)>] (Huston_Paper.bbl
+<figures/pre-adjust.png, id=176, 1295.53484pt x 1001.89043pt>
+File: figures/pre-adjust.png Graphic file (type png)
+<use figures/pre-adjust.png>
+Package pdftex.def Info: figures/pre-adjust.png  used on input line 285.
+(pdftex.def)             Requested size: 220.89938pt x 170.82361pt.
+<figures/post-adjust.png, id=177, 1295.53484pt x 1001.89043pt>
+File: figures/post-adjust.png Graphic file (type png)
+<use figures/post-adjust.png>
+Package pdftex.def Info: figures/post-adjust.png  used on input line 291.
+(pdftex.def)             Requested size: 220.89938pt x 170.82361pt.
+<figures/rm_db_4_percentages_big_anotated.png, id=178, 2590.30894pt x 1001.8904
+3pt>
+File: figures/rm_db_4_percentages_big_anotated.png Graphic file (type png)
+<use figures/rm_db_4_percentages_big_anotated.png>
+Package pdftex.def Info: figures/rm_db_4_percentages_big_anotated.png  used on 
+input line 302.
+(pdftex.def)             Requested size: 422.77664pt x 163.51613pt.
+ [5 <./figures/flowz.png> <./figures/pre-adjust.png (PNG copy)> <./figures/post
+-adjust.png (PNG copy)>]
+<figures/rm_db_4_toc.png, id=187, 2590.30894pt x 1001.89043pt>
+File: figures/rm_db_4_toc.png Graphic file (type png)
+<use figures/rm_db_4_toc.png>
+Package pdftex.def Info: figures/rm_db_4_toc.png  used on input line 311.
+(pdftex.def)             Requested size: 422.77664pt x 163.51613pt.
+ [6 <./figures/rm_db_4_percentages_big_anotated.png> <./figures/rm_db_4_toc.png
+ (PNG copy)>] (Huston_Paper.bbl
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 4
 .
 
@@ -1318,19 +956,19 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
- [10]
-[11]) [12] (Huston_Paper.aux)
+ [7]
+[8]) [9] (Huston_Paper.aux)
 Package rerunfilecheck Info: File `Huston_Paper.out' has not changed.
-(rerunfilecheck)             Checksum: E31AF7B95EF70CEB0881CC722B80C9D0;648.
+(rerunfilecheck)             Checksum: 5D0A7AA5C000B56907F42A81C7C203AF;492.
  ) 
 Here is how much of TeX's memory you used:
- 19866 strings out of 478583
- 356609 string characters out of 2847216
- 727682 words of memory out of 3000000
- 37663 multiletter control sequences out of 15000+600000
- 513941 words of font info for 121 fonts, out of 8000000 for 9000
+ 19344 strings out of 478583
+ 340700 string characters out of 2847216
+ 662132 words of memory out of 3000000
+ 37176 multiletter control sequences out of 15000+600000
+ 504142 words of font info for 94 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 75i,8n,100p,2270b,776s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 75i,8n,79p,2270b,658s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/au
 tobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home
 /autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></h
@@ -1342,9 +980,9 @@ b></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10
 y7.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb
 ></home/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></hom
 e/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Huston_Paper.pdf (12 pages, 19721463 bytes).
+Output written on Huston_Paper.pdf (9 pages, 16885739 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
- 159 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 290 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
