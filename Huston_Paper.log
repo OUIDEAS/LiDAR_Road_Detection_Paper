@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  2 MAY 2023 13:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  2 MAY 2023 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -815,44 +815,32 @@ ed on input line 225.
 (pdftex.def)             Requested size: 200.81825pt x 98.31906pt.
  [4 <./figures/Compiled_PCD.png> <./figures/Manually_Defined_Area_Train_Dat_Gra
 b_2.png>]
-
-Package caption Warning: \label without proper reference on input line 301.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:prepostadjust' on page 5 undefined on input line 
-278.
-
-<figures/rm_db_4_percentages_big_anotated.png, id=178, 2590.30894pt x 1001.8904
+<figures/rm_db_4_percentages_big_anotated.png, id=176, 2590.30894pt x 1001.8904
 3pt>
 File: figures/rm_db_4_percentages_big_anotated.png Graphic file (type png)
 <use figures/rm_db_4_percentages_big_anotated.png>
 Package pdftex.def Info: figures/rm_db_4_percentages_big_anotated.png  used on 
 input line 282.
 (pdftex.def)             Requested size: 422.77664pt x 163.51613pt.
-<figures/side_of_road_nums_4_with_no_filts_2.png, id=179, 2590.30894pt x 1001.8
-9043pt>
-File: figures/side_of_road_nums_4_with_no_filts_2.png Graphic file (type png)
-<use figures/side_of_road_nums_4_with_no_filts_2.png>
-Package pdftex.def Info: figures/side_of_road_nums_4_with_no_filts_2.png  used 
-on input line 291.
-(pdftex.def)             Requested size: 226.71468pt x 87.68965pt.
-<figures/side_of_road_nums_4_with_filts_2.png, id=180, 2590.30894pt x 1001.8904
+<figures/side_of_road_nums_4_with_filts_2.png, id=177, 2590.30894pt x 1001.8904
 3pt>
 File: figures/side_of_road_nums_4_with_filts_2.png Graphic file (type png)
 <use figures/side_of_road_nums_4_with_filts_2.png>
 Package pdftex.def Info: figures/side_of_road_nums_4_with_filts_2.png  used on 
-input line 297.
-(pdftex.def)             Requested size: 226.71468pt x 87.68965pt.
-[5 <./figures/rm_db_4_percentages_big_anotated.png> <./figures/side_of_road_num
-s_4_with_no_filts_2.png (PNG copy)> <./figures/side_of_road_nums_4_with_filts_2
-.png (PNG copy)>]
-<figures/rm_db_4_toc.png, id=190, 2590.30894pt x 1001.89043pt>
+input line 307.
+(pdftex.def)             Requested size: 458.014pt x 177.15266pt.
+ [5 <./figures/rm_db_4_percentages_big_anotated.png> <./figures/side_of_road_nu
+ms_4_with_filts_2.png (PNG copy)>]
+<figures/rm_db_4_toc.png, id=186, 2590.30894pt x 1001.89043pt>
 File: figures/rm_db_4_toc.png Graphic file (type png)
 <use figures/rm_db_4_toc.png>
-Package pdftex.def Info: figures/rm_db_4_toc.png  used on input line 311.
+Package pdftex.def Info: figures/rm_db_4_toc.png  used on input line 319.
 (pdftex.def)             Requested size: 422.77664pt x 163.51613pt.
- (Huston_Paper.bbl
+
+
+LaTeX Warning: Reference `' on page 6 undefined on input line 327.
+
+[6 <./figures/rm_db_4_toc.png (PNG copy)>] (Huston_Paper.bbl
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 4
 .
 
@@ -861,7 +849,8 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
- [6 <./figures/rm_db_4_toc.png (PNG copy)>] [7] [8]) [9] (Huston_Paper.aux)
+ [7]
+[8]) [9] (Huston_Paper.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -869,13 +858,13 @@ Package rerunfilecheck Info: File `Huston_Paper.out' has not changed.
 (rerunfilecheck)             Checksum: EB3813EE2304A70E6E5722D986E4268E;585.
  ) 
 Here is how much of TeX's memory you used:
- 17104 strings out of 478583
- 284929 string characters out of 2847216
- 598311 words of memory out of 3000000
- 34951 multiletter control sequences out of 15000+600000
+ 17090 strings out of 478583
+ 284299 string characters out of 2847216
+ 598105 words of memory out of 3000000
+ 34938 multiletter control sequences out of 15000+600000
  505249 words of font info for 95 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 75i,8n,77p,2270b,682s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 75i,8n,77p,2270b,660s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/au
 tobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home
 /autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></h
@@ -887,9 +876,9 @@ b></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10
 y7.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb
 ></home/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></hom
 e/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Huston_Paper.pdf (9 pages, 17199593 bytes).
+Output written on Huston_Paper.pdf (9 pages, 16964327 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
+ 290 PDF objects out of 1000 (max. 8388607)
  82 named destinations out of 1000 (max. 500000)
- 99 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 94 words of extra memory for PDF output out of 10000 (max. 10000000)
 

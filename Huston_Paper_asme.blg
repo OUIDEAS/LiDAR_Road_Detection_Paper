@@ -1,0 +1,181 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Huston_Paper_asme.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: asmeconf.bst
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Database file #1: resources.bib
+Repeated entry---line 1574 of file resources.bib
+ : @article{seker_experiments_nodate
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1730 of file resources.bib
+ : @article{shapiro_analysis_1965
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1787 of file resources.bib
+ : @inproceedings{gojcic_perfect_2019
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1807 of file resources.bib
+ : @article{kaasalainen_radiometric_2009
+ :                                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1824 of file resources.bib
+ : @article{schnabel_efficient_2007
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1843 of file resources.bib
+ : @article{li_improved_2017
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1864 of file resources.bib
+ : @article{li_point_2021
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1877 of file resources.bib
+ : @article{yang_plane_nodate
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1886 of file resources.bib
+ : @inproceedings{yue_new_2018
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1899 of file resources.bib
+ : @article{tarsha-kurdi_hough-transform_2007
+ :                                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1909 of file resources.bib
+ : @article{smadja_road_nodate
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2055 of file resources.bib
+ : @article{naaman_tight_2021
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2124 of file resources.bib
+ : @inproceedings{choi_performance_2009
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2160 of file resources.bib
+ : @inproceedings{chum_matching_2005
+ :                                  ,
+I'm skipping whatever remains of this entry
+Reallocating 'field_info' (item size: 4) to 10004 items.
+Repeated entry---line 2539 of file resources.bib
+ : @article{breiman_random_2001
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2609 of file resources.bib
+ : @article{breiman_random_2001
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2644 of file resources.bib
+ : @inproceedings{reymann_improving_2015
+ :                                      ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in seker_experiments_nodate
+Warning--empty year in seker_experiments_nodate
+Warning--empty journal in smadja_road_nodate
+Warning--empty year in smadja_road_nodate
+Warning--empty journal in skorseth_gravel_nodate
+Warning--empty pages in skorseth_gravel_nodate
+Warning--empty booktitle in biber_normal_2003
+Warning--empty booktitle in wan_road_2007
+Warning--empty pages in moleski_effects_2021
+Warning--empty journal in durrant-whyte_simultaneous_nodate
+Warning--empty year in durrant-whyte_simultaneous_nodate
+Warning--empty year in moleski_trilateration_nodate
+Warning--empty pages in moleski_trilateration_nodate
+Warning--empty journal in moretto_assessing_nodate
+Warning--empty year in moretto_assessing_nodate
+Warning--empty journal in anderson_gravel_2013
+Warning--empty journal in jalayer_comprehensive_2014
+Warning--empty pages in jalayer_comprehensive_2014
+Warning--empty pages in lehtomaki_detection_2010
+Warning--empty journal in lien_recognizing_2012
+Warning--empty booktitle in mc_elhinney_initial_2010
+Warning--empty pages in mc_elhinney_initial_2010
+Warning--empty pages in zeybek_extraction_2021
+Warning--empty booktitle in korotkova_lidar_2004
+Warning--empty journal in yang_plane_nodate
+Warning--empty year in yang_plane_nodate
+Warning--empty journal in tarsha-kurdi_hough-transform_2007
+Warning--empty journal in united_states_department_of_transportation_bureau_of_transportation_statistics_national_2019
+Warning--empty pages in united_states_department_of_transportation_bureau_of_transportation_statistics_national_2019
+Warning--empty pages in kenue_lanelok_1990
+Warning--empty author in noauthor_surface_totals_2006-2021xlsx_nodate
+Warning--empty journal in noauthor_surface_totals_2006-2021xlsx_nodate
+Warning--empty year in noauthor_surface_totals_2006-2021xlsx_nodate
+Warning--empty author in noauthor_cost_nodate
+Warning--empty journal in noauthor_cost_nodate
+Warning--empty year in noauthor_cost_nodate
+Warning--empty journal in bellekens_survey_2014
+Warning--empty pages in bellekens_survey_2014
+Warning--empty pages in opencv_library
+Warning--empty journal in miller_method_nodate
+Warning--empty year in miller_method_nodate
+Warning--empty journal in derpanis_overview_nodate
+Warning--empty year in derpanis_overview_nodate
+Warning--empty pages in yaniv_random_2010
+Warning--empty journal in cantzler_random_nodate
+Warning--empty year in cantzler_random_nodate
+Warning--empty journal in coombs_driving_2000
+Warning--empty pages in coombs_driving_2000
+Warning--empty journal in stavens_self-supervised_nodate
+Warning--empty year in stavens_self-supervised_nodate
+Warning--empty pages in siva_robot_2019
+Warning--empty booktitle in laible_3d_2012
+Warning--empty pages in laible_3d_2012
+Warning--empty journal in rasmussen_combining_2002
+Warning--empty pages in rasmussen_combining_2002
+Warning--empty journal in wang_road_nodate
+Warning--empty year in wang_road_nodate
+Warning--empty journal in haselich_terrain_2011
+Warning--empty pages in haselich_terrain_2011
+Warning--empty journal in wallach_conditional_nodate
+Warning--empty year in wallach_conditional_nodate
+Warning--empty pages in hong_road_2002
+You've used 177 entries,
+            3102 wiz_defined-function locations,
+            1859 strings with 50914 characters,
+and the built_in function-call counts, 87206 in all, are:
+= -- 6489
+> -- 1743
+< -- 356
++ -- 697
+- -- 520
+* -- 5371
+:= -- 8551
+add.period$ -- 985
+call.type$ -- 177
+change.case$ -- 107
+chr.to.int$ -- 0
+cite$ -- 239
+duplicate$ -- 9368
+empty$ -- 8508
+format.name$ -- 659
+if$ -- 19672
+int.to.chr$ -- 0
+int.to.str$ -- 177
+missing$ -- 2114
+newline$ -- 1106
+num.names$ -- 171
+pop$ -- 3808
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 2797
+stack$ -- 0
+substring$ -- 3858
+swap$ -- 6356
+text.length$ -- 356
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 62
+while$ -- 543
+width$ -- 180
+write$ -- 2235
+(There were 17 error messages)
