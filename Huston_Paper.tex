@@ -117,7 +117,7 @@
 % in the abstract or keywords.
 \begin{abstract}{
 	
-	Gravel roads lack standardized features such as curbs or painted lines, presenting detection challenges to autonomous vehicles. Differentiation between road surfaces and surrounding terrain is necessary to determine boundaries for trajectory tracking and navigation. Global Positioning Service (GPS) and high resolution maps may not be reliable for navigation of gravel roads, as some may only be width of the vehicle and GPS may not be accurate enough. Normal Distribution Transform (NDT) based on scanning LiDAR data may be insufficient for navigating on gravel roads as there may not be enough geometrically distinct features for reliable scan matching. This work will examine a method of classifying scanning LiDAR data spatial and remission features for explicit detection of unmarked gravel road surfaces. Exploration of terrain classification using high resolution scanning LiDAR data of these road surfaces may allow for predicting gravel road boundary locations potentially enabling confident autonomous operations on gravel roads. The principal outcome of this work was a method for gravel road detection using LiDAR data for the purpose of predicting road boundary locations. Random Decision Forests were tested for the purpose of scanning LiDAR data terrain classification. Manually discovered gravel and paved road surface based on classified results were compared to actual road bounds. It was found that a true-positive accuracy for gravel and asphalt surfaces was 67.54\% and 87.05\% respectively. Classified point clouds were manually examined and gravel areas were projected and compared with actual gravel surface areas. Overlapping areas indicated a high level of unmarked gravel and asphalt road surface detection rate. Detection of unmarked road surfaces would increase the operational region capabilities of self driving vehicles considerably by allowing autonomous operations on 1.5 million miles of previously undetected roads.
+	{Gravel roads lack standardized features such as curbs or painted lines, presenting detection challenges to autonomous vehicles. Global Positioning Service (GPS) and high resolution maps may not be reliable for navigation of gravel roads, as some may only be width of the vehicle and GPS may not be accurate enough. Normal Distribution Transform (NDT) based on scanning LiDAR data may be insufficient for navigating on gravel roads as there may not be enough geometrically distinct features for reliable scan matching. This work will examine a method of classifying scanning LiDAR data spatial and remission features for explicit detection of unmarked gravel road surfaces. Exploration of terrain classification using high resolution scanning LiDAR data of these road surfaces may allow for predicting gravel road boundary locations potentially enabling confident autonomous operations on gravel roads. The principal outcome of this work was a method for gravel road detection using LiDAR data for the purpose of predicting road boundary locations. Random Decision Forests were trained using scanning LiDAR data terrain classification to detect unmarked gravel and asphalt surfaces. It was found that a true-positive accuracy for gravel and asphalt surfaces was 67.54\% and 87.05\% respectively. Overlapping results between manually projected and actual road surface areas resulted in 91.67\% intercepting gravel road detection accuracy. Detection of unmarked road surfaces would increase the operational region capabilities of self driving vehicles considerably by allowing autonomous operations on 1.5 million miles of previously undetected roads.}	
 }	
 \end{abstract}
 
@@ -145,7 +145,7 @@
 
 	%Real time description of surface noise based on incoming LiDAR data, then subsequent comparison to a standard, is a possible alternative that may allow for computationally efficient road surface detection. Overlaying camera imagery data with LiDAR allows for assigning incoming LiDAR data with color information, potentially increasing efficiency by narrowing the search area.
 	
-	{Detection of unmarked road surfaces may utilize roughness properties without distinct markings or topographical features. Surface roughness is a measurable property that may be used to characterize a gravel road, as they are typically consistent with gravel type used \cite{skorseth_gravel_nodate} which may be exploited in a search and compare function, and is distinct from chipseal, grass, and other ground types \cite{wan_road_2007, levi_3d_2012_light, levi_3d_2012_terrain}. Surface roughness properties may be derived from processing LiDAR spatial and remission data from an aerial and surface level perspective \cite{wan_road_2007, levi_3d_2012_light, levi_3d_2012_terrain, pollyea_experimental_2012,rychkov_computational_2012,lague_accurate_2013,brubaker_use_2013,turner_estimation_2014,campbell_lidar-based_2017,shepard_roughness_2001,tegowski_statistical_2016,sock_probabilistic_2016,milenkovic_roughness_2018,yadav_extraction_2017, yadav_rural_2018}. Implementing a terrain classification model using Random Decision Forests (RDF) using scanning LiDAR data to exploit surface roughness was studied for road surface detection in this study. Evaluation of the detection model will rely principally upon accuracy and processing time, as a moving vehicle must obtain reliable information of the road surface in a timely manner in order to inform trajectory updates, or else risk suffering an accident. This work will attempt to determine a processing method for increasing road detection precision of unmarked gravel rural roads.}
+	{Detection of unmarked road surfaces may utilize roughness properties without distinct markings or topographical features. Surface roughness is a measurable property that may be used to characterize a gravel road, as they are typically consistent with gravel type used \cite{skorseth_gravel_nodate} which may be exploited in a search and compare function, and is distinct from chipseal, grass, and other ground types \cite{wan_road_2007, levi_3d_2012_light, levi_3d_2012_terrain}. Surface roughness properties may be derived from processing LiDAR spatial and remission data from an aerial and surface level perspective \cite{wan_road_2007, levi_3d_2012_light, levi_3d_2012_terrain, pollyea_experimental_2012,rychkov_computational_2012,lague_accurate_2013,brubaker_use_2013,turner_estimation_2014,campbell_lidar-based_2017,shepard_roughness_2001,tegowski_statistical_2016,sock_probabilistic_2016,milenkovic_roughness_2018,yadav_extraction_2017, yadav_rural_2018}. Implementing a terrain classification model using Random Decision Forests (RDF) using scanning LiDAR data to exploit surface roughness was studied for road surface detection in this study. Evaluation of the detection model will rely principally upon accuracy and processing time, as a moving vehicle must obtain reliable information of the road surface in a timely manner in order to inform trajectory updates, or else risk suffering an accident. This work achieved 91.67\% intercepting gravel road detection accuracy with a 1.226 seconds per 360 degree scan classification rate.}
 		
 \subsection{Related Work}
 	
@@ -248,16 +248,17 @@
 %	\end{figure}
 
 
-	{Feature extraction was completed by performing mathematical functions on the gathered spatial and remission training data (Figure \ref{fig:flowzchart}). Standard Deviation ($\sigma$), Roughness ($max - min$), Min-Max Ratio ($min / max$), Min$^{2}$-Max Ratio ($min^2 / max$), and Gradient ($sqrt(\sum_{1}^{n} G))$), where $G$ is an $1*n$ array comprising of the differences between consecutive points in the spatial or remission data array. Features were non-dimensionalized as necessary by dividing by the average distance to the appropriate power to cancel units. Thirty percent of the training data was randomly selected and reserved to create a validation data set.} 
+	{Feature extraction was completed by performing mathematical functions on the gathered spatial and remission training data. Standard Deviation ($\sigma$), Roughness ($max - min$), Min-Max Ratio ($min / max$), Min$^{2}$-Max Ratio ($min^2 / max$), and Gradient ($sqrt(\sum_{1}^{n} G))$), where $G$ is an $1*n$ array comprising of the differences between consecutive points in the spatial or remission data array. Features were non-dimensionalized as necessary by dividing by the average range of the arc to LiDAR point of origin to the appropriate power. Thirty percent of the training data was randomly selected and reserved to create a validation data set.} 
 	
 	{MATLAB's Classification Learner Application was used to generate a Random Decision Forests for each considered scanning LiDAR channel. Decision tree depth, number of learners, and number of features to consider for each binary split are hyper-parameters that were optimized using MATLAB's Bayesian Optimization.}
 	
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.9\linewidth]{figures/flowz}
-		\caption[Project Flow]{Project flowchart}
-		\label{fig:flowzchart}
-	\end{figure}
+%   (Figure \ref{fig:flowzchart})
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=0.9\linewidth]{figures/flowz}
+%		\caption[Project Flow]{Project flowchart}
+%		\label{fig:flowzchart}
+%	\end{figure}
 
 
 	
@@ -272,37 +273,38 @@
 	
 \section{Results}
 	
-	{Five drive-bys of Blackburn Road with three intercepting gravel parking lots and driveways were completed and scanning LiDAR, GPS, and IMU data was collected. Training data was generated using MATLAB to extract LiDAR data from rosbags. Random Decision Forests classification algorithms were generated. Testing consecutive scans was completed by post processing rosbags that contained scanning LiDAR, GPS, and IMU data. Physical distances between the GPS, IMU, and LiDAR were rectified by measuring the distance between the modules. Rotational reference frames between the GPS, IMU, and LiDAR were rectified by applying appropriate rotational matrices. Transformation matrices were created by considering the GPS position and the IMU's roll, pitch, and yaw data. Tree scanning LiDAR arcs from three channels in front of the vehicle were classified. Translation and rotation was applied to the averaged x, y, and z coordinates of each arc's terrain classification results. Consecutive scanning LiDAR data was projected on manually classified truth areas representing road road surfaces (Figure \ref{fig:area_percentages}) and percentages of terrain types per area were calculated. }
+	{Five drive-bys of Blackburn Road with three intercepting gravel parking lots and driveways were completed and scanning LiDAR, GPS, and IMU data was collected. Training data was generated using MATLAB to extract LiDAR data from rosbags. Random Decision Forests classification algorithms were generated. Testing consecutive scans was completed by post processing rosbags that contained scanning LiDAR, GPS, and IMU data. Physical distances between the GPS, IMU, and LiDAR were rectified by measuring the distance between the modules. Rotational reference frames between the GPS, IMU, and LiDAR were rectified by applying appropriate rotational matrices. Transformation matrices were created by considering the GPS position and the IMU's roll, pitch, and yaw data. Three scanning LiDAR arcs from three channels in front of the vehicle were classified. Translation and rotation was applied to the averaged x, y, and z coordinates of each arc's terrain classification results. Consecutive scanning LiDAR data was projected on manually classified truth areas representing road road surfaces (Figure \ref{fig:area_percentages}) and percentages of terrain types per area were calculated. }
 	
-	{Due to the side of the road was being re-grassed near area $3$, the algorithm sometimes struggled to differentiate the dirt from gravel, leading to some miss-classification of the side-of-road areas (Figure \ref{fig:pre-adjust} vs Figure \ref{fig:post-adjust}). Confidence scores may be exploited to adjust the final result by requiring a very high confidence for a gravel surface to be classified as such. All gravel surfaces that did not meet a 80\% confidence score was re-labeled as "unknown". Furthermore distances between the averaged coordinates of the arcs that were classified as gravel were compared and if the distance was below a threshold the arc was re-labeled as "unknown". This was done as distances between channels tended to certain distances and evenly spaced from each other when the data is on a flat surface, typical of road surfaces. With these slight adjustments, it was found that an average true-positive accuracy of all intercepting gravel surfaces was 67.54\%. If any asphalt miss-classification on the gravel areas is included, the average true-positive road detection accuracy increases to 76.97\%. It was found that an average true-positive accuracy of all asphalt surfaces was 87.05\%. }
-	
-	\begin{figure}[H]
-			\centering
-			\begin{subfigure}{0.495\textwidth}
-					\centering
-					\includegraphics[width=0.95\linewidth]{figures/pre-adjust}
-					\caption[Pre-Adjusted]{}
-					\label{fig:pre-adjust}	
-				\end{subfigure}
-			\begin{subfigure}{0.495\textwidth}
-					\centering
-					\includegraphics[width=0.95\linewidth]{figures/post-adjust}
-					\caption[Post-Adjusted]{}
-					\label{fig:post-adjust}
-				\end{subfigure}
-				\label{fig:pre_post_adjust}
-				\caption[Post-Adjusted]{Raw classification result example (a). Classification results may be slightly altered by considering confidence scores and inter-arc distances to decrease miss-classification of gravel surfaces. (b).}
-	\end{figure}
-	
-	
+	{Due to the side of the road was being re-grassed near area $3$, the algorithm sometimes struggled to differentiate the dirt from gravel, leading to some miss-classification of the side-of-road areas (Figure \ref{fig:pre-adjust} vs Figure \ref{fig:post-adjust}). Exploitation of confidence scores to adjust results by requiring a very high confidence for positive gravel surface classification was explored. All gravel surfaces that did not meet a 80\% confidence score was re-labeled as "unknown", however these adjustment had either a negligible or detrimental impact on the final results. Overall it was found that an average true-positive accuracy of all intercepting gravel surfaces was 67.54\%. If any asphalt miss-classification on the gravel areas is included, the average true-positive road detection accuracy increases to 76.97\%. It was found that an average true-positive accuracy of all asphalt surfaces was 87.05\%. Differentiation between gravel road surfaces and surrounding terrain is necessary to determine boundaries for trajectory tracking and navigation. Side-of-road areas were established (Figure \ref{fig:prepostadjust}), and the overall average for "unknown" terrain type was found to be 77.49\%.}
+
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.9\linewidth]{figures/rm_db_4_percentages_big_anotated}
-		\caption[Area Percentage Scores]{Five runs of Blackburn Road with the intercepting gravel parking lot were classified. Percentages of each terrain type per area were calculated. Area $3$ is the entrance to the gravel parking lot from which training data was extracted.}
+		\caption[Area Percentage Scores]{Five runs of Blackburn Road with the intercepting gravel parking lot were classified. Shown is the results of one run. Percentages of each terrain type per area were calculated. Area $3$ is the gravel parking lot entrance from which training data was extracted.}
 		\label{fig:area_percentages}
 	\end{figure}
 
-	{Classified point clouds were manually examined for 'best guess' locations for gravel and asphalt surfaces. Two out of three positive gravel identifications must be made on each channel, be evenly spaced, and be relatively co-planar to other road surface guesses in order for a positive guess for an asphalt or gravel surface to be made. It was found that the three intercepting gravel surfaces was consistently discovered (Figure \ref{fig:rm_db_4_toc}).}
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.495\textwidth}
+			\centering
+			\includegraphics[width=0.975\linewidth]{figures/side_of_road_nums_4_with_no_filts_2}
+			\caption[Pre-Adjusted]{}
+			\label{fig:pre-adjust}	
+		\end{subfigure}
+		\begin{subfigure}{0.495\textwidth}
+			\centering
+			\includegraphics[width=0.975\linewidth]{figures/side_of_road_nums_4_with_filts_2}
+			\caption[Post-Adjusted]{}
+			\label{fig:post-adjust}
+		\end{subfigure}
+		\label{fig:prepostadjust}
+		\caption[Post-Adjusted]{Raw classification result example (a). Results were slightly altered by considering confidence scores and inter-arc distances to decrease miss-classification of gravel surfaces, however the effect was negligible (b).}
+	\end{figure}
+
+	{Classified point clouds were manually examined for 'best guess' locations for gravel and asphalt surfaces. Two out of three positive gravel identifications must be made on each channel, be evenly spaced, and be relatively co-planar to other road surface guesses in order for a positive guess for an asphalt or gravel surface to be made (Figure \ref{fig:rm_db_4_toc}). Driveways $1$ and $2$ were detected in all five drive-bys, driveway $3$ was detected in four leading to an 91.67\% accuracy in intercepting gravel road detection. It was found that in three drive-bys there was a false positive driveway detection, however the location of the false-positive was not repeated. In all drive-bys the asphalt road was accurately detected. }
+	
+	{Classification was completed using Ubuntu 18.04 and an AMD Ryzen 9 5900X 12 core 24 thread. Rate of classification for all nine areas of interest in a single scan was found to be an average of 1.226 seconds using a single core. Further optimization may increase this speed, however real-time classification is not a focus of this work. Using all cores when processing a ROSBAG file indicated that a rate of 55.81 feet per second or 38.05 miles per hour was accomplished.}
 	
 	\begin{figure}[H]
 		\centering
@@ -310,11 +312,16 @@
 		\caption[Projected Guess vs Truth]{Gravel and asphalt surfaces were manually guessed using a rule set and compared to actual road-surface areas. }
 		\label{fig:rm_db_4_toc}
 	\end{figure}
+
+\section{Discussion}
+	
+	
+	
 	
 \section{Conclusion}
 	
 	% Summary of Work & Closing Statements
-	{High definition scanning LiDAR and GPS data was gathered on Blackburn Road and an intercepting gravel lot in Athens Ohio. Properties describing surface roughness and remission data were extracted and used to train Random Decision Forests. Terrain classification of consecutive scans compared to manually defined road and side-of-road surface areas yielded accuracy scores for gauging algorithm capability for road-surface detection. It was found that a true-positive accuracy for gravel and asphalt surfaces was 67.54\% and 87.05\% respectively. Classified point clouds were manually examined and gravel areas were projected and compared with actual gravel surface areas. In conjunction with the overlapping areas and the high true-positive detection accuracy of gravel surfaces, this method of gravel road detection is a promising method of gravel road surface detection. This work addressed the problem of road surface detection on unmarked gravel and chipseal roads. Current LiDAR and Camera based detection models were insufficient due to lack of distinct features typical of urban roads, such as painted line markings or curbs, or have excessive computational or storage requirements. This work balanced accuracy and efficiency by using less intensive analysis techniques of smaller point cloud data sets. The described work was a method of detecting physical unmarked gravel and chipseal roads by using a terrain classification approach to predicting road surface area. The impact of this work is that autonomous vehicles using LiDAR may be able to detect unmarked gravel and chipseal road surfaces, allowing autonomous operations on 1.5 million miles of previously undetected rural roads.} 
+	{High definition scanning LiDAR and GPS data was gathered on Blackburn Road and an intercepting gravel lot in Athens Ohio. Properties describing surface roughness and remission data were extracted and used to train Random Decision Forests. Terrain classification of consecutive scans compared to manually defined road surface areas yielded accuracy scores for gauging algorithm capability for gravel surface detection. It was found that a true-positive accuracy for gravel and asphalt surfaces was 67.54\% and 87.05\% respectively. Classified point clouds were manually examined and gravel areas were projected and compared with actual gravel surface areas. Overlapping results between manually projected and actual road surface areas resulted in 91.67\% intercepting gravel road detection accuracy. In conjunction with the overlapping areas and the high true-positive detection accuracy of gravel surfaces, this method of gravel road detection is a promising method of gravel road surface detection. This work addressed the problem of road surface detection on unmarked gravel and chipseal roads. Current LiDAR and Camera based detection models were insufficient due to lack of distinct features typical of urban roads, such as painted line markings or curbs, or have excessive computational or storage requirements. This work balanced accuracy and efficiency by using less intensive analysis techniques of smaller point cloud data sets. The described work was a method of detecting physical unmarked gravel and chipseal roads by using a terrain classification approach to predicting road surface area. The impact of this work is that autonomous vehicles using LiDAR may be able to detect unmarked gravel and chipseal road surfaces, allowing autonomous operations on 1.5 million miles of previously undetected rural roads.} 
 	
 	
 % For peer review papers, you can put extra information on the cover
@@ -382,7 +389,7 @@
 \section*{Acknowledgment}
 
 
-	{The authors would like to thank the United States Dairy Farmers for their continuous cheese production. This work would not happen without them.}
+	{Special thanks to Dr. Jay Wilhelm for his guidance and Travis Moleski for his help in LiDAR map building.}
 
 
 % Can use something like this to put references on a page
