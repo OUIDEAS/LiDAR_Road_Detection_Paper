@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  3 MAY 2023 08:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  3 MAY 2023 09:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1064,49 +1064,49 @@ LaTeX Warning: Reference `fig:vali_conf_mat' on page 3 undefined on input line
 <figures/flowz_2.png, id=135, 1313.90875pt x 533.995pt>
 File: figures/flowz_2.png Graphic file (type png)
 <use figures/flowz_2.png>
-Package pdftex.def Info: figures/flowz_2.png  used on input line 155.
+Package pdftex.def Info: figures/flowz_2.png  used on input line 153.
 (pdftex.def)             Requested size: 257.28102pt x 104.56453pt.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 8.19003pt on input line 156.
+(Font)              scaled to size 8.19003pt on input line 154.
 <figures/training_data_cluster.png, id=137, 1295.53484pt x 1001.89043pt>
 File: figures/training_data_cluster.png Graphic file (type png)
 <use figures/training_data_cluster.png>
 Package pdftex.def Info: figures/training_data_cluster.png  used on input line 
-162.
+160.
 (pdftex.def)             Requested size: 257.28102pt x 198.95279pt.
 
-Underfull \hbox (badness 1168) in paragraph at lines 163--163
+Underfull \hbox (badness 1168) in paragraph at lines 161--161
 []\T1/qhv/b/n/9 FIGURE 2: |[]EXAMPLE OF TRAIN-ING DATA COM-PAR-I-SON BE-
  []
 
 <figures/c2_min_class_error.png, id=138, 702.92084pt x 554.57716pt>
 File: figures/c2_min_class_error.png Graphic file (type png)
 <use figures/c2_min_class_error.png>
-Package pdftex.def Info: figures/c2_min_class_error.png  used on input line 169
+Package pdftex.def Info: figures/c2_min_class_error.png  used on input line 167
 .
 (pdftex.def)             Requested size: 257.28102pt x 202.9817pt.
 [3.3 <./figures/flowz_2.png> <./figures/training_data_cluster.png (PNG copy)>]
 <figures/van_on_van.jpg, id=156, 4673.46pt x 3505.095pt>
 File: figures/van_on_van.jpg Graphic file (type jpg)
 <use figures/van_on_van.jpg>
-Package pdftex.def Info: figures/van_on_van.jpg  used on input line 182.
+Package pdftex.def Info: figures/van_on_van.jpg  used on input line 180.
 (pdftex.def)             Requested size: 174.49841pt x 130.87381pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 183.
+(Font)              scaled to size 9.0pt on input line 181.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.19003pt on input line 183.
+(Font)              scaled to size 8.19003pt on input line 181.
 <figures/LiDAR_on_van.jpg, id=157, 4673.46pt x 3505.095pt>
 File: figures/LiDAR_on_van.jpg Graphic file (type jpg)
 <use figures/LiDAR_on_van.jpg>
-Package pdftex.def Info: figures/LiDAR_on_van.jpg  used on input line 188.
+Package pdftex.def Info: figures/LiDAR_on_van.jpg  used on input line 186.
 (pdftex.def)             Requested size: 174.49841pt x 130.87381pt.
 
-Overfull \hbox (13.73148pt too wide) in paragraph at lines 180--192
+Overfull \hbox (13.73148pt too wide) in paragraph at lines 178--190
  [][] 
  []
 
 
-Overfull \hbox (13.73148pt too wide) in paragraph at lines 180--192
+Overfull \hbox (13.73148pt too wide) in paragraph at lines 178--190
  [] 
  []
 
@@ -1114,64 +1114,59 @@ Overfull \hbox (13.73148pt too wide) in paragraph at lines 180--192
 File: figures/vlcsnap-2023-04-20-08h48m17s447.png Graphic file (type png)
 <use figures/vlcsnap-2023-04-20-08h48m17s447.png>
 Package pdftex.def Info: figures/vlcsnap-2023-04-20-08h48m17s447.png  used on i
-nput line 200.
-(pdftex.def)             Requested size: 190.14717pt x 142.24188pt.
-<figures/gravel_lot_pic.png, id=159, 2071.74pt x 1549.79pt>
-File: figures/gravel_lot_pic.png Graphic file (type png)
-<use figures/gravel_lot_pic.png>
-Package pdftex.def Info: figures/gravel_lot_pic.png  used on input line 206.
-(pdftex.def)             Requested size: 190.14717pt x 142.24188pt.
-<figures/Compiled_PCD.png, id=162, 845.93936pt x 535.55873pt>
+nput line 196.
+(pdftex.def)             Requested size: 231.55135pt x 173.19693pt.
+<figures/Compiled_PCD.png, id=161, 845.93936pt x 535.55873pt>
 File: figures/Compiled_PCD.png Graphic file (type png)
 <use figures/Compiled_PCD.png>
-Package pdftex.def Info: figures/Compiled_PCD.png  used on input line 224.
+Package pdftex.def Info: figures/Compiled_PCD.png  used on input line 211.
 (pdftex.def)             Requested size: 231.71336pt x 146.69481pt.
-<figures/Manually_Defined_Area_Train_Dat_Grab_2.png, id=163, 2076.75874pt x 101
+<figures/Manually_Defined_Area_Train_Dat_Grab_2.png, id=162, 2076.75874pt x 101
 6.79875pt>
 File: figures/Manually_Defined_Area_Train_Dat_Grab_2.png Graphic file (type png
 )
 <use figures/Manually_Defined_Area_Train_Dat_Grab_2.png>
 Package pdftex.def Info: figures/Manually_Defined_Area_Train_Dat_Grab_2.png  us
-ed on input line 230.
+ed on input line 217.
 (pdftex.def)             Requested size: 231.71336pt x 113.44626pt.
 [4.4 <./figures/c2_min_class_error.png (PNG copy)> <./figures/van_on_van.jpg> <
-./figures/LiDAR_on_van.jpg>] [5.5 <./figures/vlcsnap-2023-04-20-08h48m17s447.pn
-g (PNG copy)> <./figures/gravel_lot_pic.png> <./figures/Compiled_PCD.png> <./fi
-gures/Manually_Defined_Area_Train_Dat_Grab_2.png>]
-<figures/rm_db_4_percentages_big_anotated.png, id=188, 2590.30894pt x 1001.8904
+./figures/LiDAR_on_van.jpg> <./figures/vlcsnap-2023-04-20-08h48m17s447.png (PNG
+ copy)>]
+<figures/rm_db_4_percentages_big_anotated.png, id=174, 2590.30894pt x 1001.8904
 3pt>
 File: figures/rm_db_4_percentages_big_anotated.png Graphic file (type png)
 <use figures/rm_db_4_percentages_big_anotated.png>
 Package pdftex.def Info: figures/rm_db_4_percentages_big_anotated.png  used on 
-input line 271.
+input line 260.
 (pdftex.def)             Requested size: 231.55135pt x 89.55473pt.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 5.00502pt on input line 272.
+(Font)              scaled to size 5.00502pt on input line 261.
 LaTeX Font Info:    Trying to load font information for OML+ntxsfmi on input li
-ne 272.
+ne 261.
 
 (/home/autobuntu/.miktex/texmfs/install/tex/latex/newtxsf/omlntxsfmi.fd
 File: omlntxsfmi.fd 2014/11/16 Fontinst v1.933 font definitions for OML/ntxsfmi
 .
 )
-<figures/side_of_road_nums_4_with_filts_2.png, id=189, 2590.30894pt x 1001.8904
+<figures/side_of_road_nums_4_with_filts_2.png, id=175, 2590.30894pt x 1001.8904
 3pt>
 File: figures/side_of_road_nums_4_with_filts_2.png Graphic file (type png)
 <use figures/side_of_road_nums_4_with_filts_2.png>
 Package pdftex.def Info: figures/side_of_road_nums_4_with_filts_2.png  used on 
-input line 296.
+input line 285.
 (pdftex.def)             Requested size: 250.85056pt x 97.01509pt.
-<figures/rm_db_4_toc.png, id=191, 2590.30894pt x 1001.89043pt>
+
+[5.5 <./figures/Compiled_PCD.png> <./figures/Manually_Defined_Area_Train_Dat_Gr
+ab_2.png> <./figures/rm_db_4_percentages_big_anotated.png>]
+<figures/rm_db_4_toc.png, id=192, 2590.30894pt x 1001.89043pt>
 File: figures/rm_db_4_toc.png Graphic file (type png)
 <use figures/rm_db_4_toc.png>
-Package pdftex.def Info: figures/rm_db_4_toc.png  used on input line 308.
+Package pdftex.def Info: figures/rm_db_4_toc.png  used on input line 297.
 (pdftex.def)             Requested size: 231.55135pt x 89.55473pt.
 
 
-LaTeX Warning: Reference `' on page 6 undefined on input line 316.
+LaTeX Warning: Reference `' on page 6 undefined on input line 305.
 
-[6.6 <./figures/rm_db_4_percentages_big_anotated.png> <./figures/side_of_road_n
-ums_4_with_filts_2.png (PNG copy)> <./figures/rm_db_4_toc.png (PNG copy)>]
 (Huston_Paper_asme.bbl
 Underfull \hbox (badness 2698) in paragraph at lines 18--22
 []\T1/ntxtlf/m/n/10 Malik, Yud-hvir Singh and Lal, Babni.  ``Ba-sic
@@ -1189,7 +1184,8 @@ Underfull \hbox (badness 7981) in paragraph at lines 38--48
 1161 .
  []
 
-
+[6.6 <./figures/side_of_road_nums_4_with_filts_2.png (PNG copy)> <./figures/rm_
+db_4_toc.png (PNG copy)>]
 Underfull \hbox (badness 2057) in paragraph at lines 60--68
 \T1/ntxtlf/m/n/10 FAST AND RO-BUST AL-GO-RITHM FOR ROAD
  []
@@ -1212,7 +1208,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--102
 i . net /
  []
 
-[7.7]
+
 Underfull \hbox (badness 1484) in paragraph at lines 207--217
 []\T1/ntxtlf/m/n/10 Brubaker, Kris-ten M., My-ers, Wayne L., Dro-han,
  []
@@ -1223,7 +1219,7 @@ Underfull \hbox (badness 1005) in paragraph at lines 207--217
 [].  Pub-
  []
 
-
+[7.7]
 Underfull \hbox (badness 1281) in paragraph at lines 240--251
 \T1/ntxtlf/m/it/10 Geo-phys-i-cal Re-search: Plan-ets \T1/ntxtlf/m/n/10 Vol. 10
 6 No. E12
@@ -1263,7 +1259,7 @@ Underfull \hbox (badness 5091) in paragraph at lines 304--313
 2$[][].  _eprint:
  []
 
-[8.8]
+
 Underfull \hbox (badness 1448) in paragraph at lines 347--356
 []\T1/ntxtlf/m/n/10 Moleski, Travis W. and Wil-helm, Jay.  ``Tri-lat-er-
  []
@@ -1290,7 +1286,7 @@ Underfull \hbox (badness 1158) in paragraph at lines 358--364
 []\T1/ntxtlf/m/n/10 Yadav, Manohar, Lo-hani, Bharat and Singh, Ajoy.
  []
 
-
+[8.8]
 Underfull \hbox (badness 1122) in paragraph at lines 467--475
 \T1/ntxtlf/m/n/10 ing.''  \T1/ntxtlf/m/it/10 IS-PRS Jour-nal of Pho-togram-me-t
 ry and Re-
@@ -1301,7 +1297,7 @@ Underfull \hbox (badness 2359) in paragraph at lines 467--475
 [][]\T1/ntxtlf/m/n/10 10.1016/j.isprsjprs.2014.03.015[][].  Ac-cessed 2021-10-
  []
 
-[9.9]
+
 Underfull \hbox (badness 1117) in paragraph at lines 526--536
 []\T1/ntxtlf/m/n/10 Yadav, Manohar, Lo-hani, Bharat, Singh, Ajai Ku-
  []
@@ -1334,7 +1330,7 @@ Underfull \hbox (badness 7981) in paragraph at lines 526--536
 1161 .
  []
 
-
+[9.9]
 Underfull \hbox (badness 1502) in paragraph at lines 554--563
 []\T1/ntxtlf/m/n/10 Buj^^e1n, San-dra, Guerra-Hern^^e1ndez, Juan, Gonz^^e1lez-
  []
@@ -1359,7 +1355,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 608--616
 \T1/ntxtlf/m/n/10 https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-
  []
 
-[10.10]
+
 Underfull \hbox (badness 1102) in paragraph at lines 688--695
 \T1/ntxtlf/m/n/10 Reg-is-tra-tion.''  \T1/ntxtlf/m/it/10 Foun-da-tions of Com-p
 ut-ing and De-
@@ -1377,7 +1373,7 @@ Underfull \hbox (badness 1817) in paragraph at lines 688--695
 0 . 1515 /
  []
 
-
+[10.10]
 Underfull \hbox (badness 1005) in paragraph at lines 759--770
 []\T1/ntxtlf/m/n/10 Hegge, Bruce J. and Mas-selink, Ger-hard.  ``Spec-
  []
@@ -1508,7 +1504,7 @@ Overfull \hbox (60.76898pt too wide) in paragraph at lines 806--814
 le-[]Tracking-[]Using /
  []
 
-[11.11]
+
 Underfull \hbox (badness 2460) in paragraph at lines 837--845
 \T1/ntxtlf/m/it/10 Au-tonomous Robots \T1/ntxtlf/m/n/10 Vol. 16 No. 1 (2004): p
 p.
@@ -1520,7 +1516,7 @@ Underfull \hbox (badness 1009) in paragraph at lines 847--856
  org /
  []
 
-
+[11.11]
 Underfull \hbox (badness 1609) in paragraph at lines 937--940
 \T1/ntxtlf/m/n/10 16, URL [][]$http : / / www . dynatrackgps . com / coverage-[
 ]map .
@@ -1537,7 +1533,7 @@ Underfull \hbox (badness 3826) in paragraph at lines 954--964
 080 /
  []
 
-[12.12]
+
 Underfull \hbox (badness 3375) in paragraph at lines 994--997
 \T1/ntxtlf/m/n/10 2022-01-13, URL [][]$https : / / velodynelidar . com / produc
 ts /
@@ -1565,7 +1561,7 @@ Underfull \hbox (badness 2790) in paragraph at lines 1046--1052
 []\T1/ntxtlf/m/n/10 Razlaw, Jan, Droeschel, David, Holz, Dirk and
  []
 
-
+[12.12]
 Underfull \hbox (badness 1132) in paragraph at lines 1063--1073
 \T1/ntxtlf/m/n/10 works for Software-in-the-Loop Test-ing.''  \T1/ntxtlf/m/it/1
 0 SAE In-
@@ -1614,7 +1610,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1133--1136
 Net /
  []
 
-[13.13]
+
 Underfull \hbox (badness 1048) in paragraph at lines 1167--1177
 \T1/ntxtlf/m/n/10 Os-car (eds.). \T1/ntxtlf/m/it/10 Read-ings in Com-puter Vi-s
 ion\T1/ntxtlf/m/n/10 .  Mor-
@@ -1686,7 +1682,7 @@ Underfull \hbox (badness 1127) in paragraph at lines 1226--1233
 ety Se-
  []
 
-
+[13.13]
 Underfull \hbox (badness 1102) in paragraph at lines 1265--1270
 []\T1/ntxtlf/m/n/10 Siva, Sri-ram, Wig-ness, Mag-gie, Rogers, John and
  []
@@ -1739,12 +1735,12 @@ Overfull \hbox (74.04898pt too wide) in paragraph at lines 1295--1300
 tonomous-[]road-[]following$[][].
  []
 
-[14.14]
+
 Underfull \hbox (badness 3148) in paragraph at lines 1361--1367
 \T1/ntxtlf/m/it/10 ing \T1/ntxtlf/m/n/10 Vol. 45 No. 1 (2001): pp. 5--32.  DOI
  []
 
-
+[14.14]
 Underfull \hbox (badness 10000) in paragraph at lines 1438--1442
 []\T1/ntxtlf/m/n/10 Xavi.borras.  ``En-glish: RANSAC. Inliers-
  []
@@ -1844,18 +1840,28 @@ File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 (/home/autobuntu/.miktex/texmfs/install/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
 )
+[leftcolumn badness]: 1000000 on 24.395pt
+[rightcolumn badness]: 1000000 on 24.395pt
+[leftcolumn badness]: 1000000 on 24.395pt
+[rightcolumn badness]: 1000000 on 24.395pt
+[leftcolumn badness]: 1000000 on 24.395pt
+[rightcolumn badness]: 1000000 on 24.395pt
+[leftcolumn badness]: 1000000 on 0.395pt
+[rightcolumn badness]: 1000000 on 0.395pt
+[leftcolumn badness]: 1000000 on 0.395pt
+[rightcolumn badness]: 1000000 on 0.395pt
 - LAST -
-Extra skip:0.0pt
-Left:596.0pt/2.165pt
-Right:597.56pt/0.0pt
-Split: 597.78pt
-Output:597.78pt
-Pageshrink: 9.0pt
-Pagestretch: 9.0pt
+Extra skip:24.605pt
+Left:351.0pt/2.165pt
+Right:328.56pt/0.0pt
+Split: 346.28pt
+Output:346.28pt
+Pageshrink: 0.0pt
+Pagestretch: 0.0pt
 @colht:686.565pt
-FLUSHEND [output]: 597.78pt
-FLUSHEND [leftcolumn badness]: 1
-FUSHEND [rightcolumn badness]: 0
+FLUSHEND [output]: 346.28pt
+FLUSHEND [leftcolumn badness]: 84
+FUSHEND [rightcolumn badness]: 4441
 
 [15.15] (Huston_Paper_asme.aux)
 
@@ -1863,13 +1869,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 22971 strings out of 478583
- 371762 string characters out of 2847216
- 733276 words of memory out of 3000000
- 40509 multiletter control sequences out of 15000+600000
+ 22958 strings out of 478583
+ 371436 string characters out of 2847216
+ 716789 words of memory out of 3000000
+ 40499 multiletter control sequences out of 15000+600000
  560211 words of font info for 142 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,11n,90p,2275b,2809s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 83i,11n,90p,2275b,2845s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc
 }{/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{
 /home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/inconsolata/i4-t1-5.enc}
@@ -1887,9 +1893,9 @@ untu/.miktex/texmfs/install/fonts/type1/public/newtx/txsys.pfb></home/autobuntu
 /.miktex/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></home/autobuntu/.mik
 tex/texmfs/install/fonts/type1/public/newtx/ztmr.pfb></home/autobuntu/.miktex/t
 exmfs/install/fonts/type1/public/newtx/ztmri.pfb>
-Output written on Huston_Paper_asme.pdf (15 pages, 17529566 bytes).
+Output written on Huston_Paper_asme.pdf (15 pages, 14258724 bytes).
 PDF statistics:
- 853 PDF objects out of 1000 (max. 8388607)
- 223 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 850 PDF objects out of 1000 (max. 8388607)
+ 221 named destinations out of 1000 (max. 500000)
+ 172 words of extra memory for PDF output out of 10000 (max. 10000000)
 

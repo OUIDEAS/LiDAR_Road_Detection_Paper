@@ -147,8 +147,6 @@ pdftitle={LiDAR Stuff},                  % <=== change to YOUR pdf file title
 	{Classification of five rosbags with data gathered from a section of road with three intercepting gravel driveways (one of the gravel driveways was the entrance to the source of the gravel training data). Three arcs from three channels were considered for classification - the centers of the arcs were directly in front of the vehicle, and 45 degrees left and right of center, creating nine total areas in a 3x3 grid in front of the van. Following the same process as aggregating point clouds, GNSS and IMU data informed the location and orientation of the arcs in each 360 degree scan. All arcs were then classified as "asphalt", "gravel", or "unknown", and the averaged coordinates of each arc was aggregated into a single, classified point cloud.}
 	
 	{Manually defined gravel, asphalt, and side-of-road areas were projected onto the classified point cloud. Manually defined gravel, asphalt, and side-of-road areas were then used to determine the accuracy of the terrain classification algorithm. Classified point clouds were then manually examined to determine if the location of gravel and asphalt surfaces may be identified. If consecutive points from each channel in any direction had two or more matching gravel or asphalt classification and was evenly spaced, a gravel or road surface area was projected. Guessed road surface areas were then compared to actual areas to determine the method's ability at unmarked gravel road discovery.}
-	
-	%When the app performs hyperparameter tuning by using Bayesian optimization (see Optimization Options for a brief introduction), it chooses the set ofhyperparameter values that minimizes an upper confidence interval of the classification error objective model, rather than the set that minimizes the classification error.
 		
 	\begin{figure}
 		\centering
@@ -195,20 +193,9 @@ pdftitle={LiDAR Stuff},                  % <=== change to YOUR pdf file title
 	
 	\begin{figure}
 		\centering
-		\begin{subfigure}{0.45\textwidth}
-			\centering
-			\includegraphics[width=1.0\linewidth,height=5.0 cm,keepaspectratio]{figures/vlcsnap-2023-04-20-08h48m17s447}
-			\caption[Blackburn Road Camera View]{}
-			\label{fig:Blackburn_Road_View}
-		\end{subfigure}
-		\begin{subfigure}{0.45\textwidth}
-			\centering
-			\includegraphics[width=1.0\linewidth,height=5.0 cm,keepaspectratio]{figures/gravel_lot_pic.png}
-			\caption[Armig Road Camera View]{}
-			\label{fig:Gravel_Lot_View}
-		\end{subfigure}
-		\caption[Blackburn Road \& Gravel Parking Lot]{Road view of Blackburn Road - an unmarked asphalt road (a). Road view of the gravel driveway (b).}
-		\label{fig:Combined_Roads}
+		\includegraphics[width=0.9\linewidth]{figures/vlcsnap-2023-04-20-08h48m17s447}
+		\caption[Blackburn Road Camera View]{Road view of Blackburn Road - an unmarked asphalt road with three intercepting gravel driveways}
+		\label{fig:Blackburn_Road_View}
 	\end{figure}
 	
 	\subsection{Training Data Extraction}
@@ -253,10 +240,12 @@ pdftitle={LiDAR Stuff},                  % <=== change to YOUR pdf file title
 		%	\end{figure}
 	
 	{Feature extraction was completed by performing mathematical functions on the gathered spatial and remission training data. Standard Deviation ($\sigma$), Roughness ($max - min$), Min-Max Ratio ($min / max$), Min$^{2}$-Max Ratio ($min^2 / max$), and Gradient ($sqrt(\sum_{1}^{n} G))$), where $G$ is an $1*n$ array comprising of the differences between consecutive points in the spatial or remission data array. Features were non-dimensionalized as necessary by dividing by the average range of the arc to LiDAR point of origin to the appropriate power. Thirty percent of the training data was randomly selected and reserved to create a validation data set.} 
+	
+	% When the app performs hyperparameter tuning by using Bayesian optimization (see Optimization Options for a brief introduction), it chooses the set ofhyperparameter values that minimizes an upper confidence interval of the classification error objective model, rather than the set that minimizes the classification error.
 		
 	\subsection{RDF Training and Testing}
 
-	{MATLAB's Classification Learner Application was used to generate a Random Decision Forests for each considered scanning LiDAR channel. Decision tree depth, number of learners, and number of features to consider for each binary split are hyper-parameters that were optimized using MATLAB's Bayesian Optimization. All arcs in a channel used the same RDF. }
+	{MATLAB's Classification Learner Application was used to generate a Random Decision Forests for each considered scanning LiDAR channel. Decision tree depth, number of learners, and number of features to consider for each binary split are hyper-parameters that were optimized using MATLAB's Bayesian Optimization. Bayesian Optimization automates the manual hyper-parameter tuning process creating a surrogate model based on . All arcs in a channel used the same RDF. }
 	
 	{Classifying consecutive LiDAR scans was accomplished by examination of the nine arcs of interest in front and forty-five degree angles left and right from the front of the experimental apparatus. Features from each arc were extracted and the arc was classified. Averaged x, y, and z coordinates were taken of each arc and projected unto a manually defined truth area map (Figure \ref{fig:Classified_Areas_PCD}). Accuracy scores of each area was calculated, allowing evaluation of road detection performance.}
 
