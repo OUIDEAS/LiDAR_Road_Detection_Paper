@@ -1,17 +1,16 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  2 MAY 2023 18:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.2)  2 MAY 2023 21:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./Huston_Paper_asme.tex
 (Huston_Paper_asme.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/asmeconf/asmeconf.cls
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-04-20> (asmeconf.cls
 Document Class: asmeconf 2022/12/30 ASME Conference Paper LaTeX Template (JHL)
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/article.cls
-Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(/home/rhett/.miktex/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/home/rhett/.miktex/texmfs/install/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -21,35 +20,35 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count190
 \c@figure=\count191
 \c@table=\count192
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count193
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+(/home/rhett/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-Class asmeconf Info: Your LaTeX format is dated 2021-11-15. LaTeX distributions
+Class asmeconf Info: Your LaTeX format is dated 2022-11-01. LaTeX distributions
  2020 or later are strongly recommended for best results on input line 90.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+(/home/rhett/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+(/home/rhett/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
 Class asmeconf Info: Selecting English as the primary language, since main= not
  set on input line 215.
@@ -58,206 +57,215 @@ Class asmeconf Info: Selecting English as the primary language, since main= not
 Class asmeconf Info: Loading flushend package to balance column height on last 
 page.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count194
 \Gm@cntv=\count195
 \c@Gm@tempcnt=\count196
-\Gm@bindingoffset=\dimen139
-\Gm@wd@mp=\dimen140
-\Gm@odd@mp=\dimen141
-\Gm@even@mp=\dimen142
-\Gm@layoutwidth=\dimen143
-\Gm@layoutheight=\dimen144
-\Gm@layouthoffset=\dimen145
-\Gm@layoutvoffset=\dimen146
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
 \Gm@dimlist=\toks17
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/natbib/natbib.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(/home/rhett/.miktex/texmfs/install/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip49
-\bibsep=\skip50
+\bibhang=\skip50
+\bibsep=\skip51
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count197
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen147
-\Gin@req@width=\dimen148
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+(/home/rhett/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/pdfcolmk/pdfcolmk.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/pdfcolmk/pdfcolmk.sty
 Package: pdfcolmk 2019/11/24 v2.0 Color support for pdfTeX via marks
 )
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
-Package xcolor Info: Model `RGB' extended on input line 1368.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics/dvipsnam.def
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/xcolor/svgnam.def
-File: svgnam.def 2021/10/31 v2.13 Predefined colors according to SVG 1.1 (UK)
+(/home/rhett/.miktex/texmfs/install/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2022/06/12 v2.14 Predefined colors according to SVG 1.1 (UK)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/xcolor/x11nam.def
-File: x11nam.def 2021/10/31 v2.13 Predefined colors according to Unix/X11 (UK)
+(/home/rhett/.miktex/texmfs/install/tex/latex/xcolor/x11nam.def
+File: x11nam.def 2022/06/12 v2.14 Predefined colors according to Unix/X11 (UK)
 ))
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen149
-\lightrulewidth=\dimen150
-\cmidrulewidth=\dimen151
-\belowrulesep=\dimen152
-\belowbottomsep=\dimen153
-\aboverulesep=\dimen154
-\abovetopsep=\dimen155
-\cmidrulesep=\dimen156
-\cmidrulekern=\dimen157
-\defaultaddspace=\dimen158
+\heavyrulewidth=\dimen151
+\lightrulewidth=\dimen152
+\cmidrulewidth=\dimen153
+\belowrulesep=\dimen154
+\belowbottomsep=\dimen155
+\aboverulesep=\dimen156
+\abovetopsep=\dimen157
+\cmidrulesep=\dimen158
+\cmidrulekern=\dimen159
+\defaultaddspace=\dimen160
 \@cmidla=\count198
 \@cmidlb=\count199
-\@aboverulesep=\dimen159
-\@belowrulesep=\dimen160
+\@aboverulesep=\dimen161
+\@belowrulesep=\dimen162
 \@thisruleclass=\count266
 \@lastruleclass=\count267
-\@thisrulewidth=\dimen161
+\@thisrulewidth=\dimen163
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen162
-\ar@mcellbox=\box50
-\extrarowheight=\dimen163
+(/home/rhett/.miktex/texmfs/install/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen164
+\ar@mcellbox=\box51
+\extrarowheight=\dimen165
 \NC@list=\toks18
-\extratabsurround=\skip51
-\backup@length=\skip52
-\ar@cellbox=\box51
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box52
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/dcolumn.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/textcase/textcase.sty
-Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
-)
-Asmeconf is loading textcase package.
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/caption/caption.sty
-Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+(/home/rhett/.miktex/texmfs/install/tex/latex/caption/caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/caption/caption3.sty
-Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen164
-\captionmargin=\dimen165
-\caption@leftmargin=\dimen166
-\caption@rightmargin=\dimen167
-\caption@width=\dimen168
-\caption@indent=\dimen169
-\caption@parindent=\dimen170
-\caption@hangindent=\dimen171
+(/home/rhett/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen166
+\captionmargin=\dimen167
+\caption@leftmargin=\dimen168
+\caption@rightmargin=\dimen169
+\caption@width=\dimen170
+\caption@indent=\dimen171
+\caption@parindent=\dimen172
+\caption@hangindent=\dimen173
 Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count268
 \c@continuedfloat=\count269
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
-Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+(/home/rhett/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 239.
 \c@subfigure=\count270
+Package caption Info: New subtype `subtable' on input line 239.
 \c@subtable=\count271
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/mathtools/mathtools.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/calc.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count272
 \calc@Bcount=\count273
-\calc@Adimen=\dimen172
-\calc@Bdimen=\dimen173
-\calc@Askip=\skip53
-\calc@Bskip=\skip54
+\calc@Adimen=\dimen174
+\calc@Bdimen=\dimen175
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count274
-\calc@Cskip=\skip55
+\calc@Cskip=\skip56
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/mathtools/mhsetup.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2021/10/15 v2.17l AMS math features
-\@mathmargin=\skip56
+(/home/rhett/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip57
 
 For additional information on amsmath, use the `?' option.
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
-\ex@=\dimen174
+\ex@=\dimen176
 ))
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen175
+\pmbraise@=\dimen177
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2021/08/26 v2.02 operator names
+(/home/rhett/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count275
 LaTeX Info: Redefining \frac on input line 234.
 \uproot@=\count276
 \leftroot@=\count277
 LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
 \classnum@=\count278
 \DOTSCASE@=\count279
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
-\big@size=\dimen176
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen178
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count280
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
 \c@MaxMatrixCols=\count281
 \dotsspace@=\muskip16
 \c@parentequation=\count282
@@ -267,100 +275,99 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \column@=\count285
 \maxfields@=\count286
 \andhelp@=\toks23
-\eqnshift@=\dimen177
-\alignsep@=\dimen178
-\tagshift@=\dimen179
-\tagwidth@=\dimen180
-\totwidth@=\dimen181
-\lineht@=\dimen182
+\eqnshift@=\dimen179
+\alignsep@=\dimen180
+\tagshift@=\dimen181
+\tagwidth@=\dimen182
+\totwidth@=\dimen183
+\lineht@=\dimen184
 \@envbody=\toks24
-\multlinegap=\skip57
-\multlinetaggap=\skip58
+\multlinegap=\skip58
+\multlinetaggap=\skip59
 \mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2938.
-LaTeX Info: Redefining \] on input line 2939.
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
 )
 \g_MT_multlinerow_int=\count287
-\l_MT_multwidth_dim=\dimen183
-\origjot=\skip59
-\l_MT_shortvdotswithinadjustabove_dim=\dimen184
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen185
-\l_MT_above_intertext_sep=\dimen186
-\l_MT_below_intertext_sep=\dimen187
-\l_MT_above_shortintertext_sep=\dimen188
-\l_MT_below_shortintertext_sep=\dimen189
-\xmathstrut@box=\box54
-\xmathstrut@dim=\dimen190
+\l_MT_multwidth_dim=\dimen185
+\origjot=\skip60
+\l_MT_shortvdotswithinadjustabove_dim=\dimen186
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen187
+\l_MT_above_intertext_sep=\dimen188
+\l_MT_below_intertext_sep=\dimen189
+\l_MT_above_shortintertext_sep=\dimen190
+\l_MT_below_shortintertext_sep=\dimen191
+\xmathstrut@box=\box55
+\xmathstrut@dim=\dimen192
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/babel/babel.sty
-Package: babel 2022/02/26 3.73 The Babel package
+(/home/rhett/.miktex/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2023/04/18 3.88 The Babel package
 \babel@savecnt=\count288
-\U@D=\dimen191
-\l@unhyphenated=\language79
+\U@D=\dimen193
+\l@unhyphenated=\language1
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
+(/home/rhett/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count289
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
+(/home/rhett/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
 Package babel Info: Main language set with 'main='. Except if you have
 (babel)             problems, prefer the default mechanism for setting
-(babel)             the main language. Reported on input line 4219.
+(babel)             the main language, ie, as the last declared.
+(babel)             Reported on input line 4352.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/babel-english/english.ldf
+(/home/rhett/.miktex/texmfs/install/tex/latex/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: Hyphen rules for 'canadian' set to \l@english
-(babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 108.
 ))
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/newtx/newtxtext.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/babel/locale/en/babel-english.t
+ex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (/home/rhett/.miktex/texmfs/install/tex/latex/newtx/newtxtext.sty
 Package: newtxtext 2022/02/28 v1.71(Michael Sharpe) latex and unicode latex sup
 port for TeXGyreTermesX
 
 `newtxtext' v1.71, 2022/02/28 Text macros taking advantage of TeXGyre Termes an
 d its extensions (msharpe)
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+(/home/rhett/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/xkeyval/xkeyval.tex
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/xkeyval/xkvutils.tex
+(/home/rhett/.miktex/texmfs/install/tex/generic/xkeyval/xkeyval.tex
+(/home/rhett/.miktex/texmfs/install/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks26
 \XKV@tempa@toks=\toks27
 )
 \XKV@depth=\count290
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/textcomp.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/xstring/xstring.sty
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/xstring/xstring.tex
+(/home/rhett/.miktex/texmfs/install/tex/latex/xstring/xstring.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/xstring/xstring.tex
 \integerpart=\count291
 \decimalpart=\count292
 )
-Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+Package: xstring 2023/01/14 v1.85 String manipulations (CT)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/carlisle/scalefnt.sty)
+(/home/rhett/.miktex/texmfs/install/tex/latex/carlisle/scalefnt.sty)
 LaTeX Font Info:    Setting ntxLF sub-encoding to TS1/0 on input line 21.
 LaTeX Font Info:    Setting ntxTLF sub-encoding to TS1/0 on input line 21.
 LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 21.
 LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 21.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/binhex/binhex.tex)
+(/home/rhett/.miktex/texmfs/install/tex/generic/binhex/binhex.tex)
 \ntx@tmpcnta=\count293
 \ntx@cnt=\count294
 
 ntx@otftextfalse
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/fontaxes/fontaxes.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2020/07/21 v1.0e Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
@@ -375,28 +382,28 @@ LaTeX Info: Redefining \textulc on input line 49.
 )
 LaTeX Info: Redefining \oldstylenums on input line 657.
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/inconsolata/inconsolata.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/inconsolata/inconsolata.sty
 Package: inconsolata 2019/05/17 v1.12
 
 `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
 \zifour@ocount=\count295
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/newtx/newtxmath.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/newtx/newtxmath.sty
 Package: newtxmath 2022/01/16 v1.71
 
 `newtxmath' v1.71, 2022/01/16 Math macros based originally on txfonts (msharpe)
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/iftex/ifxetex.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/iftex/ifluatex.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/oberdiek/centernot.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/oberdiek/centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
 \tx@cntz=\count296
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/binhex/binhex.tex)
+(/home/rhett/.miktex/texmfs/install/tex/generic/binhex/binhex.tex)
 \tx@Isdigit=\count297
 \tx@IsAlNum=\count298
 \tx@tA=\toks28
@@ -502,8 +509,8 @@ LaTeX Font Info:    Redeclaring math accent \ddot on input line 951.
 LaTeX Font Info:    Redeclaring math accent \vec on input line 2020.
 LaTeX Info: Redefining \Bbbk on input line 2810.
 LaTeX Info: Redefining \not on input line 2959.
-) (/home/autobuntu/.miktex/texmfs/install/tex/latex/mathalpha/mathalfa.sty)
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/mathalpha/mathalpha.sty
+) (/home/rhett/.miktex/texmfs/install/tex/latex/mathalpha/mathalfa.sty)
+(/home/rhett/.miktex/texmfs/install/tex/latex/mathalpha/mathalpha.sty
 Package: mathalpha 2021/11/18 - 1.143mathalpha (License LPPL) Michael Sharpe
 
 `mathalpha' v1.143, 2021/11/18, a renaming of mathalfa (msharpe)
@@ -512,15 +519,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
 (Font)                  U/BOONDOX-calo/m/n --> U/BOONDOX-calo/b/n on input line
  556.
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/bm.sty
-Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+(/home/rhett/.miktex/texmfs/install/tex/latex/tools/bm.sty
+Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup8
 \symboldletters=\mathgroup9
 \symboldsymbols=\mathgroup10
 \symboldlargesymbols=\mathgroup11
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/metalogo/metalogo.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/metalogo/metalogo.sty
 Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
 \xl@everylogo=\toks31
 \xl@@everylogo=\toks32
@@ -528,17 +535,16 @@ LaTeX Info: Redefining \TeX on input line 193.
 LaTeX Info: Redefining \LaTeX on input line 202.
 LaTeX Info: Redefining \LaTeXe on input line 219.
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/hologo/hologo.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/hologo/hologo.sty
 Package: hologo 2021-11-16 v1.15 A logo collection with bookmark support (HO)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.s
-ty
+(/home/rhett/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -565,174 +571,181 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `sansbold'
 (Font)                  OT1/minntx/m/n --> T1/qhv/b/n on input line 987.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `sansbold'
 (Font)                  OT1/cmss/m/n --> T1/qhv/b/n on input line 988.
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
+
+(/home/rhett/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip60
-\f@nch@O@elh=\skip61
-\f@nch@O@erh=\skip62
-\f@nch@O@olh=\skip63
-\f@nch@O@orh=\skip64
-\f@nch@O@elf=\skip65
-\f@nch@O@erf=\skip66
-\f@nch@O@olf=\skip67
-\f@nch@O@orf=\skip68
+\f@nch@headwidth=\skip61
+\f@nch@O@elh=\skip62
+\f@nch@O@erh=\skip63
+\f@nch@O@olh=\skip64
+\f@nch@O@orh=\skip65
+\f@nch@O@elf=\skip66
+\f@nch@O@erf=\skip67
+\f@nch@O@olf=\skip68
+\f@nch@O@orf=\skip69
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/yafoot/fnpos.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/yafoot/fnpos.sty
 Package: fnpos 2018/09/03 v1.1 
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/titlesec/titlesec.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box55
-\beforetitleunit=\skip69
-\aftertitleunit=\skip70
-\ttl@plus=\dimen192
-\ttl@minus=\dimen193
+\ttl@box=\box56
+\beforetitleunit=\skip70
+\aftertitleunit=\skip71
+\ttl@plus=\dimen194
+\ttl@minus=\dimen195
 \ttl@toksa=\toks33
-\titlewidth=\dimen194
-\titlewidthlast=\dimen195
-\titlewidthfirst=\dimen196
+\titlewidth=\dimen196
+\titlewidthlast=\dimen197
+\titlewidthfirst=\dimen198
 )
 Asmeconf.sty patched titlesec to have protected def of footnote
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/pdfx/glyphtounicode-cmr.tex)
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/pdfx/glyphtounicode-ntx.tex)
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperxmp/hyperxmp.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/pdfx/glyphtounicode-cmr.tex)
+(/home/rhett/.miktex/texmfs/install/tex/latex/pdfx/glyphtounicode-ntx.tex)
+(/home/rhett/.miktex/texmfs/install/tex/latex/hyperxmp/hyperxmp.sty
 Package: hyperxmp 2020/11/22 v5.9 Store hyperref metadata in XMP format
 \hyxmp@aep@toks=\toks34
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/stringenc/stringenc.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/ifmtarg/ifmtarg.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/oberdiek/ifdraft.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/oberdiek/ifdraft.sty
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/totpages/totpages.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/totpages/totpages.sty
 Package: totpages 2005/09/19 v2.00 Totpages Package (muewi)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/everyshi/everyshi.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/everyshi/everyshi.sty
 Package: everyshi 2020/11/18 v4.00 EveryShipout Package
 )))
 \hypxmp@tempcnt=\count300
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+(/home/rhett/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-04-22 v7.00x Hypertext links for LaTeX
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen197
-\Hy@linkcounter=\count301
-\Hy@pagecounter=\count302
+(/home/rhett/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+(/home/rhett/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/home/rhett/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count301
+)
+\@linkdim=\dimen199
+\Hy@linkcounter=\count302
+\Hy@pagecounter=\count303
+ (/home/rhett/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-04-22 v7.00x Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count303
+\Hy@SavedSpaceFactor=\count304
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
-File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+(/home/rhett/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-04-22 v7.00x Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4018.
-Package hyperref Info: Option `colorlinks' set `true' on input line 4018.
-Package hyperref Info: Option `psdextra' set `true' on input line 4018.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4065.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4065.
+Package hyperref Info: Option `psdextra' set `true' on input line 4065.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/puenc-greekbasic.def
-File: puenc-greekbasic.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (
+(/home/rhett/.miktex/texmfs/install/tex/latex/hyperref/puenc-greekbasic.def
+File: puenc-greekbasic.def 2023-04-22 v7.00x Hyperref: PDF Unicode definition (
 greek block) (HO)
-) (/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/psdextra.def
-File: psdextra.def 2022-02-21 v7.00n Hyperref: Additions to PDF string support
 )
-Package hyperref Info: Hyper figures OFF on input line 4137.
-Package hyperref Info: Link nesting OFF on input line 4142.
-Package hyperref Info: Hyper index ON on input line 4145.
-Package hyperref Info: Plain pages OFF on input line 4152.
-Package hyperref Info: Backreferencing OFF on input line 4157.
+(/home/rhett/.miktex/texmfs/install/tex/latex/hyperref/psdextra.def
+File: psdextra.def 2023-04-22 v7.00x Hyperref: Additions to PDF string support
+)
+Package hyperref Info: Hyper figures OFF on input line 4182.
+Package hyperref Info: Link nesting OFF on input line 4187.
+Package hyperref Info: Hyper index ON on input line 4190.
+Package hyperref Info: Plain pages OFF on input line 4197.
+Package hyperref Info: Backreferencing OFF on input line 4202.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count304
+Package hyperref Info: Bookmarks ON on input line 4449.
+\c@Hy@tempcnt=\count305
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/url/url.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4749.
-\XeTeXLinkMargin=\dimen198
+LaTeX Info: Redefining \url on input line 4787.
+\XeTeXLinkMargin=\dimen256
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count305
-\Field@Width=\dimen199
-\Fld@charsize=\dimen256
-Package hyperref Info: Hyper figures OFF on input line 6027.
-Package hyperref Info: Link nesting OFF on input line 6032.
-Package hyperref Info: Hyper index ON on input line 6035.
-Package hyperref Info: backreferencing OFF on input line 6042.
-Package hyperref Info: Link coloring ON on input line 6045.
-Package hyperref Info: Link coloring with OCG OFF on input line 6052.
-Package hyperref Info: PDF/A mode OFF on input line 6057.
-LaTeX Info: Redefining \ref on input line 6097.
-LaTeX Info: Redefining \pageref on input line 6101.
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
+\Fld@menulength=\count306
+\Field@Width=\dimen257
+\Fld@charsize=\dimen258
+Package hyperref Info: Hyper figures OFF on input line 6066.
+Package hyperref Info: Link nesting OFF on input line 6071.
+Package hyperref Info: Hyper index ON on input line 6074.
+Package hyperref Info: backreferencing OFF on input line 6081.
+Package hyperref Info: Link coloring ON on input line 6084.
+Package hyperref Info: Link coloring with OCG OFF on input line 6091.
+Package hyperref Info: PDF/A mode OFF on input line 6096.
+
+(/home/rhett/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count306
-\c@Item=\count307
-\c@Hfootnote=\count308
+\Hy@abspage=\count307
+\c@Item=\count308
+\c@Hfootnote=\count309
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+(/home/rhett/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-04-22 v7.00x Hyperref driver for pdfTeX
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count309
-\c@bookmark@seq@number=\count310
+\Fld@listcount=\count310
+\c@bookmark@seq@number=\count311
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck
-.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+(/home/rhett/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter
-.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
+85.
 )
-\Hy@SectionHShift=\skip71
+\Hy@SectionHShift=\skip72
 )
 Package hyperref Info: Option `unicode' set `true' on input line 1166.
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 1166
@@ -741,56 +754,54 @@ Package hyperref Info: Option `bookmarksopen' set `true' on input line 1166.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1166.
 Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 116
 6.
- (/home/autobuntu/.miktex/texmfs/install/tex/latex/doi/doi.sty
+ (/home/rhett/.miktex/texmfs/install/tex/latex/doi/doi.sty
 Package: doi 2018/09/09 handle doi numbers
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/bookmark/bookmark.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/bookmark/bkm-pdftex.def
+(/home/rhett/.miktex/texmfs/install/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count311
+\BKM@id=\count312
 ))
-Asmeconf patched textcase nonchangecase to include footnote.
-Asmeconf patched textcase nonchangecase to include eqref.
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/sttools/flushend.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/sttools/flushend.sty
 Package: flushend 2021/10/04 v4.0 Balancing columns in twocolumn mode
-\flushend@@lastskip@a=\skip72
-\flushend@@lastskip@b=\skip73
-\flushend@@lastnode=\count312
-\var@@loop@iter=\count313
-\var@@temp@spread=\dimen257
-\var@@temp@a=\dimen258
-\var@@temp@loop=\dimen259
-\flushend@@page@rule=\dimen260
-\flushend@@varbox@lastpage=\box56
-\flushend@@varbox@a=\box57
-\flushend@@varbox@c=\box58
-\flushend@@tempbox@a=\box59
-\flushend@@tempbox@c=\box60
-\flushend@@floatbox=\box61
-\@viper=\box62
-\hold@viper=\box63
+\flushend@@lastskip@a=\skip73
+\flushend@@lastskip@b=\skip74
+\flushend@@lastnode=\count313
+\var@@loop@iter=\count314
+\var@@temp@spread=\dimen259
+\var@@temp@a=\dimen260
+\var@@temp@loop=\dimen261
+\flushend@@page@rule=\dimen262
+\flushend@@varbox@lastpage=\box57
+\flushend@@varbox@a=\box58
+\flushend@@varbox@c=\box59
+\flushend@@tempbox@a=\box60
+\flushend@@tempbox@c=\box61
+\flushend@@floatbox=\box62
+\@viper=\box63
+\hold@viper=\box64
 \atColsBreak=\toks35
 \atColsEnd=\toks36
-\oldbreak@skip=\dimen261
+\oldbreak@skip=\dimen263
 )
-\nomenwidth=\skip74
-\savitemsep=\skip75
+\nomenwidth=\skip75
+\savitemsep=\skip76
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/l3experimental/xcoffins/xcoff
-ins.sty
-Package: xcoffins 2022-04-20 L3 Experimental design level coffins
-\l__coffin_hoffset_dim=\dimen262
-\l__coffin_voffset_dim=\dimen263
-\l__coffin_height_dim=\dimen264
-\l__coffin_depth_dim=\dimen265
-\l__coffin_width_dim=\dimen266
-\l__coffin_totalheight_dim=\dimen267
+(/home/rhett/.miktex/texmfs/install/tex/latex/l3experimental/xcoffins/xcoffins.
+sty
+Package: xcoffins 2023-04-19 L3 Experimental design level coffins
+\l__coffin_hoffset_dim=\dimen264
+\l__coffin_voffset_dim=\dimen265
+\l__coffin_height_dim=\dimen266
+\l__coffin_depth_dim=\dimen267
+\l__coffin_width_dim=\dimen268
+\l__coffin_totalheight_dim=\dimen269
 )
-\AuthorBlock=\box64
-\AffiliationBlock=\box65
-\AffiliationsBlock=\box66
+\AuthorBlock=\box65
+\AffiliationBlock=\box66
+\AffiliationsBlock=\box67
 \symlettersAB=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `lettersAB' in version `normal'
 (Font)                  U/ntxsfmia/m/it --> U/ntxsfmia/m/it on input line 1838.
@@ -810,7 +821,7 @@ LaTeX Font Info:    Redeclaring math accent \mathring on input line 1902.
 LaTeX Font Info:    Redeclaring math accent \hat on input line 1903.
 LaTeX Font Info:    Redeclaring math accent \dot on input line 1904.
 LaTeX Font Info:    Redeclaring math accent \tilde on input line 1905.
-\c@mv@sans=\count314
+\c@mv@sans=\count315
 LaTeX Font Info:    Overwriting symbol font `letters' in version `sans'
 (Font)                  OML/ntxmi/m/it --> OML/ntxsfmi/m/it on input line 1909.
 
@@ -834,67 +845,67 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `sans'
 (Font)                  OT1/cmss/m/n --> T1/qhv/m/n on input line 1918.
 )
 LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line
- 36.
- (/home/autobuntu/.miktex/texmfs/install/tex/latex/newtx/t1ntxtlf.fd
+ 32.
+ (/home/rhett/.miktex/texmfs/install/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 36.
+(Font)              scaled to size 10.0pt on input line 32.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.de
-f
-File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count315
-\l__pdf_internal_box=\box67
-) (Huston_Paper_asme.aux)
+(/home/rhett/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count316
+\l__pdf_internal_box=\box68
+)
+(Huston_Paper_asme.aux)
 \openout1 = `Huston_Paper_asme.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 36.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 32.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 36.
+ 32.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/newtx/omlntxmi.fd
+(/home/rhett/.miktex/texmfs/install/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/ntxsfmia/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/ntxsfmia/m/it on input line 32.
 LaTeX Font Info:    Trying to load font information for U+ntxsfmia on input lin
-e 36.
+e 32.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/newtxsf/untxsfmia.fd
+(/home/rhett/.miktex/texmfs/install/tex/latex/newtxsf/untxsfmia.fd
 File: untxsfmia.fd 2014/11/16 Fontinst v1.933 font definitions for U/ntxsfmia.
 )
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 32.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 36.
+ 32.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/newtx/lmsntxsy.fd
+(/home/rhett/.miktex/texmfs/install/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 32.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 36.
+e 32.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/newtx/lmxntxexx.fd
+(/home/rhett/.miktex/texmfs/install/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -930,203 +941,194 @@ LaTeX Font Info:    ... okay on input line 36.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+(/home/rhett/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count316
-\scratchdimen=\dimen268
-\scratchbox=\box68
-\nofMPsegments=\count317
-\nofMParguments=\count318
+\scratchcounter=\count317
+\scratchdimen=\dimen270
+\scratchbox=\box69
+\nofMPsegments=\count318
+\nofMParguments=\count319
 \everyMPshowfont=\toks37
-\MPscratchCnt=\count319
-\MPscratchDim=\dimen269
-\MPnumerator=\count320
-\makeMPintoPDFobject=\count321
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen271
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
 \everyMPtoPDFconversion=\toks38
-)
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.st
-y
+) (/home/rhett/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
- (/home/autobuntu/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+
+(/home/rhett/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@mv@tabular=\count322
-\c@mv@boldtabular=\count323
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/upquote/upquote.sty
+LaTeX Info: Command `\dddot' is already robust on input line 32.
+LaTeX Info: Command `\ddddot' is already robust on input line 32.
+\c@mv@tabular=\count323
+\c@mv@boldtabular=\count324
+
+(/home/rhett/.miktex/texmfs/install/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
-Package hyperref Info: Link coloring ON on input line 36.
-
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestri
-ng.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count324
-)
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
-LaTeX Font Info:    Trying to load font information for T1+qhv on input line 69
+Package hyperref Info: Link coloring ON on input line 32.
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 65
 .
- (/home/autobuntu/.miktex/texmfs/install/tex/latex/tex-gyre/t1qhv.fd
+
+(/home/rhett/.miktex/texmfs/install/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 9.10004pt on input line 69.
+(Font)              scaled to size 9.10004pt on input line 65.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 9.10004pt on input line 69.
+(Font)              scaled to size 9.10004pt on input line 65.
 LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
-e 69.
+e 65.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/newtx/ot1minntx.fd
+(/home/rhett/.miktex/texmfs/install/tex/latex/newtx/ot1minntx.fd
 File: ot1minntx.fd 2022/01/20 v1.0 font definition file for OT1/minntx
 )
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-69.
+65.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/newtx/untxmia.fd
+(/home/rhett/.miktex/texmfs/install/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-69.
+65.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/newtx/untxsym.fd
+(/home/rhett/.miktex/texmfs/install/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-69.
+65.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/newtx/untxsyc.fd
+(/home/rhett/.miktex/texmfs/install/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-69.
+65.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/newtx/untxexa.fd
+(/home/rhett/.miktex/texmfs/install/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 6.64302pt on input line 69.
+(Font)              scaled to size 6.64302pt on input line 65.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 6.64302pt on input line 71.
+(Font)              scaled to size 6.64302pt on input line 67.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 74.
+(Font)              scaled to size 10.0pt on input line 70.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 14.56006pt on input line 74.
+(Font)              scaled to size 14.56006pt on input line 70.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 10.01004pt on input line 74.
+(Font)              scaled to size 10.01004pt on input line 70.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 74.
+(Font)              scaled to size 8.0pt on input line 70.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.2pt on input line 74.
+(Font)              scaled to size 6.2pt on input line 70.
 LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
-e 74.
+e 70.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/newtx/ts1ntxtlf.fd
+(/home/rhett/.miktex/texmfs/install/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.2pt on input line 74.
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 78
+(Font)              scaled to size 6.2pt on input line 70.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 74
 .
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/inconsolata/t1zi4.fd
+(/home/rhett/.miktex/texmfs/install/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 8.40002pt on input line 78.
+(Font)              scaled to size 8.40002pt on input line 74.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 92.
+(Font)              scaled to size 10.0pt on input line 88.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 121.
- [1.1{/home/autobuntu/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}
+(Font)              scaled to size 10.0pt on input line 117.
+ [1.1{/home/rhett/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/rhett/
+.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ec.enc}
 
 
-] [2.2]
+{/home/rhett/.miktex/texmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/home
+/rhett/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/home/rhett/.
+miktex/texmfs/install/fonts/enc/dvips/inconsolata/i4-t1-5.enc}] [2.2]
+
+LaTeX Warning: Reference `fig:vali_conf_mat' on page 3 undefined on input line 
+145.
+
 <figures/flowz_2.png, id=135, 1313.90875pt x 533.995pt>
 File: figures/flowz_2.png Graphic file (type png)
 <use figures/flowz_2.png>
-Package pdftex.def Info: figures/flowz_2.png  used on input line 159.
+Package pdftex.def Info: figures/flowz_2.png  used on input line 155.
 (pdftex.def)             Requested size: 257.28102pt x 104.56453pt.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 8.19003pt on input line 160.
+(Font)              scaled to size 8.19003pt on input line 156.
 <figures/training_data_cluster.png, id=137, 1295.53484pt x 1001.89043pt>
 File: figures/training_data_cluster.png Graphic file (type png)
 <use figures/training_data_cluster.png>
 Package pdftex.def Info: figures/training_data_cluster.png  used on input line 
-166.
+162.
 (pdftex.def)             Requested size: 257.28102pt x 198.95279pt.
 
-Underfull \hbox (badness 1168) in paragraph at lines 167--167
-[]\T1/qhv/b/n/9 FIGURE 2: |[]EXAMPLE OF TRAIN-ING DATA COM-PAR-I-SON BE-
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/qhv/b/n/9 FIGURE 2: |[]EXAMPLE OF TRAINING DATA COMPARISON
  []
 
 <figures/c2_min_class_error.png, id=138, 702.92084pt x 554.57716pt>
 File: figures/c2_min_class_error.png Graphic file (type png)
 <use figures/c2_min_class_error.png>
-Package pdftex.def Info: figures/c2_min_class_error.png  used on input line 173
+Package pdftex.def Info: figures/c2_min_class_error.png  used on input line 169
 .
 (pdftex.def)             Requested size: 257.28102pt x 202.9817pt.
-[3.3 <./figures/flowz_2.png> <./figures/training_data_cluster.png (PNG copy)> <
-./figures/c2_min_class_error.png (PNG copy)>]
-<figures/van_on_van.jpg, id=153, 4673.46pt x 3505.095pt>
+[3.3 <./figures/flowz_2.png> <./figures/training_data_cluster.png (PNG copy)>]
+<figures/van_on_van.jpg, id=156, 4673.46pt x 3505.095pt>
 File: figures/van_on_van.jpg Graphic file (type jpg)
 <use figures/van_on_van.jpg>
-Package pdftex.def Info: figures/van_on_van.jpg  used on input line 184.
+Package pdftex.def Info: figures/van_on_van.jpg  used on input line 182.
 (pdftex.def)             Requested size: 174.49841pt x 130.87381pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 185.
+(Font)              scaled to size 9.0pt on input line 183.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.19003pt on input line 185.
-<figures/LiDAR_on_van.jpg, id=154, 4673.46pt x 3505.095pt>
+(Font)              scaled to size 8.19003pt on input line 183.
+<figures/LiDAR_on_van.jpg, id=157, 4673.46pt x 3505.095pt>
 File: figures/LiDAR_on_van.jpg Graphic file (type jpg)
 <use figures/LiDAR_on_van.jpg>
-Package pdftex.def Info: figures/LiDAR_on_van.jpg  used on input line 190.
+Package pdftex.def Info: figures/LiDAR_on_van.jpg  used on input line 188.
 (pdftex.def)             Requested size: 174.49841pt x 130.87381pt.
 
-Overfull \hbox (13.73148pt too wide) in paragraph at lines 182--194
+Overfull \hbox (13.73148pt too wide) in paragraph at lines 180--192
  [][] 
  []
 
 
-Overfull \hbox (13.73148pt too wide) in paragraph at lines 182--194
+Overfull \hbox (13.73148pt too wide) in paragraph at lines 180--192
  [] 
  []
 
-<figures/vlcsnap-2023-04-20-08h48m17s447.png, id=155, 2071.74pt x 1549.79pt>
+<figures/vlcsnap-2023-04-20-08h48m17s447.png, id=158, 2071.74pt x 1549.79pt>
 File: figures/vlcsnap-2023-04-20-08h48m17s447.png Graphic file (type png)
 <use figures/vlcsnap-2023-04-20-08h48m17s447.png>
 Package pdftex.def Info: figures/vlcsnap-2023-04-20-08h48m17s447.png  used on i
-nput line 202.
+nput line 200.
 (pdftex.def)             Requested size: 190.14717pt x 142.24188pt.
-<figures/gravel_lot_pic.png, id=156, 2071.74pt x 1549.79pt>
+<figures/gravel_lot_pic.png, id=159, 2071.74pt x 1549.79pt>
 File: figures/gravel_lot_pic.png Graphic file (type png)
 <use figures/gravel_lot_pic.png>
-Package pdftex.def Info: figures/gravel_lot_pic.png  used on input line 208.
+Package pdftex.def Info: figures/gravel_lot_pic.png  used on input line 206.
 (pdftex.def)             Requested size: 190.14717pt x 142.24188pt.
-[4.4 <./figures/van_on_van.jpg> <./figures/LiDAR_on_van.jpg> <./figures/vlcsnap
--2023-04-20-08h48m17s447.png (PNG copy)> <./figures/gravel_lot_pic.png>]
-<figures/Compiled_PCD.png, id=170, 845.93936pt x 535.55873pt>
+<figures/Compiled_PCD.png, id=162, 845.93936pt x 535.55873pt>
 File: figures/Compiled_PCD.png Graphic file (type png)
 <use figures/Compiled_PCD.png>
 Package pdftex.def Info: figures/Compiled_PCD.png  used on input line 224.
 (pdftex.def)             Requested size: 231.71336pt x 146.69481pt.
-<figures/Manually_Defined_Area_Train_Dat_Grab_2.png, id=171, 2076.75874pt x 101
+<figures/Manually_Defined_Area_Train_Dat_Grab_2.png, id=163, 2076.75874pt x 101
 6.79875pt>
 File: figures/Manually_Defined_Area_Train_Dat_Grab_2.png Graphic file (type png
 )
@@ -1135,50 +1137,85 @@ Package pdftex.def Info: figures/Manually_Defined_Area_Train_Dat_Grab_2.png  us
 ed on input line 230.
 (pdftex.def)             Requested size: 231.71336pt x 113.44626pt.
 
-Underfull \vbox (badness 2205) has occurred while \output is active []
+Underfull \hbox (badness 1122) in paragraph at lines 234--234
+\T1/qhv/b/n/9 GPS AND IMU DATA TO DETERMINE POINT OF ORIGIN AND
+ []
 
-<figures/rm_db_4_percentages_big_anotated.png, id=175, 2590.30894pt x 1001.8904
+
+Underfull \hbox (badness 5288) in paragraph at lines 234--234
+\T1/qhv/b/n/9 ORIENTATION FOR THE LIDAR WAS USED TO CREATE A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+[]\T1/ntxtlf/m/n/10 Feature extraction was completed by performing
+ []
+
+[4.4{/home/rhett/.miktex/texmfs/install/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc} 
+<./figures/c2_min_class_error.png (PNG copy)> <./figures/van_on_van.jpg> <./fig
+ures/LiDAR_on_van.jpg>] [5.5 <./figures/vlcsnap-2023-04-20-08h48m17s447.png (PN
+G copy)> <./figures/gravel_lot_pic.png> <./figures/Compiled_PCD.png> <./figures
+/Manually_Defined_Area_Train_Dat_Grab_2.png>]
+<figures/rm_db_4_percentages_big_anotated.png, id=188, 2590.30894pt x 1001.8904
 3pt>
 File: figures/rm_db_4_percentages_big_anotated.png Graphic file (type png)
 <use figures/rm_db_4_percentages_big_anotated.png>
 Package pdftex.def Info: figures/rm_db_4_percentages_big_anotated.png  used on 
-input line 270.
+input line 271.
 (pdftex.def)             Requested size: 231.55135pt x 89.55473pt.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 5.00502pt on input line 271.
+(Font)              scaled to size 5.00502pt on input line 272.
 LaTeX Font Info:    Trying to load font information for OML+ntxsfmi on input li
-ne 271.
+ne 272.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/newtxsf/omlntxsfmi.fd
+(/home/rhett/.miktex/texmfs/install/tex/latex/newtxsf/omlntxsfmi.fd
 File: omlntxsfmi.fd 2014/11/16 Fontinst v1.933 font definitions for OML/ntxsfmi
 .
 )
-<figures/side_of_road_nums_4_with_filts_2.png, id=176, 2590.30894pt x 1001.8904
+Underfull \hbox (badness 3701) in paragraph at lines 272--272
+[]\T1/qhv/b/n/9 FIGURE 7: |[]FIVE RUNS OF BLACKBURN ROAD WITH THE
+ []
+
+
+Underfull \hbox (badness 6094) in paragraph at lines 272--272
+\T1/qhv/b/n/9 INTERCEPTING GRAVEL PARKING LOT WERE CLASSIFIED.
+ []
+
+<figures/side_of_road_nums_4_with_filts_2.png, id=189, 2590.30894pt x 1001.8904
 3pt>
 File: figures/side_of_road_nums_4_with_filts_2.png Graphic file (type png)
 <use figures/side_of_road_nums_4_with_filts_2.png>
 Package pdftex.def Info: figures/side_of_road_nums_4_with_filts_2.png  used on 
-input line 295.
+input line 296.
 (pdftex.def)             Requested size: 250.85056pt x 97.01509pt.
-
-[5.5 <./figures/Compiled_PCD.png> <./figures/Manually_Defined_Area_Train_Dat_Gr
-ab_2.png>]
-<figures/rm_db_4_toc.png, id=192, 2590.30894pt x 1001.89043pt>
+<figures/rm_db_4_toc.png, id=191, 2590.30894pt x 1001.89043pt>
 File: figures/rm_db_4_toc.png Graphic file (type png)
 <use figures/rm_db_4_toc.png>
-Package pdftex.def Info: figures/rm_db_4_toc.png  used on input line 307.
+Package pdftex.def Info: figures/rm_db_4_toc.png  used on input line 308.
 (pdftex.def)             Requested size: 231.55135pt x 89.55473pt.
 
-
-LaTeX Warning: Reference `' on page 6 undefined on input line 315.
-
-
-Underfull \vbox (badness 8075) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+[]\T1/qhv/b/n/9 FIGURE 10: |[]GRAVEL AND ASPHALT SURFACES WERE
+ []
 
 
+Underfull \hbox (badness 1960) in paragraph at lines 309--309
+\T1/qhv/b/n/9 MANUALLY GUESSED USING A RULE SET AND COMPARED
+ []
+
+
+LaTeX Warning: Reference `' on page 6 undefined on input line 316.
+
+[6.6 <./figures/rm_db_4_percentages_big_anotated.png> <./figures/side_of_road_n
+ums_4_with_filts_2.png (PNG copy)> <./figures/rm_db_4_toc.png (PNG copy)>]
 (Huston_Paper_asme.bbl
+Underfull \hbox (badness 1275) in paragraph at lines 13--16
+\T1/ntxtlf/m/n/10 Highway Administration.'' (2008).  Accessed 2021-
+ []
+
+
 Underfull \hbox (badness 2698) in paragraph at lines 18--22
-[]\T1/ntxtlf/m/n/10 Malik, Yud-hvir Singh and Lal, Babni.  ``Ba-sic
+[]\T1/ntxtlf/m/n/10 Malik, Yudhvir Singh and Lal, Babni.  ``Basic
  []
 
 
@@ -1187,8 +1224,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--22
 / Basic % 20 _ Road _
  []
 
-[6.6 <./figures/rm_db_4_percentages_big_anotated.png> <./figures/side_of_road_n
-ums_4_with_filts_2.png (PNG copy)> <./figures/rm_db_4_toc.png (PNG copy)>]
+
 Underfull \hbox (badness 7981) in paragraph at lines 38--48
 \T1/ntxtlf/m/n/10 2021-10-14, URL [][]$https : / / doi . org / 10 . 1080 / 0143
 1161 .
@@ -1196,7 +1232,7 @@ Underfull \hbox (badness 7981) in paragraph at lines 38--48
 
 
 Underfull \hbox (badness 2057) in paragraph at lines 60--68
-\T1/ntxtlf/m/n/10 FAST AND RO-BUST AL-GO-RITHM FOR ROAD
+\T1/ntxtlf/m/n/10 FAST AND ROBUST ALGORITHM FOR ROAD
  []
 
 
@@ -1206,9 +1242,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--68
  []
 
 
+Underfull \hbox (badness 1762) in paragraph at lines 70--77
+\T1/ntxtlf/m/n/10 2021-12-15, URL [][]$http : / / ieeexplore . ieee . org / doc
+ument /
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 79--82
+\T1/ntxtlf/m/n/10 Osman and Karabag, Kaan.  ``Experiments of the
+ []
+
+
 Underfull \hbox (badness 1205) in paragraph at lines 94--102
-\T1/ntxtlf/m/it/10 Sens-ing and Spa-tial In-for-ma-tion Sci-ences \T1/ntxtlf/m/
-n/10 Vol. II-5
+\T1/ntxtlf/m/it/10 Sensing and Spatial Information Sciences \T1/ntxtlf/m/n/10 V
+ol. II-5
  []
 
 
@@ -1217,26 +1264,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--102
 i . net /
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
+\T1/ntxtlf/m/n/10 ``ROAD EXTRACTION AND ENVIRONMENT
+ []
+
 [7.7]
+Underfull \hbox (badness 4595) in paragraph at lines 139--146
+\T1/ntxtlf/m/n/10 Detection Method Based on Improved RANSAC
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 154--164
+\T1/ntxtlf/m/n/10 Classification Under Different Lighting Conditions.''
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 166--176
+\T1/ntxtlf/m/n/10 Classification Under Different Lighting Conditions.''
+ []
+
+
+Underfull \hbox (badness 6559) in paragraph at lines 187--194
+[]\T1/ntxtlf/m/n/10 Rychkov, Igor, Brasington, James and Vericat,
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 196--205
+\T1/ntxtlf/m/it/10 and Remote Sensing \T1/ntxtlf/m/n/10 Vol. 82 (2013): pp. 10-
+-26.
+ []
+
+
 Underfull \hbox (badness 1484) in paragraph at lines 207--217
-[]\T1/ntxtlf/m/n/10 Brubaker, Kris-ten M., My-ers, Wayne L., Dro-han,
+[]\T1/ntxtlf/m/n/10 Brubaker, Kristen M., Myers, Wayne L., Drohan,
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 207--217
-\T1/ntxtlf/m/n/10 / / www . hindawi . com / journals / aess / 2013 / 891534/$[]
-[].  Pub-
+Underfull \hbox (badness 4279) in paragraph at lines 219--227
+\T1/ntxtlf/m/n/10 soils using airborne LiDAR.''  \T1/ntxtlf/m/it/10 Remote Sens
+ing
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 240--251
-\T1/ntxtlf/m/it/10 Geo-phys-i-cal Re-search: Plan-ets \T1/ntxtlf/m/n/10 Vol. 10
-6 No. E12
+Underfull \hbox (badness 3118) in paragraph at lines 219--227
+\T1/ntxtlf/m/it/10 of Environment \T1/ntxtlf/m/n/10 Vol. 140 (2014): pp. 107--1
+17.
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 219--227
+\T1/ntxtlf/m/n/10 DOI [][]10.1016/j.rse.2013.08.030[][].  Accessed 2021-10-
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 229--238
+\T1/ntxtlf/m/n/10 2021-10-19, URL [][]$http : / / www . publish . csiro . au / 
+?paper =
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 240--251
+\T1/ntxtlf/m/n/10 Jeffrey J.  ``The roughness of natural terrain: A
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 240--251
-\T1/ntxtlf/m/n/10 Ac-cessed 2021-10-19, URL [][]$https : / / onlinelibrary .
+\T1/ntxtlf/m/n/10 Accessed 2021-10-19, URL [][]$https : / / onlinelibrary .
  []
 
 
@@ -1253,84 +1347,178 @@ Overfull \hbox (23.89897pt too wide) in paragraph at lines 240--251
 
 
 Underfull \hbox (badness 1454) in paragraph at lines 253--261
-[]\T1/ntxtlf/m/n/10 Tegowski, Jaroslaw, Trzcin-ska, Karolina, Kasprzak,
+[]\T1/ntxtlf/m/n/10 Tegowski, Jaroslaw, Trzcinska, Karolina, Kasprzak,
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 271--282
-\T1/ntxtlf/m/n/10 si-tiv-ity Anal-y-sis.''  \T1/ntxtlf/m/it/10 IS-PRS In-ter-na
--tional Jour-nal of
+Underfull \hbox (badness 2368) in paragraph at lines 271--282
+\T1/ntxtlf/m/n/10 Analysis.''  \T1/ntxtlf/m/it/10 ISPRS International Journal o
+f Geo-
  []
 
 
+Underfull \hbox (badness 1490) in paragraph at lines 271--282
+\T1/ntxtlf/m/it/10 Information \T1/ntxtlf/m/n/10 Vol. 7 No. 2 (2018): p. 69.  D
+OI
+ []
+
+[8.8]
 Underfull \hbox (badness 5091) in paragraph at lines 304--313
 \T1/ntxtlf/m/n/10 / / arc . aiaa . org / doi / abs / 10 . 2514 / 6 . 2021-[]158
 2$[][].  _eprint:
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 347--356
-[]\T1/ntxtlf/m/n/10 Moleski, Travis W. and Wil-helm, Jay.  ``Tri-lat-er-
+Underfull \hbox (badness 1990) in paragraph at lines 315--331
+\T1/ntxtlf/m/n/10 springer . com / 10 . 1007 / 978-[]3-[]662-[]44468-[]9 _ 58$[
+][].  Series
  []
 
 
-Underfull \hbox (badness 3679) in paragraph at lines 347--356
-\T1/ntxtlf/m/n/10 tem.''  \T1/ntxtlf/m/it/10 AIAA Scitech 2020 Fo-rum\T1/ntxtlf
-/m/n/10 .  Amer-i-can
+Underfull \hbox (badness 1533) in paragraph at lines 338--345
+[]\T1/ntxtlf/m/n/10 Bailey, T. and Durrant-Whyte, H.  ``Simultaneous
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 338--345
+\T1/ntxtlf/m/n/10 2020-02-20, URL [][]$http : / / ieeexplore . ieee . org / doc
+ument /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--356
+\T1/ntxtlf/m/n/10 Positioning Using Hybrid Camera-LiDAR
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 347--356
+\T1/ntxtlf/m/n/10 System.''  \T1/ntxtlf/m/it/10 AIAA Scitech 2020 Forum\T1/ntxt
+lf/m/n/10 .  American
  []
 
 
 Underfull \hbox (badness 3343) in paragraph at lines 347--356
-\T1/ntxtlf/m/n/10 In-sti-tute of Aero-nau-tics and As-tro-nau-tics.  DOI
+\T1/ntxtlf/m/n/10 Institute of Aeronautics and Astronautics.  DOI
  []
 
 
-Underfull \hbox (badness 5091) in paragraph at lines 347--356
-\T1/ntxtlf/m/n/10 / / arc . aiaa . org / doi / abs / 10 . 2514 / 6 . 2020-[]039
-3$[][].  _eprint:
+Underfull \hbox (badness 2035) in paragraph at lines 347--356
+[][]\T1/ntxtlf/m/n/10 10.2514/6.2020-0393[][].  Accessed 2021-02-01, URL
  []
 
-[8.8]
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--356
+[][]$\T1/ntxtlf/m/n/10 https : / / arc . aiaa . org / doi / abs / 10 . 2514 / 6
+ . 2020-[]0393$[][].
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--356
+\T1/ntxtlf/m/n/10 _eprint: https://arc.aiaa.org/doi/pdf/10.2514/6.2020-
+ []
+
+
 Underfull \hbox (badness 1158) in paragraph at lines 358--364
-[]\T1/ntxtlf/m/n/10 Yadav, Manohar, Lo-hani, Bharat and Singh, Ajoy.
+[]\T1/ntxtlf/m/n/10 Yadav, Manohar, Lohani, Bharat and Singh, Ajoy.
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 467--475
-\T1/ntxtlf/m/n/10 ing.''  \T1/ntxtlf/m/it/10 IS-PRS Jour-nal of Pho-togram-me-t
-ry and Re-
+Underfull \hbox (badness 2326) in paragraph at lines 358--364
+\T1/ntxtlf/m/n/10 ``ROAD SURFACE DETECTION FROM MOBILE
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 371--375
+[]\T1/ntxtlf/m/n/10 Anderson, Sean, McManus, Colin, Dong, Hang,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--386
+\T1/ntxtlf/m/n/10 Hubert, Jaakkola, Anttoni, Suomalainen, Juha,
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 377--386
+\T1/ntxtlf/m/n/10 Akujarvi, Altti, Kaasalainen, Mikko and Pyysalo,
+ []
+
+
+Underfull \hbox (badness 5403) in paragraph at lines 377--386
+\T1/ntxtlf/m/n/10 With Commercially Available Reference Targets.''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--386
+\T1/ntxtlf/m/it/10 IEEE Transactions on Geoscience and Remote
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 395--398
+[]\T1/ntxtlf/m/n/10 ``Radiometric Calibration of LIDAR Intensity With
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 449--457
+[]\T1/ntxtlf/m/n/10 Mena, J. B. and Malpica, J. A.  ``An automatic
+ []
+
+[9.9]
+Underfull \hbox (badness 7273) in paragraph at lines 467--475
+\T1/ntxtlf/m/it/10 ISPRS Journal of Photogrammetry and Remote
+ []
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 467--475
+\T1/ntxtlf/m/it/10 Sensing \T1/ntxtlf/m/n/10 Vol. 93 (2014): pp. 243--255.  DOI
+
  []
 
 
 Underfull \hbox (badness 2359) in paragraph at lines 467--475
-[][]\T1/ntxtlf/m/n/10 10.1016/j.isprsjprs.2014.03.015[][].  Ac-cessed 2021-10-
- []
-
-[9.9]
-Underfull \hbox (badness 1117) in paragraph at lines 526--536
-[]\T1/ntxtlf/m/n/10 Yadav, Manohar, Lo-hani, Bharat, Singh, Ajai Ku-
+[][]\T1/ntxtlf/m/n/10 10.1016/j.isprsjprs.2014.03.015[][].  Accessed 2021-10-
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 526--536
-\T1/ntxtlf/m/n/10 mar and Hu-sain, Ar-shad.  ``Iden-ti-fi-ca-tion of pole-
+Underfull \hbox (badness 2856) in paragraph at lines 488--494
+\T1/ntxtlf/m/n/10 Bharat.  ``POLE-SHAPED OBJECT DETECTION
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 526--536
-\T1/ntxtlf/m/n/10 like struc-tures from mo-bile li-dar data of com-plex
+Underfull \hbox (badness 3323) in paragraph at lines 496--504
+\T1/ntxtlf/m/n/10 for extracting road edges from terrestrial mobile
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 526--536
-\T1/ntxtlf/m/n/10 road en-vi-ron-ment.''  \T1/ntxtlf/m/it/10 In-ter-na-tional J
-our-nal of Re-
+Underfull \hbox (badness 1424) in paragraph at lines 496--504
+\T1/ntxtlf/m/n/10 LiDAR data.''  \T1/ntxtlf/m/it/10 ISPRS Journal of Photogramm
+etry
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 526--536
-\T1/ntxtlf/m/it/10 mote Sens-ing \T1/ntxtlf/m/n/10 Vol. 37 No. 20 (2016): pp. 4
-748--
+Underfull \hbox (badness 1596) in paragraph at lines 496--504
+\T1/ntxtlf/m/it/10 and Remote Sensing \T1/ntxtlf/m/n/10 Vol. 85 (2013): pp. 44-
+-55.
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 526--536
+\T1/ntxtlf/m/n/10 and Husain, Arshad.  ``Identification of pole-like
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 526--536
+\T1/ntxtlf/m/n/10 structures from mobile lidar data of complex road
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 526--536
+\T1/ntxtlf/m/n/10 environment.''  \T1/ntxtlf/m/it/10 International Journal of R
+emote
+ []
+
+
+Underfull \hbox (badness 6047) in paragraph at lines 526--536
+\T1/ntxtlf/m/it/10 Sensing \T1/ntxtlf/m/n/10 Vol. 37 No. 20 (2016): pp. 4748--
  []
 
 
@@ -1341,22 +1529,55 @@ Underfull \hbox (badness 7981) in paragraph at lines 526--536
 
 
 Underfull \hbox (badness 1502) in paragraph at lines 554--563
-[]\T1/ntxtlf/m/n/10 Buj^^e1n, San-dra, Guerra-Hern^^e1ndez, Juan, Gonz^^e1lez-
+[]\T1/ntxtlf/m/n/10 Buján, Sandra, Guerra-Hernández, Juan, González-
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 554--563
+\T1/ntxtlf/m/it/10 Remote Sensing \T1/ntxtlf/m/n/10 Vol. 13 No. 3 (2021): p. 39
+3.
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 565--571
+\T1/ntxtlf/m/n/10 system using 2D LiDAR and camera.''  \T1/ntxtlf/m/it/10 2017
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 565--571
+\T1/ntxtlf/m/it/10 Ninth International Conference on Ubiquitous and
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 590--598
+\T1/ntxtlf/m/n/10 of Pavement Distresses Using 3D Laser Scanning
  []
 
 
 Underfull \hbox (badness 1383) in paragraph at lines 600--606
-[]\T1/ntxtlf/m/n/10 Korotkova, Olga, An-drews, Larry C. and Phillips,
+[]\T1/ntxtlf/m/n/10 Korotkova, Olga, Andrews, Larry C. and Phillips,
  []
 
 
 Underfull \hbox (badness 1043) in paragraph at lines 608--616
-[]\T1/ntxtlf/m/n/10 Schnabel, R., Wahl, R. and Klein, R.  ``Ef-fi-cient
+[]\T1/ntxtlf/m/n/10 Schnabel, R., Wahl, R. and Klein, R.  ``Efficient
  []
 
 
-Underfull \hbox (badness 4193) in paragraph at lines 608--616
-\T1/ntxtlf/m/n/10 214--226.  DOI [][]10.1111/j.1467-8659.2007.01016.x[][].
+Underfull \hbox (badness 4205) in paragraph at lines 608--616
+\T1/ntxtlf/m/n/10 DOI [][]10.1111/j.1467-8659.2007.01016.x[][].  Accessed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--616
+\T1/ntxtlf/m/n/10 2021-10-18, URL [][]$https : / / onlinelibrary . wiley . com 
+/
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 608--616
+\T1/ntxtlf/m/n/10 doi / abs / 10 . 1111 / j . 1467-[]8659 . 2007 . 01016 . x$[]
+[].  _eprint:
  []
 
 
@@ -1364,16 +1585,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 608--616
 \T1/ntxtlf/m/n/10 https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-
  []
 
-
-Underfull \hbox (badness 1102) in paragraph at lines 688--695
-\T1/ntxtlf/m/n/10 Reg-is-tra-tion.''  \T1/ntxtlf/m/it/10 Foun-da-tions of Com-p
-ut-ing and De-
+[10.10]
+Underfull \hbox (badness 1552) in paragraph at lines 636--644
+[]\T1/ntxtlf/m/n/10 Li, Xuyou, Du, Shitong, Li, Guangchun and Li,
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 688--695
-\T1/ntxtlf/m/it/10 ci-sion Sci-ences \T1/ntxtlf/m/n/10 Vol. 42 No. 3 (2017): pp
-. 203--
+Underfull \hbox (badness 1264) in paragraph at lines 657--663
+[]\T1/ntxtlf/m/n/10 Yuan, Chi, Yu, Xiaoqing and Luo, Ziyue.  ``3D
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 657--663
+\T1/ntxtlf/m/it/10 International Conference on Audio, Language and
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 688--695
+[]\T1/ntxtlf/m/n/10 Koguciuk, Daniel.  ``Parallel RANSAC for Point
  []
 
 
@@ -1382,20 +1611,36 @@ Underfull \hbox (badness 1817) in paragraph at lines 688--695
 0 . 1515 /
  []
 
-[10.10]
-Underfull \hbox (badness 1005) in paragraph at lines 759--770
-[]\T1/ntxtlf/m/n/10 Hegge, Bruce J. and Mas-selink, Ger-hard.  ``Spec-
+
+Underfull \hbox (badness 1019) in paragraph at lines 697--701
+\T1/ntxtlf/m/n/10 Pierre.  ``Hough-Transform and Extended RANSAC
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 759--770
-\T1/ntxtlf/m/n/10 tral Anal-y-sis of Ge-o-mor-phic Time Se-ries: Auto-
+Underfull \hbox (badness 1348) in paragraph at lines 732--739
+\T1/ntxtlf/m/n/10 Haruo.  ``Describing surfaces.''  \T1/ntxtlf/m/it/10 Computer
+ Vision,
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 759--770
-\T1/ntxtlf/m/n/10 Spectrum.''  \T1/ntxtlf/m/it/10 Earth Sur-face Pro-cesses and
- Land-
+Underfull \hbox (badness 2753) in paragraph at lines 732--739
+\T1/ntxtlf/m/it/10 Graphics, and Image Processing \T1/ntxtlf/m/n/10 Vol. 32 No.
+ 1
+ []
+
+
+Underfull \hbox (badness 6641) in paragraph at lines 749--757
+\T1/ntxtlf/m/n/10 navigation in rough terrain using a 3D laser
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 759--770
+\T1/ntxtlf/m/n/10 Analysis of Geomorphic Time Series: Auto-
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 759--770
+\T1/ntxtlf/m/n/10 Vol. 21 No. 11 (1996): pp. 1021--1040.  DOI
  []
 
 
@@ -1431,44 +1676,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 759--770
  []
 
 
-Underfull \hbox (badness 6927) in paragraph at lines 772--779
-[]\T1/ntxtlf/m/n/10 Statistics, United States. De-part-ment Of Trans-
+Underfull \hbox (badness 10000) in paragraph at lines 772--779
+\T1/ntxtlf/m/n/10 Statistics (series).'' (2019)DOI [][]10.21949/1503663[][].
  []
 
 
-Underfull \hbox (badness 4940) in paragraph at lines 772--779
-\T1/ntxtlf/m/n/10 porta-tion. Bu-reau Of Trans-porta-tion.  ``Na-tional
+Underfull \hbox (badness 2781) in paragraph at lines 772--779
+\T1/ntxtlf/m/n/10 Accessed 2021-11-12, URL [][]$https : / / rosap . ntl . bts .
+ gov /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 772--779
-\T1/ntxtlf/m/n/10 Trans-porta-tion Statis-tics (se-ries).'' (2019)DOI
- []
-
-
-Underfull \hbox (badness 5652) in paragraph at lines 772--779
-[][]\T1/ntxtlf/m/n/10 10.21949/1503663[][].  Ac-cessed 2021-11-12, URL
+\T1/ntxtlf/m/n/10 gsearch ? collection = dot : 35533 & type1 = mods . title &
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 772--779
-[][]$\T1/ntxtlf/m/n/10 https : / / rosap . ntl . bts . gov / gsearch ? collecti
-on = dot :
+\T1/ntxtlf/m/n/10 fedora _ terms1 = National + Transportation + Statistics$[][]
+.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 772--779
-\T1/ntxtlf/m/n/10 35533 & type1 = mods . title & fedora _ terms1 = National +
+Underfull \hbox (badness 10000) in paragraph at lines 781--784
+[]\T1/ntxtlf/m/n/10 ``Autonomous Vehicle Market Size & Share
  []
 
 
-Underfull \hbox (badness 3635) in paragraph at lines 781--784
-[]\T1/ntxtlf/m/n/10 ``Autonomous Ve-hi-cle Mar-ket Size & Share Re-
- []
-
-
-Underfull \hbox (badness 4492) in paragraph at lines 781--784
-\T1/ntxtlf/m/n/10 port, 2021-2030.''  Ac-cessed 2021-11-12, URL
+Underfull \hbox (badness 1910) in paragraph at lines 781--784
+\T1/ntxtlf/m/n/10 Report, 2021-2030.''  Accessed 2021-11-12, URL
  []
 
 
@@ -1477,24 +1713,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 781--784
 nalysis /
  []
 
-
+[11.11]
 Underfull \hbox (badness 1184) in paragraph at lines 787--790
-\T1/ntxtlf/m/n/10 Fed-eral High-way Ad-min-is-tra-tion.''  Ac-cessed 2021-
+\T1/ntxtlf/m/n/10 Federal Highway Administration.''  Accessed 2021-
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 798--804
+\T1/ntxtlf/m/n/10 Algorithms.''  \T1/ntxtlf/m/it/10 Other Conferences\T1/ntxtlf
+/m/n/10 . 1990.  DOI
  []
 
 
 Underfull \hbox (badness 5274) in paragraph at lines 806--814
-\T1/ntxtlf/m/n/10 Bound-aries And Ve-hi-cle Track-ing Us-ing Image-
+\T1/ntxtlf/m/n/10 Boundaries And Vehicle Tracking Using Image-
  []
 
 
 Underfull \hbox (badness 1708) in paragraph at lines 806--814
-\T1/ntxtlf/m/n/10 Processing Tech-niques -Part II: Tem-plate Match-ing
+\T1/ntxtlf/m/n/10 Processing Techniques -Part II: Template Matching
  []
 
 
 Underfull \hbox (badness 1668) in paragraph at lines 806--814
-\T1/ntxtlf/m/n/10 1990. SPIE.  DOI [][]10.1117/12.969886[][].  Ac-cessed
+\T1/ntxtlf/m/n/10 1990. SPIE.  DOI [][]10.1117/12.969886[][].  Accessed
  []
 
 
@@ -1514,18 +1756,43 @@ le-[]Tracking-[]Using /
  []
 
 
+Underfull \hbox (badness 1142) in paragraph at lines 837--845
+[]\T1/ntxtlf/m/n/10 Sotelo, Miguel Angel, Rodriguez, Francisco Javier,
+ []
+
+
+Underfull \hbox (badness 2426) in paragraph at lines 837--845
+\T1/ntxtlf/m/n/10 Luciano.  ``A Color Vision-Based Lane Tracking
+ []
+
+
 Underfull \hbox (badness 2460) in paragraph at lines 837--845
-\T1/ntxtlf/m/it/10 Au-tonomous Robots \T1/ntxtlf/m/n/10 Vol. 16 No. 1 (2004): p
-p.
+\T1/ntxtlf/m/it/10 Autonomous Robots \T1/ntxtlf/m/n/10 Vol. 16 No. 1 (2004): pp
+.
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 847--856
+[]\T1/ntxtlf/m/n/10 Lutzeler, M. and Dickmanns, E.D.  ``EMS-vision:
  []
 
 
 Underfull \hbox (badness 1009) in paragraph at lines 847--856
-\T1/ntxtlf/m/n/10 Ac-cessed 2021-12-09, URL [][]$http : / / ieeexplore . ieee .
- org /
+\T1/ntxtlf/m/n/10 Accessed 2021-12-09, URL [][]$http : / / ieeexplore . ieee . 
+org /
  []
 
-[11.11]
+
+Underfull \hbox (badness 1342) in paragraph at lines 858--864
+[]\T1/ntxtlf/m/n/10 Lutzeler, M. and Dickmanns, E.D.  ``EMS-vision:
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 889--899
+\T1/ntxtlf/m/n/10 Giuseppe, Pezzuolo, Andrea, Cavalli, Raffaele and
+ []
+
+
 Underfull \hbox (badness 1609) in paragraph at lines 937--940
 \T1/ntxtlf/m/n/10 16, URL [][]$http : / / www . dynatrackgps . com / coverage-[
 ]map .
@@ -1533,16 +1800,16 @@ Underfull \hbox (badness 1609) in paragraph at lines 937--940
 
 
 Underfull \hbox (badness 2359) in paragraph at lines 942--945
-[]\T1/ntxtlf/m/n/10 ``Wireless 3G / 4G / 5G cov-er-age map, United
+[]\T1/ntxtlf/m/n/10 ``Wireless 3G / 4G / 5G coverage map, United
  []
 
 
 Underfull \hbox (badness 3826) in paragraph at lines 954--964
-\T1/ntxtlf/m/n/10 Ac-cessed 2021-12-17, URL [][]$https : / / doi . org / 10 . 1
-080 /
+\T1/ntxtlf/m/n/10 Accessed 2021-12-17, URL [][]$https : / / doi . org / 10 . 10
+80 /
  []
 
-
+[12.12]
 Underfull \hbox (badness 3375) in paragraph at lines 994--997
 \T1/ntxtlf/m/n/10 2022-01-13, URL [][]$https : / / velodynelidar . com / produc
 ts /
@@ -1550,13 +1817,24 @@ ts /
 
 
 Underfull \hbox (badness 3826) in paragraph at lines 1008--1017
-\T1/ntxtlf/m/n/10 Ac-cessed 2022-01-13, URL [][]$https : / / doi . org / 10 . 1
-080 /
+\T1/ntxtlf/m/n/10 Accessed 2022-01-13, URL [][]$https : / / doi . org / 10 . 10
+80 /
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 1019--1027
-\T1/ntxtlf/m/n/10 DOI [][]10.1016/j.spl.2021.109088[][].  Ac-cessed 2022-01-
+Underfull \hbox (badness 1210) in paragraph at lines 1019--1027
+[]\T1/ntxtlf/m/n/10 Naaman, Michael.  ``On the tight constant in the
+ []
+
+
+Underfull \hbox (badness 3375) in paragraph at lines 1019--1027
+\T1/ntxtlf/m/n/10 multivariate Dvoretzky^^UKiefer^^UWolfowitz inequality.''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1019--1027
+\T1/ntxtlf/m/n/10 01-13, URL [][]$https : / / www . sciencedirect . com / scien
+ce /
  []
 
 
@@ -1565,15 +1843,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 1029--1033
 rvey _
  []
 
-[12.12]
+
 Underfull \hbox (badness 2790) in paragraph at lines 1046--1052
 []\T1/ntxtlf/m/n/10 Razlaw, Jan, Droeschel, David, Holz, Dirk and
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 1063--1073
-\T1/ntxtlf/m/n/10 works for Software-in-the-Loop Test-ing.''  \T1/ntxtlf/m/it/1
-0 SAE In-
+Underfull \hbox (badness 1168) in paragraph at lines 1046--1052
+\T1/ntxtlf/m/it/10 on Mobile Robots (ECMR)\T1/ntxtlf/m/n/10 : pp. 1--7. 2015.  
+DOI
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 1063--1073
+\T1/ntxtlf/m/n/10 Jia, Yunyi.  ``Integration of Autonomous Vehicle
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 1063--1073
+\T1/ntxtlf/m/n/10 DOI [][]10.4271/2020-01-0709[][].  Accessed 2022-01-21,
  []
 
 
@@ -1584,7 +1872,7 @@ al-[]papers /
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1075--1084
-\T1/ntxtlf/m/n/10 Ac-cessed 2022-01-21, URL [][]$https : / / onlinelibrary .
+\T1/ntxtlf/m/n/10 Accessed 2022-01-21, URL [][]$https : / / onlinelibrary .
  []
 
 
@@ -1594,23 +1882,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 1075--1084
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 1112--1120
-[]\T1/ntxtlf/m/n/10 Gallo, Orazio, Man-duchi, Roberto and Rafii, Ab-
+Underfull \hbox (badness 3965) in paragraph at lines 1103--1110
+[]\T1/ntxtlf/m/n/10 Choi, Sunglok, Kim, Taemin and Yu, Wonpil.
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 1133--1136
-[]\T1/ntxtlf/m/n/10 ``Road De-tec-tion by RANSAC on Ran-domly Sam-
+Underfull \hbox (badness 10000) in paragraph at lines 1103--1110
+\T1/ntxtlf/m/n/10 ``Performance Evaluation of RANSAC Family.''
  []
 
 
-Underfull \hbox (badness 5431) in paragraph at lines 1133--1136
-\T1/ntxtlf/m/n/10 pled Patches with Slanted Plane Prior - Aca-
+Underfull \hbox (badness 10000) in paragraph at lines 1103--1110
+\T1/ntxtlf/m/n/10 2022-01-27, URL [][]$http : / / www . bmva . org / bmvc / 200
+9 /
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 1133--1136
-\T1/ntxtlf/m/n/10 demic-Fo-cus.''  Ac-cessed 2022-01-27, URL [][]$https :
+Underfull \hbox (badness 2846) in paragraph at lines 1112--1120
+\T1/ntxtlf/m/n/10 ``CC-RANSAC: Fitting planes in the presence of
+ []
+
+
+Underfull \hbox (badness 5036) in paragraph at lines 1112--1120
+\T1/ntxtlf/m/it/10 Letters \T1/ntxtlf/m/n/10 Vol. 32 No. 3 (2011): pp. 403--410
+.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1133--1136
+[]\T1/ntxtlf/m/n/10 ``Road Detection by RANSAC on Randomly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1133--1136
+\T1/ntxtlf/m/n/10 Sampled Patches with Slanted Plane Prior -
  []
 
 
@@ -1619,16 +1924,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 1133--1136
 Net /
  []
 
+[13.13]
+Underfull \hbox (badness 1009) in paragraph at lines 1138--1146
+\T1/ntxtlf/m/n/10 Accessed 2022-01-27, URL [][]$http : / / ieeexplore . ieee . 
+org /
+ []
 
-Underfull \hbox (badness 1048) in paragraph at lines 1167--1177
-\T1/ntxtlf/m/n/10 Os-car (eds.). \T1/ntxtlf/m/it/10 Read-ings in Com-puter Vi-s
-ion\T1/ntxtlf/m/n/10 .  Mor-
+
+Underfull \hbox (badness 1622) in paragraph at lines 1167--1177
+\T1/ntxtlf/m/n/10 Cartography.''  Fischler, Martin A. and Firschein,
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 1167--1177
+\T1/ntxtlf/m/n/10 Kaufmann, San Francisco (CA) (1987): pp. 726--
+ []
+
+
+Underfull \hbox (badness 7397) in paragraph at lines 1167--1177
+\T1/ntxtlf/m/n/10 740.  DOI [][]10.1016/B978-0-08-051581-6.50070-2[][].
  []
 
 
 Underfull \hbox (badness 1009) in paragraph at lines 1183--1192
-\T1/ntxtlf/m/n/10 Ac-cessed 2022-02-08, URL [][]$http : / / ieeexplore . ieee .
- org /
+\T1/ntxtlf/m/n/10 Accessed 2022-02-08, URL [][]$http : / / ieeexplore . ieee . 
+org /
  []
 
 
@@ -1637,20 +1957,51 @@ Underfull \hbox (badness 1484) in paragraph at lines 1194--1201
  []
 
 
+Underfull \hbox (badness 3930) in paragraph at lines 1194--1201
+\T1/ntxtlf/m/n/10 Jensfelt, Patric.  ``Geometric and visual terrain
+ []
+
+
 Underfull \hbox (badness 1430) in paragraph at lines 1194--1201
-\T1/ntxtlf/m/it/10 and Sys-tems (IROS)\T1/ntxtlf/m/n/10 : pp. 2678--2684. 2017.
-  DOI
+\T1/ntxtlf/m/it/10 and Systems (IROS)\T1/ntxtlf/m/n/10 : pp. 2678--2684. 2017. 
+ DOI
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 1203--1212
+[]\T1/ntxtlf/m/n/10 Ojeda, Lauro, Borenstein, Johann, Witus, Gary
+ []
+
+
+Underfull \hbox (badness 5431) in paragraph at lines 1203--1212
+\T1/ntxtlf/m/n/10 and Karlsen, Robert.  ``Terrain characterization
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 1203--1212
+\T1/ntxtlf/m/n/10 and classification with a mobile robot.''  \T1/ntxtlf/m/it/10
+ Journal
+ []
+
+
+Underfull \hbox (badness 3375) in paragraph at lines 1203--1212
+\T1/ntxtlf/m/it/10 of Field Robotics \T1/ntxtlf/m/n/10 Vol. 23 No. 2 (2006): pp
+.
+ []
+
+
+Underfull \hbox (badness 6078) in paragraph at lines 1203--1212
+\T1/ntxtlf/m/n/10 103--122.  DOI [][]10.1002/rob.20113[][].  Accessed
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1203--1212
-\T1/ntxtlf/m/n/10 Ac-cessed 2022-02-23, URL [][]$https : / / onlinelibrary .
+\T1/ntxtlf/m/n/10 2022-02-23, URL [][]$https : / / onlinelibrary . wiley .
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1203--1212
-\T1/ntxtlf/m/n/10 wiley . com / doi / abs / 10 . 1002 / rob . 20113$[][].  _epr
-int:
+\T1/ntxtlf/m/n/10 com / doi / abs / 10 . 1002 / rob . 20113$[][].  _eprint:
  []
 
 
@@ -1658,19 +2009,19 @@ Overfull \hbox (4.72897pt too wide) in paragraph at lines 1203--1212
 \T1/ntxtlf/m/n/10 https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.20113. 
  []
 
-[13.13]
+
 Underfull \hbox (badness 3260) in paragraph at lines 1214--1219
-[]\T1/ntxtlf/m/n/10 Coombs, David, Mur-phy, Karl, La-caze, Al-berto
+[]\T1/ntxtlf/m/n/10 Coombs, David, Murphy, Karl, Lacaze, Alberto
  []
 
 
 Underfull \hbox (badness 5105) in paragraph at lines 1214--1219
-\T1/ntxtlf/m/n/10 and Legowik, Steven.  ``Driv-ing Au-tonomously
+\T1/ntxtlf/m/n/10 and Legowik, Steven.  ``Driving Autonomously
  []
 
 
 Underfull \hbox (badness 4254) in paragraph at lines 1214--1219
-\T1/ntxtlf/m/n/10 Of-froad up to 35 km/h.'' (2000)Ac-cessed 2022-
+\T1/ntxtlf/m/n/10 Offroad up to 35 km/h.'' (2000)Accessed 2022-
  []
 
 
@@ -1680,36 +2031,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 1214--1219
  []
 
 
-Underfull \hbox (badness 3049) in paragraph at lines 1214--1219
-\T1/ntxtlf/m/n/10 driving-[]autonomously-[]o^^[road-[]35-[]kmh$[][].  Last Mod-
-i-
+Underfull \hbox (badness 1365) in paragraph at lines 1226--1233
+\T1/ntxtlf/m/n/10 in a walking robot.''  \T1/ntxtlf/m/it/10 2010 IEEE Safety Se
+curity
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 1226--1233
-\T1/ntxtlf/m/n/10 tion in a walk-ing robot.''  \T1/ntxtlf/m/it/10 2010 IEEE Saf
-ety Se-
+Underfull \hbox (badness 4699) in paragraph at lines 1226--1233
+\T1/ntxtlf/m/it/10 and Rescue Robotics\T1/ntxtlf/m/n/10 : pp. 1--6. 2010.  DOI
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 1235--1240
+[]\T1/ntxtlf/m/n/10 Bartoszyk, Szymon, Kasprzak, Patryk and Belter,
  []
 
 
 Underfull \hbox (badness 1102) in paragraph at lines 1265--1270
-[]\T1/ntxtlf/m/n/10 Siva, Sri-ram, Wig-ness, Mag-gie, Rogers, John and
+[]\T1/ntxtlf/m/n/10 Siva, Sriram, Wigness, Maggie, Rogers, John and
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 1265--1270
-\T1/ntxtlf/m/n/10 Zhang, Hao.  ``Robot adap-ta-tion to un-struc-tured
+Underfull \hbox (badness 7851) in paragraph at lines 1265--1270
+\T1/ntxtlf/m/it/10 Robotics: science and systems \T1/ntxtlf/m/n/10 (2019)Access
+ed
  []
 
 
-Underfull \hbox (badness 2809) in paragraph at lines 1265--1270
-\T1/ntxtlf/m/n/10 ter-rains by joint rep-re-sen-ta-tion and ap-pren-tice-ship
- []
-
-
-Underfull \hbox (badness 6978) in paragraph at lines 1265--1270
-\T1/ntxtlf/m/n/10 cessed 2022-02-23, URL [][]$https : / / par . nsf . gov / bib
-lio /
+Underfull \hbox (badness 10000) in paragraph at lines 1265--1270
+\T1/ntxtlf/m/n/10 2022-02-23, URL [][]$https : / / par . nsf . gov / biblio /
  []
 
 
@@ -1719,18 +2069,23 @@ nt-[]representation-[]apprenticeship-[]learning$[][].
  []
 
 
+Underfull \hbox (badness 1603) in paragraph at lines 1280--1285
+\T1/ntxtlf/m/n/10 Classification Under Different Lighting Conditions.''
+ []
+
+
 Underfull \hbox (badness 5431) in paragraph at lines 1295--1300
-[]\T1/ntxtlf/m/n/10 Rasmussen, C. E.  ``Com-bin-ing Laser Range,
+[]\T1/ntxtlf/m/n/10 Rasmussen, C. E.  ``Combining Laser Range,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1295--1300
-\T1/ntxtlf/m/n/10 Color, and Tex-ture Cues for Au-tonomous
+\T1/ntxtlf/m/n/10 Color, and Texture Cues for Autonomous
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1295--1300
-\T1/ntxtlf/m/n/10 Road Fol-low-ing.'' (2002)Ac-cessed 2022-02-
+\T1/ntxtlf/m/n/10 Road Following.'' (2002)Accessed 2022-02-
  []
 
 
@@ -1745,18 +2100,76 @@ tonomous-[]road-[]following$[][].
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 1361--1367
-\T1/ntxtlf/m/it/10 ing \T1/ntxtlf/m/n/10 Vol. 45 No. 1 (2001): pp. 5--32.  DOI
+Underfull \hbox (badness 3128) in paragraph at lines 1302--1308
+\T1/ntxtlf/m/n/10 LiDAR point cloud classification using intensities
  []
 
 [14.14]
+Underfull \hbox (badness 1648) in paragraph at lines 1310--1316
+[]\T1/ntxtlf/m/n/10 Walas, Krzysztof and Nowicki, Michal.  ``Terrain
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 1310--1316
+\T1/ntxtlf/m/n/10 classification using Laser Range Finder.''  \T1/ntxtlf/m/it/1
+0 2014
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 1310--1316
+\T1/ntxtlf/m/it/10 IEEE/RSJ International Conference on Intelligent
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 1351--1359
+[]\T1/ntxtlf/m/n/10 Chellappa, R. and Chatterjee, S.  ``Classification
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 1351--1359
+\T1/ntxtlf/m/n/10 of textures using Gaussian Markov random fields.''
+ []
+
+
+Underfull \hbox (badness 4805) in paragraph at lines 1361--1367
+[]\T1/ntxtlf/m/n/10 Breiman, Leo.  ``Random Forests.''  \T1/ntxtlf/m/it/10 Mach
+ine
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 1380--1387
+[]\T1/ntxtlf/m/n/10 Wang, Shifeng, Kodagoda, Sarath, Shi, Lei and
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 1404--1413
+\T1/ntxtlf/m/n/10 robots.''  \T1/ntxtlf/m/it/10 2011 IEEE International Confere
+nce on
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 1404--1413
+\T1/ntxtlf/m/n/10 1014--1021. 2011. IEEE, Barcelona, Spain.  DOI
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 1424--1431
+\T1/ntxtlf/m/n/10 Ohara, Kenichi and Arai, Tatsuo.  ``NDT scan
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 1424--1431
+\T1/ntxtlf/m/n/10 matching method for high resolution grid map.''
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1438--1442
-[]\T1/ntxtlf/m/n/10 Xavi.borras.  ``En-glish: RANSAC. Inliers-
+[]\T1/ntxtlf/m/n/10 Xavi.borras.  ``English: RANSAC. Inliers-
  []
 
 
 Underfull \hbox (badness 5388) in paragraph at lines 1438--1442
-\T1/ntxtlf/m/n/10 Outliers.'' (2014).  Ac-cessed 2022-12-08, URL
+\T1/ntxtlf/m/n/10 Outliers.'' (2014).  Accessed 2022-12-08, URL
  []
 
 
@@ -1766,19 +2179,14 @@ NSAC _
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 1444--1449
-[]\T1/ntxtlf/m/n/10 Alam, Bashir.  ``Us-ing the Ran-dom Sam-ple Con-
- []
-
-
-Underfull \hbox (badness 4060) in paragraph at lines 1444--1449
-\T1/ntxtlf/m/n/10 sen-sus (RANSAC) al-go-rithm in Python.'' (2022).
+Underfull \hbox (badness 8094) in paragraph at lines 1444--1449
+[]\T1/ntxtlf/m/n/10 Alam, Bashir.  ``Using the Random Sample
  []
 
 
 Underfull \hbox (badness 4954) in paragraph at lines 1444--1449
-\T1/ntxtlf/m/n/10 Ac-cessed 2022-12-08, URL [][]$https : / / hands-[]on . cloud
- /
+\T1/ntxtlf/m/n/10 Accessed 2022-12-08, URL [][]$https : / / hands-[]on . cloud 
+/
  []
 
 
@@ -1789,12 +2197,12 @@ m-[]in-[]python/$[][].
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1451--1454
-[]\T1/ntxtlf/m/n/10 ``Object-oriented tools for fit-ting con-ics and
+[]\T1/ntxtlf/m/n/10 ``Object-oriented tools for fitting conics and
  []
 
 
 Underfull \hbox (badness 7486) in paragraph at lines 1451--1454
-\T1/ntxtlf/m/n/10 quadrics.''  Ac-cessed 2022-12-08, URL [][]$https :
+\T1/ntxtlf/m/n/10 quadrics.''  Accessed 2022-12-08, URL [][]$https :
  []
 
 
@@ -1810,12 +2218,12 @@ Overfull \hbox (13.05898pt too wide) in paragraph at lines 1451--1454
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1456--1459
-[]\T1/ntxtlf/m/n/10 ``Shapiro-Wilk and Shapiro-Francia nor-mal-
+[]\T1/ntxtlf/m/n/10 ``Shapiro-Wilk and Shapiro-Francia normality
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 1456--1459
-\T1/ntxtlf/m/n/10 ity tests.''  Ac-cessed 2022-12-08, URL [][]$https :
+Underfull \hbox (badness 10000) in paragraph at lines 1456--1459
+\T1/ntxtlf/m/n/10 tests.''  Accessed 2022-12-08, URL [][]$https :
  []
 
 
@@ -1824,18 +2232,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 1456--1459
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 1470--1476
-\T1/ntxtlf/m/it/10 ing \T1/ntxtlf/m/n/10 Vol. 45 No. 1 (2001): pp. 5--32.  DOI
+Underfull \hbox (badness 2326) in paragraph at lines 1461--1468
+[]\T1/ntxtlf/m/n/10 Genuer, Robin, Poggi, Jean-Michel, Tuleau-Malot,
+ []
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 1470--1476
+[]\T1/ntxtlf/m/n/10 Breiman, Leo.  ``[No title found].''  \T1/ntxtlf/m/it/10 Ma
+chine
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1478--1481
-[]\T1/ntxtlf/m/n/10 ``Bayesian Op-ti-miza-tion Al-go-rithm - MAT-
+[]\T1/ntxtlf/m/n/10 ``Bayesian Optimization Algorithm - MATLAB
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1478--1481
-\T1/ntxtlf/m/n/10 LAB & Simulink.''  Ac-cessed 2023-04-27,
+\T1/ntxtlf/m/n/10 & Simulink.''  Accessed 2023-04-27,
  []
 
 
@@ -1843,60 +2257,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 1478--1481
 \T1/ntxtlf/m/n/10 URL [][]$https : / / www . mathworks . com / help / stats /
  []
 
-) (/home/autobuntu/.miktex/texmfs/install/tex/generic/stringenc/se-pdfdoc.def
+
+Underfull \hbox (badness 1303) in paragraph at lines 1483--1489
+\T1/ntxtlf/m/n/10 Accessed 2023-04-27, URL [][]$http : / / arxiv . org / abs / 
+1206 .
+ []
+
+[15.15])
+(/home/rhett/.miktex/texmfs/install/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/stringenc/se-utf8.def
+(/home/rhett/.miktex/texmfs/install/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
 )
 [leftcolumn badness]: 1000000 on 11.395pt
 [rightcolumn badness]: 1000000 on 11.395pt
+[leftcolumn badness]: 1000000 on 11.395pt
+[rightcolumn badness]: 1000000 on 11.395pt
+[leftcolumn badness]: 1000000 on 11.395pt
+[rightcolumn badness]: 1000000 on 11.395pt
+[leftcolumn badness]: 1000000 on 11.395pt
+[rightcolumn badness]: 1000000 on 11.395pt
+[leftcolumn badness]: 1000000 on 11.395pt
+[rightcolumn badness]: 1000000 on 11.395pt
 - LAST -
 Extra skip:12.605pt
-Left:425.0pt/2.165pt
-Right:414.56pt/0.0pt
-Split: 421.78pt
-Output:421.78pt
-Pageshrink: 2.0pt
-Pagestretch: 2.0pt
+Left:34.0pt/2.165pt
+Right:23.56pt/0.0pt
+Split: 34.78pt
+Output:34.78pt
+Pageshrink: 0.0pt
+Pagestretch: 0.0pt
 @colht:686.565pt
-FLUSHEND [output]: 421.78pt
-FLUSHEND [leftcolumn badness]: 10
-FUSHEND [rightcolumn badness]: 174
-
-[15.15] (Huston_Paper_asme.aux)
+FLUSHEND [output]: 34.78pt
+FLUSHEND [leftcolumn badness]: 10000
+FUSHEND [rightcolumn badness]: 10000
+ [16.16]
+(Huston_Paper_asme.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 22967 strings out of 478583
- 371823 string characters out of 2847216
- 726560 words of memory out of 3000000
- 40506 multiletter control sequences out of 15000+600000
- 560211 words of font info for 142 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 83i,11n,90p,2275b,2835s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}
-{/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{
-/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/inconsolata/i4-t1-5.enc}
-{/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/ho
-me/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ec.enc}</home/au
-tobuntu/.miktex/texmfs/install/fonts/type1/public/inconsolata/Inconsolata-zi4r.
-pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/newtx/NewTXMI.pf
-b></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/newtx/NewTXMI7.pfb
-></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb><
-/home/autobuntu/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvr.pfb></h
-ome/autobuntu/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qtmr.pfb></hom
-e/autobuntu/.miktex/texmfs/install/fonts/type1/public/newtx/txbsys.pfb></home/a
-utobuntu/.miktex/texmfs/install/fonts/type1/public/newtx/txexs.pfb></home/autob
-untu/.miktex/texmfs/install/fonts/type1/public/newtx/txsys.pfb></home/autobuntu
-/.miktex/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></home/autobuntu/.mik
-tex/texmfs/install/fonts/type1/public/newtx/ztmr.pfb></home/autobuntu/.miktex/t
-exmfs/install/fonts/type1/public/newtx/ztmri.pfb>
-Output written on Huston_Paper_asme.pdf (15 pages, 17528418 bytes).
+ 23125 strings out of 478250
+ 373836 string characters out of 5838927
+ 1892074 words of memory out of 5000000
+ 42682 multiletter control sequences out of 15000+600000
+ 603239 words of font info for 146 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 85i,11n,98p,2275b,3001s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/rhett/.miktex/texmfs/install/fonts/type1/public/inconsolata/Inconsolat
+a-zi4r.pfb></home/rhett/.miktex/texmfs/install/fonts/type1/public/newtx/NewTXMI
+.pfb></home/rhett/.miktex/texmfs/install/fonts/type1/public/newtx/NewTXMI7.pfb>
+</home/rhett/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb></home
+/rhett/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvr.pfb></home/rhett
+/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qtmr.pfb></home/rhett/.mikt
+ex/texmfs/install/fonts/type1/public/newtx/txbsys.pfb></home/rhett/.miktex/texm
+fs/install/fonts/type1/public/newtx/txexs.pfb></home/rhett/.miktex/texmfs/insta
+ll/fonts/type1/public/newtx/txsys.pfb></home/rhett/.miktex/texmfs/install/fonts
+/type1/public/newtx/ztmb.pfb></home/rhett/.miktex/texmfs/install/fonts/type1/pu
+blic/newtx/ztmr.pfb></home/rhett/.miktex/texmfs/install/fonts/type1/public/newt
+x/ztmri.pfb>
+Output written on Huston_Paper_asme.pdf (16 pages, 17530932 bytes).
 PDF statistics:
- 844 PDF objects out of 1000 (max. 8388607)
- 221 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 864 PDF objects out of 1000 (max. 8388607)
+ 224 named destinations out of 1000 (max. 500000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
