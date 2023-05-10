@@ -1,4 +1,4 @@
-\begin{thebibliography}{100}
+\begin{thebibliography}{10}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
@@ -290,112 +290,6 @@ Yadav, Manohar and Singh, Ajai~Kumar.
 \newblock Accessed 2021-10-14,
   \urlprefix\url{https://doi.org/10.1007/s12524-017-0732-4}.
 
-\bibitem{kohlbrecher_flexible_2011}
-Kohlbrecher, Stefan, von Stryk, Oskar, Meyer, Johannes and Klingauf, Uwe.
-\newblock \enquote{A flexible and scalable {SLAM} system with full {3D} motion
-  estimation.}
-\newblock \textit{2011 {IEEE} {International} {Symposium} on {Safety},
-  {Security}, and {Rescue} {Robotics}}: pp. 155--160. 2011. IEEE, Kyoto, Japan.
-\newblock \doi{10.1109/SSRR.2011.6106777}.
-\newblock Accessed 2020-03-06,
-  \urlprefix\url{http://ieeexplore.ieee.org/document/6106777/}.
-
-\bibitem{moleski_effects_2021}
-Moleski, Travis~W. and Wilhelm, Jay.
-\newblock \enquote{Effects of {Velocity} and {Known} {Pose} {Injection} {Rate}
-  on {Scan} {Matching} {2D} {SLAM} {Accuracy}.}
-\newblock \textit{{AIAA} {Scitech} 2021 {Forum}}. 2021. American Institute of
-  Aeronautics and Astronautics.
-\newblock \doi{10.2514/6.2021-1582}.
-\newblock Accessed 2021-02-01,
-  \urlprefix\url{https://arc.aiaa.org/doi/abs/10.2514/6.2021-1582}.
-\newblock \_eprint: https://arc.aiaa.org/doi/pdf/10.2514/6.2021-1582.
-
-\bibitem{hutchison_hector_2014}
-Kohlbrecher, Stefan, Meyer, Johannes, Graber, Thorsten, Petersen, Karen,
-  Klingauf, Uwe and von Stryk, Oskar.
-\newblock \enquote{Hector {Open} {Source} {Modules} for {Autonomous} {Mapping}
-  and {Navigation} with {Rescue} {Robots}.}
-\newblock Hutchison, David, Kanade, Takeo, Kittler, Josef, Kleinberg, Jon~M.,
-  Kobsa, Alfred, Mattern, Friedemann, Mitchell, John~C., Naor, Moni,
-  Nierstrasz, Oscar, Pandu~Rangan, C., Steffen, Bernhard, Terzopoulos, Demetri,
-  Tygar, Doug, Weikum, Gerhard, Behnke, Sven, Veloso, Manuela, Visser, Arnoud
-  and Xiong, Rong (eds.). \textit{{RoboCup} 2013: {Robot} {World} {Cup}
-  {XVII}}.
-\newblock Vol. 8371. Springer Berlin Heidelberg, Berlin, Heidelberg (2014): pp.
-  624--631.
-\newblock \doi{10.1007/978-3-662-44468-9_58}.
-\newblock Accessed 2020-03-06,
-  \urlprefix\url{http://link.springer.com/10.1007/978-3-662-44468-9_58}.
-\newblock Series Title: Lecture Notes in Computer Science.
-
-\bibitem{durrant-whyte_simultaneous_nodate}
-Durrant-Whyte, Hugh and Bailey, Tim.
-\newblock \enquote{Simultaneous {Localisation} and {Mapping} ({SLAM}): {Part}
-  {I} {The} {Essential} {Algorithms}.}  : p.~9.
-
-\bibitem{bailey_simultaneous_2006}
-Bailey, T. and Durrant-Whyte, H.
-\newblock \enquote{Simultaneous localization and mapping ({SLAM}): part {II}.}
-\newblock \textit{IEEE Robotics \& Automation Magazine} Vol.~13 No.~3 (2006):
-  pp. 108--117.
-\newblock \doi{10.1109/MRA.2006.1678144}.
-\newblock Accessed 2020-02-20,
-  \urlprefix\url{http://ieeexplore.ieee.org/document/1678144/}.
-
-\bibitem{moleski_trilateration_nodate}
-Moleski, Travis~W. and Wilhelm, Jay.
-\newblock \enquote{Trilateration {Positioning} {Using} {Hybrid}
-  {Camera}-{LiDAR} {System}.}
-\newblock \textit{{AIAA} {Scitech} 2020 {Forum}}.
-\newblock American Institute of Aeronautics and Astronautics.
-\newblock \doi{10.2514/6.2020-0393}.
-\newblock Accessed 2021-02-01,
-  \urlprefix\url{https://arc.aiaa.org/doi/abs/10.2514/6.2020-0393}.
-\newblock \_eprint: https://arc.aiaa.org/doi/pdf/10.2514/6.2020-0393.
-
-\bibitem{yadav_road_2018}
-Yadav, Manohar, Lohani, Bharat and Singh, Ajoy.
-\newblock \enquote{{ROAD} {SURFACE} {DETECTION} {FROM} {MOBILE} {LIDAR}
-  {DATA}.}
-\newblock \textit{ISPRS Annals of Photogrammetry, Remote Sensing and Spatial
-  Information Sciences} Vol. IV-5 (2018): pp. 95--101.
-\newblock \doi{10.5194/isprs-annals-IV-5-95-2018}.
-
-\bibitem{moretto_assessing_nodate}
-Moretto, J, Rigon, E, Mao, L, Delai, F, Picco, L and Lenzi, M~A.
-\newblock \enquote{Assessing morphological changes in gravel-bed rivers using
-  {LiDAR} data and colour bathymetry.}  : p.~9.
-
-\bibitem{anderson_gravel_2013}
-Anderson, Sean, McManus, Colin, Dong, Hang, Beerepoot, Erik and Barfoot,
-  Timothy~D.
-\newblock \enquote{The {Gravel} {Pit} {Lidar}-{Intensity} {Imagery} {Dataset}.}
-   (2013): p.~7.
-
-\bibitem{kaasalainen_radiometric_2009}
-Kaasalainen, Sanna, Hyyppa, Hannu, Kukko, Antero, Litkey, Paula, Ahokas, Eero,
-  Hyyppa, Juha, Lehner, Hubert, Jaakkola, Anttoni, Suomalainen, Juha, Akujarvi,
-  Altti, Kaasalainen, Mikko and Pyysalo, Ulla.
-\newblock \enquote{Radiometric {Calibration} of {LIDAR} {Intensity} {With}
-  {Commercially} {Available} {Reference} {Targets}.}
-\newblock \textit{IEEE Transactions on Geoscience and Remote Sensing} Vol.~47
-  No.~2 (2009): pp. 588--598.
-\newblock \doi{10.1109/TGRS.2008.2003351}.
-\newblock Conference Name: IEEE Transactions on Geoscience and Remote Sensing.
-
-\bibitem{a_automatic_nodate}
-A, Wang~Cheng, B, T.~Hassan, B, N. El-sheimy and B, M.~Lavigne.
-\newblock \enquote{Automatic {Road} {Vector} {Extraction} for {Mobile}
-  {Mapping} {Systems}.}
-
-\bibitem{noauthor_radiometric_nodate}
-\enquote{Radiometric {Calibration} of {LIDAR} {Intensity} {With} {Commercially}
-  {Available} {Reference} {Targets} {\textbar} {IEEE} {Journals} \& {Magazine}
-  {\textbar} {IEEE} {Xplore}.}
-\newblock Accessed 2021-10-14,
-  \urlprefix\url{https://ieeexplore.ieee.org/abstract/document/4689353}.
-
 \bibitem{ibrahim_curb-based_2012}
 Ibrahim, S. and Lichti, D.
 \newblock \enquote{Curb-based street floor extraction from mobile terrestrial
@@ -404,113 +298,6 @@ Ibrahim, S. and Lichti, D.
   and Spatial Information Sciences - ISPRS Archives} Vol.~39 (2012): pp.
   193--198.
 \newblock \doi{10.5194/isprsarchives-XXXIX-B5-193-2012}.
-
-\bibitem{jalayer_comprehensive_2014}
-Jalayer, M., Zhou, Huaguo, Gong, J., Hu, Shunfu and Grinter, M.
-\newblock \enquote{A {Comprehensive} {Assessment} of {Highway} {Inventory}
-  {Data} {Collection} {Methods}.}  (2014)\doi{10.5399/OSU/JTRF.53.2.4219}.
-
-\bibitem{jiangui_method_2011}
-Jiangui, Peng and Guang, Gao.
-\newblock \enquote{A method for main road extraction from airborne {LiDAR} data
-  in urban area.}
-\newblock \textit{2011 {International} {Conference} on {Electronics},
-  {Communications} and {Control} ({ICECC})}: pp. 2425--2428. 2011.
-\newblock \doi{10.1109/ICECC.2011.6066443}.
-
-\bibitem{kavzoglu_mapping_2009}
-Kavzoglu, Taskin, Sen, Yunus and Cetin, Mufit.
-\newblock \enquote{Mapping urban road infrastructure using remotely sensed
-  images.}
-\newblock \textit{International Journal of Remote Sensing} Vol.~30 (2009): pp.
-  1759--1769.
-\newblock \doi{10.1080/01431160802639582}.
-
-\bibitem{lehtomaki_detection_2010}
-Lehtomäki, Matti, Jaakkola, Anttoni, Hyyppä, Juha, Kukko, Antero and
-  Kaartinen, Harri.
-\newblock \enquote{Detection of {Vertical} {Pole}-{Like} {Objects} in a {Road}
-  {Environment} {Using} {Vehicle}-{Based} {Laser} {Scanning} {Data}.}
-\newblock \textit{Remote Sensing} Vol.~2 (2010).
-\newblock \doi{10.3390/rs2030641}.
-
-\bibitem{lien_recognizing_2012}
-Lien, Y.-N, Teo, T.-A, Chen, C.-T and Huang, P.-Y.
-\newblock \enquote{Recognizing the road points and road marks from mobile
-  {LiDAR} point clouds.} Vol.~2 (2012): pp. 1054--1059.
-
-\bibitem{mc_elhinney_initial_2010}
-Mc~Elhinney, Conor, Kumar, Pankaj, Cahalane, Conor and Mccarthy, Timothy.
-\newblock \enquote{Initial results from {European} {Road} {Safety} {Inspection}
-  ({EURSI}) mobile mapping project.}
-\newblock Vol.~38. 2010.
-
-\bibitem{mena_automatic_2005}
-Mena, J.~B. and Malpica, J.~A.
-\newblock \enquote{An automatic method for road extraction in rural and
-  semi-urban areas starting from high resolution satellite imagery.}
-\newblock \textit{Pattern Recognition Letters} Vol.~26 No.~9 (2005): pp.
-  1201--1220.
-\newblock \doi{10.1016/j.patrec.2004.11.005}.
-\newblock Accessed 2021-10-14,
-  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0167865504003265}.
-
-\bibitem{puente_review_2013}
-Puente, I., González-Jorge, H., Martínez-Sánchez, J. and Arias, P.
-\newblock \enquote{Review of mobile mapping and surveying technologies.}
-\newblock \textit{Measurement} Vol.~46 No.~7 (2013): pp. 2127--2145.
-\newblock \doi{10.1016/j.measurement.2013.03.006}.
-\newblock Accessed 2021-10-14,
-  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0263224113000730}.
-
-\bibitem{serna_detection_2014}
-Serna, Andrés and Marcotegui, Beatriz.
-\newblock \enquote{Detection, segmentation and classification of {3D} urban
-  objects using mathematical morphology and supervised learning.}
-\newblock \textit{ISPRS Journal of Photogrammetry and Remote Sensing} Vol.~93
-  (2014): pp. 243--255.
-\newblock \doi{10.1016/j.isprsjprs.2014.03.015}.
-\newblock Accessed 2021-10-14,
-  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0924271614000872}.
-
-\bibitem{wu_voxel-based_2013}
-Wu, Bin, Yu, Bailang, Yue, Wenhui, Shu, Song, Tan, Wenqi, Hu, Chunling, Huang,
-  Yan, Wu, Jianping and Liu, Hongxing.
-\newblock \enquote{A {Voxel}-{Based} {Method} for {Automated} {Identification}
-  and {Morphological} {Parameters} {Estimation} of {Individual} {Street}
-  {Trees} from {Mobile} {Laser} {Scanning} {Data}.}
-\newblock \textit{Remote Sensing} Vol.~5 No.~2 (2013): pp. 584--611.
-\newblock \doi{10.3390/rs5020584}.
-\newblock Accessed 2021-10-14,
-  \urlprefix\url{http://www.mdpi.com/2072-4292/5/2/584}.
-
-\bibitem{yadav_pole-shaped_2015}
-Yadav, Manohar, Husain, A., Singh, Ajoy and Lohani, Bharat.
-\newblock \enquote{{POLE}-{SHAPED} {OBJECT} {DETECTION} {USING} {MOBILE}
-  {LIDAR} {DATA} {IN} {RURAL} {ROAD} {ENVIRONMENTS}.}
-\newblock \textit{ISPRS Annals of Photogrammetry, Remote Sensing and Spatial
-  Information Sciences} Vol. II-3/W5 (2015): pp. 11--16.
-\newblock \doi{10.5194/isprsannals-II-3-W5-11-2015}.
-
-\bibitem{kumar_automated_2013}
-Kumar, Pankaj, McElhinney, Conor~P., Lewis, Paul and McCarthy, Timothy.
-\newblock \enquote{An automated algorithm for extracting road edges from
-  terrestrial mobile {LiDAR} data.}
-\newblock \textit{ISPRS Journal of Photogrammetry and Remote Sensing} Vol.~85
-  (2013): pp. 44--55.
-\newblock \doi{10.1016/j.isprsjprs.2013.08.003}.
-\newblock Accessed 2021-10-14,
-  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0924271613001834}.
-
-\bibitem{xu_real-time_2019}
-Xu, Fenglei, Chen, Longtao, Lou, Jing and Ren, Mingwu.
-\newblock \enquote{A real-time road detection method based on reorganized lidar
-  data.}
-\newblock \textit{PLOS ONE} Vol.~14 No.~4 (2019): p. e0215159.
-\newblock \doi{10.1371/journal.pone.0215159}.
-\newblock Accessed 2021-10-14,
-  \urlprefix\url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0215159}.
-\newblock Publisher: Public Library of Science.
 
 \bibitem{manz_detection_2011}
 Manz, Michael, Himmelsbach, Michael, Luettel, Thorsten and Wuensche,
@@ -522,751 +309,38 @@ Manz, Michael, Himmelsbach, Michael, Luettel, Thorsten and Wuensche,
 \newblock \doi{10.1109/IROS.2011.6094559}.
 \newblock ISSN: 2153-0866.
 
-\bibitem{yadav_identification_2016}
-Yadav, Manohar, Lohani, Bharat, Singh, Ajai~Kumar and Husain, Arshad.
-\newblock \enquote{Identification of pole-like structures from mobile lidar
-  data of complex road environment.}
-\newblock \textit{International Journal of Remote Sensing} Vol.~37 No.~20
-  (2016): pp. 4748--4777.
-\newblock \doi{10.1080/01431161.2016.1219462}.
-\newblock Accessed 2021-10-14,
-  \urlprefix\url{https://doi.org/10.1080/01431161.2016.1219462}.
-\newblock Publisher: Taylor \& Francis \_eprint:
-  https://doi.org/10.1080/01431161.2016.1219462.
-
-\bibitem{zhang_lidar-based_2010}
-Zhang, Wende.
-\newblock \enquote{{LIDAR}-based road and road-edge detection.}
-\newblock \textit{2010 {IEEE} {Intelligent} {Vehicles} {Symposium}}: pp.
-  845--848. 2010.
-\newblock \doi{10.1109/IVS.2010.5548134}.
-\newblock ISSN: 1931-0587.
-
-\bibitem{zeybek_extraction_2021}
-Zeybek, Mustafa.
-\newblock \enquote{Extraction of {Road} {Lane} {Markings} from {Mobile} {LiDAR}
-  {Data}.}
-\newblock \textit{Transportation Research Record Journal of the Transportation
-  Research Board} Vol. 2675 (2021).
-\newblock \doi{10.1177/0361198120981948}.
-
-\bibitem{bujan_forest_2021}
-Buján, Sandra, Guerra-Hernández, Juan, González-Ferreiro, Eduardo and
-  Miranda, David.
-\newblock \enquote{Forest {Road} {Detection} {Using} {LiDAR} {Data} and
-  {Hybrid} {Classification}.}
-\newblock \textit{Remote Sensing} Vol.~13 No.~3 (2021): p. 393.
-\newblock \doi{10.3390/rs13030393}.
-\newblock Accessed 2021-10-14,
-  \urlprefix\url{https://www.mdpi.com/2072-4292/13/3/393}.
-\newblock Number: 3 Publisher: Multidisciplinary Digital Publishing Institute.
-
-\bibitem{kang_pothole_2017}
-Kang, Byeong-ho and Choi, Su-il.
-\newblock \enquote{Pothole detection system using {2D} {LiDAR} and camera.}
-\newblock \textit{2017 {Ninth} {International} {Conference} on {Ubiquitous} and
-  {Future} {Networks} ({ICUFN})}: pp. 744--746. 2017.
-\newblock \doi{10.1109/ICUFN.2017.7993890}.
-\newblock ISSN: 2165-8536.
-
-\bibitem{sucgang_road_2017}
-Sucgang, Nathalie~Joy, Jr, Manuel~Ramos and Arriola, Nicolette~Ann.
-\newblock \enquote{Road {Surface} {Obstacle} {Detection} using {Vision} and
-  {LIDAR} for {Autonomous} {Vehicle}.}
-\newblock \textit{Hong Kong}  (2017): p.~5.
-
-\bibitem{ravi_pothole_2020}
-Ravi, Radhika, Habib, Ayman and Bullock, Darcy.
-\newblock \enquote{Pothole {Mapping} and {Patching} {Quantity} {Estimates}
-  using {LiDAR}-{Based} {Mobile} {Mapping} {Systems}.}
-\newblock \textit{Transportation Research Record} Vol. 2674 No.~9 (2020): pp.
-  124--134.
-\newblock \doi{10.1177/0361198120927006}.
-\newblock Accessed 2021-10-14,
-  \urlprefix\url{https://doi.org/10.1177/0361198120927006}.
-\newblock Publisher: SAGE Publications Inc.
-
-\bibitem{chang_detection_2005}
-Chang, K.~T., Chang, J.~R. and Liu, J.~K.
-\newblock \enquote{Detection of {Pavement} {Distresses} {Using} {3D} {Laser}
-  {Scanning} {Technology}.}
-\newblock \textit{Computing in {Civil} {Engineering} (2005)}: pp. 1--11. 2005.
-  American Society of Civil Engineers, Cancun, Mexico.
-\newblock \doi{10.1061/40794(179)103}.
-\newblock Accessed 2021-10-14,
-  \urlprefix\url{http://ascelibrary.org/doi/10.1061/40794%28179%29103}.
-
-\bibitem{korotkova_lidar_2004}
-Korotkova, Olga, Andrews, Larry~C. and Phillips, Ronald~L.
-\newblock \enquote{Lidar model for a rough-surface target: method of partial
-  coherence.}: p.~49. 2004. Barcelona, Spain.
-\newblock \doi{10.1117/12.515086}.
-\newblock Accessed 2021-10-14,
-  \urlprefix\url{http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.515086}.
-
-\bibitem{schnabel_efficient_2007}
-Schnabel, R., Wahl, R. and Klein, R.
-\newblock \enquote{Efficient {RANSAC} for {Point}-{Cloud} {Shape} {Detection}.}
-\newblock \textit{Computer Graphics Forum} Vol.~26 No.~2 (2007): pp. 214--226.
-\newblock \doi{10.1111/j.1467-8659.2007.01016.x}.
-\newblock Accessed 2021-10-18,
-  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2007.01016.x}.
-\newblock \_eprint:
-  https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2007.01016.x.
-
-\bibitem{li_improved_2017}
-Li, Lin, Yang, Fan, Zhu, Haihong, Li, Dalin, Li, You and Tang, Lei.
-\newblock \enquote{An {Improved} {RANSAC} for {3D} {Point} {Cloud} {Plane}
-  {Segmentation} {Based} on {Normal} {Distribution} {Transformation} {Cells}.}
-\newblock \textit{Remote Sensing} Vol.~9 No.~5 (2017): p. 433.
-\newblock \doi{10.3390/rs9050433}.
-\newblock Accessed 2021-10-18,
-  \urlprefix\url{https://www.mdpi.com/2072-4292/9/5/433}.
-\newblock Number: 5 Publisher: Multidisciplinary Digital Publishing Institute.
-
-\bibitem{li_point_2021}
-Li, Jiayuan, Hu, Qingwu and Ai, Mingyao.
-\newblock \enquote{Point {Cloud} {Registration} {Based} on {One}-{Point}
-  {RANSAC} and {Scale}-{Annealing} {Biweight} {Estimation}.}
-\newblock \textit{IEEE Transactions on Geoscience and Remote Sensing}  (2021):
-  pp. 1--14\doi{10.1109/TGRS.2020.3045456}.
-\newblock Conference Name: IEEE Transactions on Geoscience and Remote Sensing.
-
-\bibitem{li_integrate_2020}
-Li, Xuyou, Du, Shitong, Li, Guangchun and Li, Haoyu.
-\newblock \enquote{Integrate {Point}-{Cloud} {Segmentation} with {3D} {LiDAR}
-  {Scan}-{Matching} for {Mobile} {Robot} {Localization} and {Mapping}.}
-\newblock \textit{Sensors} Vol.~20 No.~1 (2020): p. 237.
-\newblock \doi{10.3390/s20010237}.
-\newblock Accessed 2021-10-18,
-  \urlprefix\url{https://www.mdpi.com/1424-8220/20/1/237}.
-\newblock Number: 1 Publisher: Multidisciplinary Digital Publishing Institute.
-
-\bibitem{gojcic_perfect_2019}
-Gojcic, Zan, Zhou, Caifa, Wegner, Jan~D. and Wieser, Andreas.
-\newblock \enquote{The {Perfect} {Match}: {3D} {Point} {Cloud} {Matching}
-  {With} {Smoothed} {Densities}.}
-\newblock \textit{2019 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and
-  {Pattern} {Recognition} ({CVPR})}: pp. 5540--5549. 2019. IEEE, Long Beach,
-  CA, USA.
-\newblock \doi{10.1109/CVPR.2019.00569}.
-\newblock Accessed 2021-10-18,
-  \urlprefix\url{https://ieeexplore.ieee.org/document/8954296/}.
-
-\bibitem{yuan_3d_2016}
-Yuan, Chi, Yu, Xiaoqing and Luo, Ziyue.
-\newblock \enquote{{3D} point cloud matching based on principal component
-  analysis and iterative closest point algorithm.}
-\newblock \textit{2016 {International} {Conference} on {Audio}, {Language} and
-  {Image} {Processing} ({ICALIP})}: pp. 404--408. 2016.
-\newblock \doi{10.1109/ICALIP.2016.7846655}.
-
-\bibitem{huang_point_2012}
-Huang, Jing and You, Suya.
-\newblock \enquote{Point cloud matching based on {3D} self-similarity.}
-\newblock \textit{2012 {IEEE} {Computer} {Society} {Conference} on {Computer}
-  {Vision} and {Pattern} {Recognition} {Workshops}}: pp. 41--48. 2012. IEEE,
-  Providence, RI, USA.
-\newblock \doi{10.1109/CVPRW.2012.6238913}.
-\newblock Accessed 2021-10-18,
-  \urlprefix\url{http://ieeexplore.ieee.org/document/6238913/}.
-
-\bibitem{yang_plane_nodate}
-Yang, Michael~Ying and Forstner, Wolfgang.
-\newblock \enquote{Plane {Detection} in {Point} {Cloud} {Data}.}  : p.~16.
-
-\bibitem{yue_new_2018}
-Yue, Wenlong, Lu, Junguo, Zhou, Weihang and Miao, Yubin.
-\newblock \enquote{A new plane segmentation method of point cloud based on mean
-  shift and {RANSAC}.}
-\newblock \textit{2018 {Chinese} {Control} {And} {Decision} {Conference}
-  ({CCDC})}: pp. 1658--1663. 2018.
-\newblock \doi{10.1109/CCDC.2018.8407394}.
-\newblock ISSN: 1948-9447.
-
-\bibitem{koguciuk_parallel_2017}
-Koguciuk, Daniel.
-\newblock \enquote{Parallel {RANSAC} for {Point} {Cloud} {Registration}.}
-\newblock \textit{Foundations of Computing and Decision Sciences} Vol.~42 No.~3
-  (2017): pp. 203--217.
-\newblock \doi{10.1515/fcds-2017-0010}.
-\newblock Accessed 2021-10-18,
-  \urlprefix\url{https://www.sciendo.com/article/10.1515/fcds-2017-0010}.
-
-\bibitem{tarsha-kurdi_hough-transform_2007}
-Tarsha-Kurdi, Fayez, Landes, Tania and Grussenmeyer, Pierre.
-\newblock \enquote{Hough-{Transform} and {Extended} {RANSAC} {Algorithms} for
-  {Automatic} {Detection} of {3D} {Building} {Roof} {Planes} from {Lidar}
-  {Data}.}  (2007): p.~7.
-
-\bibitem{petrelli_repeatable_2012}
-Petrelli, Alioscia and Di~Stefano, Luigi.
-\newblock \enquote{A {Repeatable} and {Efficient} {Canonical} {Reference} for
-  {Surface} {Matching}.}
-\newblock \textit{Visualization {Transmission} 2012 {Second} {International}
-  {Conference} on {3D} {Imaging}, {Modeling}, {Processing}}: pp. 403--410.
-  2012.
-\newblock \doi{10.1109/3DIMPVT.2012.51}.
-\newblock ISSN: 1550-6185.
-
-\bibitem{petrelli_repeatable_2012-1}
-Petrelli, Alioscia and Di~Stefano, Luigi.
-\newblock \enquote{A {Repeatable} and {Efficient} {Canonical} {Reference} for
-  {Surface} {Matching}.}
-\newblock \textit{2012 {Second} {International} {Conference} on {3D} {Imaging},
-  {Modeling}, {Processing}, {Visualization} \& {Transmission}}: pp. 403--410.
-  2012. IEEE, Zurich, Switzerland.
-\newblock \doi{10.1109/3DIMPVT.2012.51}.
-\newblock Accessed 2021-10-18,
-  \urlprefix\url{http://ieeexplore.ieee.org/document/6375021/}.
-
-\bibitem{bosse_continuous_2009}
-Bosse, Michael and Zlot, Robert.
-\newblock \enquote{Continuous {3D} scan-matching with a spinning {2D} laser.}
-\newblock \textit{2009 {IEEE} {International} {Conference} on {Robotics} and
-  {Automation}}: pp. 4312--4319. 2009.
-\newblock \doi{10.1109/ROBOT.2009.5152851}.
-\newblock ISSN: 1050-4729.
-
-\bibitem{brady_describing_1985}
-Brady, Michael, Ponce, Jean, Yuille, Alan and Asada, Haruo.
-\newblock \enquote{Describing surfaces.}
-\newblock \textit{Computer Vision, Graphics, and Image Processing} Vol.~32
-  No.~1 (1985): pp. 1--28.
-\newblock \doi{10.1016/0734-189X(85)90001-5}.
-\newblock Accessed 2021-10-18,
-  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/0734189X85900015}.
-
-\bibitem{catalucci_comparison_2018}
-Catalucci, Sofia, Marsili, Roberto, Moretti, Michele and Rossi, Gianluca.
-\newblock \enquote{Comparison between point cloud processing techniques.}
-\newblock \textit{Measurement} Vol. 127 (2018): pp. 221--226.
-\newblock \doi{10.1016/j.measurement.2018.05.111}.
-\newblock Accessed 2021-10-18,
-  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0263224118305116}.
-
-\bibitem{droeschel_continuous_2017}
-Droeschel, David, Schwarz, Max and Behnke, Sven.
-\newblock \enquote{Continuous mapping and localization for autonomous
-  navigation in rough terrain using a {3D} laser scanner.}
-\newblock \textit{Robotics and Autonomous Systems} Vol.~88 (2017): pp.
-  104--115.
-\newblock \doi{10.1016/j.robot.2016.10.017}.
-\newblock Accessed 2021-10-18,
-  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0921889015303110}.
-
-\bibitem{hegge_spectral_1996}
-Hegge, Bruce~J. and Masselink, Gerhard.
-\newblock \enquote{Spectral {Analysis} of {Geomorphic} {Time} {Series}:
-  {Auto}-{Spectrum}.}
-\newblock \textit{Earth Surface Processes and Landforms} Vol.~21 No.~11 (1996):
-  pp. 1021--1040.
-\newblock
-  \doi{10.1002/(SICI)1096-9837(199611)21:11<1021::AID-ESP703>3.0.CO;2-D}.
-\newblock Accessed 2021-10-19,
-  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291096-9837%28199611%2921%3A11%3C1021%3A%3AAID-ESP703%3E3.0.CO%3B2-D}.
-\newblock \_eprint:
-  https://onlinelibrary.wiley.com/doi/pdf/10.1002/\%28SICI\%291096-9837\%28199611\%2921\%3A11\%3C1021\%3A\%3AAID-ESP703\%3E3.0.CO\%3B2-D.
-
-\bibitem{united_states_department_of_transportation_bureau_of_transportation_statistics_national_2019}
-Statistics, United States. Department Of Transportation. Bureau
-  Of~Transportation.
-\newblock \enquote{National {Transportation} {Statistics} (series).}
-  (2019)\doi{10.21949/1503663}.
-\newblock Accessed 2021-11-12,
-  \urlprefix\url{https://rosap.ntl.bts.gov/gsearch?collection=dot:35533&type1=mods.title&fedora_terms1=National+Transportation+Statistics}.
-\newblock Publisher: Not Available.
-
-\bibitem{noauthor_autonomous_nodate}
-\enquote{Autonomous {Vehicle} {Market} {Size} \& {Share} {Report}, 2021-2030.}
-\newblock Accessed 2021-11-12,
-  \urlprefix\url{https://www.grandviewresearch.com/industry-analysis/autonomous-vehicles-market}.
-
-\bibitem{noauthor_table_nodate}
-\enquote{Table {HM}-51 - {Highway} {Statistics} 2019 - {Policy} {\textbar}
-  {Federal} {Highway} {Administration}.}
-\newblock Accessed 2021-11-15,
-  \urlprefix\url{https://www.fhwa.dot.gov/policyinformation/statistics/2019/hm51.cfm}.
-
-\bibitem{noauthor_puck_nodate}
-Velodyne.
-\newblock \enquote{Puck Lidar Sensor, High-Value Surround Lidar.} (2021).
-\newblock Accessed 2021-11-16,
-  \urlprefix\url{https://velodynelidar.com/products/puck/}.
-
-\bibitem{kenue_lanelok_1990}
-Kenue, S.
-\newblock \enquote{Lanelok: {Detection} {Of} {Lane} {Boundaries} {And}
-  {Vehicle} {Tracking} {Using} {Image}-{Processing} {Techniques} - {Part} {I}:
-  {Hough}-{Transform}, {Region}-{Tracing} {And} {Correlation} {Algorithms}.}
-\newblock \textit{Other {Conferences}}. 1990.
-\newblock \doi{10.1117/12.969885}.
-
-\bibitem{kenue_lanelok_1990-1}
-Kenue, Surender~K.
-\newblock \enquote{Lanelok: {Detection} {Of} {Lane} {Boundaries} {And}
-  {Vehicle} {Tracking} {Using} {Image}-{Processing} {Techniques} -{Part} {II}:
-  {Template} {Matching} {Algorithms}.}
-\newblock \textit{Mobile {Robots} {IV}}, Vol. 1195: pp. 234--245. 1990. SPIE.
-\newblock \doi{10.1117/12.969886}.
-\newblock Accessed 2021-11-22,
-  \urlprefix\url{https://www.spiedigitallibrary.org/conference-proceedings-of-spie/1195/0000/Lanelok--Detection-Of-Lane-Boundaries-And-Vehicle-Tracking-Using/10.1117/12.969886.full}.
-
-\bibitem{pu_recognizing_2011}
-Pu, Shi, Rutzinger, Martin, Vosselman, George and Oude~Elberink, Sander.
-\newblock \enquote{Recognizing basic structures from mobile laser scanning data
-  for road inventory studies.}
-\newblock \textit{ISPRS Journal of Photogrammetry and Remote Sensing} Vol.~66
-  No. 6, Supplement (2011): pp. S28--S39.
-\newblock \doi{10.1016/j.isprsjprs.2011.08.006}.
-\newblock Accessed 2021-11-22,
-  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0924271611000955}.
-
-\bibitem{noauthor_surface_totals_2006-2021xlsx_nodate}
-\enquote{Surface\_Totals\_2006-2021.xlsx.}  : p.~1.
-
-\bibitem{noauthor_chapter_nodate}
-\enquote{{CHAPTER} 3 {ROAD} {DESIGN}.}
-\newblock Accessed 2021-11-29,
-  \urlprefix\url{https://www.fao.org/3/t0099e/T0099e03.htm}.
-
-\bibitem{noauthor_cost_nodate}
-\enquote{Cost {Estimating} {Guide} for {Road} {Construction}.}  : p. 123.
-
-\bibitem{sotelo_color_2004}
-Sotelo, Miguel~Angel, Rodriguez, Francisco~Javier, Magdalena, Luis, Bergasa,
-  Luis~Miguel and Boquete, Luciano.
-\newblock \enquote{A {Color} {Vision}-{Based} {Lane} {Tracking} {System} for
-  {Autonomous} {Driving} on {Unmarked} {Roads}.}
-\newblock \textit{Autonomous Robots} Vol.~16 No.~1 (2004): pp. 95--116.
-\newblock \doi{10.1023/B:AURO.0000008673.96984.28}.
-\newblock Accessed 2021-12-09,
-  \urlprefix\url{https://doi.org/10.1023/B:AURO.0000008673.96984.28}.
-
-\bibitem{lutzeler_ems-vision_2000}
-Lutzeler, M. and Dickmanns, E.D.
-\newblock \enquote{{EMS}-vision: recognition of intersections on unmarked road
-  networks.}
-\newblock \textit{Proceedings of the {IEEE} {Intelligent} {Vehicles}
-  {Symposium} 2000 ({Cat}. {No}.{00TH8511})}: pp. 302--307. 2000. IEEE,
-  Dearborn, MI, USA.
-\newblock \doi{10.1109/IVS.2000.898359}.
-\newblock Accessed 2021-12-09,
-  \urlprefix\url{http://ieeexplore.ieee.org/document/898359/}.
-
-\bibitem{lutzeler_ems-vision_2000-1}
-Lutzeler, M. and Dickmanns, E.D.
-\newblock \enquote{{EMS}-vision: recognition of intersections on unmarked road
-  networks.}
-\newblock \textit{Proceedings of the {IEEE} {Intelligent} {Vehicles}
-  {Symposium} 2000 ({Cat}. {No}.{00TH8511})}: pp. 302--307. 2000.
-\newblock \doi{10.1109/IVS.2000.898359}.
-
-\bibitem{jochem_vision-based_1995}
-Jochem, T.M., Pomerleau, D.A. and Thorpe, C.E.
-\newblock \enquote{Vision-based neural network road and intersection detection
-  and traversal.}
-\newblock \textit{Proceedings 1995 {IEEE}/{RSJ} {International} {Conference} on
-  {Intelligent} {Robots} and {Systems}. {Human} {Robot} {Interaction} and
-  {Cooperative} {Robots}}, Vol.~3: pp. 344--349 vol.3. 1995.
-\newblock \doi{10.1109/IROS.1995.525907}.
-
-\bibitem{espineira_realistic_2021}
-Espineira, Juan~P., Robinson, Jonathan, Groenewald, Jakobus, Chan, Pak~Hung and
-  Donzella, Valentina.
-\newblock \enquote{Realistic {LiDAR} {With} {Noise} {Model} for {Real}-{Time}
-  {Testing} of {Automated} {Vehicles} in a {Virtual} {Environment}.}
-\newblock \textit{IEEE Sensors Journal} Vol.~21 No.~8 (2021): pp. 9919--9926.
-\newblock \doi{10.1109/JSEN.2021.3059310}.
-\newblock Conference Name: IEEE Sensors Journal.
-
-\bibitem{noauthor_autowareai_nodate}
-\enquote{Autoware.{AI}.}
-\newblock Accessed 2021-12-15,
-  \urlprefix\url{https://www.autoware.org/autoware-ai}.
-
-\bibitem{marinello_determination_2017}
-Marinello, Francesco, Proto, Andrea~Rosario, Zimbalatti, Giuseppe, Pezzuolo,
-  Andrea, Cavalli, Raffaele and Grigolato, Stefano.
-\newblock \enquote{Determination of forest road surface roughness by {Kinect}
-  depth imaging.}
-\newblock \textit{Annals of Forest Research} Vol.~60 No.~2 (2017): pp.
-  217--226.
-\newblock \doi{10.15287/afr.2017.893}.
-\newblock Accessed 2021-12-16,
-  \urlprefix\url{http://afrjournal.org/index.php/afr/article/view/893}.
-\newblock Number: 2.
-
-\bibitem{asvadi_3d_2016}
-Asvadi, Alireza, Premebida, Cristiano, Peixoto, Paulo and Nunes, Urbano.
-\newblock \enquote{{3D} {Lidar}-based static and moving obstacle detection in
-  driving environments: {An} approach based on voxels and multi-region ground
-  planes.}
-\newblock \textit{Robotics and Autonomous Systems} Vol.~83 (2016): pp.
-  299--311.
-\newblock \doi{10.1016/j.robot.2016.06.007}.
-\newblock Accessed 2021-12-16,
-  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0921889016300483}.
-
-\bibitem{zhang_lidar-based_2010-1}
-Zhang, Wende.
-\newblock \enquote{{LIDAR}-based road and road-edge detection.}
-\newblock \textit{2010 {IEEE} {Intelligent} {Vehicles} {Symposium}}: pp.
-  845--848. 2010.
-\newblock \doi{10.1109/IVS.2010.5548134}.
-\newblock ISSN: 1931-0587.
-
-\bibitem{zhao_road_2012}
-Zhao, Jiaping and You, Suya.
-\newblock \enquote{Road network extraction from airborne {LiDAR} data using
-  scene context.}
-\newblock \textit{2012 {IEEE} {Computer} {Society} {Conference} on {Computer}
-  {Vision} and {Pattern} {Recognition} {Workshops}}: pp. 9--16. 2012.
-\newblock \doi{10.1109/CVPRW.2012.6238909}.
-\newblock ISSN: 2160-7516.
-
-\bibitem{chen_progressive_2019}
-Chen, Zhe, Zhang, Jing and Tao, Dacheng.
-\newblock \enquote{Progressive {LiDAR} adaptation for road detection.}
-\newblock \textit{IEEE/CAA Journal of Automatica Sinica} Vol.~6 No.~3 (2019):
-  pp. 693--702.
-\newblock \doi{10.1109/JAS.2019.1911459}.
-\newblock Conference Name: IEEE/CAA Journal of Automatica Sinica.
-
-\bibitem{gps_map}
-\enquote{Coverage {Map} :: {DynaTrack} {GPS}.}
-\newblock Accessed 2021-12-16,
-  \urlprefix\url{http://www.dynatrackgps.com/coverage-map.html}.
-
-\bibitem{4G_map}
-\enquote{Wireless 3G / 4G / 5G coverage map, United States.}
-\newblock
-  \urlprefix\url{https://www.nperf.com/en/map/US/-/3255.Verizon-Wireless/signal/}.
-
-\bibitem{Dosovitskiy17}
-Dosovitskiy, Alexey, Ros, German, Codevilla, Felipe, Lopez, Antonio and Koltun,
-  Vladlen.
-\newblock \enquote{{CARLA}: {An} Open Urban Driving Simulator.}
-\newblock \textit{Proceedings of the 1st Annual Conference on Robot Learning}:
-  pp. 1--16. 2017.
-
-\bibitem{sigrist_impact_1999}
-Sigrist, P., Coppin, P. and Hermy, M.
-\newblock \enquote{Impact of forest canopy on quality and accuracy of {GPS}
-  measurements.}
-\newblock \textit{International Journal of Remote Sensing} Vol.~20 No.~18
-  (1999): pp. 3595--3610.
-\newblock \doi{10.1080/014311699211228}.
-\newblock Accessed 2021-12-17,
-  \urlprefix\url{https://doi.org/10.1080/014311699211228}.
-\newblock Publisher: Taylor \& Francis \_eprint:
-  https://doi.org/10.1080/014311699211228.
-
-\bibitem{rempel_performance_1995}
-Rempel, Robert~S., Rodgers, Arthur~R. and Abraham, Kenneth~F.
-\newblock \enquote{Performance of a {GPS} {Animal} {Location} {System} under
-  {Boreal} {Forest} {Canopy}.}
-\newblock \textit{The Journal of Wildlife Management} Vol.~59 No.~3 (1995): pp.
-  543--551.
-\newblock \doi{10.2307/3802461}.
-\newblock Accessed 2021-12-17,
-  \urlprefix\url{https://www.jstor.org/stable/3802461}.
-\newblock Publisher: [Wiley, Wildlife Society].
-
-\bibitem{pirti_accuracy_2008}
-Pirti, Atinç.
-\newblock \enquote{Accuracy {Analysis} of {GPS} {Positioning} {Near} the
-  {Forest} {Environment}.}
-\newblock \textit{Croatian Journal of Forest Engineering : Journal for Theory
-  and Application of Forestry Engineering} Vol.~29 No.~2 (2008): pp. 189--199.
-\newblock Accessed 2021-12-17, \urlprefix\url{https://hrcak.srce.hr/32194}.
-\newblock Publisher: Fakultet šumarstva i drvne tehnologije Sveučilišta u
-  Zagrebu.
-
-\bibitem{ntsb_2021}
-{Satellite Navigation Branch ANG-E66 NSTB/WAAS TE Team}.
-\newblock \enquote{GLOBAL POSITIONING SYSTEM STANDARD POSITIONING SERVICE
-  PERFORMANCE ANALYSIS REPORT.} (2021).
-\newblock
-  \urlprefix\url{https://www.ntsb.gov/_layouts/ntsb.aviation/index.aspx}.
-
-\bibitem{vlp_32c}
-\enquote{Ultra {Puck} {Surround} {View} {Lidar} {Sensor}.}
-\newblock Accessed 2022-01-13,
-  \urlprefix\url{https://velodynelidar.com/products/ultra-puck/}.
-
-\bibitem{shapiro_analysis_1965}
-SHAPIRO, S.~S. and WILK, M.~B.
-\newblock \enquote{An analysis of variance test for normality (complete
-  samples)†.}
-\newblock \textit{Biometrika} Vol.~52 No. 3-4 (1965): pp. 591--611.
-\newblock \doi{10.1093/biomet/52.3-4.591}.
-\newblock Accessed 2022-01-12,
-  \urlprefix\url{https://doi.org/10.1093/biomet/52.3-4.591}.
-
-\bibitem{davis_covariance_1977}
-Davis, C.~S. and Stephens, M.~A.
-\newblock \enquote{The covariance matrix of normal order statistics.}
-\newblock \textit{Communications in Statistics - Simulation and Computation}
-  Vol.~6 No.~1 (1977): pp. 75--81.
-\newblock \doi{10.1080/03610917708812028}.
-\newblock Accessed 2022-01-13,
-  \urlprefix\url{https://doi.org/10.1080/03610917708812028}.
-\newblock Publisher: Taylor \& Francis \_eprint:
-  https://doi.org/10.1080/03610917708812028.
-
-\bibitem{naaman_tight_2021}
-Naaman, Michael.
-\newblock \enquote{On the tight constant in the multivariate
-  {Dvoretzky}–{Kiefer}–{Wolfowitz} inequality.}
-\newblock \textit{Statistics \& Probability Letters} Vol. 173 (2021): p.
-  109088.
-\newblock \doi{10.1016/j.spl.2021.109088}.
-\newblock Accessed 2022-01-13,
-  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S016771522100050X}.
-
-\bibitem{bellekens_survey_2014}
-Bellekens, Ben.
-\newblock \enquote{A {Survey} of {Rigid} {3D} {Pointcloud} {Registration}
-  {Algorithms}.}  (2014)Accessed 2022-01-21,
-  \urlprefix\url{https://www.academia.edu/29792070/A_Survey_of_Rigid_3D_Pointcloud_Registration_Algorithms}.
-
-\bibitem{pomerleau_review_2015}
-Pomerleau, François, Colas, Francis and Siegwart, Roland.
-\newblock \enquote{A {Review} of {Point} {Cloud} {Registration} {Algorithms}
-  for {Mobile} {Robotics}.}
-\newblock \textit{Foundations and Trends in Robotics} Vol.~4 No.~1 (2015): pp.
-  1--104.
-\newblock \doi{10.1561/2300000035}.
-\newblock Accessed 2022-01-21,
-  \urlprefix\url{https://hal.archives-ouvertes.fr/hal-01178661}.
-\newblock Publisher: Now Publishers.
-
-\bibitem{razlaw_evaluation_2015}
-Razlaw, Jan, Droeschel, David, Holz, Dirk and Behnke, Sven.
-\newblock \enquote{Evaluation of registration methods for sparse {3D} laser
-  scans.}
-\newblock \textit{2015 {European} {Conference} on {Mobile} {Robots} ({ECMR})}:
-  pp. 1--7. 2015.
-\newblock \doi{10.1109/ECMR.2015.7324196}.
-
-\bibitem{grant_finding_2013}
-Grant, W.~Shane, Voorhies, Randolph~C. and Itti, Laurent.
-\newblock \enquote{Finding planes in {LiDAR} point clouds for real-time
-  registration.}
-\newblock \textit{2013 {IEEE}/{RSJ} {International} {Conference} on
-  {Intelligent} {Robots} and {Systems}}: pp. 4347--4354. 2013.
-\newblock \doi{10.1109/IROS.2013.6696980}.
-\newblock ISSN: 2153-0866.
-
-\bibitem{bachuwar_integration_2020}
-Bachuwar, Sanket, Bulsara, Ardashir, Dossaji, Huzefa, Gopinath, Aditya,
-  Paredis, Chris, Pilla, Srikanth and Jia, Yunyi.
-\newblock \enquote{Integration of {Autonomous} {Vehicle} {Frameworks} for
-  {Software}-in-the-{Loop} {Testing}.}
-\newblock \textit{SAE International Journal of Advances and Current Practices
-  in Mobility} Vol.~2 No.~5 (2020): pp. 2617--2622.
-\newblock \doi{10.4271/2020-01-0709}.
-\newblock Accessed 2022-01-21,
-  \urlprefix\url{https://www.sae.org/publications/technical-papers/content/2020-01-0709/}.
-\newblock Number: 2020-01-0709.
-
-\bibitem{royston_extension_1982}
-Royston, J.~P.
-\newblock \enquote{An {Extension} of {Shapiro} and {Wilk}'s {W} {Test} for
-  {Normality} to {Large} {Samples}.}
-\newblock \textit{Journal of the Royal Statistical Society: Series C (Applied
-  Statistics)} Vol.~31 No.~2 (1982): pp. 115--124.
-\newblock \doi{10.2307/2347973}.
-\newblock Accessed 2022-01-21,
-  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.2307/2347973}.
-\newblock \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.2307/2347973.
-
-\bibitem{opencv_library}
-Bradski, G.
-\newblock \enquote{{The OpenCV Library}.}
-\newblock \textit{Dr. Dobb's Journal of Software Tools}  (2000).
-
-\bibitem{miller_method_nodate}
-Miller, Steven~J.
-\newblock \enquote{The {Method} of {Least} {Squares}.}  : p.~7.
-
-\bibitem{zhang_fast_2021}
-Zhang, Juyong, Yao, Yuxin and Deng, Bailin.
-\newblock \enquote{Fast and {Robust} {Iterative} {Closest} {Point}.}
-\newblock \textit{IEEE Transactions on Pattern Analysis and Machine
-  Intelligence}  (2021): pp. 1--1\doi{10.1109/TPAMI.2021.3054619}.
-\newblock Conference Name: IEEE Transactions on Pattern Analysis and Machine
-  Intelligence.
-
-\bibitem{choi_performance_2009}
-Choi, Sunglok, Kim, Taemin and Yu, Wonpil.
-\newblock \enquote{Performance {Evaluation} of {RANSAC} {Family}.}
-\newblock \textit{Procedings of the {British} {Machine} {Vision} {Conference}
-  2009}: pp. 81.1--81.12. 2009. British Machine Vision Association, London.
-\newblock \doi{10.5244/C.23.81}.
-\newblock Accessed 2022-01-27,
-  \urlprefix\url{http://www.bmva.org/bmvc/2009/Papers/Paper355/Paper355.html}.
-
-\bibitem{gallo_cc-ransac_2011}
-Gallo, Orazio, Manduchi, Roberto and Rafii, Abbas.
-\newblock \enquote{{CC}-{RANSAC}: {Fitting} planes in the presence of multiple
-  surfaces in range data.}
-\newblock \textit{Pattern Recognition Letters} Vol.~32 No.~3 (2011): pp.
-  403--410.
-\newblock \doi{10.1016/j.patrec.2010.10.009}.
-\newblock Accessed 2022-01-27,
-  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0167865510003557}.
-
-\bibitem{du_fast_2018}
-Du, Huan, Xu, Zheng and Ding, Yong.
-\newblock \enquote{The {Fast} {Lane} {Detection} of {Road} {Using} {RANSAC}
-  {Algorithm}.}
-\newblock Abawajy, Jemal, Choo, Kim-Kwang~Raymond and Islam, Rafiqul (eds.).
-  \textit{International {Conference} on {Applications} and {Techniques} in
-  {Cyber} {Security} and {Intelligence}}: pp. 1--7. 2018. Springer
-  International Publishing, Cham.
-\newblock \doi{10.1007/978-3-319-67071-3_1}.
-
-\bibitem{noauthor_road_nodate}
-\enquote{Road {Detection} by {RANSAC} on {Randomly} {Sampled} {Patches} with
-  {Slanted} {Plane} {Prior} - {AcademicFocus}.}
-\newblock Accessed 2022-01-27,
-  \urlprefix\url{https://af.global.cnki.net/stmt/TitleBrowse/KnowledgeNet/IEEE201611001185?db=STMI8320}.
-
-\bibitem{borkar_robust_2009}
-Borkar, Amol, Hayes, Monson and Smith, Mark~T.
-\newblock \enquote{Robust lane detection and tracking with ransac and {Kalman}
-  filter.}
-\newblock \textit{2009 16th {IEEE} {International} {Conference} on {Image}
-  {Processing} ({ICIP})}: pp. 3261--3264. 2009. IEEE, Cairo, Egypt.
-\newblock \doi{10.1109/ICIP.2009.5413980}.
-\newblock Accessed 2022-01-27,
-  \urlprefix\url{http://ieeexplore.ieee.org/document/5413980/}.
-
-\bibitem{yang_road_2016}
-Yang, Qingqing, Fan, Shengli, Wang, Lang and Wang, Yigang.
-\newblock \enquote{Road detection by {RANSAC} on randomly sampled patches with
-  slanted plane prior.}
-\newblock \textit{2016 {IEEE} 13th {International} {Conference} on {Signal}
-  {Processing} ({ICSP})}: pp. 929--933. 2016.
-\newblock \doi{10.1109/ICSP.2016.7877966}.
-\newblock ISSN: 2164-5221.
-
-\bibitem{derpanis_overview_nodate}
-Derpanis, Konstantinos~G.
-\newblock \enquote{Overview of the {RANSAC} {Algorithm}.}  : p.~2.
-
-\bibitem{yaniv_random_2010}
-Yaniv, Z.
-\newblock \enquote{Random {Sample} {Consensus} ({RANSAC}) {Algorithm}, {A}
-  {Generic} {Implementation}.}
-\newblock \textit{The Insight Journal}  (2010)\doi{10.54294/ia6mzx}.
-
-\bibitem{fischler_random_1987}
-Fischler, Martin~A. and Bolles, Robert~C.
-\newblock \enquote{Random {Sample} {Consensus}: {A} {Paradigm} for {Model}
-  {Fitting} with {Applications} to {Image} {Analysis} and {Automated}
-  {Cartography}.}
-\newblock Fischler, Martin~A. and Firschein, Oscar (eds.). \textit{Readings in
-  {Computer} {Vision}}.
-\newblock Morgan Kaufmann, San Francisco (CA) (1987): pp. 726--740.
-\newblock \doi{10.1016/B978-0-08-051581-6.50070-2}.
-\newblock Accessed 2022-02-08,
-  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/B9780080515816500702}.
-
-\bibitem{cantzler_random_nodate}
-Cantzler, H.
-\newblock \enquote{Random {Sample} {Consensus} ({RANSAC}).}  : p.~4.
-
-\bibitem{chum_matching_2005}
-Chum, O. and Matas, J.
-\newblock \enquote{Matching with {PROSAC} — {Progressive} {Sample}
-  {Consensus}.}
-\newblock \textit{2005 {IEEE} {Computer} {Society} {Conference} on {Computer}
-  {Vision} and {Pattern} {Recognition} ({CVPR}'05)}, Vol.~1: pp. 220--226.
-  2005. IEEE, San Diego, CA, USA.
-\newblock \doi{10.1109/CVPR.2005.221}.
-\newblock Accessed 2022-02-08,
-  \urlprefix\url{http://ieeexplore.ieee.org/document/1467271/}.
-
-\bibitem{schilling_geometric_2017}
-Schilling, Fabian, Chen, Xi, Folkesson, John and Jensfelt, Patric.
-\newblock \enquote{Geometric and visual terrain classification for autonomous
-  mobile navigation.}
-\newblock \textit{2017 {IEEE}/{RSJ} {International} {Conference} on
-  {Intelligent} {Robots} and {Systems} ({IROS})}: pp. 2678--2684. 2017.
-\newblock \doi{10.1109/IROS.2017.8206092}.
-\newblock ISSN: 2153-0866.
-
-\bibitem{ojeda_terrain_2006}
-Ojeda, Lauro, Borenstein, Johann, Witus, Gary and Karlsen, Robert.
-\newblock \enquote{Terrain characterization and classification with a mobile
-  robot.}
-\newblock \textit{Journal of Field Robotics} Vol.~23 No.~2 (2006): pp.
-  103--122.
-\newblock \doi{10.1002/rob.20113}.
-\newblock Accessed 2022-02-23,
-  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.20113}.
-\newblock \_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.20113.
-
-\bibitem{coombs_driving_2000}
-Coombs, David, Murphy, Karl, Lacaze, Alberto and Legowik, Steven.
-\newblock \enquote{Driving {Autonomously} {Offroad} up to 35 km/h.}
-  (2000)Accessed 2022-02-23,
-  \urlprefix\url{https://www.nist.gov/publications/driving-autonomously-offroad-35-kmh}.
-\newblock Last Modified: 2017-02-19T20:02-05:00.
-
-\bibitem{stavens_self-supervised_nodate}
-Stavens, David and Thrun, Sebastian.
-\newblock \enquote{A {Self}-{Supervised} {Terrain} {Roughness} {Estimator} for
-  {Off}-{Road} {Autonomous} {Driving}.}  : p.~8.
-
-\bibitem{belter_rough_2010}
-Belter, Dominik and Skrzypczyński, Piotr.
-\newblock \enquote{Rough terrain mapping and classification for foothold
-  selection in a walking robot.}
-\newblock \textit{2010 {IEEE} {Safety} {Security} and {Rescue} {Robotics}}: pp.
-  1--6. 2010.
-\newblock \doi{10.1109/SSRR.2010.5981552}.
-\newblock ISSN: 2374-3247.
-
-\bibitem{bartoszyk_terrain-aware_2017}
-Bartoszyk, Szymon, Kasprzak, Patryk and Belter, Dominik.
-\newblock \enquote{Terrain-aware motion planning for a walking robot.}
-\newblock \textit{2017 11th {International} {Workshop} on {Robot} {Motion} and
-  {Control} ({RoMoCo})}: pp. 29--34. 2017.
-\newblock \doi{10.1109/RoMoCo.2017.8003889}.
-
-\bibitem{noauthor_fusion_nodate}
-\enquote{Fusion between a color camera and a {TOF} camera to improve
-  traversability of agricultural vehicles - {Archive} ouverte {HAL}.}
-\newblock Accessed 2022-02-23,
-  \urlprefix\url{https://hal.archives-ouvertes.fr/hal-01580255/}.
-
-\bibitem{li_rugged_2019}
-Li, Shangcong, Song, Rui, Zheng, Yukun, Zhao, He and Li, Yibin.
-\newblock \enquote{Rugged - {Terrain} {Traversability} {Analyzing} {For}
-  {Quadruped} {Robots}.}
-\newblock \textit{2019 2nd {International} {Conference} of {Intelligent}
-  {Robotic} and {Control} {Engineering} ({IRCE})}: pp. 1--6. 2019.
-\newblock \doi{10.1109/IRCE.2019.00008}.
-
-\bibitem{wilson_terrain_2014}
-Wilson, Graeme~N. and Ramirez-Serrano, Alejandro.
-\newblock \enquote{Terrain {Roughness} {Identification} for {High}-{Speed}
-  {UGVs}.}
-\newblock \textit{Journal of Automation and Control Research} Vol.~1 (2014):
-  pp. 11--21.
-\newblock Accessed 2022-02-23,
-  \urlprefix\url{https://jacr.avestia.com/2014/002.html}.
-
-\bibitem{siva_robot_2019}
-Siva, Sriram, Wigness, Maggie, Rogers, John and Zhang, Hao.
-\newblock \enquote{Robot adaptation to unstructured terrains by joint
-  representation and apprenticeship learning.}
-\newblock \textit{Robotics: science and systems}  (2019)Accessed 2022-02-23,
-  \urlprefix\url{https://par.nsf.gov/biblio/10095437-robot-adaptation-unstructured-terrains-joint-representation-apprenticeship-learning}.
+\bibitem{dupont_online_2008}
+DuPont, Edmond~M., Roberts, Rodney~G., Selekwa, Majura~F., Moore, Carl~A. and
+  Collins, Emmanual~G.
+\newblock \enquote{Online {Terrain} {Classification} for {Mobile} {Robots}.}:
+  pp. 1643--1648. 2008. American Society of Mechanical Engineers Digital
+  Collection.
+\newblock \doi{10.1115/IMECE2005-81659}.
+\newblock Accessed 2023-05-04,
+  \urlprefix\url{https://asmedigitalcollection.asme.org/IMECE/proceedings-abstract/IMECE2005/42169/1643/311848}.
+
+\bibitem{yadav_road_2018}
+Yadav, Manohar, Lohani, Bharat and Singh, Ajoy.
+\newblock \enquote{{ROAD} {SURFACE} {DETECTION} {FROM} {MOBILE} {LIDAR}
+  {DATA}.}
+\newblock \textit{ISPRS Annals of Photogrammetry, Remote Sensing and Spatial
+  Information Sciences} Vol. IV-5 (2018): pp. 95--101.
+\newblock \doi{10.5194/isprs-annals-IV-5-95-2018}.
+
+\bibitem{yadav_pole-shaped_2015}
+Yadav, Manohar, Husain, A., Singh, Ajoy and Lohani, Bharat.
+\newblock \enquote{{POLE}-{SHAPED} {OBJECT} {DETECTION} {USING} {MOBILE}
+  {LIDAR} {DATA} {IN} {RURAL} {ROAD} {ENVIRONMENTS}.}
+\newblock \textit{ISPRS Annals of Photogrammetry, Remote Sensing and Spatial
+  Information Sciences} Vol. II-3/W5 (2015): pp. 11--16.
+\newblock \doi{10.5194/isprsannals-II-3-W5-11-2015}.
+
+\bibitem{laible_3d_2012}
+Laible, Stefan, Khan, Yasir~Niaz, Bohlmann, Karsten and Zell, Andreas.
+\newblock \enquote{{3D} {LIDAR}- and {Camera}-{Based} {Terrain}
+  {Classification} {Under} {Different} {Lighting} {Conditions}.}
+\newblock 2012.
+\newblock \doi{10.1007/978-3-642-32217-4_3}.
 
 \bibitem{laible_terrain_2013}
 Laible, Stefan, Khan, Yasir~Niaz and Zell, Andreas.
@@ -1275,13 +349,6 @@ Laible, Stefan, Khan, Yasir~Niaz and Zell, Andreas.
 \newblock \textit{2013 {European} {Conference} on {Mobile} {Robots}}: pp.
   172--177. 2013.
 \newblock \doi{10.1109/ECMR.2013.6698838}.
-
-\bibitem{laible_3d_2012}
-Laible, Stefan, Khan, Yasir~Niaz, Bohlmann, Karsten and Zell, Andreas.
-\newblock \enquote{{3D} {LIDAR}- and {Camera}-{Based} {Terrain}
-  {Classification} {Under} {Different} {Lighting} {Conditions}.}
-\newblock 2012.
-\newblock \doi{10.1007/978-3-642-32217-4_3}.
 
 \bibitem{laible_map_building}
 Laible, Stefan and Zell, Andreas.
@@ -1335,6 +402,21 @@ Mijakovska, Svetlana, Nedelkovski, Igor and Popovski, Filip.
   pp. 13--19.
 \newblock \doi{10.5121/acij.2014.5602}.
 
+\bibitem{chellappa_classification_1985}
+Chellappa, R. and Chatterjee, S.
+\newblock \enquote{Classification of textures using {Gaussian} {Markov} random
+  fields.}
+\newblock \textit{IEEE Transactions on Acoustics, Speech, and Signal
+  Processing} Vol.~33 No.~4 (1985): pp. 959--963.
+\newblock \doi{10.1109/TASSP.1985.1164641}.
+\newblock Conference Name: IEEE Transactions on Acoustics, Speech, and Signal
+  Processing.
+
+\bibitem{wallach_conditional_nodate}
+Wallach, Hanna~M.
+\newblock \enquote{Conditional {Random} {Fields}: {An} {Introduction}.}  :
+  p.~9.
+
 \bibitem{haselich_terrain_2011}
 Häselich, Marcel, Arends, Marc, Lang, Dagmar and Paulus, Dietrich.
 \newblock \enquote{Terrain {Classification} with {Markov} {Random} {Fields} on
@@ -1347,16 +429,6 @@ Zhao, Gangqiang, Xiao, Xuhong, Yuan, Junsong and Ng, Gee-Wah.
   Vol.~25 (2014): pp. 165--183.
 \newblock \doi{10.1016/j.jvcir.2013.06.008}.
 
-\bibitem{chellappa_classification_1985}
-Chellappa, R. and Chatterjee, S.
-\newblock \enquote{Classification of textures using {Gaussian} {Markov} random
-  fields.}
-\newblock \textit{IEEE Transactions on Acoustics, Speech, and Signal
-  Processing} Vol.~33 No.~4 (1985): pp. 959--963.
-\newblock \doi{10.1109/TASSP.1985.1164641}.
-\newblock Conference Name: IEEE Transactions on Acoustics, Speech, and Signal
-  Processing.
-
 \bibitem{breiman_random_2001}
 Breiman, Leo.
 \newblock \enquote{Random {Forests}.}
@@ -1365,16 +437,10 @@ Breiman, Leo.
 \newblock Accessed 2022-02-23,
   \urlprefix\url{https://doi.org/10.1023/A:1010933404324}.
 
-\bibitem{wallach_conditional_nodate}
-Wallach, Hanna~M.
-\newblock \enquote{Conditional {Random} {Fields}: {An} {Introduction}.}  :
-  p.~9.
-
-\bibitem{WEKA}
-Hornik, Kurt, Buchta, Christian and Zeileis, Achim.
-\newblock \enquote{Open-Source Machine Learning: {R} Meets {Weka}.}
-\newblock \textit{Computational Statistics} Vol.~24 No.~2 (2009): pp. 225--232.
-\newblock \doi{10.1007/s00180-008-0119-7}.
+\bibitem{vlp_32c}
+\enquote{Ultra {Puck} {Surround} {View} {Lidar} {Sensor}.}
+\newblock Accessed 2022-01-13,
+  \urlprefix\url{https://velodynelidar.com/products/ultra-puck/}.
 
 \bibitem{wang_two-stage_2018}
 Wang, Shifeng, Kodagoda, Sarath, Shi, Lei and Dai, Xiang.
@@ -1384,14 +450,6 @@ Wang, Shifeng, Kodagoda, Sarath, Shi, Lei and Dai, Xiang.
 \newblock \textit{IEEE Intelligent Systems} Vol.~33 No.~1 (2018): pp. 29--39.
 \newblock \doi{10.1109/MIS.2017.2581327}.
 \newblock Conference Name: IEEE Intelligent Systems.
-
-\bibitem{hong_road_2002}
-Hong, Tsai, Rasmussen, Christopher, Chang, Tommy and Shneier, Michael.
-\newblock \enquote{Road {Detection} and {Tracking} for {Autonomous} {Mobile}
-  {Robots}.}
-\newblock \textit{Proceedings of SPIE - The International Society for Optical
-  Engineering} Vol. 4715 (2002).
-\newblock \doi{10.1117/12.474463}.
 
 \bibitem{ho_random_1995}
 Ho, Tin~Kam.
@@ -1411,6 +469,15 @@ Khan, Yasir~Niaz, Komma, Philippe and Zell, Andreas.
 \newblock Accessed 2022-02-22,
   \urlprefix\url{http://ieeexplore.ieee.org/document/6130362/}.
 
+\bibitem{schilling_geometric_2017}
+Schilling, Fabian, Chen, Xi, Folkesson, John and Jensfelt, Patric.
+\newblock \enquote{Geometric and visual terrain classification for autonomous
+  mobile navigation.}
+\newblock \textit{2017 {IEEE}/{RSJ} {International} {Conference} on
+  {Intelligent} {Robots} and {Systems} ({IROS})}: pp. 2678--2684. 2017.
+\newblock \doi{10.1109/IROS.2017.8206092}.
+\newblock ISSN: 2153-0866.
+
 \bibitem{wietrzykowski_context-aware_2019}
 Wietrzykowski, Jan and Skrzypczyński, Piotr.
 \newblock \enquote{Context-{Aware} {Recognition} of {Drivable} {Terrain} with
@@ -1419,60 +486,6 @@ Wietrzykowski, Jan and Skrzypczyński, Piotr.
   Stefano (eds.). \textit{Intelligent {Autonomous} {Systems} 15}: pp. 626--638.
   2019. Springer International Publishing, Cham.
 \newblock \doi{10.1007/978-3-030-01370-7_49}.
-
-\bibitem{takubo_ndt_2009}
-Takubo, Tomohito, Kaminade, Takuya, Mae, Yasushi, Ohara, Kenichi and Arai,
-  Tatsuo.
-\newblock \enquote{{NDT} scan matching method for high resolution grid map.}
-\newblock \textit{2009 {IEEE}/{RSJ} {International} {Conference} on
-  {Intelligent} {Robots} and {Systems}}: pp. 1517--1522. 2009.
-\newblock \doi{10.1109/IROS.2009.5353908}.
-\newblock ISSN: 2153-0866.
-
-\bibitem{MATLAB_PCFITPLANE}
-\enquote{Fit plane to 3-{D} point cloud - {MATLAB} pcfitplane.}
-\newblock Accessed 2022-12-08,
-  \urlprefix\url{https://www.mathworks.com/help/vision/ref/pcfitplane.html}.
-
-\bibitem{xaviborras_english_2014}
-{Xavi.borras}.
-\newblock \enquote{English: {RANSAC}. {Inliers}-{Outliers}.} (2014).
-\newblock Accessed 2022-12-08,
-  \urlprefix\url{https://commons.wikimedia.org/wiki/File:RANSAC_Inliers_and_Outliers.png}.
-
-\bibitem{alam_using_2022}
-Alam, Bashir.
-\newblock \enquote{Using the {Random} {Sample} {Consensus} ({RANSAC}) algorithm
-  in {Python}.} (2022).
-\newblock Accessed 2022-12-08,
-  \urlprefix\url{https://hands-on.cloud/using-the-random-sample-consensus-ransac-algorithm-in-python/}.
-
-\bibitem{noauthor_object-oriented_nodate}
-\enquote{Object-oriented tools for fitting conics and quadrics.}
-\newblock Accessed 2022-12-08,
-  \urlprefix\url{https://www.mathworks.com/matlabcentral/fileexchange/87584-object-oriented-tools-for-fitting-conics-and-quadrics}.
-
-\bibitem{noauthor_shapiro-wilk_nodate}
-\enquote{Shapiro-{Wilk} and {Shapiro}-{Francia} normality tests.}
-\newblock Accessed 2022-12-08,
-  \urlprefix\url{https://www.mathworks.com/matlabcentral/fileexchange/13964-shapiro-wilk-and-shapiro-francia-normality-tests}.
-
-\bibitem{genuer_random_2017}
-Genuer, Robin, Poggi, Jean-Michel, Tuleau-Malot, Christine and Villa-Vialaneix,
-  Nathalie.
-\newblock \enquote{Random {Forests} for {Big} {Data}.}
-\newblock \textit{Big Data Research} Vol.~9 (2017): pp. 28--46.
-\newblock \doi{10.1016/j.bdr.2017.07.003}.
-\newblock Accessed 2022-12-09,
-  \urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S2214579616301939}.
-
-\bibitem{breiman_no_2001}
-Breiman, Leo.
-\newblock \enquote{[{No} title found].}
-\newblock \textit{Machine Learning} Vol.~45 No.~1 (2001): pp. 5--32.
-\newblock \doi{10.1023/A:1010933404324}.
-\newblock Accessed 2022-12-09,
-  \urlprefix\url{http://link.springer.com/10.1023/A:1010933404324}.
 
 \bibitem{noauthor_bayesian_nodate}
 \enquote{Bayesian {Optimization} {Algorithm} - {MATLAB} \& {Simulink}.}

@@ -192,6 +192,11 @@ M.~Manz, M.~Himmelsbach, T.~Luettel, and H.-J. Wuensche, ``Detection and
   and {Systems}}, pp.~4562--4568, Sept. 2011.
 \newblock ISSN: 2153-0866.
 
+\bibitem{dupont_online_2008}
+E.~M. DuPont, R.~G. Roberts, M.~F. Selekwa, C.~A. Moore, and E.~G. Collins,
+  ``Online {Terrain} {Classification} for {Mobile} {Robots},'' pp.~1643--1648,
+  American Society of Mechanical Engineers Digital Collection, Feb. 2008.
+
 \bibitem{yadav_road_2018}
 M.~Yadav, B.~Lohani, and A.~Singh, ``{ROAD} {SURFACE} {DETECTION} {FROM}
   {MOBILE} {LIDAR} {DATA},'' {\em ISPRS Annals of Photogrammetry, Remote

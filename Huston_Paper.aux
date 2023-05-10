@@ -36,6 +36,7 @@
 \citation{manz_detection_2011}
 \citation{crisman_scarf_1993}
 \citation{crisman_scarf_1993,manz_detection_2011}
+\citation{dupont_online_2008}
 \babel@aux{english}{}
 \@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{section.1}\protected@file@percent }
 \citation{skorseth_gravel_nodate}
@@ -62,40 +63,52 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {I-A}}Related Work}{2}{subsection.1.1}\protected@file@percent }
 \citation{vlp_32c}
 \@writefile{toc}{\contentsline {section}{\numberline {II}Methodology}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}Overview}{3}{subsection.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Project Flow}}{3}{figure.caption.1}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:van}{{1a}{3}{Sensor Van}{figure.caption.1}{}}
-\newlabel{sub@fig:van}{{a}{3}{Sensor Van}{figure.caption.1}{}}
-\newlabel{fig:vlp32mount}{{1b}{3}{VLP 32 on Van}{figure.caption.1}{}}
-\newlabel{sub@fig:vlp32mount}{{b}{3}{VLP 32 on Van}{figure.caption.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Experimental Apparatus}}{3}{figure.caption.1}\protected@file@percent }
-\newlabel{fig:Experimental_Apperatus}{{1}{3}{Experimental Apparatus}{figure.caption.1}{}}
-\newlabel{fig:Blackburn_Road_View}{{2a}{3}{Blackburn Road Camera View}{figure.caption.2}{}}
-\newlabel{sub@fig:Blackburn_Road_View}{{a}{3}{Blackburn Road Camera View}{figure.caption.2}{}}
-\newlabel{fig:Gravel_Lot_View}{{2b}{3}{Armig Road Camera View}{figure.caption.2}{}}
-\newlabel{sub@fig:Gravel_Lot_View}{{b}{3}{Armig Road Camera View}{figure.caption.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Blackburn Road \& Gravel Parking Lot}}{3}{figure.caption.2}\protected@file@percent }
-\newlabel{fig:Combined_Roads}{{2}{3}{Blackburn Road \& Gravel Parking Lot}{figure.caption.2}{}}
-\newlabel{fig:Compiled_PCD}{{3a}{4}{C}{figure.caption.3}{}}
-\newlabel{sub@fig:Compiled_PCD}{{a}{4}{C}{figure.caption.3}{}}
-\newlabel{fig:Classified_Areas_PCD}{{3b}{4}{}{figure.caption.3}{}}
-\newlabel{sub@fig:Classified_Areas_PCD}{{b}{4}{}{figure.caption.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Compiled and Classified Point Cloud Data}}{4}{figure.caption.3}\protected@file@percent }
-\newlabel{fig:Combined_Classified_PCD}{{3}{4}{Compiled and Classified Point Cloud Data}{figure.caption.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {III}Results}{4}{section.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Area Percentage Scores}}{5}{figure.caption.4}\protected@file@percent }
-\newlabel{fig:area_percentages}{{4}{5}{Area Percentage Scores}{figure.caption.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Post-Adjusted}}{5}{figure.caption.5}\protected@file@percent }
-\newlabel{fig:prepostadjust}{{5}{5}{Post-Adjusted}{figure.caption.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Area Scores}}{5}{figure.caption.5}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Projected Guess vs Truth}}{6}{figure.caption.6}\protected@file@percent }
-\newlabel{fig:rm_db_4_toc}{{7}{6}{Projected Guess vs Truth}{figure.caption.6}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {IV}Discussion}{6}{section.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {V}Conclusion}{6}{section.5}\protected@file@percent }
+\newlabel{fig:flowz_2}{{1}{3}{Project Flow}{figure.caption.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}Data Collection}{3}{subsection.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Experimental Apparatus}}{4}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:Experimental_Apperatus}{{2}{4}{Experimental Apparatus}{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-C}}Training Data Extraction}{4}{subsection.2.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Blackburn Road Camera View}}{5}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:Blackburn_Road_View}{{3}{5}{Blackburn Road Camera View}{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Gravel Training Lot}}{5}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:gravel_training_lot}{{4}{5}{Gravel Training Lot}{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Compiled and Manually Classified Point Cloud Data}}{6}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:road_areas_annotated_22}{{5}{6}{Compiled and Manually Classified Point Cloud Data}{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Example Clustering}}{6}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:training_data_cluster}{{6}{6}{Example Clustering}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-D}}RDF Training and Testing}{6}{subsection.2.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces RDF Training Classification Error}}{7}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:c2_min_class_error}{{7}{7}{RDF Training Classification Error}{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Out-of-Bag Error}}{8}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:out_of_bag_err_conf_mat}{{8}{8}{Out-of-Bag Error}{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Validation Error}}{8}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:vali_err_conf_mat}{{9}{8}{Validation Error}{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Areas to Classify}}{9}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:area_example}{{10}{9}{Areas to Classify}{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Classified Point Cloud}}{9}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:raw_classification_results}{{11}{9}{Classified Point Cloud}{figure.caption.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Table}}{10}{table.caption.13}\protected@file@percent }
+\newlabel{tab:1}{{I}{10}{Table}{table.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Projected Guess vs Truth}}{10}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:rm_db_4_toc}{{12}{10}{Projected Guess vs Truth}{figure.caption.12}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Results}{10}{section.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Re-grassed Dirt vs Gravel}}{11}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:dirt_v_gravel}{{13}{11}{Re-grassed Dirt vs Gravel}{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Area Scores}}{11}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:prepostadjust}{{14}{11}{Area Scores}{figure.caption.15}{}}
 \bibstyle{ieeetr}
 \bibdata{resources.bib}
 \bibcite{road_stats_2}{{1}{}{{}}{{}}}
 \bibcite{malik_lal_2019}{{2}{}{{}}{{}}}
 \bibcite{noauthor_gpsgov_nodate}{{3}{}{{}}{{}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Per-Arc Time}}{12}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:per_arc_classification_time}{{15}{12}{Per-Arc Time}{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Per-Scan Time}}{12}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:per_scan_classification_rate}{{16}{12}{Per-Scan Time}{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Conclusion}{12}{section.4}\protected@file@percent }
 \bibcite{crisman_scarf_1993}{{4}{}{{}}{{}}}
 \bibcite{yadav_extraction_2017}{{5}{}{{}}{{}}}
 \bibcite{liu_new_2013}{{6}{}{{}}{{}}}
@@ -126,29 +139,30 @@
 \bibcite{yadav_rural_2018}{{31}{}{{}}{{}}}
 \bibcite{ibrahim_curb-based_2012}{{32}{}{{}}{{}}}
 \bibcite{manz_detection_2011}{{33}{}{{}}{{}}}
-\bibcite{yadav_road_2018}{{34}{}{{}}{{}}}
-\bibcite{yadav_pole-shaped_2015}{{35}{}{{}}{{}}}
-\bibcite{laible_3d_2012}{{36}{}{{}}{{}}}
-\bibcite{laible_terrain_2013}{{37}{}{{}}{{}}}
-\bibcite{laible_map_building}{{38}{}{{}}{{}}}
-\bibcite{rasmussen_combining_2002}{{39}{}{{}}{{}}}
-\bibcite{reymann_improving_2015}{{40}{}{{}}{{}}}
-\bibcite{walas_terrain_2014}{{41}{}{{}}{{}}}
-\bibcite{wietrzykowski_boosting_2014}{{42}{}{{}}{{}}}
-\bibcite{wang_road_nodate}{{43}{}{{}}{{}}}
-\bibcite{mijakovska_generating_2014}{{44}{}{{}}{{}}}
-\bibcite{chellappa_classification_1985}{{45}{}{{}}{{}}}
-\bibcite{wallach_conditional_nodate}{{46}{}{{}}{{}}}
-\bibcite{haselich_terrain_2011}{{47}{}{{}}{{}}}
-\bibcite{zhao_fusion_2014}{{48}{}{{}}{{}}}
-\bibcite{breiman_random_2001}{{49}{}{{}}{{}}}
-\bibcite{vlp_32c}{{50}{}{{}}{{}}}
-\bibcite{wang_two-stage_2018}{{51}{}{{}}{{}}}
-\bibcite{ho_random_1995}{{52}{}{{}}{{}}}
-\bibcite{khan_high_2011}{{53}{}{{}}{{}}}
-\bibcite{schilling_geometric_2017}{{54}{}{{}}{{}}}
-\bibcite{wietrzykowski_context-aware_2019}{{55}{}{{}}{{}}}
-\bibcite{noauthor_bayesian_nodate}{{56}{}{{}}{{}}}
-\bibcite{snoek_practical_2012}{{57}{}{{}}{{}}}
+\bibcite{dupont_online_2008}{{34}{}{{}}{{}}}
+\bibcite{yadav_road_2018}{{35}{}{{}}{{}}}
+\bibcite{yadav_pole-shaped_2015}{{36}{}{{}}{{}}}
+\bibcite{laible_3d_2012}{{37}{}{{}}{{}}}
+\bibcite{laible_terrain_2013}{{38}{}{{}}{{}}}
+\bibcite{laible_map_building}{{39}{}{{}}{{}}}
+\bibcite{rasmussen_combining_2002}{{40}{}{{}}{{}}}
+\bibcite{reymann_improving_2015}{{41}{}{{}}{{}}}
+\bibcite{walas_terrain_2014}{{42}{}{{}}{{}}}
+\bibcite{wietrzykowski_boosting_2014}{{43}{}{{}}{{}}}
+\bibcite{wang_road_nodate}{{44}{}{{}}{{}}}
+\bibcite{mijakovska_generating_2014}{{45}{}{{}}{{}}}
+\bibcite{chellappa_classification_1985}{{46}{}{{}}{{}}}
+\bibcite{wallach_conditional_nodate}{{47}{}{{}}{{}}}
+\bibcite{haselich_terrain_2011}{{48}{}{{}}{{}}}
+\bibcite{zhao_fusion_2014}{{49}{}{{}}{{}}}
+\bibcite{breiman_random_2001}{{50}{}{{}}{{}}}
+\bibcite{vlp_32c}{{51}{}{{}}{{}}}
+\bibcite{wang_two-stage_2018}{{52}{}{{}}{{}}}
+\bibcite{ho_random_1995}{{53}{}{{}}{{}}}
+\bibcite{khan_high_2011}{{54}{}{{}}{{}}}
+\bibcite{schilling_geometric_2017}{{55}{}{{}}{{}}}
+\bibcite{wietrzykowski_context-aware_2019}{{56}{}{{}}{{}}}
+\bibcite{noauthor_bayesian_nodate}{{57}{}{{}}{{}}}
+\bibcite{snoek_practical_2012}{{58}{}{{}}{{}}}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers
-\gdef \@abspage@last{9}
+\gdef \@abspage@last{15}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  3 MAY 2023 09:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  9 MAY 2023 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1057,136 +1057,84 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 
 
 ] [2.2]
-
-LaTeX Warning: Reference `fig:vali_conf_mat' on page 3 undefined on input line 
-145.
-
-<figures/flowz_2.png, id=135, 1313.90875pt x 533.995pt>
+<figures/flowz_2.png, id=132, 630.355pt x 258.9675pt>
 File: figures/flowz_2.png Graphic file (type png)
 <use figures/flowz_2.png>
-Package pdftex.def Info: figures/flowz_2.png  used on input line 153.
-(pdftex.def)             Requested size: 257.28102pt x 104.56453pt.
+Package pdftex.def Info: figures/flowz_2.png  used on input line 154.
+(pdftex.def)             Requested size: 257.28102pt x 105.69922pt.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 8.19003pt on input line 154.
-<figures/training_data_cluster.png, id=137, 1295.53484pt x 1001.89043pt>
+(Font)              scaled to size 8.19003pt on input line 155.
+<figures/training_data_cluster.png, id=134, 1295.53484pt x 1001.89043pt>
 File: figures/training_data_cluster.png Graphic file (type png)
 <use figures/training_data_cluster.png>
 Package pdftex.def Info: figures/training_data_cluster.png  used on input line 
-160.
+161.
 (pdftex.def)             Requested size: 257.28102pt x 198.95279pt.
 
-Underfull \hbox (badness 1168) in paragraph at lines 161--161
+Underfull \hbox (badness 1168) in paragraph at lines 162--162
 []\T1/qhv/b/n/9 FIGURE 2: |[]EXAMPLE OF TRAIN-ING DATA COM-PAR-I-SON BE-
  []
 
-<figures/c2_min_class_error.png, id=138, 702.92084pt x 554.57716pt>
+<figures/c2_min_class_error.png, id=135, 702.92084pt x 554.57716pt>
 File: figures/c2_min_class_error.png Graphic file (type png)
 <use figures/c2_min_class_error.png>
-Package pdftex.def Info: figures/c2_min_class_error.png  used on input line 167
+Package pdftex.def Info: figures/c2_min_class_error.png  used on input line 168
 .
 (pdftex.def)             Requested size: 257.28102pt x 202.9817pt.
 [3.3 <./figures/flowz_2.png> <./figures/training_data_cluster.png (PNG copy)>]
-<figures/van_on_van.jpg, id=156, 4673.46pt x 3505.095pt>
+<figures/van_on_van.jpg, id=152, 4673.46pt x 3505.095pt>
 File: figures/van_on_van.jpg Graphic file (type jpg)
 <use figures/van_on_van.jpg>
-Package pdftex.def Info: figures/van_on_van.jpg  used on input line 180.
-(pdftex.def)             Requested size: 174.49841pt x 130.87381pt.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 181.
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.19003pt on input line 181.
-<figures/LiDAR_on_van.jpg, id=157, 4673.46pt x 3505.095pt>
-File: figures/LiDAR_on_van.jpg Graphic file (type jpg)
-<use figures/LiDAR_on_van.jpg>
-Package pdftex.def Info: figures/LiDAR_on_van.jpg  used on input line 186.
-(pdftex.def)             Requested size: 174.49841pt x 130.87381pt.
+Package pdftex.def Info: figures/van_on_van.jpg  used on input line 204.
+(pdftex.def)             Requested size: 231.55135pt x 173.6605pt.
 
-Overfull \hbox (13.73148pt too wide) in paragraph at lines 178--190
- [][] 
+Underfull \hbox (badness 2245) in paragraph at lines 205--205
+[]\T1/qhv/b/n/9 FIGURE 4: |[]EXPERIMENTAL AP-PA-RA-TUS. VELO-DYNE VLP-32
  []
 
-
-Overfull \hbox (13.73148pt too wide) in paragraph at lines 178--190
- [] 
- []
-
-<figures/vlcsnap-2023-04-20-08h48m17s447.png, id=158, 2071.74pt x 1549.79pt>
+<figures/vlcsnap-2023-04-20-08h48m17s447.png, id=153, 2071.74pt x 1549.79pt>
 File: figures/vlcsnap-2023-04-20-08h48m17s447.png Graphic file (type png)
 <use figures/vlcsnap-2023-04-20-08h48m17s447.png>
 Package pdftex.def Info: figures/vlcsnap-2023-04-20-08h48m17s447.png  used on i
-nput line 196.
+nput line 211.
 (pdftex.def)             Requested size: 231.55135pt x 173.19693pt.
-<figures/Compiled_PCD.png, id=161, 845.93936pt x 535.55873pt>
-File: figures/Compiled_PCD.png Graphic file (type png)
-<use figures/Compiled_PCD.png>
-Package pdftex.def Info: figures/Compiled_PCD.png  used on input line 211.
-(pdftex.def)             Requested size: 231.71336pt x 146.69481pt.
-<figures/Manually_Defined_Area_Train_Dat_Grab_2.png, id=162, 2076.75874pt x 101
-6.79875pt>
-File: figures/Manually_Defined_Area_Train_Dat_Grab_2.png Graphic file (type png
-)
-<use figures/Manually_Defined_Area_Train_Dat_Grab_2.png>
-Package pdftex.def Info: figures/Manually_Defined_Area_Train_Dat_Grab_2.png  us
-ed on input line 217.
-(pdftex.def)             Requested size: 231.71336pt x 113.44626pt.
-[4.4 <./figures/c2_min_class_error.png (PNG copy)> <./figures/van_on_van.jpg> <
-./figures/LiDAR_on_van.jpg> <./figures/vlcsnap-2023-04-20-08h48m17s447.png (PNG
- copy)>]
-<figures/rm_db_4_percentages_big_anotated.png, id=174, 2590.30894pt x 1001.8904
-3pt>
-File: figures/rm_db_4_percentages_big_anotated.png Graphic file (type png)
-<use figures/rm_db_4_percentages_big_anotated.png>
-Package pdftex.def Info: figures/rm_db_4_percentages_big_anotated.png  used on 
-input line 260.
-(pdftex.def)             Requested size: 231.55135pt x 89.55473pt.
+<figures/road_areas_annotated_22.png, id=156, 2590.30894pt x 1001.89043pt>
+File: figures/road_areas_annotated_22.png Graphic file (type png)
+<use figures/road_areas_annotated_22.png>
+Package pdftex.def Info: figures/road_areas_annotated_22.png  used on input lin
+e 242.
+(pdftex.def)             Requested size: 244.41618pt x 94.52321pt.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 5.00502pt on input line 261.
+(Font)              scaled to size 5.00502pt on input line 243.
 LaTeX Font Info:    Trying to load font information for OML+ntxsfmi on input li
-ne 261.
-
+ne 243.
 (/home/autobuntu/.miktex/texmfs/install/tex/latex/newtxsf/omlntxsfmi.fd
 File: omlntxsfmi.fd 2014/11/16 Fontinst v1.933 font definitions for OML/ntxsfmi
 .
 )
-<figures/side_of_road_nums_4_with_filts_2.png, id=175, 2590.30894pt x 1001.8904
-3pt>
-File: figures/side_of_road_nums_4_with_filts_2.png Graphic file (type png)
-<use figures/side_of_road_nums_4_with_filts_2.png>
-Package pdftex.def Info: figures/side_of_road_nums_4_with_filts_2.png  used on 
-input line 285.
-(pdftex.def)             Requested size: 250.85056pt x 97.01509pt.
-
-[5.5 <./figures/Compiled_PCD.png> <./figures/Manually_Defined_Area_Train_Dat_Gr
-ab_2.png> <./figures/rm_db_4_percentages_big_anotated.png>]
-<figures/rm_db_4_toc.png, id=192, 2590.30894pt x 1001.89043pt>
-File: figures/rm_db_4_toc.png Graphic file (type png)
-<use figures/rm_db_4_toc.png>
-Package pdftex.def Info: figures/rm_db_4_toc.png  used on input line 297.
-(pdftex.def)             Requested size: 231.55135pt x 89.55473pt.
-
-
-LaTeX Warning: Reference `' on page 6 undefined on input line 305.
-
-(Huston_Paper_asme.bbl
-Underfull \hbox (badness 2698) in paragraph at lines 18--22
-[]\T1/ntxtlf/m/n/10 Malik, Yud-hvir Singh and Lal, Babni.  ``Ba-sic
+[4.4 <./figures/c2_min_class_error.png (PNG copy)> <./figures/van_on_van.jpg> <
+./figures/vlcsnap-2023-04-20-08h48m17s447.png (PNG copy)> <./figures/road_areas
+_annotated_22.png>]
+<figures/side_of_road_nums_4_with_filts_2_2.png, id=170, 1188.27095pt x 696.834
+95pt>
+File: figures/side_of_road_nums_4_with_filts_2_2.png Graphic file (type png)
+<use figures/side_of_road_nums_4_with_filts_2_2.png>
+Package pdftex.def Info: figures/side_of_road_nums_4_with_filts_2_2.png  used o
+n input line 282.
+(pdftex.def)             Requested size: 231.55135pt x 135.78125pt.
+ [5.5 <./figures/side_of_road_nums_4_with_filts_2_2.png (PNG copy)>]
+<figures/rm_db_4_ToC_2.png, id=184, 2590.30894pt x 997.326pt>
+File: figures/rm_db_4_ToC_2.png Graphic file (type png)
+<use figures/rm_db_4_ToC_2.png>
+Package pdftex.def Info: figures/rm_db_4_ToC_2.png  used on input line 293.
+(pdftex.def)             Requested size: 231.55135pt x 89.14674pt.
+ (Huston_Paper_asme.bbl
+Underfull \hbox (badness 3281) in paragraph at lines 38--48
+\T1/ntxtlf/m/n/10 1320451$[][].  Pub-lisher: Tay-lor & Fran-cis _eprint:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--22
-[][]$\T1/ntxtlf/m/n/10 https : / / morth . nic . in / sites / default / ^^\les 
-/ Basic % 20 _ Road _
- []
-
-
-Underfull \hbox (badness 7981) in paragraph at lines 38--48
-\T1/ntxtlf/m/n/10 2021-10-14, URL [][]$https : / / doi . org / 10 . 1080 / 0143
-1161 .
- []
-
-[6.6 <./figures/side_of_road_nums_4_with_filts_2.png (PNG copy)> <./figures/rm_
-db_4_toc.png (PNG copy)>]
-Underfull \hbox (badness 2057) in paragraph at lines 60--68
+Underfull \hbox (badness 3396) in paragraph at lines 60--68
 \T1/ntxtlf/m/n/10 FAST AND RO-BUST AL-GO-RITHM FOR ROAD
  []
 
@@ -1197,9 +1145,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--68
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 94--102
+Underfull \hbox (badness 1342) in paragraph at lines 84--92
+\T1/ntxtlf/m/n/10 Ac-cessed 2021-11-15, URL [][]$https : / / www . sciencedirec
+t .
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 94--102
 \T1/ntxtlf/m/it/10 Sens-ing and Spa-tial In-for-ma-tion Sci-ences \T1/ntxtlf/m/
 n/10 Vol. II-5
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 94--102
+\T1/ntxtlf/m/n/10 243-2014[][].  Ac-cessed 2021-10-14, URL [][]$https : / / www
+ .
  []
 
 
@@ -1208,19 +1168,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--102
 i . net /
  []
 
-
-Underfull \hbox (badness 1484) in paragraph at lines 207--217
-[]\T1/ntxtlf/m/n/10 Brubaker, Kris-ten M., My-ers, Wayne L., Dro-han,
+[6.6 <./figures/rm_db_4_ToC_2.png (PNG copy)>]
+Underfull \hbox (badness 1389) in paragraph at lines 187--194
+\T1/ntxtlf/m/it/10 put-ers & Geo-sciences \T1/ntxtlf/m/n/10 Vol. 42 (2012): pp.
+ 64--70.
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 207--217
-\T1/ntxtlf/m/n/10 / / www . hindawi . com / journals / aess / 2013 / 891534/$[]
-[].  Pub-
+Underfull \hbox (badness 1701) in paragraph at lines 187--194
+\T1/ntxtlf/m/n/10 14, URL [][]$https : / / www . sciencedirect . com / science 
+/ article /
  []
 
-[7.7]
-Underfull \hbox (badness 1281) in paragraph at lines 240--251
+
+Underfull \hbox (badness 1460) in paragraph at lines 196--205
+\T1/ntxtlf/m/n/10 ter-res-trial laser scan-ner: Ap-pli-ca-tion to the Ran-gi-
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 240--251
+[]\T1/ntxtlf/m/n/10 Shepard, Michael K., Camp-bell, Bruce A., Bul-mer,
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 240--251
+\T1/ntxtlf/m/n/10 e-tary and re-mote sens-ing per-spec-tive.''  \T1/ntxtlf/m/it
+/10 Jour-nal of
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 240--251
 \T1/ntxtlf/m/it/10 Geo-phys-i-cal Re-search: Plan-ets \T1/ntxtlf/m/n/10 Vol. 10
 6 No. E12
  []
@@ -1231,606 +1208,96 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--251
  []
 
 
-Underfull \hbox (badness 7362) in paragraph at lines 240--251
+Underfull \hbox (badness 10000) in paragraph at lines 240--251
 \T1/ntxtlf/m/n/10 wiley . com / doi / abs / 10 . 1029 / 2000JE001429$[][].  _ep
 rint:
  []
 
 
-Overfull \hbox (23.89897pt too wide) in paragraph at lines 240--251
+Overfull \hbox (18.89897pt too wide) in paragraph at lines 240--251
 \T1/ntxtlf/m/n/10 https://onlinelibrary.wiley.com/doi/pdf/10.1029/2000JE001429.
  
  []
 
-
-Underfull \hbox (badness 1454) in paragraph at lines 253--261
-[]\T1/ntxtlf/m/n/10 Tegowski, Jaroslaw, Trzcin-ska, Karolina, Kasprzak,
+[7.7]
+Underfull \hbox (badness 4686) in paragraph at lines 313--321
+[]\T1/ntxtlf/m/n/10 DuPont, Ed-mond M., Roberts, Rod-ney G., Se-
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 271--282
-\T1/ntxtlf/m/n/10 si-tiv-ity Anal-y-sis.''  \T1/ntxtlf/m/it/10 IS-PRS In-ter-na
--tional Jour-nal of
+Underfull \hbox (badness 1406) in paragraph at lines 313--321
+\T1/ntxtlf/m/n/10 man-ual G.  ``On-line Ter-rain Clas-si-fi-ca-tion for Mo-
  []
 
 
-Underfull \hbox (badness 5091) in paragraph at lines 304--313
-\T1/ntxtlf/m/n/10 / / arc . aiaa . org / doi / abs / 10 . 2514 / 6 . 2021-[]158
-2$[][].  _eprint:
+Underfull \hbox (badness 1062) in paragraph at lines 313--321
+\T1/ntxtlf/m/n/10 bile Robots.'': pp. 1643--1648. 2008. Amer-i-can So-
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 347--356
-[]\T1/ntxtlf/m/n/10 Moleski, Travis W. and Wil-helm, Jay.  ``Tri-lat-er-
+Underfull \hbox (badness 5022) in paragraph at lines 313--321
+\T1/ntxtlf/m/n/10 ci-ety of Me-chan-i-cal En-gi-neers Dig-i-tal Col-lec-tion.
  []
 
 
-Underfull \hbox (badness 3679) in paragraph at lines 347--356
-\T1/ntxtlf/m/n/10 tem.''  \T1/ntxtlf/m/it/10 AIAA Scitech 2020 Fo-rum\T1/ntxtlf
-/m/n/10 .  Amer-i-can
- []
-
-
-Underfull \hbox (badness 3343) in paragraph at lines 347--356
-\T1/ntxtlf/m/n/10 In-sti-tute of Aero-nau-tics and As-tro-nau-tics.  DOI
- []
-
-
-Underfull \hbox (badness 5091) in paragraph at lines 347--356
-\T1/ntxtlf/m/n/10 / / arc . aiaa . org / doi / abs / 10 . 2514 / 6 . 2020-[]039
-3$[][].  _eprint:
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 358--364
+Underfull \hbox (badness 1796) in paragraph at lines 323--329
 []\T1/ntxtlf/m/n/10 Yadav, Manohar, Lo-hani, Bharat and Singh, Ajoy.
  []
 
-[8.8]
-Underfull \hbox (badness 1122) in paragraph at lines 467--475
-\T1/ntxtlf/m/n/10 ing.''  \T1/ntxtlf/m/it/10 IS-PRS Jour-nal of Pho-togram-me-t
-ry and Re-
- []
 
-
-Underfull \hbox (badness 2359) in paragraph at lines 467--475
-[][]\T1/ntxtlf/m/n/10 10.1016/j.isprsjprs.2014.03.015[][].  Ac-cessed 2021-10-
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 526--536
-[]\T1/ntxtlf/m/n/10 Yadav, Manohar, Lo-hani, Bharat, Singh, Ajai Ku-
- []
-
-
-Underfull \hbox (badness 1147) in paragraph at lines 526--536
-\T1/ntxtlf/m/n/10 mar and Hu-sain, Ar-shad.  ``Iden-ti-fi-ca-tion of pole-
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 526--536
-\T1/ntxtlf/m/n/10 like struc-tures from mo-bile li-dar data of com-plex
- []
-
-
-Underfull \hbox (badness 2065) in paragraph at lines 526--536
-\T1/ntxtlf/m/n/10 road en-vi-ron-ment.''  \T1/ntxtlf/m/it/10 In-ter-na-tional J
-our-nal of Re-
- []
-
-
-Underfull \hbox (badness 1194) in paragraph at lines 526--536
-\T1/ntxtlf/m/it/10 mote Sens-ing \T1/ntxtlf/m/n/10 Vol. 37 No. 20 (2016): pp. 4
-748--
- []
-
-
-Underfull \hbox (badness 7981) in paragraph at lines 526--536
-\T1/ntxtlf/m/n/10 2021-10-14, URL [][]$https : / / doi . org / 10 . 1080 / 0143
-1161 .
- []
-
-[9.9]
-Underfull \hbox (badness 1502) in paragraph at lines 554--563
-[]\T1/ntxtlf/m/n/10 Buj^^e1n, San-dra, Guerra-Hern^^e1ndez, Juan, Gonz^^e1lez-
- []
-
-
-Underfull \hbox (badness 1383) in paragraph at lines 600--606
-[]\T1/ntxtlf/m/n/10 Korotkova, Olga, An-drews, Larry C. and Phillips,
- []
-
-
-Underfull \hbox (badness 1043) in paragraph at lines 608--616
-[]\T1/ntxtlf/m/n/10 Schnabel, R., Wahl, R. and Klein, R.  ``Ef-fi-cient
- []
-
-
-Underfull \hbox (badness 4193) in paragraph at lines 608--616
-\T1/ntxtlf/m/n/10 214--226.  DOI [][]10.1111/j.1467-8659.2007.01016.x[][].
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 608--616
-\T1/ntxtlf/m/n/10 https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-
- []
-
-
-Underfull \hbox (badness 1102) in paragraph at lines 688--695
-\T1/ntxtlf/m/n/10 Reg-is-tra-tion.''  \T1/ntxtlf/m/it/10 Foun-da-tions of Com-p
-ut-ing and De-
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 688--695
-\T1/ntxtlf/m/it/10 ci-sion Sci-ences \T1/ntxtlf/m/n/10 Vol. 42 No. 3 (2017): pp
-. 203--
- []
-
-
-Underfull \hbox (badness 1817) in paragraph at lines 688--695
-\T1/ntxtlf/m/n/10 10-18, URL [][]$https : / / www . sciendo . com / article / 1
-0 . 1515 /
- []
-
-[10.10]
-Underfull \hbox (badness 1005) in paragraph at lines 759--770
-[]\T1/ntxtlf/m/n/10 Hegge, Bruce J. and Mas-selink, Ger-hard.  ``Spec-
- []
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 759--770
-\T1/ntxtlf/m/n/10 tral Anal-y-sis of Ge-o-mor-phic Time Se-ries: Auto-
- []
-
-
-Underfull \hbox (badness 2635) in paragraph at lines 759--770
-\T1/ntxtlf/m/n/10 Spectrum.''  \T1/ntxtlf/m/it/10 Earth Sur-face Pro-cesses and
- Land-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 759--770
-[][]\T1/ntxtlf/m/n/10 10.1002/(SICI)1096-9837(199611)21:11<1021::AID-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 759--770
-\T1/ntxtlf/m/n/10 / / onlinelibrary . wiley . com / doi / abs / 10 . 1002 / %28
-SICI %
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 759--770
-\T1/ntxtlf/m/n/10 291096-[]9837 % 28199611 % 2921 % 3A11 % 3C1021 %
- []
-
-
-Underfull \hbox (badness 7468) in paragraph at lines 759--770
-\T1/ntxtlf/m/n/10 3A % 3AAID-[]ESP703 % 3E3 . 0 . CO % 3B2-[]D$[][].  _eprint:
- []
-
-
-Overfull \hbox (40.27898pt too wide) in paragraph at lines 759--770
-\T1/ntxtlf/m/n/10 https://onlinelibrary.wiley.com/doi/pdf/10.1002/%28SICI%29109
-6-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 759--770
-\T1/ntxtlf/m/n/10 9837%28199611%2921%3A11%3C1021%3A%3AAID-
- []
-
-
-Underfull \hbox (badness 6927) in paragraph at lines 772--779
-[]\T1/ntxtlf/m/n/10 Statistics, United States. De-part-ment Of Trans-
- []
-
-
-Underfull \hbox (badness 4940) in paragraph at lines 772--779
-\T1/ntxtlf/m/n/10 porta-tion. Bu-reau Of Trans-porta-tion.  ``Na-tional
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 772--779
-\T1/ntxtlf/m/n/10 Trans-porta-tion Statis-tics (se-ries).'' (2019)DOI
- []
-
-
-Underfull \hbox (badness 5652) in paragraph at lines 772--779
-[][]\T1/ntxtlf/m/n/10 10.21949/1503663[][].  Ac-cessed 2021-11-12, URL
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 772--779
-[][]$\T1/ntxtlf/m/n/10 https : / / rosap . ntl . bts . gov / gsearch ? collecti
-on = dot :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 772--779
-\T1/ntxtlf/m/n/10 35533 & type1 = mods . title & fedora _ terms1 = National +
- []
-
-
-Underfull \hbox (badness 3635) in paragraph at lines 781--784
-[]\T1/ntxtlf/m/n/10 ``Autonomous Ve-hi-cle Mar-ket Size & Share Re-
- []
-
-
-Underfull \hbox (badness 4492) in paragraph at lines 781--784
-\T1/ntxtlf/m/n/10 port, 2021-2030.''  Ac-cessed 2021-11-12, URL
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 781--784
-[][]$\T1/ntxtlf/m/n/10 https : / / www . grandviewresearch . com / industry-[]a
-nalysis /
- []
-
-
-Underfull \hbox (badness 1184) in paragraph at lines 787--790
-\T1/ntxtlf/m/n/10 Fed-eral High-way Ad-min-is-tra-tion.''  Ac-cessed 2021-
- []
-
-
-Underfull \hbox (badness 5274) in paragraph at lines 806--814
-\T1/ntxtlf/m/n/10 Bound-aries And Ve-hi-cle Track-ing Us-ing Image-
- []
-
-
-Underfull \hbox (badness 1708) in paragraph at lines 806--814
-\T1/ntxtlf/m/n/10 Processing Tech-niques -Part II: Tem-plate Match-ing
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 806--814
-\T1/ntxtlf/m/n/10 1990. SPIE.  DOI [][]10.1117/12.969886[][].  Ac-cessed
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 806--814
-\T1/ntxtlf/m/n/10 2021-11-22, URL [][]$https : / / www . spiedigitallibrary .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 806--814
-\T1/ntxtlf/m/n/10 org / conference-[]proceedings-[]of-[]spie / 1195 / 0000 /
- []
-
-
-Overfull \hbox (60.76898pt too wide) in paragraph at lines 806--814
-\T1/ntxtlf/m/n/10 Lanelok-[]-[]Detection-[]Of-[]Lane-[]Boundaries-[]And-[]Vehic
-le-[]Tracking-[]Using /
- []
-
-
-Underfull \hbox (badness 2460) in paragraph at lines 837--845
-\T1/ntxtlf/m/it/10 Au-tonomous Robots \T1/ntxtlf/m/n/10 Vol. 16 No. 1 (2004): p
-p.
- []
-
-
-Underfull \hbox (badness 1009) in paragraph at lines 847--856
-\T1/ntxtlf/m/n/10 Ac-cessed 2021-12-09, URL [][]$http : / / ieeexplore . ieee .
- org /
- []
-
-[11.11]
-Underfull \hbox (badness 1609) in paragraph at lines 937--940
-\T1/ntxtlf/m/n/10 16, URL [][]$http : / / www . dynatrackgps . com / coverage-[
-]map .
- []
-
-
-Underfull \hbox (badness 2359) in paragraph at lines 942--945
-[]\T1/ntxtlf/m/n/10 ``Wireless 3G / 4G / 5G cov-er-age map, United
- []
-
-
-Underfull \hbox (badness 3826) in paragraph at lines 954--964
-\T1/ntxtlf/m/n/10 Ac-cessed 2021-12-17, URL [][]$https : / / doi . org / 10 . 1
-080 /
- []
-
-
-Underfull \hbox (badness 3375) in paragraph at lines 994--997
-\T1/ntxtlf/m/n/10 2022-01-13, URL [][]$https : / / velodynelidar . com / produc
-ts /
- []
-
-
-Underfull \hbox (badness 3826) in paragraph at lines 1008--1017
-\T1/ntxtlf/m/n/10 Ac-cessed 2022-01-13, URL [][]$https : / / doi . org / 10 . 1
-080 /
- []
-
-
-Underfull \hbox (badness 1052) in paragraph at lines 1019--1027
-\T1/ntxtlf/m/n/10 DOI [][]10.1016/j.spl.2021.109088[][].  Ac-cessed 2022-01-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1029--1033
-\T1/ntxtlf/m/n/10 URL [][]$https : / / www . academia . edu / 29792070 / A _ Su
-rvey _
- []
-
-
-Underfull \hbox (badness 2790) in paragraph at lines 1046--1052
-[]\T1/ntxtlf/m/n/10 Razlaw, Jan, Droeschel, David, Holz, Dirk and
- []
-
-[12.12]
-Underfull \hbox (badness 1132) in paragraph at lines 1063--1073
-\T1/ntxtlf/m/n/10 works for Software-in-the-Loop Test-ing.''  \T1/ntxtlf/m/it/1
-0 SAE In-
- []
-
-
-Underfull \hbox (badness 1515) in paragraph at lines 1063--1073
-\T1/ntxtlf/m/n/10 URL [][]$https : / / www . sae . org / publications / technic
-al-[]papers /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1075--1084
-\T1/ntxtlf/m/n/10 Ac-cessed 2022-01-21, URL [][]$https : / / onlinelibrary .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1075--1084
-\T1/ntxtlf/m/n/10 wiley . com / doi / abs / 10 . 2307 / 2347973$[][].  _eprint:
-
- []
-
-
-Underfull \hbox (badness 1484) in paragraph at lines 1112--1120
-[]\T1/ntxtlf/m/n/10 Gallo, Orazio, Man-duchi, Roberto and Rafii, Ab-
- []
-
-
-Underfull \hbox (badness 1502) in paragraph at lines 1133--1136
-[]\T1/ntxtlf/m/n/10 ``Road De-tec-tion by RANSAC on Ran-domly Sam-
- []
-
-
-Underfull \hbox (badness 5431) in paragraph at lines 1133--1136
-\T1/ntxtlf/m/n/10 pled Patches with Slanted Plane Prior - Aca-
- []
-
-
-Underfull \hbox (badness 2744) in paragraph at lines 1133--1136
-\T1/ntxtlf/m/n/10 demic-Fo-cus.''  Ac-cessed 2022-01-27, URL [][]$https :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1133--1136
-\T1/ntxtlf/m/n/10 / / af . global . cnki . net / stmt / TitleBrowse / Knowledge
-Net /
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 1167--1177
-\T1/ntxtlf/m/n/10 Os-car (eds.). \T1/ntxtlf/m/it/10 Read-ings in Com-puter Vi-s
-ion\T1/ntxtlf/m/n/10 .  Mor-
- []
-
-
-Underfull \hbox (badness 1009) in paragraph at lines 1183--1192
-\T1/ntxtlf/m/n/10 Ac-cessed 2022-02-08, URL [][]$http : / / ieeexplore . ieee .
- org /
- []
-
-
-Underfull \hbox (badness 1484) in paragraph at lines 1194--1201
-[]\T1/ntxtlf/m/n/10 Schilling, Fabian, Chen, Xi, Folkesson, John and
- []
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 1194--1201
-\T1/ntxtlf/m/it/10 and Sys-tems (IROS)\T1/ntxtlf/m/n/10 : pp. 2678--2684. 2017.
-  DOI
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1203--1212
-\T1/ntxtlf/m/n/10 Ac-cessed 2022-02-23, URL [][]$https : / / onlinelibrary .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1203--1212
-\T1/ntxtlf/m/n/10 wiley . com / doi / abs / 10 . 1002 / rob . 20113$[][].  _epr
-int:
- []
-
-
-Overfull \hbox (4.72897pt too wide) in paragraph at lines 1203--1212
-\T1/ntxtlf/m/n/10 https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.20113. 
- []
-
-
-Underfull \hbox (badness 3260) in paragraph at lines 1214--1219
-[]\T1/ntxtlf/m/n/10 Coombs, David, Mur-phy, Karl, La-caze, Al-berto
- []
-
-
-Underfull \hbox (badness 5105) in paragraph at lines 1214--1219
-\T1/ntxtlf/m/n/10 and Legowik, Steven.  ``Driv-ing Au-tonomously
- []
-
-
-Underfull \hbox (badness 4254) in paragraph at lines 1214--1219
-\T1/ntxtlf/m/n/10 Of-froad up to 35 km/h.'' (2000)Ac-cessed 2022-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1214--1219
-\T1/ntxtlf/m/n/10 02-23, URL [][]$https : / / www . nist . gov / publications /
-
- []
-
-
-Underfull \hbox (badness 3049) in paragraph at lines 1214--1219
-\T1/ntxtlf/m/n/10 driving-[]autonomously-[]o^^[road-[]35-[]kmh$[][].  Last Mod-
-i-
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 1226--1233
-\T1/ntxtlf/m/n/10 tion in a walk-ing robot.''  \T1/ntxtlf/m/it/10 2010 IEEE Saf
-ety Se-
- []
-
-[13.13]
-Underfull \hbox (badness 1102) in paragraph at lines 1265--1270
-[]\T1/ntxtlf/m/n/10 Siva, Sri-ram, Wig-ness, Mag-gie, Rogers, John and
- []
-
-
-Underfull \hbox (badness 2772) in paragraph at lines 1265--1270
-\T1/ntxtlf/m/n/10 Zhang, Hao.  ``Robot adap-ta-tion to un-struc-tured
- []
-
-
-Underfull \hbox (badness 2809) in paragraph at lines 1265--1270
-\T1/ntxtlf/m/n/10 ter-rains by joint rep-re-sen-ta-tion and ap-pren-tice-ship
- []
-
-
-Underfull \hbox (badness 6978) in paragraph at lines 1265--1270
-\T1/ntxtlf/m/n/10 cessed 2022-02-23, URL [][]$https : / / par . nsf . gov / bib
-lio /
- []
-
-
-Overfull \hbox (151.849pt too wide) in paragraph at lines 1265--1270
-\T1/ntxtlf/m/n/10 10095437-[]robot-[]adaptation-[]unstructured-[]terrains-[]joi
-nt-[]representation-[]apprenticeship-[]learning$[][]. 
- []
-
-
-Underfull \hbox (badness 5431) in paragraph at lines 1295--1300
+Underfull \hbox (badness 7133) in paragraph at lines 362--367
 []\T1/ntxtlf/m/n/10 Rasmussen, C. E.  ``Com-bin-ing Laser Range,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1295--1300
+Underfull \hbox (badness 10000) in paragraph at lines 362--367
 \T1/ntxtlf/m/n/10 Color, and Tex-ture Cues for Au-tonomous
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1295--1300
+Underfull \hbox (badness 10000) in paragraph at lines 362--367
 \T1/ntxtlf/m/n/10 Road Fol-low-ing.'' (2002)Ac-cessed 2022-02-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1295--1300
+Underfull \hbox (badness 10000) in paragraph at lines 362--367
 \T1/ntxtlf/m/n/10 22, URL [][]$https : / / www . nist . gov / publications /
  []
 
 
-Overfull \hbox (74.04898pt too wide) in paragraph at lines 1295--1300
+Overfull \hbox (69.04898pt too wide) in paragraph at lines 362--367
 \T1/ntxtlf/m/n/10 combining-[]laser-[]range-[]color-[]and-[]texture-[]cues-[]au
 tonomous-[]road-[]following$[][].
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 1361--1367
-\T1/ntxtlf/m/it/10 ing \T1/ntxtlf/m/n/10 Vol. 45 No. 1 (2001): pp. 5--32.  DOI
- []
-
-[14.14]
-Underfull \hbox (badness 10000) in paragraph at lines 1438--1442
-[]\T1/ntxtlf/m/n/10 Xavi.borras.  ``En-glish: RANSAC. Inliers-
+Underfull \hbox (badness 1028) in paragraph at lines 406--414
+\T1/ntxtlf/m/n/10 Con-fer-ence Name: IEEE Trans-ac-tions on Acous-tics,
  []
 
 
-Underfull \hbox (badness 5388) in paragraph at lines 1438--1442
-\T1/ntxtlf/m/n/10 Outliers.'' (2014).  Ac-cessed 2022-12-08, URL
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1438--1442
-[][]$\T1/ntxtlf/m/n/10 https : / / commons . wikimedia . org / wiki / File : RA
-NSAC _
- []
-
-
-Underfull \hbox (badness 1308) in paragraph at lines 1444--1449
-[]\T1/ntxtlf/m/n/10 Alam, Bashir.  ``Us-ing the Ran-dom Sam-ple Con-
- []
-
-
-Underfull \hbox (badness 4060) in paragraph at lines 1444--1449
-\T1/ntxtlf/m/n/10 sen-sus (RANSAC) al-go-rithm in Python.'' (2022).
- []
-
-
-Underfull \hbox (badness 4954) in paragraph at lines 1444--1449
-\T1/ntxtlf/m/n/10 Ac-cessed 2022-12-08, URL [][]$https : / / hands-[]on . cloud
- /
- []
-
-
-Overfull \hbox (38.599pt too wide) in paragraph at lines 1444--1449
-\T1/ntxtlf/m/n/10 using-[]the-[]random-[]sample-[]consensus-[]ransac-[]algorith
-m-[]in-[]python/$[][]. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1451--1454
-[]\T1/ntxtlf/m/n/10 ``Object-oriented tools for fit-ting con-ics and
- []
-
-
-Underfull \hbox (badness 7486) in paragraph at lines 1451--1454
-\T1/ntxtlf/m/n/10 quadrics.''  Ac-cessed 2022-12-08, URL [][]$https :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1451--1454
-\T1/ntxtlf/m/n/10 / / www . mathworks . com / matlabcentral / ^^\leexchange /
- []
-
-
-Overfull \hbox (13.05898pt too wide) in paragraph at lines 1451--1454
-\T1/ntxtlf/m/n/10 87584-[]object-[]oriented-[]tools-[]for-[]^^\tting-[]conics-[
-]and-[]quadrics$[][]. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1456--1459
-[]\T1/ntxtlf/m/n/10 ``Shapiro-Wilk and Shapiro-Francia nor-mal-
- []
-
-
-Underfull \hbox (badness 5667) in paragraph at lines 1456--1459
-\T1/ntxtlf/m/n/10 ity tests.''  Ac-cessed 2022-12-08, URL [][]$https :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1456--1459
-\T1/ntxtlf/m/n/10 / / www . mathworks . com / matlabcentral / ^^\leexchange /
- []
-
-
-Underfull \hbox (badness 3148) in paragraph at lines 1470--1476
+Underfull \hbox (badness 3907) in paragraph at lines 433--439
 \T1/ntxtlf/m/it/10 ing \T1/ntxtlf/m/n/10 Vol. 45 No. 1 (2001): pp. 5--32.  DOI
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1481
+Underfull \hbox (badness 8189) in paragraph at lines 441--444
+\T1/ntxtlf/m/n/10 2022-01-13, URL [][]$https : / / velodynelidar . com / produc
+ts /
+ []
+
+[8.8]
+Underfull \hbox (badness 10000) in paragraph at lines 491--494
 []\T1/ntxtlf/m/n/10 ``Bayesian Op-ti-miza-tion Al-go-rithm - MAT-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1481
+Underfull \hbox (badness 10000) in paragraph at lines 491--494
 \T1/ntxtlf/m/n/10 LAB & Simulink.''  Ac-cessed 2023-04-27,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1481
+Underfull \hbox (badness 10000) in paragraph at lines 491--494
 \T1/ntxtlf/m/n/10 URL [][]$https : / / www . mathworks . com / help / stats /
  []
 
@@ -1840,62 +1307,48 @@ File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 (/home/autobuntu/.miktex/texmfs/install/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
 )
-[leftcolumn badness]: 1000000 on 24.395pt
-[rightcolumn badness]: 1000000 on 24.395pt
-[leftcolumn badness]: 1000000 on 24.395pt
-[rightcolumn badness]: 1000000 on 24.395pt
-[leftcolumn badness]: 1000000 on 24.395pt
-[rightcolumn badness]: 1000000 on 24.395pt
-[leftcolumn badness]: 1000000 on 0.395pt
-[rightcolumn badness]: 1000000 on 0.395pt
-[leftcolumn badness]: 1000000 on 0.395pt
-[rightcolumn badness]: 1000000 on 0.395pt
 - LAST -
-Extra skip:24.605pt
-Left:351.0pt/2.165pt
-Right:328.56pt/0.0pt
-Split: 346.28pt
-Output:346.28pt
+Extra skip:0.0pt
+Left:217.0pt/2.06499pt
+Right:218.56pt/0.0pt
+Split: 218.78pt
+Output:218.78pt
 Pageshrink: 0.0pt
 Pagestretch: 0.0pt
 @colht:686.565pt
-FLUSHEND [output]: 346.28pt
-FLUSHEND [leftcolumn badness]: 84
-FUSHEND [rightcolumn badness]: 4441
+FLUSHEND [output]: 218.78pt
+FLUSHEND [leftcolumn badness]: 21
+FUSHEND [rightcolumn badness]: 0
 
-[15.15] (Huston_Paper_asme.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[9.9] (Huston_Paper_asme.aux) ) 
 Here is how much of TeX's memory you used:
- 22958 strings out of 478583
- 371436 string characters out of 2847216
- 716789 words of memory out of 3000000
- 40499 multiletter control sequences out of 15000+600000
- 560211 words of font info for 142 fonts, out of 8000000 for 9000
+ 22411 strings out of 478583
+ 356238 string characters out of 2847216
+ 703855 words of memory out of 3000000
+ 40088 multiletter control sequences out of 15000+600000
+ 554406 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,11n,90p,2275b,2845s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc
-}{/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{
-/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/inconsolata/i4-t1-5.enc}
-{/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/ho
-me/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ec.enc}</home/au
-tobuntu/.miktex/texmfs/install/fonts/type1/public/inconsolata/Inconsolata-zi4r.
-pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/newtx/NewTXMI.pf
-b></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/newtx/NewTXMI7.pfb
-></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvb.pfb><
-/home/autobuntu/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qhvr.pfb></h
-ome/autobuntu/.miktex/texmfs/install/fonts/type1/public/tex-gyre/qtmr.pfb></hom
-e/autobuntu/.miktex/texmfs/install/fonts/type1/public/newtx/txbsys.pfb></home/a
-utobuntu/.miktex/texmfs/install/fonts/type1/public/newtx/txexs.pfb></home/autob
-untu/.miktex/texmfs/install/fonts/type1/public/newtx/txsys.pfb></home/autobuntu
-/.miktex/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></home/autobuntu/.mik
-tex/texmfs/install/fonts/type1/public/newtx/ztmr.pfb></home/autobuntu/.miktex/t
-exmfs/install/fonts/type1/public/newtx/ztmri.pfb>
-Output written on Huston_Paper_asme.pdf (15 pages, 14258724 bytes).
+ 83i,11n,90p,2275b,2395s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{/home/autobuntu/.miktex/texmfs/install/fonts/en
+c/dvips/newtx/ntx-ot1-tlf.enc}{/home/autobuntu/.miktex/texmfs/install/fonts/enc
+/dvips/inconsolata/i4-t1-5.enc}{/home/autobuntu/.miktex/texmfs/install/fonts/en
+c/dvips/tex-gyre/q-ts1.enc}{/home/autobuntu/.miktex/texmfs/install/fonts/enc/dv
+ips/newtx/ntx-ec-tlf.enc}{/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvip
+s/tex-gyre/q-ec.enc}</home/autobuntu/.miktex/texmfs/install/fonts/type1/public/
+inconsolata/Inconsolata-zi4r.pfb></home/autobuntu/.miktex/texmfs/install/fonts/
+type1/public/newtx/NewTXMI.pfb></home/autobuntu/.miktex/texmfs/install/fonts/ty
+pe1/public/newtx/NewTXMI7.pfb></home/autobuntu/.miktex/texmfs/install/fonts/typ
+e1/public/tex-gyre/qhvb.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1
+/public/tex-gyre/qhvr.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/p
+ublic/tex-gyre/qtmr.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/pub
+lic/newtx/txbsys.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/public
+/newtx/txexs.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/new
+tx/txsys.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/newtx/z
+tmr.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/newtx/ztmri.
+pfb>
+Output written on Huston_Paper_asme.pdf (9 pages, 11482215 bytes).
 PDF statistics:
- 850 PDF objects out of 1000 (max. 8388607)
- 221 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 436 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
