@@ -32,7 +32,6 @@ Warning--empty year in smadja_road_nodate
 Warning--empty journal in skorseth_gravel_nodate
 Warning--empty booktitle in biber_normal_2003
 Warning--empty booktitle in wan_road_2007
-Warning--empty booktitle in dupont_online_2008
 Warning--empty booktitle in laible_3d_2012
 Warning--empty journal in rasmussen_combining_2002
 Warning--empty journal in wang_road_nodate
@@ -40,45 +39,46 @@ Warning--empty year in wang_road_nodate
 Warning--empty journal in wallach_conditional_nodate
 Warning--empty year in wallach_conditional_nodate
 Warning--empty journal in haselich_terrain_2011
-You've used 58 entries,
+Warning--empty booktitle in dupont_online_2008
+You've used 62 entries,
             1876 wiz_defined-function locations,
-            798 strings with 15729 characters,
-and the built_in function-call counts, 17523 in all, are:
-= -- 1767
-> -- 653
+            824 strings with 16712 characters,
+and the built_in function-call counts, 18870 in all, are:
+= -- 1911
+> -- 700
 < -- 0
-+ -- 238
-- -- 180
-* -- 1287
-:= -- 2349
-add.period$ -- 73
-call.type$ -- 58
-change.case$ -- 58
++ -- 255
+- -- 193
+* -- 1385
+:= -- 2530
+add.period$ -- 79
+call.type$ -- 62
+change.case$ -- 62
 chr.to.int$ -- 0
-cite$ -- 73
-duplicate$ -- 880
-empty$ -- 1622
-format.name$ -- 180
-if$ -- 4276
+cite$ -- 77
+duplicate$ -- 946
+empty$ -- 1741
+format.name$ -- 193
+if$ -- 4605
 int.to.chr$ -- 0
-int.to.str$ -- 58
-missing$ -- 51
-newline$ -- 196
-num.names$ -- 60
-pop$ -- 222
+int.to.str$ -- 62
+missing$ -- 55
+newline$ -- 210
+num.names$ -- 64
+pop$ -- 232
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 710
+skip$ -- 764
 stack$ -- 0
-substring$ -- 1322
-swap$ -- 390
+substring$ -- 1440
+swap$ -- 422
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 15
-while$ -- 182
-width$ -- 60
-write$ -- 562
+while$ -- 198
+width$ -- 64
+write$ -- 604
 (There were 5 error messages)

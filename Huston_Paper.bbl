@@ -192,11 +192,6 @@ M.~Manz, M.~Himmelsbach, T.~Luettel, and H.-J. Wuensche, ``Detection and
   and {Systems}}, pp.~4562--4568, Sept. 2011.
 \newblock ISSN: 2153-0866.
 
-\bibitem{dupont_online_2008}
-E.~M. DuPont, R.~G. Roberts, M.~F. Selekwa, C.~A. Moore, and E.~G. Collins,
-  ``Online {Terrain} {Classification} for {Mobile} {Robots},'' pp.~1643--1648,
-  American Society of Mechanical Engineers Digital Collection, Feb. 2008.
-
 \bibitem{yadav_road_2018}
 M.~Yadav, B.~Lohani, and A.~Singh, ``{ROAD} {SURFACE} {DETECTION} {FROM}
   {MOBILE} {LIDAR} {DATA},'' {\em ISPRS Annals of Photogrammetry, Remote
@@ -280,6 +275,34 @@ L.~Breiman, ``Random {Forests},'' {\em Machine Learning}, vol.~45, pp.~5--32,
 
 \bibitem{vlp_32c}
 ``Ultra {Puck} {Surround} {View} {Lidar} {Sensor}.''
+
+\bibitem{dupont_online_2008}
+E.~M. DuPont, R.~G. Roberts, M.~F. Selekwa, C.~A. Moore, and E.~G. Collins,
+  ``Online {Terrain} {Classification} for {Mobile} {Robots},'' pp.~1643--1648,
+  American Society of Mechanical Engineers Digital Collection, Feb. 2008.
+
+\bibitem{filitchkin_feature_based_2012}
+P.~Filitchkin and K.~Byl, ``Feature-based terrain classification for
+  {LittleDog},'' in {\em 2012 {IEEE}/{RSJ} {International} {Conference} on
+  {Intelligent} {Robots} and {Systems}}, pp.~1387--1392, Oct. 2012.
+\newblock ISSN: 2153-0866.
+
+\bibitem{weszka_comparative_1976}
+J.~S. Weszka, C.~R. Dyer, and A.~Rosenfeld, ``A {Comparative} {Study} of
+  {Texture} {Measures} for {Terrain} {Classification},'' {\em IEEE Transactions
+  on Systems, Man, and Cybernetics}, vol.~SMC-6, pp.~269--285, Apr. 1976.
+\newblock Conference Name: IEEE Transactions on Systems, Man, and Cybernetics.
+
+\bibitem{manduchi_obstacle_2005}
+R.~Manduchi, A.~Castano, A.~Talukder, and L.~Matthies, ``Obstacle {Detection}
+  and {Terrain} {Classification} for {Autonomous} {Off}-{Road} {Navigation},''
+  {\em Autonomous Robots}, vol.~18, pp.~81--102, Jan. 2005.
+
+\bibitem{walch_offroad_2022}
+W.~Walch, M.~J. Eder, G.~Steinbauer-Wagner, and K.~Mautner-Lassnig, ``Offroad
+  {Terrain} {Classification} for {Mobile} {Robots}: {Austrian} {Robotics}
+  {Workshop} 2022,'' {\em Proceedings of the Austrian Robotics Workshop 2022},
+  pp.~6--11, 2022.
 
 \bibitem{wang_two-stage_2018}
 S.~Wang, S.~Kodagoda, L.~Shi, and X.~Dai, ``Two-{Stage} {Road} {Terrain}
