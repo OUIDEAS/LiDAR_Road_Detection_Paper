@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  23 MAY 2023 17:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  25 MAY 2023 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -810,99 +810,93 @@ File: figures/gravel_lot_pic.png Graphic file (type png)
 <use figures/gravel_lot_pic.png>
 Package pdftex.def Info: figures/gravel_lot_pic.png  used on input line 220.
 (pdftex.def)             Requested size: 352.31625pt x 152.43198pt.
-
-
-LaTeX Warning: Reference `fig:road_areas_annotated_22' on page 5 undefined on i
-nput line 228.
-
-<figures/classified_point_cloud_example_redux.png, id=191, 2590.30894pt x 1001.
-89043pt>
-File: figures/classified_point_cloud_example_redux.png Graphic file (type png)
-<use figures/classified_point_cloud_example_redux.png>
-Package pdftex.def Info: figures/classified_point_cloud_example_redux.png  used
- on input line 234.
-(pdftex.def)             Requested size: 352.31625pt x 136.25835pt.
-[5 <./figures/blackburn_road.png> <./figures/gravel_lot_pic.png>]
-<figures/area_example.png, id=200, 379.6584pt x 343.0416pt>
+<figures/pc_example.png, id=192, 1551.7975pt x 666.49pt>
+File: figures/pc_example.png Graphic file (type png)
+<use figures/pc_example.png>
+Package pdftex.def Info: figures/pc_example.png  used on input line 234.
+(pdftex.def)             Requested size: 352.31625pt x 151.31653pt.
+ [5 <./figures/blackburn_road.png> <./figures/gravel_lot_pic.png>]
+<figures/area_example.png, id=202, 379.6584pt x 343.0416pt>
 File: figures/area_example.png Graphic file (type png)
 <use figures/area_example.png>
-Package pdftex.def Info: figures/area_example.png  used on input line 242.
+Package pdftex.def Info: figures/area_example.png  used on input line 243.
 (pdftex.def)             Requested size: 117.43875pt x 106.11147pt.
-<figures/test_vs_train_areas_hatch.png, id=201, 898.4302pt x 705.20305pt>
+<figures/test_vs_train_areas_hatch.png, id=203, 898.4302pt x 705.20305pt>
 File: figures/test_vs_train_areas_hatch.png Graphic file (type png)
 <use figures/test_vs_train_areas_hatch.png>
 Package pdftex.def Info: figures/test_vs_train_areas_hatch.png  used on input l
-ine 249.
+ine 250.
 (pdftex.def)             Requested size: 352.31625pt x 276.54532pt.
- [6 <./figures/classified_point_cloud_example_redux.png (PNG copy)> <./figures/
-area_example.png>]
-<figures/training_data_cluster_3.png, id=211, 1310.74957pt x 1001.89043pt>
+ [6 <./figures/pc_example.png> <./figures/area_example.png>]
+<figures/training_data_cluster_3.png, id=213, 1310.74957pt x 1001.89043pt>
 File: figures/training_data_cluster_3.png Graphic file (type png)
 <use figures/training_data_cluster_3.png>
 Package pdftex.def Info: figures/training_data_cluster_3.png  used on input lin
-e 263.
+e 264.
 (pdftex.def)             Requested size: 352.31625pt x 269.29102pt.
  [7 <./figures/test_vs_train_areas_hatch.png> <./figures/training_data_cluster_
 3.png (PNG copy)>]
-<figures/c2_min_class_error.png, id=222, 702.92084pt x 554.57716pt>
+<figures/c2_min_class_error.png, id=224, 702.92084pt x 554.57716pt>
 File: figures/c2_min_class_error.png Graphic file (type png)
 <use figures/c2_min_class_error.png>
-Package pdftex.def Info: figures/c2_min_class_error.png  used on input line 280
+Package pdftex.def Info: figures/c2_min_class_error.png  used on input line 281
 .
 (pdftex.def)             Requested size: 352.31625pt x 277.96487pt.
-<figures/train_vs_valid_overfit_test3.png, id=223, 1295.53484pt x 600.9821pt>
+<figures/train_vs_valid_overfit_test3.png, id=225, 1295.53484pt x 600.9821pt>
 File: figures/train_vs_valid_overfit_test3.png Graphic file (type png)
 <use figures/train_vs_valid_overfit_test3.png>
 Package pdftex.def Info: figures/train_vs_valid_overfit_test3.png  used on inpu
-t line 287.
+t line 288.
 (pdftex.def)             Requested size: 352.31625pt x 163.43195pt.
  [8 <./figures/c2_min_class_error.png (PNG copy)>]
-<figures/chan_2c_conf_VALIDATION_mat222.png, id=235, 1295.53484pt x 1001.89043p
+<figures/chan_2c_conf_VALIDATION_mat222.png, id=237, 1295.53484pt x 1001.89043p
 t>
 File: figures/chan_2c_conf_VALIDATION_mat222.png Graphic file (type png)
 <use figures/chan_2c_conf_VALIDATION_mat222.png>
 Package pdftex.def Info: figures/chan_2c_conf_VALIDATION_mat222.png  used on in
-put line 301.
+put line 302.
 (pdftex.def)             Requested size: 258.36668pt x 199.79361pt.
+<figures/classified_point_cloud_example_redux.png, id=242, 2590.30894pt x 1001.
+89043pt>
 File: figures/classified_point_cloud_example_redux.png Graphic file (type png)
 <use figures/classified_point_cloud_example_redux.png>
 Package pdftex.def Info: figures/classified_point_cloud_example_redux.png  used
- on input line 310.
+ on input line 311.
 (pdftex.def)             Requested size: 422.77664pt x 163.51613pt.
-
-[9 <./figures/train_vs_valid_overfit_test3.png (PNG copy)> <./figures/chan_2c_c
-onf_VALIDATION_mat222.png (PNG copy)>]
-<figures/rm_db_4_overlap_reredux.png, id=246, 2590.30894pt x 997.326pt>
+ [9 <./figures/train_vs_valid_overfit_test3.png (PNG copy)> <./figures/chan_2c_
+conf_VALIDATION_mat222.png (PNG copy)>]
+<figures/rm_db_4_overlap_reredux.png, id=249, 2590.30894pt x 997.326pt>
 File: figures/rm_db_4_overlap_reredux.png Graphic file (type png)
 <use figures/rm_db_4_overlap_reredux.png>
 Package pdftex.def Info: figures/rm_db_4_overlap_reredux.png  used on input lin
-e 317.
+e 318.
 (pdftex.def)             Requested size: 422.77664pt x 162.77118pt.
- [10 <./figures/rm_db_4_overlap_reredux.png (PNG copy)>]
-<figures/dirt_v_gravel2.png, id=256, 1295.53484pt x 1001.89043pt>
+ [10 <./figures/classified_point_cloud_example_redux.png (PNG copy)> <./figures
+/rm_db_4_overlap_reredux.png (PNG copy)>]
+<figures/dirt_v_gravel2.png, id=259, 1295.53484pt x 1001.89043pt>
 File: figures/dirt_v_gravel2.png Graphic file (type png)
 <use figures/dirt_v_gravel2.png>
-Package pdftex.def Info: figures/dirt_v_gravel2.png  used on input line 347.
+Package pdftex.def Info: figures/dirt_v_gravel2.png  used on input line 348.
 (pdftex.def)             Requested size: 352.31625pt x 272.45555pt.
-<figures/rm_db_1_area_score.png, id=257, 2590.30894pt x 1001.89043pt>
+<figures/rm_db_1_area_score.png, id=260, 2590.30894pt x 1001.89043pt>
 File: figures/rm_db_1_area_score.png Graphic file (type png)
 <use figures/rm_db_1_area_score.png>
-Package pdftex.def Info: figures/rm_db_1_area_score.png  used on input line 354
+Package pdftex.def Info: figures/rm_db_1_area_score.png  used on input line 355
 .
 (pdftex.def)             Requested size: 352.31625pt x 136.25835pt.
  [11 <./figures/dirt_v_gravel2.png (PNG copy)> <./figures/rm_db_1_area_score.pn
 g (PNG copy)>]
-<figures/per_arc_classification_time.png, id=266, 1618.848pt x 466.33168pt>
+<figures/per_arc_classification_time.png, id=269, 1618.848pt x 466.33168pt>
 File: figures/per_arc_classification_time.png Graphic file (type png)
 <use figures/per_arc_classification_time.png>
 Package pdftex.def Info: figures/per_arc_classification_time.png  used on input
- line 365.
+ line 366.
 (pdftex.def)             Requested size: 352.31625pt x 101.48325pt.
-<figures/per_scan_classification_rate.png, id=267, 1618.848pt x 466.33168pt>
+<figures/per_scan_classification_rate.png, id=270, 1618.848pt x 466.33168pt>
 File: figures/per_scan_classification_rate.png Graphic file (type png)
 <use figures/per_scan_classification_rate.png>
 Package pdftex.def Info: figures/per_scan_classification_rate.png  used on inpu
-t line 372.
+t line 373.
 (pdftex.def)             Requested size: 352.31625pt x 101.48325pt.
  (Huston_Paper.bbl [12 <./figures/per_arc_classification_time.png (PNG copy)> <
 ./figures/per_scan_classification_rate.png (PNG copy)>]
@@ -915,20 +909,17 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
 
 [13] [14]) [15] (Huston_Paper.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Huston_Paper.out' has not changed.
 (rerunfilecheck)             Checksum: E3ED4A26D8D5F2329430B05C24476ABC;1093.
  ) 
 Here is how much of TeX's memory you used:
- 17303 strings out of 478583
- 289224 string characters out of 2847216
- 600235 words of memory out of 3000000
- 35099 multiletter control sequences out of 15000+600000
- 517752 words of font info for 134 fonts, out of 8000000 for 9000
+ 17313 strings out of 478583
+ 289486 string characters out of 2847216
+ 600292 words of memory out of 3000000
+ 35109 multiletter control sequences out of 15000+600000
+ 516645 words of font info for 133 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 75i,8n,77p,3292b,666s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 75i,8n,77p,3292b,668s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/au
 tobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home
 /autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></h
@@ -940,9 +931,9 @@ b></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10
 y7.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb
 ></home/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></hom
 e/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Huston_Paper.pdf (15 pages, 11839450 bytes).
+Output written on Huston_Paper.pdf (15 pages, 13280861 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
+ 376 PDF objects out of 1000 (max. 8388607)
  108 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -66,8 +66,8 @@ A.~Hervieu and B.~Soheilian, ``Road side detection and reconstruction using
 \newblock ISSN: 1931-0587.
 
 \bibitem{smadja_road_nodate}
-L.~Smadja, J.~Ninot, and T.~Gavrilovic, ``{ROAD} {EXTRACTION} {AND}
-  {ENVIRONMENT} {INTERPRETATION} {FROM} {LIDAR} {SENSORS},'' p.~7.
+L.~Smadja, J.~Ninot, and T.~Gavrilovic, ``Road extraction and environment
+  interpretation from lidar sensors,'' p.~7.
 
 \bibitem{skorseth_gravel_nodate}
 K.~Skorseth and A.~A. Selim, ``Gravel {Roads}: {Maintenance} and {Design}
@@ -193,15 +193,15 @@ M.~Manz, M.~Himmelsbach, T.~Luettel, and H.-J. Wuensche, ``Detection and
 \newblock ISSN: 2153-0866.
 
 \bibitem{yadav_road_2018}
-M.~Yadav, B.~Lohani, and A.~Singh, ``{ROAD} {SURFACE} {DETECTION} {FROM}
-  {MOBILE} {LIDAR} {DATA},'' {\em ISPRS Annals of Photogrammetry, Remote
-  Sensing and Spatial Information Sciences}, vol.~IV-5, pp.~95--101, Nov. 2018.
+M.~Yadav, B.~Lohani, and A.~Singh, ``Road surface detection from mobile lidar
+  data,'' {\em ISPRS Annals of Photogrammetry, Remote Sensing and Spatial
+  Information Sciences}, vol.~IV-5, pp.~95--101, Nov. 2018.
 
 \bibitem{yadav_pole-shaped_2015}
-M.~Yadav, A.~Husain, A.~Singh, and B.~Lohani, ``{POLE}-{SHAPED} {OBJECT}
-  {DETECTION} {USING} {MOBILE} {LIDAR} {DATA} {IN} {RURAL} {ROAD}
-  {ENVIRONMENTS},'' {\em ISPRS Annals of Photogrammetry, Remote Sensing and
-  Spatial Information Sciences}, vol.~II-3/W5, pp.~11--16, Aug. 2015.
+M.~Yadav, A.~Husain, A.~Singh, and B.~Lohani, ``Pole-shaped object detection
+  using mobile lidar data in rurlal road environments,'' {\em ISPRS Annals of
+  Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  vol.~II-3/W5, pp.~11--16, Aug. 2015.
 
 \bibitem{laible_3d_2012}
 S.~Laible, Y.~N. Khan, K.~Bohlmann, and A.~Zell, ``{3D} {LIDAR}- and

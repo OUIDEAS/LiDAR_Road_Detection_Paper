@@ -42,7 +42,7 @@ Warning--empty journal in haselich_terrain_2011
 Warning--empty booktitle in dupont_online_2008
 You've used 62 entries,
             1876 wiz_defined-function locations,
-            824 strings with 16712 characters,
+            824 strings with 16659 characters,
 and the built_in function-call counts, 18870 in all, are:
 = -- 1911
 > -- 700
