@@ -273,6 +273,11 @@ G.~Zhao, X.~Xiao, J.~Yuan, and G.-W. Ng, ``Fusion of {3D}-{LIDAR} and camera
 L.~Breiman, ``Random {Forests},'' {\em Machine Learning}, vol.~45, pp.~5--32,
   Oct. 2001.
 
+\bibitem{rauscher_comparison_2016}
+G.~Rauscher, D.~Dube, and A.~Zell, ``A comparison of 3d sensors for wheeled
+  mobile robots,'' {\em Journal of Robotics and Autonomous Systems}, vol.~302,
+  pp.~29--41, Sept. 2016.
+
 \bibitem{vlp_32c}
 ``Ultra {Puck} {Surround} {View} {Lidar} {Sensor}.''
 

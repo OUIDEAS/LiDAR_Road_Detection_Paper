@@ -5,23 +5,23 @@ Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 Database file #1: resources.bib
-Repeated entry---line 1574 of file resources.bib
+Repeated entry---line 1586 of file resources.bib
  : @article{seker_experiments_nodate
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1909 of file resources.bib
+Repeated entry---line 1921 of file resources.bib
  : @article{smadja_road_nodate
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2539 of file resources.bib
+Repeated entry---line 2551 of file resources.bib
  : @article{breiman_random_2001
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2609 of file resources.bib
+Repeated entry---line 2621 of file resources.bib
  : @article{breiman_random_2001
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2644 of file resources.bib
+Repeated entry---line 2656 of file resources.bib
  : @inproceedings{reymann_improving_2015
  :                                      ,
 I'm skipping whatever remains of this entry
@@ -40,45 +40,45 @@ Warning--empty journal in wallach_conditional_nodate
 Warning--empty year in wallach_conditional_nodate
 Warning--empty journal in haselich_terrain_2011
 Warning--empty booktitle in dupont_online_2008
-You've used 62 entries,
+You've used 63 entries,
             1876 wiz_defined-function locations,
-            824 strings with 16659 characters,
-and the built_in function-call counts, 18870 in all, are:
-= -- 1911
-> -- 700
+            830 strings with 16837 characters,
+and the built_in function-call counts, 19169 in all, are:
+= -- 1943
+> -- 711
 < -- 0
-+ -- 255
-- -- 193
-* -- 1385
-:= -- 2530
-add.period$ -- 79
-call.type$ -- 62
-change.case$ -- 62
++ -- 259
+- -- 196
+* -- 1409
+:= -- 2572
+add.period$ -- 80
+call.type$ -- 63
+change.case$ -- 63
 chr.to.int$ -- 0
-cite$ -- 77
-duplicate$ -- 946
-empty$ -- 1741
-format.name$ -- 193
-if$ -- 4605
+cite$ -- 78
+duplicate$ -- 960
+empty$ -- 1766
+format.name$ -- 196
+if$ -- 4677
 int.to.chr$ -- 0
-int.to.str$ -- 62
-missing$ -- 55
-newline$ -- 210
-num.names$ -- 64
-pop$ -- 232
+int.to.str$ -- 63
+missing$ -- 56
+newline$ -- 213
+num.names$ -- 65
+pop$ -- 233
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 764
+skip$ -- 776
 stack$ -- 0
-substring$ -- 1440
-swap$ -- 422
+substring$ -- 1464
+swap$ -- 429
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 15
-while$ -- 198
-width$ -- 64
-write$ -- 604
+while$ -- 202
+width$ -- 65
+write$ -- 614
 (There were 5 error messages)
