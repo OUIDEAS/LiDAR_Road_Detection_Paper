@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  13 JUN 2023 08:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  14 JUN 2023 14:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -877,12 +877,13 @@ File: figures/dirt_v_gravel2.png Graphic file (type png)
 <use figures/dirt_v_gravel2.png>
 Package pdftex.def Info: figures/dirt_v_gravel2.png  used on input line 350.
 (pdftex.def)             Requested size: 352.31625pt x 272.45555pt.
-<figures/rm_db_1_area_score.png, id=264, 2590.30894pt x 1001.89043pt>
-File: figures/rm_db_1_area_score.png Graphic file (type png)
-<use figures/rm_db_1_area_score.png>
-Package pdftex.def Info: figures/rm_db_1_area_score.png  used on input line 357
-.
-(pdftex.def)             Requested size: 352.31625pt x 136.25835pt.
+<figures/range_actual_rm_db_4_area_score.png, id=264, 2088.22263pt x 794.20926p
+t>
+File: figures/range_actual_rm_db_4_area_score.png Graphic file (type png)
+<use figures/range_actual_rm_db_4_area_score.png>
+Package pdftex.def Info: figures/range_actual_rm_db_4_area_score.png  used on i
+nput line 357.
+(pdftex.def)             Requested size: 352.31625pt x 133.99582pt.
  [11 <./figures/dirt_v_gravel2.png (PNG copy)>]
 <figures/per_arc_classification_time.png, id=272, 1618.848pt x 466.33168pt>
 File: figures/per_arc_classification_time.png Graphic file (type png)
@@ -890,8 +891,8 @@ File: figures/per_arc_classification_time.png Graphic file (type png)
 Package pdftex.def Info: figures/per_arc_classification_time.png  used on input
  line 368.
 (pdftex.def)             Requested size: 352.31625pt x 101.48325pt.
- [12 <./figures/rm_db_1_area_score.png (PNG copy)> <./figures/per_arc_classific
-ation_time.png (PNG copy)>]
+ [12 <./figures/range_actual_rm_db_4_area_score.png> <./figures/per_arc_classif
+ication_time.png (PNG copy)>]
 (Huston_Paper.bbl
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 4
 .
@@ -908,12 +909,12 @@ Package rerunfilecheck Info: File `Huston_Paper.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  17304 strings out of 478583
- 288905 string characters out of 2847216
- 600261 words of memory out of 3000000
+ 289048 string characters out of 2847216
+ 600262 words of memory out of 3000000
  35101 multiletter control sequences out of 15000+600000
  516645 words of font info for 133 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 75i,8n,77p,2639b,662s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 75i,8n,77p,2646b,662s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/au
 tobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home
 /autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></h
@@ -925,7 +926,7 @@ b></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10
 y7.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb
 ></home/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></hom
 e/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Huston_Paper.pdf (15 pages, 13188498 bytes).
+Output written on Huston_Paper.pdf (15 pages, 13098028 bytes).
 PDF statistics:
  377 PDF objects out of 1000 (max. 8388607)
  108 named destinations out of 1000 (max. 500000)
