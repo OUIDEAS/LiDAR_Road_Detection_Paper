@@ -125,7 +125,7 @@
 % in the abstract or keywords.
 \begin{abstract}{
 		
-		{Gravel roads lack standardized features such as curbs or painted lines, presenting detection challenges to autonomous vehicles. Global Positioning Service (GPS) and high resolution maps may not be reliable for navigation of gravel roads, as some may only be width of the vehicle and GPS may not be accurate enough. Normal Distribution Transform (NDT) based on scanning LiDAR data may be insufficient for navigating on gravel roads as there may not be enough geometrically distinct features for reliable scan matching. This work will examine a method of classifying scanning LiDAR data spatial and remission features for explicit detection of unmarked gravel road surfaces. Exploration of terrain classification using high resolution scanning LiDAR data of these road surfaces may allow for predicting gravel road boundary locations potentially enabling confident autonomous operations on gravel roads. The principal outcome of this work was a method for gravel road detection using LiDAR data for the purpose of predicting road boundary locations. Random Decision Forests were trained using scanning LiDAR data terrain classification to detect unmarked gravel and asphalt surfaces. It was found that a true-positive accuracy for gravel and asphalt surfaces was 74.97\% and 84.05\% respectively at an estimated rate of 13.19 ms per 360 degree scan. Overlapping results between manually projected and actual road surface areas resulted in 93.33\% intercepting gravel road detection accuracy. Results indicate that using a Random Decision Forest to classify scanning LiDAR data is a feasible method for unmarked gravel and asphalt road detection. Detection of unmarked road surfaces would increase the operational region capabilities of self driving vehicles considerably by allowing autonomous operations on 1.5 million miles of previously undetected roads.}	
+		{Gravel roads lack standardized features such as curbs or painted lines, presenting detection challenges to autonomous vehicles. Global Positioning Service (GPS) and high resolution maps may not be reliable for navigation of gravel roads, as some roads may only be width of the vehicle and GPS may not be accurate enough. Normal Distribution Transform (NDT) LiDAR scan matching may be insufficient for navigating on gravel roads as there may not be enough geometrically distinct features for reliable scan matching. Completed work will examine a method of classifying scanning LiDAR spatial and remission data features for explicit detection of unmarked gravel road surfaces. Exploration of terrain classification using high resolution scanning LiDAR data of these road surfaces may allow for predicting gravel road boundary locations potentially enabling confident autonomous operations on gravel roads. The principal outcome of this work was a method for gravel road terrain detection using LiDAR data for the purpose of predicting potential road boundary locations. Random Decision Forests were trained using scanning LiDAR data terrain classification to detect unmarked gravel and asphalt surfaces. It was found that a true-positive accuracy for gravel and asphalt surfaces was 67.54\% and 87.05\% respectively at an estimated rate of 13.19 ms per 360 degree scan. Overlapping results between manually projected and actual road surface areas resulted in 93.33\% intercepting gravel road detection accuracy. Automated post-process examination of classification results yielded an  true-positive gravel road detection rate of 71.67\%. Detection of unmarked road surfaces would increase the operational region capabilities of self driving vehicles considerably by allowing autonomous operations on 1.5 million miles of previously undetected roads.}	
 		
 	}	
 \end{abstract}
@@ -185,7 +185,7 @@
 			
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.9\linewidth]{figures/flowz_2}
+				\includegraphics[width=0.9\linewidth]{figures/flowz_7}
 				\caption[Project Flow]{High level view of project work}
 				\label{fig:flowz_2}
 			\end{figure}	
@@ -219,7 +219,7 @@
 		
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.75\linewidth]{figures/gravel_lot_pic}
+				\includegraphics[width=0.75\linewidth]{figures/gravel_training_lot}
 				\caption[Gravel Training Lot]{Camera view of the gravel lot from which gravel training data was gathered.}
 				\label{fig:gravel_training_lot}
 			\end{figure}			
@@ -233,7 +233,7 @@
 			
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.75\linewidth]{figures/pc_example}
+				\includegraphics[width=0.75\linewidth]{figures/combined_pcd_example}
 				\caption[Aggregated Point Cloud Data]{Point cloud of scanning LiDAR data using GPS and IMU data to determine point of origin and orientation for the LiDAR was used to create a combined point cloud map.}
 				\label{fig:pc_example}
 			\end{figure}
@@ -304,22 +304,24 @@
 				\includegraphics[width=0.55\linewidth]{figures/chan_2c_conf_VALIDATION_mat222}
 				\caption[Validation Error]{Confusion matrix with the validation training data set.}
 				\label{fig:vali_err_conf_mat}
-			\end{figure}			
+			\end{figure}
 			
-			{Classifying consecutive LiDAR scans was accomplished by examination of the nine arcs of interest in front and forty-five degree angles left and right from the front of the experimental apparatus (Fig. \ref{fig:area_example}). Features from each arc were extracted and the arc was classified (Fig. \ref{fig:raw_classification_results} shows the average spatial coordinates of each classified arc). Previously-created manually defined gravel, asphalt, and side-of-road truth areas (denoted as Testing areas in Fig. \ref{fig:test_vs_train_areas}) were projected onto the classified point cloud for the determination of classification accuracy. Averaged x, y, and z coordinates were taken of each arc, and projected unto a manually defined truth area map (Fig. \ref{fig:rm_db_4_toc}). Accuracy scores was calculated based on the distribution of classified points with each area, allowing evaluation of unmarked road detection performance. Classified point clouds were visually inspected to determine if the manual detection of a road surface may be accomplished. If consecutive points from each channel in any direction had two or more matching gravel or asphalt classification and was evenly spaced, a gravel or road surface area was projected. Guessed road surface areas were then compared to actual areas to determine the method's ability at unmarked gravel road discovery, indicating the method's efficiency at detecting intersecting gravel roads. }
+		\subsection{Surface Classification and Road Detection}			
+			
+			{Classifying consecutive LiDAR scans was accomplished by examination of the nine arcs of interest in front and forty-five degree angles left and right from the front of the experimental apparatus (Fig. \ref{fig:area_example}). Features from each arc were extracted and the arc was classified (Fig. \ref{fig:raw_classification_results} shows the average spatial coordinates of each classified arc). Previously-created manually defined gravel, asphalt, and side-of-road truth areas (denoted as Testing areas in Fig. \ref{fig:test_vs_train_areas}) were projected onto the classified point cloud for the determination of classification accuracy. Averaged x, y, and z coordinates were taken of each arc, and projected unto a manually defined truth area map (Fig. \ref{fig:visual_v_auto}). Accuracy scores was calculated based on the distribution of classified points with each area, allowing evaluation of unmarked road detection performance. Classified point clouds were visually inspected to determine if the manual detection of a road surface may be accomplished. If consecutive points from each channel in any direction had two or more matching gravel or asphalt classification and was evenly spaced, a gravel or road surface area was projected. Guessed road surface areas were then compared to actual areas to determine the method's ability at unmarked gravel road discovery, indicating the method's efficiency at detecting intersecting gravel roads. Automated detection of unmarked road was explored in order to determine if visual detection results may be repeated. Class percentages, standard deviation of height, standard deviation of average [x,y] distance to the LiDAR point of origin, and distance trends between classified arcs among other features were exploited to determine if the area best describes a gravel, asphalt, or unknown surface (Fig. \ref{fig:visual_v_auto}). Results were compiled into a single classified map and compared to truth areas, then scored based off the number of true/false positive road detection. }
 			
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.9\linewidth]{figures/range_classified_pc_db_6}
+				\includegraphics[width=0.9\linewidth]{figures/db1range.png}
 				\caption[Classified Point Cloud]{Classified Point Cloud.}
 				\label{fig:raw_classification_results}
 			\end{figure}
 		
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.9\linewidth]{figures/cross_channel_trend}
-				\caption[Projected Guess vs Truth]{Gravel and asphalt surfaces were manually guessed based on trends between channels and compared to actual road-surface areas.}
-				\label{fig:rm_db_4_toc}
+				\includegraphics[width=0.9\linewidth]{figures/visual_v_auto}
+				\caption[Projected Guess vs Truth]{Gravel and asphalt surfaces were manually guessed based on trends between channels and compared to actual road-surface areas (left). Autonomous projection of road surface areas following developed methods (right).}
+				\label{fig:visual_v_auto}
 			\end{figure}
 				
 	\section{Results}
@@ -359,9 +361,16 @@
 			\label{fig:prepostadjust}
 		\end{figure}
 	
-		{Classified point clouds were manually examined for 'best guess' locations for gravel and asphalt surfaces. Two out of three positive gravel identifications must be made on each channel, be evenly spaced, and be relatively co-planar to other road surface guesses in order for a positive guess for an asphalt or gravel surface to be made (Fig. \ref{fig:rm_db_4_toc}). Driveways $1$ and $2$ were detected in all five drive-bys, driveway $3$ was detected in four leading to an 91.67\% accuracy in intercepting gravel road detection. It was found that in three drive-bys there was a false positive driveway detection, however the location of the false-positives were not repeated in any of the other drivebys. In all drive-bys the asphalt road was accurately detected. }
+		{Classified point clouds were manually examined for 'best guess' locations for gravel and asphalt surfaces. Two out of three positive gravel identifications must be made on each channel, be evenly spaced, and be relatively co-planar to other road surface guesses in order for a positive guess for an asphalt or gravel surface to be made (Fig. \ref{fig:visual_v_auto}). Driveways $1$ and $2$ were detected in all five drive-bys, driveway $3$ was detected in four leading to an 91.67\% accuracy in intercepting gravel road detection. It was found that in three drive-bys there was a false positive driveway detection, however the location of the false-positives were not repeated in any of the other drivebys. In all drive-bys the asphalt road was accurately detected. It is acknowledged that the author's a-priori knowledge of the gravel drive locations may have introduced a bias, however this method proved useful for developing an autonomous method. Trends across classified arcs were autonomously exploited to determine the best guess at area terrain type. Guessed areas were aggregated into a larger map then compared to truth areas (Fig. \ref{fig:guess_grav_intersect}). Using autonomous methods to project road surfaces, it was found that a true-positive intersecting gravel road detection rate of 71.66\% with no false positives. It was found that the true positive rate may be increased to 100\% at the expense of increasing the number of false positives with a 1.8 average number of false positives per drive-by.}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.95\linewidth]{figures/db1_conf_elim_auto_guess_mca}
+			\caption[Aggregated Automated Road Surface Detection]{Aggregated automated road surface detection was compared to truth areas. }
+			\label{fig:guess_grav_intersect}
+		\end{figure}
 	
-		{Classification was completed using Ubuntu 18.04 and an AMD Ryzen 9 5900X 12 core 24 thread. Rate of classification for all nine areas of interest in a single scan was found to be an average of 35.19 ms using a single core (Fig. \ref{fig:per_arc_classification_time}) or 316.68 ms per 360 degree scan. When utilizing all 24 cores during classification a rate of 13.19 ms per 360 scan. Extrapolating from the distance traveled during a drive-by, a hypothetical 71.39 feet per second or 48.68 miles per hour may be possible. Further optimization may increase this speed, however implementing real-time classification was not a focus of this work.}
+		{Classification was completed using Ubuntu 18.04 and an AMD Ryzen 9 5900X 12 core 24 thread CPU. Rate of classification for all nine areas of interest in a single scan was found to be an average of 35.19 ms using a single core (Fig. \ref{fig:per_arc_classification_time}) or 316.68 ms per 360 degree scan. When utilizing all 24 cores during classification a rate of 13.19 ms per 360 scan. Extrapolating from the distance traveled during a drive-by, a hypothetical 71.39 feet per second or 48.68 miles per hour may be possible. Further optimization may increase this speed, however implementing real-time classification was not a focus of this work.}
 		
 		\begin{figure}[H]
 			\centering
@@ -384,7 +393,7 @@
 	\section{Conclusion}
 	
 		% Summary of Work & Closing Statements
-		{High definition scanning LiDAR and GPS data was gathered on Blackburn Road and intersecting gravel lots in Athens Ohio. Properties describing surface roughness and remission data were extracted and used to train Random Decision Forests. Terrain classification of consecutive scans compared to manually detected road surface areas yielded accuracy scores for gauging algorithm capability for gravel surface detection. It was found that a true-positive accuracy for gravel and asphalt surfaces was 67.54\% and 87.05\% respectively at an estimated rate of 13.19 milliseconds per 360 degree scan. Classified point clouds were examined and gravel areas were projected and compared with actual gravel surface areas. Overlapping results between detected and actual road surface areas resulted in 91.67\% intersecting gravel road detection accuracy. In conjunction with the overlapping areas and the high true-positive detection accuracy of gravel surfaces, this method of gravel road detection is promising for future exploration of additional roads and road surfaces. Work as described addressed the problem of road surface detection on unmarked gravel and chipseal roads. The described work was a method of detecting physical unmarked gravel and chipseal roads by using a terrain classification approach to predicting road surface area. The impact of this work is that autonomous vehicles using the developed method may be able to detect unmarked gravel and chipseal road surfaces, allowing autonomous operations on 1.5 million miles of previously undetected rural roads.} 
+		{High definition scanning LiDAR and GPS data was gathered on Blackburn Road and intersecting gravel lots in Athens Ohio. Properties describing surface roughness and remission data were extracted and used to train Random Decision Forests. Terrain classification of consecutive scans compared to manually detected road surface areas yielded accuracy scores for gauging algorithm capability for gravel surface detection. It was found that a true-positive accuracy for gravel and asphalt surfaces was 67.54\% and 87.05\% respectively at an estimated rate of 13.19 milliseconds per 360 degree scan. Classified point clouds were examined and gravel areas were projected and compared with actual gravel surface areas. Overlapping results between detected and actual road surface areas resulted in a minimum  71.66\% intersecting gravel road autonomous detection accuracy. In conjunction with the overlapping areas and the high true-positive detection accuracy of gravel surfaces, this method of gravel road detection is promising for future exploration of additional roads and road surfaces. Work as described addressed the problem of road surface detection on unmarked gravel and chipseal roads. The described work was a method of detecting physical unmarked gravel and chipseal roads by using a terrain classification approach to predicting road surface area. The impact of this work is that autonomous vehicles using the developed method may be able to detect unmarked gravel and chipseal road surfaces, allowing autonomous operations on 1.5 million miles of previously undetected rural roads.} 
 	
 % For peer review papers, you can put extra information on the cover
 % page as needed:

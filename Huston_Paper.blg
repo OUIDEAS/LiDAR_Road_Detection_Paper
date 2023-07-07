@@ -25,6 +25,10 @@ Repeated entry---line 2656 of file resources.bib
  : @inproceedings{reymann_improving_2015
  :                                      ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2951 of file resources.bib
+ : @article{wietrzykowski_boosting_2014
+ :                                     ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in seker_experiments_nodate
 Warning--empty year in seker_experiments_nodate
 Warning--empty journal in smadja_road_nodate
@@ -81,4 +85,4 @@ warning$ -- 15
 while$ -- 202
 width$ -- 65
 write$ -- 614
-(There were 5 error messages)
+(There were 6 error messages)
