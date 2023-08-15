@@ -1,35 +1,35 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.3.14)  7 JUL 2023 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.2)  14 AUG 2023 14:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./Huston_Paper.tex
 (Huston_Paper.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/ieeetran/IEEEtran.cls
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-04-20>
+(/home/rhett/.miktex/texmfs/install/tex/latex/ieeetran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
-\@IEEEtrantmpdimenA=\dimen138
-\@IEEEtrantmpdimenB=\dimen139
-\@IEEEtrantmpdimenC=\dimen140
+\@IEEEtrantmpdimenA=\dimen140
+\@IEEEtrantmpdimenB=\dimen141
+\@IEEEtrantmpdimenC=\dimen142
 \@IEEEtrantmpcountA=\count185
 \@IEEEtrantmpcountB=\count186
 \@IEEEtrantmpcountC=\count187
 \@IEEEtrantmptoksA=\toks16
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
 03.
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/psnfss/ot1ptm.fd
+(/home/rhett/.miktex/texmfs/install/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ** ATTENTION: Single column mode is not typically used with IEEE publications.
 -- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
-\@IEEEnormalsizeunitybaselineskip=\dimen141
+\@IEEEnormalsizeunitybaselineskip=\dimen143
 -- This is a 10 point document.
-\CLASSINFOnormalsizebaselineskip=\dimen142
-\CLASSINFOnormalsizeunitybaselineskip=\dimen143
-\IEEEnormaljot=\dimen144
+\CLASSINFOnormalsizebaselineskip=\dimen144
+\CLASSINFOnormalsizeunitybaselineskip=\dimen145
+\IEEEnormaljot=\dimen146
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
@@ -80,81 +80,81 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
-\IEEEquantizedlength=\dimen145
-\IEEEquantizedlengthdiff=\dimen146
-\IEEEquantizedtextheightdiff=\dimen147
-\IEEEilabelindentA=\dimen148
-\IEEEilabelindentB=\dimen149
-\IEEEilabelindent=\dimen150
-\IEEEelabelindent=\dimen151
-\IEEEdlabelindent=\dimen152
-\IEEElabelindent=\dimen153
-\IEEEiednormlabelsep=\dimen154
-\IEEEiedmathlabelsep=\dimen155
-\IEEEiedtopsep=\skip47
+\IEEEquantizedlength=\dimen147
+\IEEEquantizedlengthdiff=\dimen148
+\IEEEquantizedtextheightdiff=\dimen149
+\IEEEilabelindentA=\dimen150
+\IEEEilabelindentB=\dimen151
+\IEEEilabelindent=\dimen152
+\IEEEelabelindent=\dimen153
+\IEEEdlabelindent=\dimen154
+\IEEElabelindent=\dimen155
+\IEEEiednormlabelsep=\dimen156
+\IEEEiedmathlabelsep=\dimen157
+\IEEEiedtopsep=\skip48
 \c@section=\count188
 \c@subsection=\count189
 \c@subsubsection=\count190
 \c@paragraph=\count191
 \c@IEEEsubequation=\count192
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
 \c@figure=\count193
 \c@table=\count194
 \@IEEEeqnnumcols=\count195
 \@IEEEeqncolcnt=\count196
 \@IEEEsubeqnnumrollback=\count197
-\@IEEEquantizeheightA=\dimen156
-\@IEEEquantizeheightB=\dimen157
-\@IEEEquantizeheightC=\dimen158
-\@IEEEquantizeprevdepth=\dimen159
+\@IEEEquantizeheightA=\dimen158
+\@IEEEquantizeheightB=\dimen159
+\@IEEEquantizeheightC=\dimen160
+\@IEEEquantizeprevdepth=\dimen161
 \@IEEEquantizemultiple=\count198
-\@IEEEquantizeboxA=\box50
-\@IEEEtmpitemindent=\dimen160
-\IEEEPARstartletwidth=\dimen161
+\@IEEEquantizeboxA=\box51
+\@IEEEtmpitemindent=\dimen162
+\IEEEPARstartletwidth=\dimen163
 \c@IEEEbiography=\count199
-\@IEEEtranrubishbin=\box51
-) (/home/autobuntu/.miktex/texmfs/install/tex/latex/natbib/natbib.sty
+\@IEEEtranrubishbin=\box52
+) (/home/rhett/.miktex/texmfs/install/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip50
-\bibsep=\skip51
+\bibhang=\skip51
+\bibsep=\skip52
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count266
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count267
 \Gm@cntv=\count268
 \c@Gm@tempcnt=\count269
-\Gm@bindingoffset=\dimen162
-\Gm@wd@mp=\dimen163
-\Gm@odd@mp=\dimen164
-\Gm@even@mp=\dimen165
-\Gm@layoutwidth=\dimen166
-\Gm@layoutheight=\dimen167
-\Gm@layouthoffset=\dimen168
-\Gm@layoutvoffset=\dimen169
+\Gm@bindingoffset=\dimen164
+\Gm@wd@mp=\dimen165
+\Gm@odd@mp=\dimen166
+\Gm@even@mp=\dimen167
+\Gm@layoutwidth=\dimen168
+\Gm@layoutheight=\dimen169
+\Gm@layouthoffset=\dimen170
+\Gm@layoutvoffset=\dimen171
 \Gm@dimlist=\toks18
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/textcomp.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(/home/rhett/.miktex/texmfs/install/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks19
 \symAMSa=\mathgroup4
@@ -163,8 +163,8 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/bm.sty
-Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+(/home/rhett/.miktex/texmfs/install/tex/latex/tools/bm.sty
+Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
 \symboldsymbols=\mathgroup8
@@ -173,151 +173,149 @@ Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen170
-\lightrulewidth=\dimen171
-\cmidrulewidth=\dimen172
-\belowrulesep=\dimen173
-\belowbottomsep=\dimen174
-\aboverulesep=\dimen175
-\abovetopsep=\dimen176
-\cmidrulesep=\dimen177
-\cmidrulekern=\dimen178
-\defaultaddspace=\dimen179
+\heavyrulewidth=\dimen172
+\lightrulewidth=\dimen173
+\cmidrulewidth=\dimen174
+\belowrulesep=\dimen175
+\belowbottomsep=\dimen176
+\aboverulesep=\dimen177
+\abovetopsep=\dimen178
+\cmidrulesep=\dimen179
+\cmidrulekern=\dimen180
+\defaultaddspace=\dimen181
 \@cmidla=\count270
 \@cmidlb=\count271
-\@aboverulesep=\dimen180
-\@belowrulesep=\dimen181
+\@aboverulesep=\dimen182
+\@belowrulesep=\dimen183
 \@thisruleclass=\count272
 \@lastruleclass=\count273
-\@thisrulewidth=\dimen182
+\@thisrulewidth=\dimen184
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/dcolumn.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen183
-\ar@mcellbox=\box52
-\extrarowheight=\dimen184
+(/home/rhett/.miktex/texmfs/install/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen185
+\ar@mcellbox=\box53
+\extrarowheight=\dimen186
 \NC@list=\toks20
-\extratabsurround=\skip52
-\backup@length=\skip53
-\ar@cellbox=\box53
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box54
 ))
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/ragged2e/ragged2e.sty
-Package: ragged2e 2021/12/15 v3.1 ragged2e Package
-\CenteringLeftskip=\skip54
-\RaggedLeftLeftskip=\skip55
-\RaggedRightLeftskip=\skip56
-\CenteringRightskip=\skip57
-\RaggedLeftRightskip=\skip58
-\RaggedRightRightskip=\skip59
-\CenteringParfillskip=\skip60
-\RaggedLeftParfillskip=\skip61
-\RaggedRightParfillskip=\skip62
-\JustifyingParfillskip=\skip63
-\CenteringParindent=\skip64
-\RaggedLeftParindent=\skip65
-\RaggedRightParindent=\skip66
-\JustifyingParindent=\skip67
+(/home/rhett/.miktex/texmfs/install/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/04/04 v3.5 ragged2e Package
+\CenteringLeftskip=\skip55
+\RaggedLeftLeftskip=\skip56
+\RaggedRightLeftskip=\skip57
+\CenteringRightskip=\skip58
+\RaggedLeftRightskip=\skip59
+\RaggedRightRightskip=\skip60
+\CenteringParfillskip=\skip61
+\RaggedLeftParfillskip=\skip62
+\RaggedRightParfillskip=\skip63
+\JustifyingParfillskip=\skip64
+\CenteringParindent=\skip65
+\RaggedLeftParindent=\skip66
+\RaggedRightParindent=\skip67
+\JustifyingParindent=\skip68
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen185
-\Gin@req@width=\dimen186
+\Gin@req@height=\dimen187
+\Gin@req@width=\dimen188
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/float/float.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count274
 \float@exts=\toks21
-\float@box=\box54
+\float@box=\box55
 \@float@everytoks=\toks22
-\@floatcapt=\box55
+\@floatcapt=\box56
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics/rotating.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+(/home/rhett/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count275
-\rotFPtop=\skip68
-\rotFPbot=\skip69
-\rot@float@box=\box56
+\rotFPtop=\skip69
+\rotFPbot=\skip70
+\rot@float@box=\box57
 \rot@mess@toks=\toks23
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/makecell/makecell.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen187
+\rotheadsize=\dimen189
 \c@nlinenum=\count276
 \TeXr@lab=\toks24
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/multirow/multirow.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip70
+\multirow@colwidth=\skip71
 \multirow@cntb=\count277
-\multirow@dima=\skip71
-\bigstrutjot=\dimen188
+\multirow@dima=\skip72
+\bigstrutjot=\dimen190
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/babel/babel.sty
-Package: babel 2022/02/26 3.73 The Babel package
+(/home/rhett/.miktex/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2023/04/18 3.88 The Babel package
 \babel@savecnt=\count278
-\U@D=\dimen189
-\l@unhyphenated=\language79
+\U@D=\dimen191
+\l@unhyphenated=\language1
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
+(/home/rhett/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count279
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
+(/home/rhett/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/babel-english/english.ldf
+(/home/rhett/.miktex/texmfs/install/tex/latex/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: Hyphen rules for 'canadian' set to \l@english
-(babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 108.
 ))
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
-Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+(/home/rhett/.miktex/texmfs/install/tex/generic/babel/locale/en/babel-english.t
+ex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (/home/rhett/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/caption/caption.sty
-Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+(/home/rhett/.miktex/texmfs/install/tex/latex/caption/caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/caption/caption3.sty
-Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen190
-\captionmargin=\dimen191
-\caption@leftmargin=\dimen192
-\caption@rightmargin=\dimen193
-\caption@width=\dimen194
-\caption@indent=\dimen195
-\caption@parindent=\dimen196
-\caption@hangindent=\dimen197
+(/home/rhett/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen192
+\captionmargin=\dimen193
+\caption@leftmargin=\dimen194
+\caption@rightmargin=\dimen195
+\caption@width=\dimen196
+\caption@indent=\dimen197
+\caption@parindent=\dimen198
+\caption@hangindent=\dimen199
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
@@ -342,112 +340,115 @@ See the caption package documentation for explanation.
 Package caption Info: float package is loaded.
 Package caption Info: rotating package is loaded.
 )
+Package caption Info: New subtype `subfigure' on input line 239.
 \c@subfigure=\count282
+Package caption Info: New subtype `subtable' on input line 239.
 \c@subtable=\count283
-) (/home/autobuntu/.miktex/texmfs/install/tex/latex/listings/listings.sty
+) (/home/rhett/.miktex/texmfs/install/tex/latex/listings/listings.sty
 \lst@mode=\count284
-\lst@gtempboxa=\box57
+\lst@gtempboxa=\box58
 \lst@token=\toks25
 \lst@length=\count285
-\lst@currlwidth=\dimen198
+\lst@currlwidth=\dimen256
 \lst@column=\count286
 \lst@pos=\count287
-\lst@lostspace=\dimen199
-\lst@width=\dimen256
+\lst@lostspace=\dimen257
+\lst@width=\dimen258
 \lst@newlines=\count288
 \lst@lineno=\count289
-\lst@maxwidth=\dimen257
+\lst@maxwidth=\dimen259
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+(/home/rhett/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 \c@lstnumber=\count290
 \lst@skipnumbers=\count291
-\lst@framebox=\box58
+\lst@framebox=\box59
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/listings/listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
+(/home/rhett/.miktex/texmfs/install/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/acronym/acronym.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/acronym/acronym.sty
 Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/bigfoot/suffix.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/xstring/xstring.sty
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/xstring/xstring.tex
+(/home/rhett/.miktex/texmfs/install/tex/latex/xstring/xstring.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/xstring/xstring.tex
 \integerpart=\count292
 \decimalpart=\count293
 )
-Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+Package: xstring 2023/01/14 v1.85 String manipulations (CT)
 )
 \AC@clearlist=\toks26
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/matlab-prettifier/matlab-pret
-tifier.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/matlab-prettifier/matlab-prettifi
+er.sty
 Package: matlab-prettifier 2014/06/19 v0.3 A package for prettyprinting Matlab 
 source code
- (/home/autobuntu/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (/home/rhett/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
-Package xcolor Info: Model `RGB' extended on input line 1368.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+
+(/home/rhett/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
 \netBracketCount@mlpr=\count294
 \blkLvl@mlpr=\count295
 \blkLvlAtClassdef@mlpr=\count296
-\emHeight@mlpr=\skip72
-\jayDepth@mlpr=\skip73
-\sectionRuleOffset@mlpr=\skip74
+\emHeight@mlpr=\skip73
+\jayDepth@mlpr=\skip74
+\sectionRuleOffset@mlpr=\skip75
 \toks@mlpr=\toks27
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks28
 \inpenc@posthook=\toks29
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/psnfss/times.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/psnfss/times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/indentfirst.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/multicol.sty
-Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+(/home/rhett/.miktex/texmfs/install/tex/latex/tools/multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \c@tracingmulticols=\count297
-\mult@box=\box59
-\multicol@leftmargin=\dimen258
+\mult@box=\box60
+\multicol@leftmargin=\dimen260
 \c@unbalance=\count298
 \c@collectmore=\count299
 \doublecol@number=\count300
 \multicoltolerance=\count301
 \multicolpretolerance=\count302
-\full@width=\dimen259
-\page@free=\dimen260
-\premulticols=\dimen261
-\postmulticols=\dimen262
-\multicolsep=\skip75
-\multicolbaselineskip=\skip76
-\partial@page=\box60
-\last@line=\box61
-\maxbalancingoverflow=\dimen263
-\mult@rightbox=\box62
-\mult@grightbox=\box63
-\mult@firstbox=\box64
-\mult@gfirstbox=\box65
-\@tempa=\box66
+\full@width=\dimen261
+\page@free=\dimen262
+\premulticols=\dimen263
+\postmulticols=\dimen264
+\multicolsep=\skip76
+\multicolbaselineskip=\skip77
+\partial@page=\box61
+\last@line=\box62
+\maxbalancingoverflow=\dimen265
+\mult@rightbox=\box63
+\mult@grightbox=\box64
+\mult@firstbox=\box65
+\mult@gfirstbox=\box66
 \@tempa=\box67
 \@tempa=\box68
 \@tempa=\box69
@@ -483,184 +484,195 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \@tempa=\box99
 \@tempa=\box100
 \@tempa=\box101
+\@tempa=\box102
 \c@minrows=\count303
 \c@columnbadness=\count304
 \c@finalcolumnbadness=\count305
-\last@try=\dimen264
-\multicolovershoot=\dimen265
-\multicolundershoot=\dimen266
-\mult@nat@firstbox=\box102
-\colbreak@box=\box103
+\last@try=\dimen266
+\multicolovershoot=\dimen267
+\multicolundershoot=\dimen268
+\mult@nat@firstbox=\box103
+\colbreak@box=\box104
 \mc@col@check@num=\count306
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip77
-\enit@outerparindent=\dimen267
+\labelindent=\skip78
+\enit@outerparindent=\dimen269
 \enit@toks=\toks30
-\enit@inbox=\box104
+\enit@inbox=\box105
 \enit@count@id=\count307
 \enitdp@description=\count308
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/attachfile/attachfile.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/attachfile/attachfile.sty
 Package: attachfile 2016/09/18 v1.9 PDF 1.3+ file attachment
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/iftex/ifpdf.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/tools/calc.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count309
 \calc@Bcount=\count310
-\calc@Adimen=\dimen268
-\calc@Bdimen=\dimen269
-\calc@Askip=\skip78
-\calc@Bskip=\skip79
+\calc@Adimen=\dimen270
+\calc@Bdimen=\dimen271
+\calc@Askip=\skip79
+\calc@Bskip=\skip80
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count311
-\calc@Cskip=\skip80
+\calc@Cskip=\skip81
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+(/home/rhett/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-04-22 v7.00x Hypertext links for LaTeX
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+(/home/rhett/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.s
-ty
+(/home/rhett/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/home/autobuntu/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
+)
+(/home/rhett/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/home/autobuntu/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
+)
+(/home/rhett/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-)
-\@linkdim=\dimen270
-\Hy@linkcounter=\count312
-\Hy@pagecounter=\count313
+(/home/rhett/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+(/home/rhett/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/home/rhett/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/home/rhett/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count312
+)
+(/home/rhett/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count313
+)
+\@linkdim=\dimen272
+\Hy@linkcounter=\count314
+\Hy@pagecounter=\count315
+
+(/home/rhett/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-04-22 v7.00x Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count314
+\Hy@SavedSpaceFactor=\count316
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
-File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+(/home/rhett/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-04-22 v7.00x Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4137.
-Package hyperref Info: Link nesting OFF on input line 4142.
-Package hyperref Info: Hyper index ON on input line 4145.
-Package hyperref Info: Plain pages OFF on input line 4152.
-Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Hyper figures OFF on input line 4182.
+Package hyperref Info: Link nesting OFF on input line 4187.
+Package hyperref Info: Hyper index ON on input line 4190.
+Package hyperref Info: Plain pages OFF on input line 4197.
+Package hyperref Info: Backreferencing OFF on input line 4202.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count315
+Package hyperref Info: Bookmarks ON on input line 4449.
+\c@Hy@tempcnt=\count317
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/url/url.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4749.
-\XeTeXLinkMargin=\dimen271
+LaTeX Info: Redefining \url on input line 4787.
+\XeTeXLinkMargin=\dimen273
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count316
-\Field@Width=\dimen272
-\Fld@charsize=\dimen273
-Package hyperref Info: Hyper figures OFF on input line 6027.
-Package hyperref Info: Link nesting OFF on input line 6032.
-Package hyperref Info: Hyper index ON on input line 6035.
-Package hyperref Info: backreferencing OFF on input line 6042.
-Package hyperref Info: Link coloring OFF on input line 6047.
-Package hyperref Info: Link coloring with OCG OFF on input line 6052.
-Package hyperref Info: PDF/A mode OFF on input line 6057.
-LaTeX Info: Redefining \ref on input line 6097.
-LaTeX Info: Redefining \pageref on input line 6101.
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
+\Fld@menulength=\count318
+\Field@Width=\dimen274
+\Fld@charsize=\dimen275
+Package hyperref Info: Hyper figures OFF on input line 6066.
+Package hyperref Info: Link nesting OFF on input line 6071.
+Package hyperref Info: Hyper index ON on input line 6074.
+Package hyperref Info: backreferencing OFF on input line 6081.
+Package hyperref Info: Link coloring OFF on input line 6086.
+Package hyperref Info: Link coloring with OCG OFF on input line 6091.
+Package hyperref Info: PDF/A mode OFF on input line 6096.
+
+(/home/rhett/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count317
-\c@Item=\count318
-\c@Hfootnote=\count319
+\Hy@abspage=\count319
+\c@Item=\count320
+\c@Hfootnote=\count321
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+(/home/rhett/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-04-22 v7.00x Hyperref driver for pdfTeX
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
+(/home/rhett/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count320
-\c@bookmark@seq@number=\count321
+\Fld@listcount=\count322
+\c@bookmark@seq@number=\count323
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck
-.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+(/home/rhett/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter
-.sty
+(/home/rhett/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
+85.
 )
-\Hy@SectionHShift=\skip81
+\Hy@SectionHShift=\skip82
 )
-\c@atfi@tmp=\count322
-\atfi@appearancewidth=\skip82
-\atfi@appearanceheight=\skip83
-\atfi@appearancedepth=\skip84
-\atfi@appearancebox=\box105
+\c@atfi@tmp=\count324
+\atfi@appearancewidth=\skip83
+\atfi@appearanceheight=\skip84
+\atfi@appearancedepth=\skip85
+\atfi@appearancebox=\box106
 )
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.de
-f
-File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count323
-\l__pdf_internal_box=\box106
-) (Huston_Paper.aux)
+(/home/rhett/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count325
+\l__pdf_internal_box=\box107
+)
+(Huston_Paper.aux)
 \openout1 = `Huston_Paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
@@ -717,50 +729,35 @@ LaTeX Font Info:    ... okay on input line 43.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/home/autobuntu/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+(/home/rhett/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count324
-\scratchdimen=\dimen274
-\scratchbox=\box107
-\nofMPsegments=\count325
-\nofMParguments=\count326
+\scratchcounter=\count326
+\scratchdimen=\dimen276
+\scratchbox=\box108
+\nofMPsegments=\count327
+\nofMParguments=\count328
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count327
-\MPscratchDim=\dimen275
-\MPnumerator=\count328
-\makeMPintoPDFobject=\count329
+\MPscratchCnt=\count329
+\MPscratchDim=\dimen277
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
 \everyMPtoPDFconversion=\toks32
-)
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.st
-y
+) (/home/rhett/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
- (/home/autobuntu/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+
+(/home/rhett/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count330
+\c@lstlisting=\count332
 Package hyperref Info: Link coloring OFF on input line 43.
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(/home/autobuntu/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestri
-ng.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count331
-)
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
- (Huston_Paper.out) (Huston_Paper.out)
+(Huston_Paper.out) (Huston_Paper.out)
 \@outlinefile=\write3
 \openout3 = `Huston_Paper.out'.
 
@@ -768,174 +765,197 @@ LaTeX Font Info:    Calculating math sizes for size <11> on input line 123.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 123
 .
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
+(/home/rhett/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 123
 .
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
+(/home/rhett/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 23.
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/psnfss/ts1ptm.fd
+(/home/rhett/.miktex/texmfs/install/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Overfull \vbox (9.40602pt too high) has occurred while \output is active []
+Overfull \hbox (5.1348pt too wide) in paragraph at lines 130--130
+[]\OT1/ptm/m/n/9 Gravel roads lack standardized features such as curbs or paint
+ed lines, presenting detection challenges to autonomous
+ []
 
-
-[1{/home/autobuntu/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}] [2]
-<figures/flowz_7.png, id=166, 1077.02374pt x 539.01375pt>
+[1{/home/rhett/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/rhett/.mi
+ktex/texmfs/install/fonts/enc/dvips/base/8r.enc}] [2]
+<figures/flowz_7.png, id=167, 1077.02374pt x 539.01375pt>
 File: figures/flowz_7.png Graphic file (type png)
 <use figures/flowz_7.png>
 Package pdftex.def Info: figures/flowz_7.png  used on input line 188.
 (pdftex.def)             Requested size: 422.77664pt x 211.58803pt.
-
-[3 <./figures/flowz_7.png>]
+ [3]
 <figures/van_on_van.jpg, id=186, 4673.46pt x 3505.095pt>
 File: figures/van_on_van.jpg Graphic file (type jpg)
 <use figures/van_on_van.jpg>
-Package pdftex.def Info: figures/van_on_van.jpg  used on input line 208.
+Package pdftex.def Info: figures/van_on_van.jpg  used on input line 210.
 (pdftex.def)             Requested size: 352.31625pt x 264.20787pt.
-<figures/blackburn_road.png, id=187, 2071.74pt x 1006.76125pt>
+ [4 <./figures/flowz_7.png>]
+<figures/blackburn_road.png, id=196, 2071.74pt x 1006.76125pt>
 File: figures/blackburn_road.png Graphic file (type png)
 <use figures/blackburn_road.png>
-Package pdftex.def Info: figures/blackburn_road.png  used on input line 215.
+Package pdftex.def Info: figures/blackburn_road.png  used on input line 217.
 (pdftex.def)             Requested size: 352.31625pt x 171.20859pt.
- [4 <./figures/van_on_van.jpg>]
-<figures/gravel_training_lot.png, id=196, 2071.74pt x 1549.79pt>
-File: figures/gravel_training_lot.png Graphic file (type png)
-<use figures/gravel_training_lot.png>
-Package pdftex.def Info: figures/gravel_training_lot.png  used on input line 22
-2.
-(pdftex.def)             Requested size: 352.31625pt x 263.5554pt.
- [5 <./figures/blackburn_road.png> <./figures/gravel_training_lot.png>]
+<figures/gravel_training_lot.jpg, id=197, 4673.46pt x 3505.095pt>
+File: figures/gravel_training_lot.jpg Graphic file (type jpg)
+<use figures/gravel_training_lot.jpg>
+Package pdftex.def Info: figures/gravel_training_lot.jpg  used on input line 22
+4.
+(pdftex.def)             Requested size: 352.31625pt x 264.20787pt.
+ [5 <./figures/van_on_van.jpg> <./figures/blackburn_road.png>]
 <figures/combined_pcd_example.png, id=203, 1150.2341pt x 654.99442pt>
 File: figures/combined_pcd_example.png Graphic file (type png)
 <use figures/combined_pcd_example.png>
 Package pdftex.def Info: figures/combined_pcd_example.png  used on input line 2
-36.
+35.
 (pdftex.def)             Requested size: 352.31625pt x 200.61752pt.
-<figures/area_example.png, id=207, 379.6584pt x 343.0416pt>
+ [6 <./figures/gravel_training_lot.jpg>]
+<figures/area_example.png, id=212, 379.6584pt x 343.0416pt>
 File: figures/area_example.png Graphic file (type png)
 <use figures/area_example.png>
-Package pdftex.def Info: figures/area_example.png  used on input line 245.
+Package pdftex.def Info: figures/area_example.png  used on input line 244.
 (pdftex.def)             Requested size: 117.43875pt x 106.11147pt.
-<figures/test_vs_train_areas_hatch.png, id=208, 898.4302pt x 705.20305pt>
+<figures/test_vs_train_areas_hatch.png, id=213, 898.4302pt x 705.20305pt>
 File: figures/test_vs_train_areas_hatch.png Graphic file (type png)
 <use figures/test_vs_train_areas_hatch.png>
 Package pdftex.def Info: figures/test_vs_train_areas_hatch.png  used on input l
-ine 252.
+ine 251.
 (pdftex.def)             Requested size: 352.31625pt x 276.54532pt.
- [6 <./figures/combined_pcd_example.png (PNG copy)> <./figures/area_example.png
+ [7 <./figures/combined_pcd_example.png (PNG copy)> <./figures/area_example.png
 >]
-<figures/training_data_cluster_3.png, id=218, 1310.74957pt x 1001.89043pt>
+<figures/training_data_cluster_3.png, id=223, 1310.74957pt x 1001.89043pt>
 File: figures/training_data_cluster_3.png Graphic file (type png)
 <use figures/training_data_cluster_3.png>
 Package pdftex.def Info: figures/training_data_cluster_3.png  used on input lin
-e 266.
+e 265.
 (pdftex.def)             Requested size: 352.31625pt x 269.29102pt.
- [7 <./figures/test_vs_train_areas_hatch.png> <./figures/training_data_cluster_
-3.png (PNG copy)>]
-<figures/c2_min_class_error.png, id=229, 702.92084pt x 554.57716pt>
+
+Overfull \hbox (2.58751pt too wide) in paragraph at lines 270--271
+[]\OT1/ptm/m/n/10 LiDAR returns spatial data represented by Cartesian coordinat
+es with units in meters and remission data represented
+ []
+
+[8 <./figures/test_vs_train_areas_hatch.png> <./figures/training_data_cluster_3
+.png (PNG copy)>]
+<figures/c2_min_class_error.png, id=233, 702.92084pt x 554.57716pt>
 File: figures/c2_min_class_error.png Graphic file (type png)
 <use figures/c2_min_class_error.png>
-Package pdftex.def Info: figures/c2_min_class_error.png  used on input line 283
+Package pdftex.def Info: figures/c2_min_class_error.png  used on input line 282
 .
 (pdftex.def)             Requested size: 352.31625pt x 277.96487pt.
-<figures/train_vs_valid_overfit_test3.png, id=230, 1295.53484pt x 600.9821pt>
+<figures/train_vs_valid_overfit_test3.png, id=234, 1295.53484pt x 600.9821pt>
 File: figures/train_vs_valid_overfit_test3.png Graphic file (type png)
 <use figures/train_vs_valid_overfit_test3.png>
 Package pdftex.def Info: figures/train_vs_valid_overfit_test3.png  used on inpu
-t line 290.
+t line 289.
 (pdftex.def)             Requested size: 352.31625pt x 163.43195pt.
- [8 <./figures/c2_min_class_error.png (PNG copy)>]
-<figures/chan_2c_conf_VALIDATION_mat222.png, id=242, 1295.53484pt x 1001.89043p
+ [9 <./figures/c2_min_class_error.png (PNG copy)>]
+<figures/chan_2c_conf_VALIDATION_mat222.png, id=246, 1295.53484pt x 1001.89043p
 t>
 File: figures/chan_2c_conf_VALIDATION_mat222.png Graphic file (type png)
 <use figures/chan_2c_conf_VALIDATION_mat222.png>
 Package pdftex.def Info: figures/chan_2c_conf_VALIDATION_mat222.png  used on in
-put line 304.
+put line 303.
 (pdftex.def)             Requested size: 258.36668pt x 199.79361pt.
- [9 <./figures/train_vs_valid_overfit_test3.png (PNG copy)> <./figures/chan_2c_
-conf_VALIDATION_mat222.png (PNG copy)>]
-<figures/db1range.png, id=254, 2590.30894pt x 1001.89043pt>
+ [10 <./figures/train_vs_valid_overfit_test3.png (PNG copy)> <./figures/chan_2c
+_conf_VALIDATION_mat222.png (PNG copy)>]
+<figures/db1range.png, id=258, 2590.30894pt x 1001.89043pt>
 File: figures/db1range.png Graphic file (type png)
 <use figures/db1range.png>
-Package pdftex.def Info: figures/db1range.png  used on input line 315.
+Package pdftex.def Info: figures/db1range.png  used on input line 314.
 (pdftex.def)             Requested size: 422.77664pt x 163.51613pt.
-<figures/visual_v_auto.png, id=255, 2435.11864pt x 1001.89043pt>
+<figures/visual_v_auto.png, id=259, 2435.11864pt x 1001.89043pt>
 File: figures/visual_v_auto.png Graphic file (type png)
 <use figures/visual_v_auto.png>
-Package pdftex.def Info: figures/visual_v_auto.png  used on input line 322.
+Package pdftex.def Info: figures/visual_v_auto.png  used on input line 321.
 (pdftex.def)             Requested size: 422.77664pt x 173.94228pt.
- [10 <./figures/db1range.png (PNG copy)> <./figures/visual_v_auto.png>]
-<figures/dirt_v_gravel2.png, id=266, 1295.53484pt x 1001.89043pt>
+ [11 <./figures/db1range.png (PNG copy)> <./figures/visual_v_auto.png>]
+<figures/dirt_v_gravel2.png, id=269, 1295.53484pt x 1001.89043pt>
 File: figures/dirt_v_gravel2.png Graphic file (type png)
 <use figures/dirt_v_gravel2.png>
-Package pdftex.def Info: figures/dirt_v_gravel2.png  used on input line 352.
+Package pdftex.def Info: figures/dirt_v_gravel2.png  used on input line 351.
 (pdftex.def)             Requested size: 352.31625pt x 272.45555pt.
-<figures/range_actual_rm_db_4_area_score.png, id=267, 2590.30894pt x 1001.89043
+<figures/range_actual_rm_db_4_area_score.png, id=270, 2590.30894pt x 1001.89043
 pt>
 File: figures/range_actual_rm_db_4_area_score.png Graphic file (type png)
 <use figures/range_actual_rm_db_4_area_score.png>
 Package pdftex.def Info: figures/range_actual_rm_db_4_area_score.png  used on i
-nput line 359.
+nput line 358.
 (pdftex.def)             Requested size: 352.31625pt x 136.25835pt.
-
-[11 <./figures/dirt_v_gravel2.png (PNG copy)>]
-<figures/db1_conf_elim_auto_guess_mca.png, id=276, 1703.2898pt x 563.706pt>
+ [12 <./figures/dirt_v_gravel2.png (PNG copy)>]
+<figures/db1_conf_elim_auto_guess_mca.png, id=279, 1703.2898pt x 563.706pt>
 File: figures/db1_conf_elim_auto_guess_mca.png Graphic file (type png)
 <use figures/db1_conf_elim_auto_guess_mca.png>
 Package pdftex.def Info: figures/db1_conf_elim_auto_guess_mca.png  used on inpu
-t line 368.
+t line 367.
 (pdftex.def)             Requested size: 446.26582pt x 147.68689pt.
-<figures/per_arc_classification_time.png, id=278, 1618.848pt x 466.33168pt>
+<figures/per_arc_classification_time.png, id=281, 1618.848pt x 466.33168pt>
 File: figures/per_arc_classification_time.png Graphic file (type png)
 <use figures/per_arc_classification_time.png>
 Package pdftex.def Info: figures/per_arc_classification_time.png  used on input
- line 377.
+ line 376.
 (pdftex.def)             Requested size: 352.31625pt x 101.48325pt.
- [12 <./figures/range_actual_rm_db_4_area_score.png (PNG copy)> <./figures/db1_
-conf_elim_auto_guess_mca.png>]
-(Huston_Paper.bbl
+ [13 <./figures/range_actual_rm_db_4_area_score.png (PNG copy)> <./figures/db1_
+conf_elim_auto_guess_mca.png>] (Huston_Paper.bbl
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 4
 .
 
-(/home/autobuntu/.miktex/texmfs/install/tex/latex/psnfss/omsptm.fd
+(/home/rhett/.miktex/texmfs/install/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
- [13 <./figures/per_arc_classification_time.png (PNG copy)>] [14] [15]) [16]
-(Huston_Paper.aux)
+ [14 <./figures/per_arc_classification_time.png (PNG copy)>]
+Underfull \hbox (badness 2608) in paragraph at lines 151--157
+[]\OT1/ptm/m/n/10 M. K. Shepard, B. A. Campbell, M. H. Bulmer, T. G. Farr, L. R
+. Gaddis, and J. J. Plaut,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--157
+\OT1/ptm/m/n/10 ``The roughness of natural terrain: A planetary and remote sens
+ing perspective,'' \OT1/ptm/m/it/10 Journal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--157
+\OT1/ptm/m/it/10 of Geophysical Research: Planets\OT1/ptm/m/n/10 , vol. 106, no
+. E12, pp. 32777--32795, 2001.  []eprint:
+ []
+
+[15] [16]) [17] (Huston_Paper.aux)
 Package rerunfilecheck Info: File `Huston_Paper.out' has not changed.
 (rerunfilecheck)             Checksum: D8F2B9C5C3B5774C17735BB505584565;1368.
  ) 
 Here is how much of TeX's memory you used:
- 17316 strings out of 478583
- 289436 string characters out of 2847216
- 600337 words of memory out of 3000000
- 35109 multiletter control sequences out of 15000+600000
- 516645 words of font info for 133 fonts, out of 8000000 for 9000
- 1144 hyphenation exceptions out of 8191
- 75i,8n,77p,2646b,722s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{/home/autobuntu/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/au
-tobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home
-/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></h
-ome/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
-/home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
-></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pf
-b></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cms
-y7.pfb></home/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb
-></home/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></hom
-e/autobuntu/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Huston_Paper.pdf (16 pages, 16575575 bytes).
+ 17787 strings out of 478250
+ 296442 string characters out of 5838927
+ 1869074 words of memory out of 5000000
+ 37595 multiletter control sequences out of 15000+600000
+ 559673 words of font info for 137 fonts, out of 8000000 for 9000
+ 3 hyphenation exceptions out of 8191
+ 90i,8n,90p,2356b,814s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/rhett/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></home/rhett/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</home/rhett/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
+home/rhett/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></ho
+me/rhett/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/
+rhett/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/r
+hett/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/rhe
+tt/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/rhett/.miktex
+/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/rhett/.miktex/texmfs/in
+stall/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Huston_Paper.pdf (17 pages, 19131581 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
- 111 named destinations out of 1000 (max. 500000)
+ 395 PDF objects out of 1000 (max. 8388607)
+ 112 named destinations out of 1000 (max. 500000)
  166 words of extra memory for PDF output out of 10000 (max. 10000000)
 
