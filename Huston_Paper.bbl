@@ -9,7 +9,8 @@ Y.~S. Malik and B.~Lal, ``Basic road statistics of india [2016-2017],'' Mar
   2019.
 
 \bibitem{noauthor_gpsgov_nodate}
-``{GPS}.gov: {GPS} {Accuracy}.''
+C.~C. . U. S.~D. of~Defense, ``Global positioning system standard positioning
+  service performance standard.''
 
 \bibitem{crisman_scarf_1993}
 J.~Crisman and C.~Thorpe, ``{SCARF}: a color vision system that tracks roads
@@ -348,5 +349,12 @@ J.~Wietrzykowski and P.~Skrzypczyński, ``Context-{Aware} {Recognition} of
 J.~Snoek, H.~Larochelle, and R.~P. Adams, ``Practical {Bayesian} {Optimization}
   of {Machine} {Learning} {Algorithms},'' Aug. 2012.
 \newblock arXiv:1206.2944 [cs, stat].
+
+\bibitem{noauthor_cors_nodate}
+``{CORS} and {Ohio} {Real} {Time} {Network} ({RTN}) {\textbar} {Ohio}
+  {Department} of {Transportation}.''
+
+\bibitem{noauthor_pwrpak7_nodate}
+``{PwrPak7} {IMU} {Specifications}.''
 
 \end{thebibliography}

@@ -25,10 +25,6 @@ Repeated entry---line 2656 of file resources.bib
  : @inproceedings{reymann_improving_2015
  :                                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2951 of file resources.bib
- : @article{wietrzykowski_boosting_2014
- :                                     ,
-I'm skipping whatever remains of this entry
 Warning--empty journal in seker_experiments_nodate
 Warning--empty year in seker_experiments_nodate
 Warning--empty journal in smadja_road_nodate
@@ -44,36 +40,36 @@ Warning--empty journal in wallach_conditional_nodate
 Warning--empty year in wallach_conditional_nodate
 Warning--empty journal in haselich_terrain_2011
 Warning--empty booktitle in dupont_online_2008
-You've used 63 entries,
+You've used 65 entries,
             1876 wiz_defined-function locations,
-            830 strings with 16837 characters,
-and the built_in function-call counts, 19169 in all, are:
-= -- 1943
-> -- 711
+            835 strings with 17114 characters,
+and the built_in function-call counts, 19377 in all, are:
+= -- 1958
+> -- 716
 < -- 0
-+ -- 259
-- -- 196
-* -- 1409
-:= -- 2572
++ -- 262
+- -- 197
+* -- 1414
+:= -- 2594
 add.period$ -- 80
-call.type$ -- 63
-change.case$ -- 63
+call.type$ -- 65
+change.case$ -- 65
 chr.to.int$ -- 0
-cite$ -- 78
-duplicate$ -- 960
-empty$ -- 1766
-format.name$ -- 196
-if$ -- 4677
+cite$ -- 80
+duplicate$ -- 968
+empty$ -- 1802
+format.name$ -- 197
+if$ -- 4733
 int.to.chr$ -- 0
-int.to.str$ -- 63
+int.to.str$ -- 65
 missing$ -- 56
-newline$ -- 213
-num.names$ -- 65
-pop$ -- 233
+newline$ -- 219
+num.names$ -- 66
+pop$ -- 244
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 776
+skip$ -- 792
 stack$ -- 0
 substring$ -- 1464
 swap$ -- 429
@@ -82,7 +78,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 15
-while$ -- 202
-width$ -- 65
-write$ -- 614
-(There were 6 error messages)
+while$ -- 203
+width$ -- 67
+write$ -- 625
+(There were 5 error messages)
