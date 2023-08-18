@@ -237,7 +237,7 @@
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=0.75\linewidth]{figures/combined_pcd_example}
-				\caption[Aggregated Point Cloud Data]{Point cloud of scanning LiDAR data using GPS and IMU data to determine point of origin and orientation for the LiDAR was used to create a combined point cloud map.}
+				\caption[Aggregated Point Cloud Data]{Point cloud of scanning LiDAR data using GPS and IMU data to determine point of origin and orientation for the LiDAR was used to create a combined point cloud map. Intensity informs point color in this example image.}
 				\label{fig:pc_example}
 			\end{figure}
 		
@@ -253,7 +253,7 @@
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=0.75\linewidth]{figures/test_vs_train_areas_hatch}
-				\caption[Training vs Testing Areas]{Training areas were kept separate from the testing areas.}
+				\caption[Training vs Testing Areas]{Training areas were kept separate from the testing areas, shown is a close-up, top-down view of the road of interest. }
 				\label{fig:test_vs_train_areas}
 			\end{figure}
 			
@@ -329,17 +329,17 @@
 				\label{fig:visual_v_auto}
 			\end{figure}
 			
-			\begin{figure}[H]
-				\centering
-				\includegraphics[width=0.9\linewidth]{figures/auto_guess_v_truth}
-				\caption[Projected Guess over Time vs Truth]{Aggregated automated road projection based on classification results.}
-				\label{fig:auto_guess_v_truth}
-			\end{figure}
+%			\begin{figure}[H]
+%				\centering
+%				\includegraphics[width=0.9\linewidth]{figures/auto_guess_v_truth}
+%				\caption[Projected Guess over Time vs Truth]{Aggregated automated road projection based on classification results.}
+%				\label{fig:auto_guess_v_truth}
+%			\end{figure}
 			
 				
 	\section{Results}
 	
-		{Training and verification LiDAR, GPS, and IMU data collection was completed using the Experimental Apparatus. Gravel data was gathered from the Redmen Lodge gravel parking lot, while grass data was gathered beside the lot. Asphalt data was gathered Blackburn Road. Found research did not make any conclusive arguments for the proper training data set size for Random Decision Forest training; however, for this study the algorithm that produced the final results used multiple thousands of data sets per class. Results were compared to algorithms trained with smaller data sets, OH YEAH WHERE'S THE PROOF HONEY?. Training data was generated using MATLAB to extract LiDAR data from rosbags, and RDF classification algorithms were generated. Testing consecutive scans was completed by post processing rosbags that contained scanning LiDAR, GPS, and IMU data. Physical distances between the GPS, IMU, and LiDAR were rectified by measuring the distance between the modules. Rotational reference frames between the GPS, IMU, and LiDAR were rectified by applying appropriate rotational matrices. Transformation matrices were created by considering the GPS position and the IMU's roll, pitch, and yaw data. Three scanning LiDAR arcs from three channels in front of the vehicle were classified. Translation and rotation was applied to the averaged x, y, and z coordinates of each arc's terrain classification results. Consecutive scanning LiDAR data was projected on manually classified truth areas representing road road surfaces (Figure \ref{fig:prepostadjust}) and percentages of terrain types per area were calculated.}
+		{Training and verification LiDAR, GPS, and IMU data collection was completed using the Experimental Apparatus. Gravel data was gathered from the Redmen Lodge gravel parking lot, while grass data was gathered beside the lot. Asphalt data was gathered Blackburn Road. Found research did not make any conclusive arguments for the proper training data set size for Random Decision Forest training; however, for this study the algorithm that produced the final results used multiple thousands of data sets per class. Training data was generated using MATLAB to extract LiDAR data from rosbags, and RDF classification algorithms were generated. Testing consecutive scans was completed by post processing rosbags that contained scanning LiDAR, GPS, and IMU data. Physical distances between the GPS, IMU, and LiDAR were rectified by measuring the distance between the modules. Rotational reference frames between the GPS, IMU, and LiDAR were rectified by applying appropriate rotational matrices. Transformation matrices were created by considering the GPS position and the IMU's roll, pitch, and yaw data. Three scanning LiDAR arcs from three channels in front of the vehicle were classified. Translation and rotation was applied to the averaged x, y, and z coordinates of each arc's terrain classification results. Consecutive scanning LiDAR data was projected on manually classified truth areas representing road road surfaces (Figure \ref{fig:prepostadjust}) and percentages of terrain types per area were calculated.}
 		
 		\begin{table}[t]
 			
@@ -358,7 +358,7 @@
 			\caption[Table]{Average Results\label{tab:1}}
 		\end{table}
 	
-		{Classification of real-world data outside of the training data set presents difficulties to the generated Random Decision Forest Classifiers generated in this work. Due to the side of the road being re-grassed near a portion of the asphalt road, the terrain classification algorithm struggled to differentiate the dirt from gravel, leading to some misclassification of the side-of-road areas. Examination of the feature distribution shows a high amount of overlap (Fig. \ref{fig:dirt_v_gravel}). Exploitation of confidence scores to adjust results by requiring a very high confidence for positive gravel surface classification was explored. All gravel surfaces that did not meet a 80\% confidence score was re-labeled as \textit{unknown}, however these adjustment had either a negligible or detrimental impact on the final results. Higher confidence score requirements resulted in \textit{unknown} over-classification, while too low resulted in \textit{gravel} over-classification. Overall it was found that an average true-positive accuracy of all intersecting gravel surfaces was 74.97\% (Fig. \ref{fig:prepostadjust}). If any asphalt miss-classification on the gravel areas is included, the average true-positive road detection accuracy increases to 79.18\%. It was found that an average true-positive accuracy of all asphalt surfaces was 87.05\%. Due to recent construction, discovered asphalt accuracy was artificially lowered due to the area in front of a gravel driveway being contaminated with gravel. It was found that an average of 18.55\% of asphalt areas were classified as gravel because of contamination. Differentiation between gravel road surfaces and surrounding terrain is necessary to determine boundaries for trajectory tracking and navigation. Overall average distribution for \textit{unknown} terrain class within side-of-road areas was found to be 77.94\%, which is lower than expected due to the side of the road being re-grassed. It is acknowledged by the authors that the classification algorithm must yield a result that most closely matches one of the trained classes, which led to lower accuracy scores in these circumstances. Overall discovered accuracy levels may be sufficient for the purpose of identifying asphalt and gravel roads by considering trends between classified arcs.}
+		{Classification of real-world data outside of the training data set presents difficulties to the generated Random Decision Forest Classifiers generated in this work. Due to the side of the road being re-grassed near a portion of the asphalt road, the terrain classification algorithm struggled to differentiate the dirt from gravel, leading to some misclassification of the side-of-road areas. Examination of the feature distribution shows a high amount of overlap (Fig. \ref{fig:dirt_v_gravel}). Exploitation of confidence scores to adjust results by requiring a very high confidence for positive gravel surface classification was explored. All gravel surfaces that did not meet a 80\% confidence score was re-labeled as \textit{unknown}, however these adjustment had either a negligible or detrimental impact on the final results. Higher confidence score requirements resulted in \textit{unknown} over-classification, while too low resulted in \textit{gravel} over-classification. Overall it was found that an average true-positive accuracy of all intersecting gravel surfaces was 74.97\% (Fig. \ref{fig:prepostadjust}). If any asphalt miss-classification on the gravel areas is included, the average true-positive road detection accuracy increases to 79.18\%. It was found that an average true-positive accuracy of all asphalt surfaces was 87.05\%. Due to recent construction, discovered asphalt accuracy was artificially lowered due to the area in front of a gravel driveway being contaminated with gravel. It was found that an average of 18.55\% of asphalt areas were classified as gravel because of contamination. Differentiation between gravel road surfaces and surrounding terrain is necessary to determine boundaries for trajectory tracking and navigation. Overall average distribution for \textit{unknown} terrain class within side-of-road areas was found to be 77.94\%, which is lower than expected due to the side of the road being re-grassed. It is acknowledged by the authors that the classification algorithm must yield a result that most closely matches one of the trained classes, which led to lower accuracy scores in these circumstances. Results were compared to algorithms trained with smaller data sets in order to determine if the training data was sufficiently large for this specific scenario. Using 25\% and 50\% of total available training data yielded poor results compared to shown, however using 75\% of all available training data yielded results comparable to the shown results, indicating that the training data set is sufficient for this specific scenario. Overall discovered accuracy levels may be sufficient for the purpose of identifying asphalt and gravel roads by considering trends between classified arcs.}
 		
 		\begin{figure}[H]
 			\centering
