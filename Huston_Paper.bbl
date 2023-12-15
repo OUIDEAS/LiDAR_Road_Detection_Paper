@@ -32,10 +32,10 @@ Z.~Liu, J.~Wang, and D.~Liu, ``A {New} {Curb} {Detection} {Method} for
 \newblock Number: 1 Publisher: Multidisciplinary Digital Publishing Institute.
 
 \bibitem{qiu_fast_2016}
-K.~Qiu, K.~Sun, K.~Ding, and Z.~Shu, ``A {FAST} {AND} {ROBUST} {ALGORITHM}
-  {FOR} {ROAD} {EDGES} {EXTRACTION} {FROM} {LIDAR} {DATA},'' {\em ISPRS -
-  International Archives of the Photogrammetry, Remote Sensing and Spatial
-  Information Sciences}, vol.~XLI-B5, pp.~693--698, June 2016.
+K.~Qiu, K.~Sun, K.~Ding, and Z.~Shu, ``A fast and robust algorithm for road
+  edges extraction from lidar data,'' {\em ISPRS - International Archives of
+  the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  vol.~XLI-B5, pp.~693--698, June 2016.
 
 \bibitem{fernandes_road_2014}
 R.~Fernandes, C.~Premebida, P.~Peixoto, D.~Wolf, and U.~Nunes, ``Road
@@ -317,6 +317,28 @@ S.~Wang, S.~Kodagoda, L.~Shi, and X.~Dai, ``Two-{Stage} {Road} {Terrain}
   vol.~33, pp.~29--39, Jan. 2018.
 \newblock Conference Name: IEEE Intelligent Systems.
 
+\bibitem{fernandez_delgado_we_nodate}
+M.~Fernandez-Delgado, E.~Cernadas, S.~Barro, and D.~Amorim, ``Do we {Need}
+  {Hundreds} of {Classiﬁers} to {Solve} {Real} {World} {Classiﬁcation}
+  {Problems}?,''
+
+\bibitem{nawar_comparison_2017}
+S.~Nawar and A.~Mouazen, ``Comparison between {Random} {Forests}, {Artificial}
+  {Neural} {Networks} and {Gradient} {Boosted} {Machines} {Methods} of
+  {On}-{Line} {Vis}-{NIR} {Spectroscopy} {Measurements} of {Soil} {Total}
+  {Nitrogen} and {Total} {Carbon},'' {\em Sensors}, vol.~17, p.~2428, Oct.
+  2017.
+
+\bibitem{rosbach_neural_nodate}
+D.~P. Roßbach, ``Neural {Networks} vs. {Random} {Forests} – {Does} it always
+  have to be {Deep} {Learning}?,''
+
+\bibitem{ahmad_trees_2017}
+M.~W. Ahmad, M.~Mourshed, and Y.~Rezgui, ``Trees vs {Neurons}: {Comparison}
+  between random forest and {ANN} for high-resolution prediction of building
+  energy consumption,'' {\em Energy and Buildings}, vol.~147, pp.~77--89, July
+  2017.
+
 \bibitem{ho_random_1995}
 T.~K. Ho, ``Random decision forests,'' in {\em Proceedings of 3rd
   {International} {Conference} on {Document} {Analysis} and {Recognition}},
@@ -356,5 +378,9 @@ J.~Snoek, H.~Larochelle, and R.~P. Adams, ``Practical {Bayesian} {Optimization}
 
 \bibitem{noauthor_pwrpak7_nodate}
 ``{PwrPak7} {IMU} {Specifications}.''
+
+\bibitem{noauthor_pdf_nodate}
+``({PDF}) {Classification} and identification of small objects in complex
+  urban-forested {LIDAR} data using machine learning.''
 
 \end{thebibliography}

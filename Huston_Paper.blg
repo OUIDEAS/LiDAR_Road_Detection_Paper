@@ -25,6 +25,10 @@ Repeated entry---line 2656 of file resources.bib
  : @inproceedings{reymann_improving_2015
  :                                      ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 3117 of file resources.bib
+ : @article{rosbach_neural_nodate
+ :                               ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in seker_experiments_nodate
 Warning--empty year in seker_experiments_nodate
 Warning--empty journal in smadja_road_nodate
@@ -40,45 +44,49 @@ Warning--empty journal in wallach_conditional_nodate
 Warning--empty year in wallach_conditional_nodate
 Warning--empty journal in haselich_terrain_2011
 Warning--empty booktitle in dupont_online_2008
-You've used 65 entries,
+Warning--empty journal in fernandez_delgado_we_nodate
+Warning--empty year in fernandez_delgado_we_nodate
+Warning--empty journal in rosbach_neural_nodate
+Warning--empty year in rosbach_neural_nodate
+You've used 70 entries,
             1876 wiz_defined-function locations,
-            835 strings with 17114 characters,
-and the built_in function-call counts, 19377 in all, are:
-= -- 1958
-> -- 716
+            854 strings with 18080 characters,
+and the built_in function-call counts, 20315 in all, are:
+= -- 2040
+> -- 754
 < -- 0
-+ -- 262
-- -- 197
-* -- 1414
-:= -- 2594
-add.period$ -- 80
-call.type$ -- 65
-change.case$ -- 65
++ -- 277
+- -- 207
+* -- 1480
+:= -- 2723
+add.period$ -- 82
+call.type$ -- 70
+change.case$ -- 70
 chr.to.int$ -- 0
-cite$ -- 80
-duplicate$ -- 968
-empty$ -- 1802
-format.name$ -- 197
-if$ -- 4733
+cite$ -- 89
+duplicate$ -- 1020
+empty$ -- 1899
+format.name$ -- 207
+if$ -- 4959
 int.to.chr$ -- 0
-int.to.str$ -- 65
-missing$ -- 56
-newline$ -- 219
-num.names$ -- 66
-pop$ -- 244
+int.to.str$ -- 70
+missing$ -- 60
+newline$ -- 234
+num.names$ -- 70
+pop$ -- 267
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 792
+skip$ -- 831
 stack$ -- 0
-substring$ -- 1464
-swap$ -- 429
+substring$ -- 1496
+swap$ -- 445
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 15
-while$ -- 203
-width$ -- 67
-write$ -- 625
-(There were 5 error messages)
+warning$ -- 19
+while$ -- 211
+width$ -- 72
+write$ -- 662
+(There were 6 error messages)
