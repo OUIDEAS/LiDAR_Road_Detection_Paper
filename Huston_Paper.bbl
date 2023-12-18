@@ -317,6 +317,12 @@ S.~Wang, S.~Kodagoda, L.~Shi, and X.~Dai, ``Two-{Stage} {Road} {Terrain}
   vol.~33, pp.~29--39, Jan. 2018.
 \newblock Conference Name: IEEE Intelligent Systems.
 
+\bibitem{lei_detection_2021}
+G.~Lei, R.~Yao, Y.~Zhao, and Y.~Zheng, ``Detection and {Modeling} of
+  {Unstructured} {Roads} in {Forest} {Areas} {Based} on {Visual}-{2D} {Lidar}
+  {Data} {Fusion},'' {\em Forests}, vol.~12, p.~820, July 2021.
+\newblock Number: 7 Publisher: Multidisciplinary Digital Publishing Institute.
+
 \bibitem{fernandez_delgado_we_nodate}
 M.~Fernandez-Delgado, E.~Cernadas, S.~Barro, and D.~Amorim, ``Do we {Need}
   {Hundreds} of {Classiﬁers} to {Solve} {Real} {World} {Classiﬁcation}

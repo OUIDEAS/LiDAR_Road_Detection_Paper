@@ -48,45 +48,45 @@ Warning--empty journal in fernandez_delgado_we_nodate
 Warning--empty year in fernandez_delgado_we_nodate
 Warning--empty journal in rosbach_neural_nodate
 Warning--empty year in rosbach_neural_nodate
-You've used 70 entries,
+You've used 71 entries,
             1876 wiz_defined-function locations,
-            854 strings with 18080 characters,
-and the built_in function-call counts, 20315 in all, are:
-= -- 2040
-> -- 754
+            862 strings with 18362 characters,
+and the built_in function-call counts, 20577 in all, are:
+= -- 2066
+> -- 768
 < -- 0
-+ -- 277
-- -- 207
-* -- 1480
-:= -- 2723
-add.period$ -- 82
-call.type$ -- 70
-change.case$ -- 70
++ -- 282
+- -- 211
+* -- 1500
+:= -- 2763
+add.period$ -- 84
+call.type$ -- 71
+change.case$ -- 71
 chr.to.int$ -- 0
-cite$ -- 89
-duplicate$ -- 1020
-empty$ -- 1899
-format.name$ -- 207
-if$ -- 4959
+cite$ -- 90
+duplicate$ -- 1034
+empty$ -- 1918
+format.name$ -- 211
+if$ -- 5023
 int.to.chr$ -- 0
-int.to.str$ -- 70
-missing$ -- 60
-newline$ -- 234
-num.names$ -- 70
-pop$ -- 267
+int.to.str$ -- 71
+missing$ -- 61
+newline$ -- 238
+num.names$ -- 71
+pop$ -- 268
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 831
+skip$ -- 842
 stack$ -- 0
-substring$ -- 1496
-swap$ -- 445
+substring$ -- 1502
+swap$ -- 452
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 19
-while$ -- 211
-width$ -- 72
-write$ -- 662
+while$ -- 213
+width$ -- 73
+write$ -- 674
 (There were 6 error messages)
