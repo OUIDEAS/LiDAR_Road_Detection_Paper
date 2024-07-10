@@ -1,0 +1,552 @@
+          
+
+\documentclass[journal,onecolumn]{IEEEtran}
+
+\hyphenation{op-tical net-works semi-conduc-tor}
+\usepackage[square,sort&compress,numbers]{natbib}
+\usepackage[margin=1in]{geometry}
+\usepackage{textcomp} 
+\usepackage{amssymb}  
+\usepackage{bm}       
+\usepackage{booktabs}
+\usepackage{dcolumn}  
+\usepackage{ragged2e}
+\usepackage{graphicx} 
+\usepackage{float}
+\usepackage{rotating}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{array}
+\usepackage[printonlyused]{acronym}
+\usepackage[framed, numbered]{matlab-prettifier}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{times}
+\usepackage{indentfirst}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{attachfile}
+%\usepackage{tabularray}
+
+% Table Stuff
+\newcommand{\spheading}[2][9.5em]{% \spheading[<width>]{<stuff>}
+	\rotatebox{90}{\parbox{#1}{\raggedright #2}}}
+
+
+\renewcommand{\footnoterule}{\vspace*{1.5ex}\noindent\rule{\linewidth}{0.4pt}\vspace*{1ex}}
+\setlength{\skip\footins}{1.5ex}
+
+\begin{document}
+	%
+	% paper title
+	% Titles are generally capitalized except for words such as a, an, and, as,
+	% at, but, by, for, in, nor, of, on, or, the, to and up, which are usually
+	% not capitalized unless they are the first or last word of the title.
+	% Linebreaks \\ can be used within to get better formatting as desired.
+	% Do not put math or special symbols in the title.
+	\title{Enhance Road Detection Data Processing of LiDAR Point Clouds to Specifically Identify Unmarked Gravel Rural Roads}
+	%
+	%
+	% author names and IEEE memberships
+	% note positions of commas and nonbreaking spaces ( ~ ) LaTeX will not break
+	% a structure at a ~ so this keeps an author's name from being broken across
+	% two lines.
+	% use \thanks{} to gain access to the first footnote area
+	% a separate \thanks must be used for each paragraph as LaTeX2e's \thanks
+	% was not built to handle multiple paragraphs
+	%
+	
+	\author{Rhett G. Huston\textsuperscript{\textdagger}\thanks{\textsuperscript{\textdagger} Graduate Research Assistant, Mechanical Engineering, Ohio University, Athens, Ohio, 45701, Student Member}, Jay P. Wilhelm\textsuperscript{\textdaggerdbl}\thanks{\textsuperscript{\textdaggerdbl} Associate Professor, Mechanical Engineering, Ohio University, Athens, Ohio 45701, Senior Member}}
+	
+	
+	
+	
+%	{
+%		and~Jane~Doe,~\IEEEmembership{Life~Fellow,~IEEE}% <-this % stops a space
+%		\thanks{M. Shell was with the Department
+%			of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta,
+%			GA, 30332 USA e-mail: (see http://www.michaelshell.org/contact.html).}% <-this % stops a space
+%		\thanks{J. Doe and J. Doe are with Anonymous University.}% <-this % stops a space
+%		\thanks{Manuscript received April 19, 2005; revised August 26, 2015.}}
+	
+	% note the % following the last \IEEEmembership and also \thanks - 
+	% these prevent an unwanted space from occurring between the last author name
+	% and the end of the author line. i.e., if you had this:
+	% 
+	% \author{....lastname \thanks{...} \thanks{...} }
+	%                     ^------------^------------^----Do not want these spaces!
+	%
+	% a space would be appended to the last name and could cause every name on that
+	% line to be shifted left slightly. This is one of those "LaTeX things". For
+	% instance, "\textbf{A} \textbf{B}" will typeset as "A B" not "AB". To get
+	% "AB" then you have to do: "\textbf{A}\textbf{B}"
+	% \thanks is no different in this regard, so shield the last } of each \thanks
+% that ends a line with a % and do not let a space in before the next \thanks.
+% Spaces after \IEEEmembership other than the last one are OK (and needed) as
+% you are supposed to have spaces between the names. For what it is worth,
+% this is a minor point as most people would not even notice if the said evil
+% space somehow managed to creep in.
+
+
+
+% The paper headers
+\markboth{Journal of Autonomous Vehicles and Systems}%
+{}
+% The only time the second header will appear is for the odd numbered pages
+% after the title page when using the twoside option.
+% 
+% *** Note that you probably will NOT want to include the author's ***
+% *** name in the headers of peer review papers.                   ***
+% You can use \ifCLASSOPTIONpeerreview for conditional compilation here if
+% you desire.
+
+% If you want to put a publisher's ID mark on the page you can do it like
+% this:
+%\IEEEpubid{0000--0000/00\$00.00~\copyright~2015 IEEE}
+% Remember, if you use this you must call \IEEEpubidadjcol in the second
+% column for its text to clear the IEEEpubid mark.
+
+
+
+% use for special paper notices
+%\IEEEspecialpapernotice{(Invited Paper)}
+
+
+
+
+% make the title area
+\maketitle
+
+% As a general rule, do not put math, special symbols or citations
+% in the abstract or keywords.
+\begin{abstract}{
+		
+		{Gravel roads lack standardized features such as curbs or painted lines, presenting detection challenges to autonomous vehicles. Global Positioning Service (GPS) and high resolution maps may not be reliable for navigation of gravel roads, as some roads may only be width of the vehicle and GPS may not be accurate enough. Normal Distribution Transform (NDT) LiDAR scan matching may be insufficient for navigating on gravel roads as there may not be enough geometrically distinct features for reliable scan matching. Completed work will examine a method of classifying scanning LiDAR spatial and remission data features for explicit detection of unmarked gravel road surfaces. Exploration of terrain classification using high resolution scanning LiDAR data of these road surfaces may allow for predicting gravel road boundary locations potentially enabling confident autonomous operations on gravel roads. The principal outcome of this work was a method for gravel road terrain detection using LiDAR data for the purpose of predicting potential road boundary locations. Random Decision Forests were trained using scanning LiDAR data terrain classification to detect unmarked gravel and asphalt surfaces. It was found that a true-positive accuracy for gravel and asphalt surfaces was 67.54\% and 87.05\% respectively at an estimated rate of 13.19 ms per 360 degree scan. Overlapping results between manually projected and actual road surface areas resulted in 93.33\% intersecting gravel road detection accuracy. Automated post-process examination of classification results yielded an  true-positive gravel road detection rate of 71.67\%. Detection of unmarked road surfaces would increase the operational region capabilities of self driving vehicles considerably by allowing autonomous operations on previously undetected roads.}	
+		
+	}	
+\end{abstract}
+
+%%%%%%%%%  NOMENCLATURE (OPTIONAL) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% To change space between the symbols and  definitions, use \begin{nomenclature}[Xcm] where X is a number 
+	%% The unit cm can be replaced by any LaTeX unit of dimension: pt, in, ex, em, pc, etc.
+	%% Default is 2em.
+	%% \EntryHeading{..} produces an italicized subheading in the nomenclature list, e.g., \EntryHeading{Greek letters}
+	
+	
+	
+	%%%%%%%%%  BODY OF PAPER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\section{Introduction}
+	
+	% Autonomous vehicles have difficulty detecting rural unpaved gravel roads due to lack of standardized features such as curbs and painted lane lines. 
+	%	Autonomous vehicles have relied upon standardized road features such as curbs and painted lane lines or high definition maps paired with precision GPS for navigational solutions. 
+	% LiDAR has been used by autonomous vehicles for road edge detection purposes, however challenges arise when trajectory solutions are required on unpaved gravel and chipseal roads due to the lack of standardized road features such as curbs and painted lane lines.
+	
+	% Current methods of road surface analysis rely on cameras and Light Detection and Ranging (LiDAR) sensors to detect standardized road features, however on gravel roads such attributes are non-existent \cite{skorseth_gravel_nodate}.
+	
+	{Gravel roads comprise 34.8\% \cite{road_stats_2} of all road surfaces in the United States. Some nations have predominately unpaved road networks, such as India, where 70.7\% of all roads by mile are categorized as unpaved \cite{malik_lal_2019}. Detection of gravel roads may allow for expansion of current civilian autonomous vehicle capabilities as well as introduce opportunities for industries that operate in rural areas. Global Positioning Service (GPS) and high resolution maps should not be relied upon for navigation of rural roads alone as GPS is not accurate enough or may not have a reliable signal for precision driving \cite{noauthor_gpsgov_nodate}, and gravel roads are not marked or mapped. Systems that rely on cameras may fail when analyzing gravel roads, as these lack visual cues such as painted lane markings \cite{crisman_scarf_1993} and may in some circumstances closely resemble surrounding terrain. LiDAR point cloud processing systems depend upon distinct geometric features, most commonly curbs \cite{yadav_extraction_2017,liu_new_2013,qiu_fast_2016,fernandes_road_2014,seker_experiments_nodate,yang_semi-automated_2013,miyazaki_line-based_2014,hervieu_road_2013,smadja_road_nodate}, however as curbs are not installed on rural gravel roads \cite{skorseth_gravel_nodate} this method breaks down. Normal Distribution Transform (NDT) scan matching analytically compares two point cloud data sets to track current position, however this model relies on distinct geometric features, and suffers when distinguishing between terrain types making it insufficient for determining road boundaries and type \cite{biber_normal_2003}. Using 2D projection of planes unto a 3D point cloud of a road surface is an alternative approach, but likewise requires curbs or painted lines for road boundary definition \cite{fernandes_road_2014, borkar_robust_2009-1, guo_lane_2015}. Instead, using LiDAR may overcome difficulties in achieving detection of gravel roads by using terrain classification to predict road surface location and type.}
+	
+	{Detection of unmarked road surfaces may utilize roughness properties without distinct markings or topographical features. Surface roughness is a measurable property that may be used to characterize a gravel road, as they are typically consistent with gravel type used \cite{skorseth_gravel_nodate} which may be exploited in a search and compare function, and is distinct from chipseal, grass, and other ground types \cite{wan_road_2007, levi_3d_2012_light, levi_3d_2012_terrain}. Surface roughness properties may be derived from processing LiDAR spatial and remission data from an aerial and surface level perspective \cite{wan_road_2007, levi_3d_2012_light, levi_3d_2012_terrain, pollyea_experimental_2012,rychkov_computational_2012,lague_accurate_2013,brubaker_use_2013,turner_estimation_2014,campbell_lidar-based_2017,shepard_roughness_2001,tegowski_statistical_2016,sock_probabilistic_2016,milenkovic_roughness_2018,yadav_extraction_2017, yadav_rural_2018}. Implementing a Random Decision Forests (RDF) terrain classification model using subsets of a single 360 degree scan of LiDAR data to exploit surface properties was studied to determine the method's feasibility in road surface detection, without using a-priori knowledge of the road, additional sensors, nor memory of previous classifications. While an established method for terrain classification, to the author's best knowledge RDFs in found literature were not employed for the detection of road surface area and type using small portions of a single LiDAR scan and the other aforementioned limitations within the context of an unstructured environment, making the approach used in this work is a novel one. Evaluation of the detection model will rely principally upon accuracy of projected road location and surface type, as a moving vehicle must obtain reliable information of the road surface location and type to inform trajectory updates, or else risk suffering an accident.}
+	
+%	Real-time detection of road surfaces limits the available computational time required for low-latency vehicle trajectory updates, prohibiting the collection of larger point LiDAR point clouds.
+	
+	\subsection{Related Work}
+	
+	{Current LiDAR based road surface detection models may be categorized into two methodologies. First is the analysis of road surface properties, which considers aspects such as topology and surface roughness. Detection based on road surface smoothness was studied by segmenting the point cloud into candidate road surface regions and searching for elevation jumps \cite{liu_new_2013}. Second is the detection of roadside curbs, which relies upon the height difference between the road surface and the curb for road edge detection. LiDAR point density at a curb's upper and lower edges can be used to indicate road edges \cite{ibrahim_curb-based_2012}. Fernandes et al. propose a road surface detection method using LiDAR \cite{fernandes_road_2014}, by projecting a 2D reference plane unto the 3D LiDAR data. In this study, road surfaces are assumed to be flat regions between two elevated regions such as curbs. Cameras have been used to supplement LiDAR point cloud data, which can implement 3D colored elevation maps to match pre-stored geometry data in a modified Iterative Closest Point (ICP) algorithm \cite{manz_detection_2011}. Supervised Classification Applied to Road Following (SCARF) is an algorithm that detects road surfaces based on color differences between the road and the surrounding terrain \cite{crisman_scarf_1993}. It was found that difficulties arise when detecting road surfaces in less colored environments \cite{crisman_scarf_1993,manz_detection_2011}.}
+	
+	{Processing rural gravel roads cannot rely on normalized, consistent features found on urban roads such as curbs, as rural roads lack these features \cite{skorseth_gravel_nodate}. As such, many of the proposed models are rendered unserviceable, as they rely on curbs or painted lines to offer distinctions in data sets \cite{yadav_extraction_2017,liu_new_2013,qiu_fast_2016,fernandes_road_2014,seker_experiments_nodate,yang_semi-automated_2013,miyazaki_line-based_2014,hervieu_road_2013,smadja_road_nodate}.}
+	
+%	{Further limitations are imposed when considering data set size and processing speed. Real time trajectory updates to the vehicle in motion requires low latency road surface analysis, denying the use of methods that require post-processing due to high computational loads. Real time analysis of road surfaces dictates that trajectory updates to the vehicle in motion must have low latency, which prohibits the relatively lengthy collection of large data sets or any form of post-processing. Proposed methods \cite{yadav_extraction_2017,yadav_road_2018,yadav_rural_2018,yadav_pole-shaped_2015,miyazaki_line-based_2014,yang_semi-automated_2013,liu_new_2013,qiu_fast_2016} do not indicate the minimum number of points required for road surface detection, however large data sets numbering many millions of points are used in those studies. Computation efficiency of road surface detection is mentioned only by a few studies, such as the one completed by Yadav et al \cite{yadav_road_2018}. Principal component analysis on the height of each LiDAR data point was proposed to detect a straight, curb-less gravel road with low computation time \cite{yadav_road_2018}. However a computational time of 24 minutes was required to process a 156 meter stretch of road, rendering real time detection impossible.}
+%	
+	{Further limitations are imposed when considering data set size, as a vehicle must generate trajectory solutions based on what the sensors currently see at the vehicle's current location. Post-processing aggregated data for the purpose of road surface detection presumes that a vehicle is able to navigate the area without the use of any sensors. Proposed methods \cite{yadav_extraction_2017,yadav_road_2018,yadav_rural_2018,yadav_pole-shaped_2015,miyazaki_line-based_2014,yang_semi-automated_2013,liu_new_2013,qiu_fast_2016} do not indicate the minimum number of points required for road surface detection, however those studies post-processed data sets with many millions of points.}
+	
+	{Classification of the surrounding environment is an integral part to the proposed work, as differentiation of gravel road surfaces and surrounding terrain is necessary to determine road boundaries and type. Terrain classification is the analysis of the ground surface in order to specify the ground surface type \cite{laible_3d_2012,laible_terrain_2013,laible_map_building,rasmussen_combining_2002,reymann_improving_2015,walas_terrain_2014,wietrzykowski_boosting_2014,wang_road_nodate}. LiDAR and camera based real-time terrain classification was studied by projecting a 2D plane unto the point cloud data using a variant of Random Sample Consensus (RANSAC) called M-estimator Sample Consensus (MSAC) \cite{mijakovska_generating_2014} that is built for a more robust result \cite{laible_3d_2012,laible_map_building,laible_terrain_2013}. After segmenting the plane into cells, roughness and intensity histograms were analyzed on a per-cell basis. Markov Random Field (MRF) \cite{chellappa_classification_1985} and Conditional Random Field (CRF) \cite{wallach_conditional_nodate} were compared in their ability to compare individual cells with neighboring cells. Comparison with neighboring cells increases classification type accuracy, as adjacent cell are likely to have the same terrain type \cite{haselich_terrain_2011,zhao_fusion_2014}. It was found that CRF was better suited for classification, however this work did not use the method to study road projection and used cameras which may not be reliable for terrain classification \cite{levi_3d_2012_light}.}
+	
+	{Random Decision Forest (RDF) classification showed results for identification of analysis of LiDAR and camera data \cite{breiman_random_2001}, and was used to predict cell terrain into one of five types, including gravel and grass. It was found that characterizing the LiDAR intensity as Gaussian distributed noise yielded poor results with only a 49.5\% true positive rate, however a low-resolution LiDAR was used \cite{rauscher_comparison_2016} and this method was not employed in road identification. Higher resolution LiDAR that produces a high density point cloud, such as the Velodyne VLP-32 that will be used in the proposed work \cite{vlp_32c}, may allow for better terrain classification. Edmond et al. proposed a method to detect terrain type through implementation of vehicle vibration, however this method is limited to what the vehicle is currently driving over and thus cannot detect future unmarked road surfaces \cite{dupont_online_2008}. Filitchkin et al. proposed a method to detect terrain type using a downward orientated camera for use in a small robotic dog; however, this method was not extended to explore terrain surrounding the robot \cite{filitchkin_feature_based_2012}. Weska et al. proposed a method of terrain classification through aerial photography; however, the implementation on a road vehicle was not explored \cite{weszka_comparative_1976}. Obstacle detection using a single axis LiDAR was studied \cite{manduchi_obstacle_2005}; however, this method could not detect road surfaces, only obstacles in roads. Terrain classification using cameras for use in off-road robots was studied \cite{walch_offroad_2022}; however, the method focuses on terrain traversability, and ambient conditions may lower classification accuracy \cite{levi_3d_2012_light}. }
+	
+	{Neural Networks and similar machine learning tools may be used in terrain and road identification. Road classification with LiDAR spacial and remission features was completed with Neural Network classifier, Naive Bayes classifier, and Support Vector Machines (SVM) \cite{wang_road_nodate,wang_two-stage_2018}. Gravel surfaces were successfully identified with a 98.5\% true positive identification rate; however, the method was only focused on classifying road surface type directly behind the vehicle, and was not tested for informing vehicle trajectory based on forward-projected road surface areas. MATLAB's Neural Network tools were used in autonomous road identification using LiDAR and Camera data \cite{rasmussen_combining_2002}; however, cameras may not be relied upon for ambient conditions may affect classification accuracy \cite{levi_3d_2012_light}. Terrain classification was completed using Support Vector Machine (SVM), a classification algorithm where a line is drawn between two different categories to differentiate between them \cite{wietrzykowski_boosting_2014}. Histograms and averages for image hue, saturation, and color value, along with LiDAR intensity were used as points of classification for different terrain types. Although a 96\% true positive rate was reported for a rocky surface, the process was not tested for road detection. Lei et al suggest a method using an SVM for the detection of unstructured dirt and gravel roads using a 2D LiDAR and a camera \cite{lei_detection_2021}, however the method does not use a 3D scanning LiDAR and cameras may be insufficient for reliable road detection \cite{levi_3d_2012_light}. Fernandez-Delgado et al found that RDFs out-performed other machine learning algorithms, including NNs, when classifying 121 data sets taken from the UCI data base \cite{fernandez2014we}. Therefore while both Neural Networks and RDFs have been used to classify scanning LiDAR data, a RDF classifier was chosen. Furthermore, RDFs are less complex to train, able to be trained with smaller data sets, and are generally easier to interpret \cite{nawar_comparison_2017, bernatz2020comparison, ahmad2017trees}.}
+	
+	{RDFs are a supervised machine learning method that operates on a set of decision trees \cite{ho_random_1995}. RDFs have been shown to be useful with handling LiDAR data sets \cite{breiman_random_2001}, and have been employed in terrain classification \cite{laible_3d_2012,laible_map_building,laible_terrain_2013,khan_high_2011,reymann_improving_2015,schilling_geometric_2017, wietrzykowski_context-aware_2019}. Multiple decision trees are created with bootstrapped data sets - randomly selected data sub-sets from a training set. Classification is determined by the majority results as opposed to the mean \cite{breiman_random_2001,ho_random_1995}. While RDFs were used in terrain classification in multiple instances in found literature, to the author's best knowledge they have not been employed in predicting road surface areas and type while also only using small portions of a single LiDAR scan. Bayesian Optimization may be used to tune the hyper parameters of a machine algorithm \cite{noauthor_bayesian_nodate, snoek_practical_2012}. }
+	
+	{Current methods for road detection may be insufficient for detection of gravel roads due to ambient conditions, lack of standardized features, or rely on post-processing large data sets. Developing a terrain classification algorithm to analyze scanning LiDAR data in order to project road surface area and type may overcome these difficulties.}
+	
+	
+	
+	% Current literature proposes multiple methods of terrain classification using LiDAR and RGB cameras, and may be roughly broken into two areas of application. Traversability or trafficability is the analysis of generally unstructured environments that includes obstacles or rough terrain types for autonomous vehicle path finding solutions  \cite{schilling_geometric_2017,ojeda_terrain_2006,coombs_driving_2000,stavens_self-supervised_nodate,belter_rough_2010,bartoszyk_terrain-aware_2017,noauthor_fusion_nodate,li_rugged_2019,wilson_terrain_2014,siva_robot_2019}. While this research may be useful for detection of obstacles on the road for the proposed work, it is assumed that the roads that will be studied will be free of obstacles.
+	
+	
+	
+	\section{Methodology}
+	
+		\subsection{Overview}
+		
+%		{Detection of unmarked gravel road surfaces using terrain classification requires building a data base of terrain features, training an RDF, and testing the algorithm for accuracy of unmarked road detection (outline of work in Figure \ref{fig:flowz_7}). Raw data was gathered using the experimental apparatus, which has a Velodyne VLP-32C scanning LiDAR sensor, and Novatel PwrPak 7D-E2 GNSS and INS system. Robotic Operating System (ROS) was used to package incoming scanning LiDAR, GNSS, IMU, and camera sensor data as rosbags, which were unpacked using MATLAB tools to separate data streams. Prior to creating a training database, manual dictation of gravel and asphalt areas of the gathered point cloud data is necessary for automatic training data extraction. In order to do so, all scanning LiDAR data from a rosbag was aggregated in order to create a single point cloud map. Scanning LiDAR timestamps were matched to the closest GNSS and IMU timestamp data. Closest matching GNSS and IMU data informed the location and orientation of the LiDAR scan. Compiled point cloud maps were examined and compared to camera and satellite data to determine gravel and asphalt surface location. Manually defined 2D areas representing gravel and asphalt were projected unto the point cloud \textit{[Manually Define Road \& Side-of-Road]} (Section \ref{sec:training_and_verification_data_selection_process}).}
+%		
+%		{Training data was extracted from a single arc from each 360 degree LiDAR scan if the arc was coincident to a manually projected 2D area (Figure \ref{fig:test_vs_train_areas}). Raw spatial and intensity values from the coincident arc were saved to a raw training database \textit{[Training Data Extraction]}. Separate training data bases were maintained for each individual channel. Features that describe the raw spatial and intensity data were extracted. Thirty percent of the training data base was randomly selected and set aside as a validation data base. Training data was visually examined for clustering to verify that a Random Decision Forest would be able to be trained (Section \ref{sec:Feat_Extract}). It was found that each class generally clustered to a certain range with some overlap, which indicates that a Random Decision Forest may be trained. MATLAB was used to train a Random Decision Forests for each of the three considered channels using Bayesian Optimization to tune tree depth and number of splits \textit{[RDF Training \& Verification]} (Section \ref{sec:random-decision-forest-creation}). Training continued for thirty iterations and the algorithm that produced the minimum upper confidence interval for out-of-bag error was selected. Validation of the RDF was then completed using the validation database (Section \ref{sec:random-decision-forest-verification}).}
+%		
+%		{Scanning LiDAR data from five datasets representing five drives on a stretch of Blackburn Road was classified \textit{[Classify Scanning LiDAR Data]}. Following the same process as aggregating point clouds, GNSS and IMU data informed the location and orientation of the arcs in each 360 degree scan. Three arcs from three channels with sizes determined by approximate vehicle width (~7 ft, Figure \ref{fig:area_example}) were then classified as "asphalt", "gravel", or "unknown", and the averaged coordinates of each arc was aggregated into a single, classified point cloud (Figure \ref{fig:raw_classification_results}).}
+	
+		{Detection of unmarked gravel road surfaces using terrain classification requires collecting data, training an RDF, and testing the algorithm for accuracy of unmarked road detection (outline of work in Fig. \ref{fig:flowz_8}). Training data was gathered by the Ohio University Autonomous Van (Fig. \ref{fig:Experimental_Apperatus}). MATLAB was used to extract and parse LiDAR and GPS data. Scanning LiDAR data was aggregated into a large point cloud by using GNSS and IMU data to determine each LiDAR scan's position and orientation. Aggregated point cloud data was manually examined and compared to satellite and camera images to determine and project road boundaries. Training data was extracted from a single arc per 360 degree scanning LiDAR channel if the arc was coincident to a manually projected 2D training data area. Random Decision Forests were trained and verified using MATLAB's Classifier App. Scanning LiDAR data was consecutively classified and compared to manually defined truth areas, yielding the true-positive accuracy for gravel, asphalt, and non-road surfaces. Classified point cloud data was manually examined in order to manually project possible road surfaces using manual and automated methods. Projected road surface areas were compared to truth areas to determine the accuracy of asphalt road and intersecting gravel driveway detection.}
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\linewidth]{figures/flowz_8}
+				\caption[Project Flow]{High level view of project work}
+				\label{fig:flowz_8}
+			\end{figure}	
+	
+	%	\begin{figure}
+		%		\centering
+		%		\includegraphics[width=\linewidth]{figures/test_conf_mat}
+		%		\caption[Validation Confusion Matrix]{Confusion matrix from validation process.}
+		%		\label{fig:vali_conf_mat}
+		%	\end{figure}
+	
+		\subsection{Data Collection}
+	
+%	{The experimental apparatus for this work was the Ohio University Autonomous Van van (Fig. \ref{fig:Experimental_Apperatus}), which has a Velodyne VLP-32C scanning LiDAR sensor, Novatel PwrPak 7D-E2 GNSS and INS system, and Mako cameras. Raw data was gathered using the Robotic Operating System (ROS) to package incoming scanning LiDAR, GNSS, IMU, and camera sensor data as rosbags. Rosbags were unpacked using MATLAB tools to separate data streams. Prior to creating a training database, manual dictation of gravel and asphalt areas of the gathered point cloud data is necessary. In order to do so, all scanning LiDAR data from a rosbag was aggregated in order to create a single point cloud map. Scanning LiDAR timestamps were matched to the closest GNSS and IMU timestamp data. Closest matching GNSS and IMU data informed the location and orientation of the LiDAR scan (Fig. \ref{fig:road_areas_annotated_22}). Compiled point cloud maps was examined and compared to camera and satellite data to determine gravel and asphalt surface location. Manually defined 2D areas representing gravel and asphalt were projected unto the point cloud (Fig. \ref{fig:road_areas_annotated_22}).}
+	
+			{Required physical data was gathered by the Ohio University Autonomous Van (Fig. \ref{fig:Experimental_Apperatus}) on a single sunny, cloudless day with no road obstacles or debris at a speed below 15 miles per hour. Data collection was at mid-day, which minimized the risk of shadows from the road-side trees interfering with the data collection. Vehicle speed was limited to maximize the amount of data collected and to minimize any effect of IMU drift. It was assumed that vehicle speed did not affect the gathered data and is considered outside the scope of this work. It is acknowledged that weather or non-ideal road conditions may affect results and is an area of future study. LiDAR point cloud data was gathered with the vehicle's roof-mounted Velodyne VLP-32C. Velodnyne's VLP-32C has 32 channels producing 300,000 points per second with a vertical field of view from -45$^{\circ}$ to $+$15$^{\circ}$, providing a minimum 0.33$^{\circ}$ vertical angular resolution and 0.2$^{\circ}$ horizontal angular resolution \cite{vlp_32c}. GPS data was recorded with a Novatel PwrPak 7D-E2, a Global Navigation Satellite System (GNSS) \& Inertial Navigation System (INS), and two GNSS-502 antennas by NavtechGPS. GNSS was assisted with Real Time Kinematic correction data from the Ohio Continuously Operating Reference Station (CORS) and Ohio Real Time Network (RTN) \cite{noauthor_cors_nodate}, yielding in our tests sub 2cm location accuracy level. IMU specifications indicate $0.8 ^{\circ}/hr$ bias instability, $0.06 ^{\circ}/\sqrt{hr}$ angular random walk, and $0.025 m/s/\sqrt{hr}$ velocity random walk, in addition to a Extended Kalman Filter \cite{noauthor_pwrpak7_nodate}. Because the IMU was only used to orientate the individual LiDAR scans, IMU drift was not considered a factor that would affect the classification results themselves. It is assumed that the GNSS was not affected by the noise generated by the other electronic equipment as the antennas are located outside the vehicle, and is considered outside the scope of this work. Data acquisition and recording was completed on the vehicle's integrated Ubuntu 18.04 system using the Robot Operating System (ROS) to be subsequently examined and categorized later using MATLAB. Training data collection location was chosen for the clear distinction between gravel and paved surfaces, thus minimizing the risk of class confusion during the training process. Scanning LiDAR data of a gravel surface was gathered from a gravel parking lot (Fig. \ref{fig:gravel_training_lot}) near Athens Ohio, which was freshly re-surfaced and re-graded. While there are a variety of gravel sizes, differentiating between multiple gravel sizes is outside the scope of this work. Furthermore, gravel roads are specified to have a consistent type and size \cite{skorseth_gravel_nodate}, therefore it is assumed that a single source for gravel data will be sufficient for demonstrating the ability of this work's method for gravel road detection. Two additional driveways intersected the main asphalt road, and while they had the same gravel type they differed from the training lot. Condition of one was severely segregated, however the other was in excellent condition. Road degradation and debris were not considered and were outside the scope of this work. Scanning LiDAR data of an asphalt surface was gathered from Blackburn Road (Fig. \ref{fig:Blackburn_Road_View}) which provides access to the training gravel lot. Due to the aforementioned re-surfacing and re-grading of the gravel lot, some gravel was in front of the lot entrance on the road. This data was excluded from the training process however was included in the testing phase. It was expected that there would be class confusion between asphalt and gravel in this specific area, which would be the case. Scanning LiDAR data of grassy surfaces was gathered from the side of the gravel lot. Although this work does not evaluate the detection accuracy of grass specifically, differentiation between a road and non-road surface is necessary for evaluating road-surface detection; therefore, grass is labeled as \textit{unknown} in this work.}
+				
+%				 While the number of classes is low, this is done to lower computational load. It was the expectation for this work that terrain that did not match the asphalt or gravel classes would be classified as unknown, and this would be later confirmed in results.
+	
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.75\linewidth]{figures/smallVan}
+				\caption[Experimental Apparatus]{Experimental Apparatus. Velodyne VLP-32 Scanning LiDAR is mounted on top of the vehicle.}
+				\label{fig:Experimental_Apperatus}
+			\end{figure}
+  		
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.75\linewidth]{figures/blackburn_road}
+				\caption[Blackburn Road Camera View]{Camera view of Blackburn Road - an unmarked asphalt road with three intersecting gravel driveways from which asphalt data was gathered.}
+				\label{fig:Blackburn_Road_View}
+			\end{figure}
+		
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.75\linewidth]{figures/gravel_training_lot}
+				\caption[Gravel Training Lot]{Camera view of the gravel lot from which gravel training data was gathered.}
+				\label{fig:gravel_training_lot}
+			\end{figure}			
+	
+		\subsection{Training Data Extraction}
+	
+			{Scanning LiDAR training data requires extraction from manually defined \textit{gravel}, \textit{asphalt}, and \textit{unknown} terrain areas on aggregated point clouds. Aggregating LiDAR data into a single point cloud was completed by post processing rosbags that contained scanning LiDAR, GPS, and IMU data of an unmarked road. Scanning LiDAR timestamps were matched to the closest GNSS and IMU timestamp data. Closest matching GNSS and IMU data informed the location and orientation of the LiDAR scan. Point cloud translation and rotation was accomplished using transformation matrices derived from GPS and IMU data. Rotation matrices were created using extracted roll, pitch, and yaw data from the IMU. LiDAR origin was found using GPS longitude, latitude, and altitude data. Physical distances between the GPS, IMU, and LiDAR sensors were rectified by obtaining reference frames provided by AutonomouStuff. GPS coordinates were offset by the current orientation and converted the ground truth to the LiDAR frame. GPS, IMU, and LiDAR reference frames and rotational updates were combined into trajectory vectors. Consecutive point cloud scans were then translated and rotated with derived transformation matrices (Fig. \ref{fig:pc_example}). While not as robust as more sophisticated methods of point cloud aggregation due to IMU drift, such as NDT or ICP scan matching, using this method proved to be adequate over shorter distances given the reasons previously mentioned.}
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.75\linewidth]{figures/combined_pcd_example}
+				\caption[Aggregated Point Cloud Data]{Point cloud of scanning LiDAR data using GPS and IMU data to determine point of origin and orientation for the LiDAR was used to create a combined point cloud map. See Area 1 in Fig. \ref{fig:test_vs_train_areas}.}
+				\label{fig:pc_example}
+			\end{figure}
+		
+			{Discretization of scanning LiDAR data is required for training data extraction and future classification. For this work, arcs of six degrees centered in front of the vehicle were designated, each arc only containing points from one of the thirty two scanning LiDAR channels. For this work, only the closest three channels were considered in order to minimize the affect of LiDAR sparsity (Fig \ref{fig:nine_arcs_example}). Later, nine arcs (three arcs from the three channels) will be classified for the prediction of intersecting roads (Fig \ref{fig:nine_arcs_example}). Arc length was chosen based on approximate vehicle width (set to 6 degrees), and the location of each arc was fixed relative to the center line (length-wise) of the vehicle. Training data was extracted from a single arc, with approximately 28 LiDAR points per arc, from each 360 degree LiDAR scan if the arc was coincident to a manually projected 2D area (Fig. \ref{fig:test_vs_train_areas}). As the training data is independent of the size of each designated training area and the number of LiDAR points in that area, it is not considered in this work. As arc is fixed to 6 degrees, the number of data points is constant, thus the only factor contributing to point density would be potential elevation changes between the vehicle and arc. This study found that the training data sparsity had a standard deviation that was distinct between LiDAR channels and similar between terrain classes in each LiDAR channel, therefore for this work LiDAR sparsity was considered a negligible issue. Raw spatial and intensity values from the coincident arc were saved to a raw training database. Separate training databases were maintained for each individual channel. Features that describe the raw spatial and intensity data were extracted. Thirty percent of the training data base was randomly selected and set aside as a validation data base. Training data was visually examined for clustering to verify that a RDF would be able to be trained (Fig. \ref{fig:training_data_cluster_2}). It was found that each class generally clustered to a certain range with some overlap, which indicates that a RDF may be trained. }
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.25\linewidth]{figures/nine_arcs_example}
+				\caption[Areas to Classify]{Three arcs from three channels were classified per 360 degree scan. 2C, 3C, and 4C were used exclusively for gathering training data, while the rest were included during testing. }
+				\label{fig:nine_arcs_example}
+			\end{figure}
+		
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.95\linewidth]{figures/test_vs_train_areas_hatch_annotated}
+				\caption[Training vs Testing Areas]{Training areas were kept separate from the testing areas. While not all are shown, the majority shown here is representative of the bulk of the areas. Area 1: Refers to area encompassing plots found in Figs. \ref{fig:pc_example}, \ref{fig:raw_classification_results}, \ref{fig:auto_guess_v_truth}, \ref{fig:guess_grav_intersect}. Area 2: Refer to area encompassing plots found in Figs. \ref{fig:rm_db_6_overlap_2}, \ref{fig:auto_area_guess}, \ref{fig:prepostadjust}    
+				}
+				\label{fig:test_vs_train_areas}
+			\end{figure}
+			
+%			\begin{figure}[H]
+%				\centering
+%				\includegraphics[width=0.75\linewidth]{figures/road_areas_annotated_2}
+%				\caption[Manually Classified Point Cloud Data]{ Projected manually defined areas define terrain surface type. Three gravel driveways (annotated 1-3) intercept an asphalt road, area $3$ is the gravel parking lot entrance from which training data was extracted.}
+%				\label{fig:road_areas_annotated_22}
+%			\end{figure}
+
+			\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.75\linewidth]{figures/training_data_cluster_5}
+			\caption[Example Clustering]{Example of training data comparison between two features.}
+			\label{fig:training_data_cluster_2}
+			\end{figure}
+	
+			{LiDAR returns spatial data represented by Cartesian coordinates with units in meters and remission data represented by a dimensionless ratio of minimum to maximum detected brightness. No pre-processing of LiDAR data as extracted from the rosbags was required, however the Cartesian coordinates were converted to Polar by using the Pythagorean Theorem to determine range ($sqrt(x^{2} + y^{2} + z^{2})$) and simple trigonometry to determine the azimuth ($atan2(y,x)$). Feature extraction was completed by performing mathematical functions on the gathered spatial training data, yielding the Standard Deviation ($\sigma$), Roughness ($max - min$), Min-Max Ratio ($min / max$), Min$^{2}$-Max Ratio ($min^2 / max$), and Gradient ($sqrt(\sum_{1}^{n} G))$), where $G$ is an $1*n$ array comprising of the differences between consecutive points in the spatial data array. Spatial features were non-dimensionalized as necessary by dividing the average range of the arc to LiDAR point of origin to the appropriate power. Remission features include Standard Deviation ($\sigma$), Mean, Roughness ($max - min$), Min-Max Ratio ($min / max$), Min$^{2}$-Max Ratio ($min^2 / max$), and Gradient ($sqrt(\sum_{1}^{n} G))$). As remission is a ratio of minimum to maximum detectable reflected intensity, there was no need to render the features non-dimensionalized. Feature selection closely mimics those suggested in literature \cite{reymann_improving_2015}. Future work may be completed to introduce additional features. Found research did not make any conclusive arguments for the proper training data set size for Random Decision Forest training, however after thirty percent of the training data was randomly selected and reserved to create a validation data set, approximately two thousand samples of \textit{gravel}, \textit{asphalt}, and \textit{unknown} were used to train the algorithm.} 
+	
+	% When the app performs hyperparameter tuning by using Bayesian optimization (see Optimization Options for a brief introduction), it chooses the set of hyperparameter values that minimizes an upper confidence interval of the classification error objective model, rather than the set that minimizes the classification error.
+	
+		\subsection{RDF Training and Testing}
+		
+			{MATLAB's Classification Learner Application was used to generate an RDF for each considered scanning LiDAR channel. RDFs were found in literature to out-perform NNs for classification purposes \cite{fernandez2014we} while also being generally less complex to train, able to be trained with smaller data sets, and easier to interpret \cite{nawar_comparison_2017, bernatz2020comparison, ahmad2017trees}. Decision tree depth, number of learners, and number of features to consider for each binary split are hyper-parameters that were optimized using MATLAB's Bayesian Optimization. One advantage of RDFs is the relatively low number of tunable hyper-parameters, leading to a more rapid development \cite{nawar_comparison_2017, bernatz2020comparison, ahmad2017trees}. Listed are the ones available using MATLAB's Classification Learner Application that were able to be tuned using the Bayesian Optimization function. Bayesian Optimization automates the manual hyper-parameter tuning process by creating a surrogate model representing the objective function, in this case the upper confidence interval of the classification error objective model (Fig. \ref{fig:c2_min_class_error}). Initialization of the objective function is completed by training a number of RDFs using randomly selected hyper-parameters. Out-of-bag error is then found and used to create a series of Gaussian curves. Additional hyper-parameter values are chosen by an acquisition function to determine their utility in minimizing out-of-bag error. After a set number of iterations, best hyper-parameters are chosen based on minimum upper confidence interval of the classification error objective model. Hyperparameter tuning may lead to over-fitting to the training data base. Testing for over-fitting was accomplished by comparing the out-of-bag training error to the validation error (Fig. \ref{fig:train_vs_valid_overfit_test2}). Confusion matrices provide validation database classification accuracy information by classifying each data set in the validation database and comparing actual and predicted classes, resulting in a matrix that visualizes the accuracy for each terrain type as well as which terrain types are more likely to be confused for a different class (Fig. \ref{fig:vali_err_conf_mat}). This process was completed for each of the three considered scanning LiDAR channels used for classification.}
+	
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.75\linewidth]{figures/c2_min_class_error_2}
+				\caption[RDF Training Classification Error]{Classification error during Bayesian Optimization tuning. Best hyper-parameters are chosen based on minimum upper confidence interval of the classification error objective model, not minimum classification error.}
+				\label{fig:c2_min_class_error}
+			\end{figure}
+		
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.75\linewidth]{figures/train_vs_valid_overfit_test_2}
+				\caption[Training vs Validation Error]{Hyper-parameter tuning may lead to over-fitting. Testing out-of-bag versus validation error demonstrates that the model is not over-fitting to the training data base if the validation error does not diverge from the out-of-bag error.}
+				\label{fig:train_vs_valid_overfit_test2}
+			\end{figure}
+		
+%			\begin{figure}[H]
+%				\centering
+%				\includegraphics[width=0.75\linewidth]{figures/chan_2c_conf_OOB_mat222}
+%				\caption[Out-of-Bag Error]{During training the RDF may be tested using the out-of-bag error. Confusion matrices are used to indicate the final RDF iteration training error.}
+%				\label{fig:out_of_bag_err_conf_mat}
+%			\end{figure}
+		
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.75\linewidth]{figures/chan_2c_conf_VALIDATION_mat222}
+				\caption[Validation Error]{Confusion matrix with the validation data set.}
+				\label{fig:vali_err_conf_mat}
+			\end{figure}
+			
+		\subsection{Surface Classification and Road Detection}	
+		
+%		It is acknowledged by the authors that the algorithm must classify as one of these three terrain types. 		
+			
+			{Classifying consecutive LiDAR scans was accomplished by examination of nine arcs of interest (three arcs from three separate LiDAR channels) in front and forty-five degree angles left and right from the front of the experimental apparatus (Fig. \ref{fig:nine_arcs_example}). Features from each arc were extracted and the arc was classified (Fig. \ref{fig:raw_classification_results} shows the average spatial coordinates of each classified arc). Previously-created manually defined gravel, asphalt, and side-of-road truth areas (denoted as Testing areas in Fig. \ref{fig:test_vs_train_areas}) were projected onto the classified point cloud for the determination of classification accuracy. Averaged x, y, and z coordinates were taken of each arc, and projected unto a manually defined truth area map (Fig. \ref{fig:rm_db_6_overlap_2}). Accuracy scores was calculated based on the distribution of classified points with each area, allowing evaluation of unmarked road detection performance. Due to the arc locations (Fig. \ref{fig:nine_arcs_example}), IMU drift was considered a negligible factor for this work as IMU drift would need to be extreme in order to impact these results, in which case the results would be easily recognized as having experienced significant drift. Classified point clouds were visually inspected to determine if the manual detection of a road surface may be accomplished. If consecutive points from each channel in any direction had two or more matching gravel or asphalt classification and was evenly spaced, a gravel or road surface area was projected. Guessed road surface areas were then compared to actual areas to determine the method's ability at detecting unmarked asphalt and gravel roads. Automated detection of unmarked road was explored in order to determine if visual detection results may be repeated. Class percentages, standard deviation of height, standard deviation of average [x,y] distance to the LiDAR point of origin, and distance trends between classified arcs among other features were exploited to determine if the area best describes a gravel, asphalt, or unknown surface (Fig. \ref{fig:auto_area_guess}). While a simple model, this will serve as a proof-of-concept for future development. Results were compiled into a single classified map and compared to truth areas, then scored based off the number of true/false positive road detection.  }
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.75\linewidth]{figures/db1range_3.png}
+				\caption[Classified Point Cloud]{Classified Point Cloud. See Area 1 in Fig. \ref{fig:test_vs_train_areas}.}
+				\label{fig:raw_classification_results}
+			\end{figure}
+		
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.75\linewidth]{figures/rm_db_6_overlap_2}
+				\caption[Projected Guess vs Truth]{Gravel and asphalt surfaces were manually guessed based on trends between channels and compared to actual road-surface areas (left). Autonomous projection of road surface areas following developed methods (right). See Area 2. in Fig. \ref{fig:test_vs_train_areas}.}
+				\label{fig:rm_db_6_overlap_2}
+			\end{figure}
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.75\linewidth]{figures/auto_area_guess_4}
+				\caption[Projected Guess vs Truth]{Gravel and asphalt surfaces were manually guessed based on trends between channels and compared to actual road-surface areas (left). Autonomous projection of road surface areas following developed methods (right). See Area 2. in Fig. \ref{fig:test_vs_train_areas}.}
+				\label{fig:auto_area_guess}
+			\end{figure}
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.75\linewidth]{figures/auto_guess_v_truth_2}
+				\caption[Projected Guess over Time vs Truth]{Aggregated automated road projection based on classification results. See Area 1 in Fig. \ref{fig:test_vs_train_areas}.}
+				\label{fig:auto_guess_v_truth}
+			\end{figure}
+			
+				
+	\section{Results}
+	
+		{Training and verification LiDAR, GPS, and IMU data collection was completed using the Experimental Apparatus. Gravel data was gathered from the Redmen Lodge gravel parking lot, while \textit{unknown} data was gathered beside the lot. Asphalt data was gathered Blackburn Road. Found research did not make any conclusive arguments for the proper training data set size for Random Decision Forest training; however, for this study the algorithm that produced the final results used two thousand points of reference per class. Training data was generated using MATLAB to extract LiDAR data from rosbags, and RDF classification algorithms were generated. Testing consecutive scans was completed by post processing rosbags that contained scanning LiDAR, GPS, and IMU data. Physical distances between the GPS, IMU, and LiDAR were rectified by measuring the distance between the modules. Rotational reference frames between the GPS, IMU, and LiDAR were rectified by applying appropriate rotational matrices. Transformation matrices were created by considering the GPS position and the IMU's roll, pitch, and yaw data. Three scanning LiDAR arcs from three channels in front of the vehicle were classified. Translation and rotation was applied to the averaged x, y, and z coordinates of each arc's terrain classification results. Consecutive scanning LiDAR data was projected on manually classified truth areas representing road surfaces (Figure \ref{fig:prepostadjust}) and percentages of terrain types per area were calculated.}
+		
+		\begin{table}[t]
+			
+			\centering{%
+				\begin{tabular}{lrl}
+					\toprule
+					Gravel Areas \% 						& 74.97 	& \% Gravel \\
+					\cline{1-3}
+					Asphalt Area \%							& 87.05   	& \% Asphalt \\
+					\cline{1-3}
+					Side-of-Road \% 						& 77.47 	& \% Unknown\\
+					\specialrule{1pt}{0pt}{0pt}
+					Asphalt Road Detection 					& 100.00 	& \% True Pos. Detection Rate \\
+					\cline{1-3}
+					Gravel Driveway Detection 				& 71.67 	& \% True Pos. Detection Rate \\
+					\cline{1-3}
+					Misidentified Gravel Road Detection 	& 0 		& \% False Pos. Detection Rate\\
+					\bottomrule
+				\end{tabular}
+			}
+			\caption[Table]{Overall results for presented work. 74.97\% of all samples were classified as \textit{gravel} inside all \textit{gravel} areas, with an overall 71.67\% true positive \textit{gravel} road detection rate and a 0\% false positive \textit{gravel} road detection rate.\label{tab:1}}
+		\end{table}
+	
+		{Classification of real-world data outside of the training data set presents difficulties to the generated Random Decision Forest Classifiers generated in this work. Due to the side of the road being re-grassed near a portion of the asphalt road, the terrain classification algorithm struggled to differentiate the dirt from gravel, leading to some misclassification of the side-of-road areas. Examination of the feature distribution shows a high amount of overlap, Fig. \ref{fig:dirt_v_gravel} shows an example of this however all features suffered from class confusion. Exploitation of confidence scores to adjust results by requiring a very high confidence for positive gravel surface classification was explored. All gravel surfaces that did not meet a 80\% confidence score was re-labeled as \textit{unknown}, however these adjustment had either a negligible or detrimental impact on the final results. Higher confidence score requirements resulted in \textit{unknown} over-classification, while too low resulted in \textit{gravel} over-classification (Fig. \ref{fig:precision_recall_curve_averaged} shows a typical precision-recall curve.). Overall it was found that an average true-positive accuracy of all intersecting gravel surfaces was 74.97\% (Tab. \ref{tab:1}, Fig. \ref{fig:prepostadjust}). If any asphalt miss-classification on the gravel areas is included, the average true-positive road detection accuracy increases to 79.18\%. It was found that an average true-positive accuracy of all asphalt surfaces was 87.05\%. Due to recent construction, discovered asphalt accuracy was artificially lowered due to the area in front of a gravel driveway being contaminated with gravel. It was found that an average of 18.55\% of asphalt areas were classified as gravel because of contamination.}
+		
+		{Differentiation between gravel road surfaces and surrounding terrain is necessary to determine boundaries for trajectory tracking and navigation. Overall average distribution for \textit{unknown} terrain class within side-of-road areas was found to be 77.94\% (Tab. \ref{tab:1}), which is lower than expected due to the side of the road being re-grassed. It is acknowledged by the authors that the classification algorithm must yield a result that most closely matches one of the trained classes, which led to lower accuracy scores in these circumstances. It is also acknowledged by the authors that using a higher resolution LiDAR scanner in conjunction with a more comprehensive and descriptive feature set may be used to aid in differentiating between dirt and gravel, however this future study is outside the scope of this work. Overall discovered accuracy levels may be sufficient for the purpose of identifying asphalt and gravel roads by considering trends between classified arcs.}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.75\linewidth]{figures/dirt_v_gravel_3}
+			\caption[Re-grassed Dirt vs Gravel]{Side-of-road detection accuracy was diminished due to overlapping features between dirt and gravel. }
+			\label{fig:dirt_v_gravel}
+		\end{figure}
+		
+		
+	
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.75\linewidth]{figures/precision_recall_curve_averaged_marked}
+			\caption[PR Curve]{Precision-Recall curve of the averaged \textit{gravel} vs \textit{unknown} classification results from all test runs. The red circle indicates the presented method's location.}
+			\label{fig:precision_recall_curve_averaged}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.75\linewidth]{figures/db_4_area_scores_2}
+			\caption[Area Scores]{Per-area scores were calculated, indicating algorithm unmarked road detection accuracy. Note that the asphalt area in front of the gravel driveway has significant \textit{gravel} classification due to construction. These results are included with the overall asphalt classification score. See Area 2. in Fig. \ref{fig:test_vs_train_areas}.}
+			\label{fig:prepostadjust}
+		\end{figure}
+	
+		{Classified point clouds were manually examined for 'best guess' locations for gravel and asphalt surfaces. Two out of three positive gravel identifications must be made on each channel, be evenly spaced, and be relatively co-planar to other road surface guesses in order for a positive guess for an asphalt or gravel surface to be made (Fig. \ref{fig:auto_area_guess}). Driveways $1$ and $2$ were detected in all five drive-bys, driveway $3$ was detected in four leading to an 91.67\% accuracy in intersecting gravel road detection. It was found that in three drive-bys there was a false positive driveway detection, however the location of the false-positives were not repeated in any of the other drivebys. In all drive-bys the asphalt road was accurately detected. It is acknowledged that the author's a-priori knowledge of the gravel drive locations may have introduced a bias, however this method proved useful for developing an autonomous method. Trends across classified arcs were autonomously exploited to determine the best guess at area terrain type. Guessed areas were aggregated into a larger map then compared to truth areas (Fig. \ref{fig:guess_grav_intersect}). Using autonomous methods to project road surfaces, it was found that a true-positive intersecting gravel road detection rate of 71.66\% with no false positives (Tab. \ref{tab:1}). It was found that the true positive rate may be increased to 100\% at the expense of increasing the number of false positives with a 1.8 average number of false positives per drive-by.}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.95\linewidth]{figures/db1_conf_elim_auto_guess_mca}
+			\caption[Aggregated Automated Road Surface Detection]{Aggregated automated road surface detection was compared to truth areas. See Area 1 in Fig. \ref{fig:test_vs_train_areas}.}
+			\label{fig:guess_grav_intersect}
+		\end{figure}
+	
+		{Classification was completed using Ubuntu 18.04 and an AMD Ryzen 9 5900X 12 core 24 thread CPU. Rate of classification for all nine areas of interest in a single scan was found to be an average of 35.19 ms using a single core or 316.68 ms per 360 degree scan. When utilizing all 24 cores during classification a rate of 13.19 ms per 360 scan. Extrapolating from the distance traveled during a drive-by, a hypothetical 71.39 feet per second or 48.68 miles per hour may be possible. Future work may include a path of development for testing real-time performance. Future work may include a real-time implementation of the described methods into the vehicle platform, however this is outside the scope of this current work. }
+		
+%		Further optimization may increase this speed, however implementing real-time classification was not a focus of this work.
+%		\begin{figure}[H]
+%			\centering
+%			\includegraphics[width=0.75\linewidth]{figures/per_arc_classification_time}
+%			\caption[Per-Arc Time]{Per-arc classification time}
+%			\label{fig:per_arc_classification_time}
+%		\end{figure}
+		
+		{It is difficult to determine if these results are comparable to similar research, as found research classifies using distinctly different sensor configurations,  algorithm input requirements, or have different objectives. For example, work completed by Laible et. al. \cite{levi_3d_2012_light} used a camera as well as LiDAR, compared to the LiDAR-only focus for this work. Work completed by Wang et. al. \cite{wang_road_nodate}, which found a true positive gravel terrain classification rate of 98.5\%; however, the method again used significantly more data from the LiDAR sensor compared to this work, exploiting all LiDAR channels that fall within a 1.3 meter region of interest leading to a higher point density. There is a general lack of open source LiDAR data for the express purpose of comparing road detection and terrain classification methods in an unstructured, rural environment, in stark contrast to open source data for urban environments. Furthermore, to the best of the author's knowledge there is no comparison between road detection methods using third-party LiDAR data of unmarked, unstructured gravel and asphalt roads in found literature. To the best of the author's knowledge, this study employed a novel approach for detecting road surface area and type.}
+		
+%		{Future work may include a real-time implementation of the described methods into the vehicle platform. }
+
+% 		(Fig. \ref{fig:per_scan_classification_rate})		
+%		\begin{figure}[H]
+%			\centering
+%			\includegraphics[width=0.75\linewidth]{figures/per_scan_classification_rate}
+%			\caption[Per-Scan Time]{Per-scan classification time}
+%			\label{fig:per_scan_classification_rate}
+%		\end{figure}
+
+	
+	%%%%% Conclusions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\section{Conclusion}
+	
+		% Summary of Work & Closing Statements
+		{High definition scanning LiDAR and GPS data was gathered on Blackburn Road and intersecting gravel lots in Athens Ohio. Properties describing surface roughness and remission data were extracted and used to train Random Decision Forests. Terrain classification of consecutive scans compared to manually detected road surface areas yielded accuracy scores for gauging algorithm capability for gravel surface detection. It was found that a true-positive accuracy for gravel and asphalt surfaces was 67.54\% and 87.05\% respectively at an estimated rate of 13.19 milliseconds per 360 degree scan. Classified point clouds were examined and gravel areas were projected and compared with actual gravel surface areas. Overlapping results between autonomously detected and actual road surface areas resulted in a minimum  71.66\% intersecting gravel road detection accuracy. In conjunction with the overlapping areas and the high true-positive detection accuracy of gravel surfaces, this method of gravel road detection is promising for future exploration of additional roads and road surfaces. Work as described addressed the problem of road surface detection on unmarked gravel and asphalt roads. The described work was a method of detecting physical unmarked gravel and asphalt roads by using a terrain classification approach to predicting road surface area. The impact of this work is that autonomous vehicles using the developed method may be able to detect unmarked road surfaces and differentiate between gravel and asphalt, allowing autonomous operations on previously undetected rural roads.} 
+	
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+\IEEEpeerreviewmaketitle
+
+
+
+
+% if have a single appendix:
+%\appendix[Proof of the Zonklar Equations]
+% or
+%\appendix  % for no appendix heading
+% do not use \section anymore after \appendix, only \section*
+% is possibly needed
+
+% use appendices with more than one appendix
+% then use \section to start each appendix
+% you must declare a \section before using any
+% \subsection or using \label (\appendices by itself
+% starts a section numbered zero.)
+%
+
+
+\appendices
+%\section{Equations}
+
+%\begin{equation}\label{eqn:MLS}
+%	\left[ {\begin{array}{cc}
+%			\sum_{i=1}^{m} x_i z_i \\
+%			\sum_{i=1}^{m} y_i z_i \\
+%			\sum_{i=1}^{m} z_i \\
+%			
+%	\end{array} } \right]
+%	=
+%	\left[ {\begin{array}{ccc}
+%			\sum_{i=1}^{m} x_i^2 		& \sum_{i=1}^{m} x_i y_i 		& \sum_{i=1}^{m} x_i \\
+%			\sum_{i=1}^{m} x_i y_i 		& \sum_{i=1}^{m} y_i^2 			& \sum_{i=1}^{m} y_i \\
+%			\sum_{i=1}^{m} x_i 			& \sum_{i=1}^{m} y_i 			& \sum_{i=1}^{m} 1   \\
+%	\end{array} } \right]
+%	\left[ {\begin{array}{cc}
+%			A\\
+%			B\\
+%			C\\
+%	\end{array} } \right]
+%\end{equation}
+%\centering
+%{Method of Least Squares Planar Projection}
+
+
+% you can choose not to have a title for an appendix
+%% if you want by leaving the argument blank
+%\section{}
+%Appendix two text goes here.
+
+
+% use section* for acknowledgment
+\justifying
+\section*{Acknowledgment}
+
+
+	{The authors would like to acknowledge the Ohio Department of Transportation, United States Department of Transportation, and the Drive Ohio Automated Driving Systems Project for making this work possible.}
+
+
+% Can use something like this to put references on a page
+% by themselves when using endfloat and the captionsoff option.
+\ifCLASSOPTIONcaptionsoff
+\newpage
+\fi
+
+
+
+% trigger a \newpage just before the given reference
+% number - used to balance the columns on the last page
+% adjust value as needed - may need to be readjusted if
+% the document is modified later
+%\IEEEtriggeratref{8}
+% The "triggered" command can be changed if desired:
+%\IEEEtriggercmd{\enlargethispage{-5in}}
+
+% references section
+
+% can use a bibliography generated by BibTeX as a .bbl file
+% BibTeX documentation can be easily obtained at:
+% http://mirror.ctan.org/biblio/bibtex/contrib/doc/
+% The IEEEtran BibTeX style support page is at:
+% http://www.michaelshell.org/tex/ieeetran/bibtex/
+%\bibliographystyle{IEEEtran}
+% argument is your BibTeX string definitions and bibliography database(s)
+%\bibliography{IEEEabrv,../bib/paper}
+%
+% <OR> manually copy in the resultant .bbl file
+% set second argument of \begin to the number of references
+% (used to reserve space for the reference number labels box)
+
+
+	\bibliographystyle{ieeetr}  
+	\bibliography{resources.bib} 
+
+
+
+
+
+% that's all folks
+\end{document}
